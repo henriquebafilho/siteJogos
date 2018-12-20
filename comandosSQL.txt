@@ -1,0 +1,62 @@
+﻿describe jogo;
+
+alter table jogo
+add column ingresso enum('Sim', 'Não');
+
+alter table jogo
+drop column ano;
+
+alter table jogo
+drop column VDE;
+
+alter table jogo
+add column VDE enum('Vitória', 'Empate', 'Derrota') not null after golsAdversario;
+
+alter table jogo
+modify column campeonato enum('Carioca','Série A', 'Série B', 'Libertadores', 'Copa do Brasil', 'Sul-Americana', 'Amistoso', 'Mundial') not null;
+
+select * from jogo;
+
+describe jogo;
+
+create database jogos
+default character set utf8
+default collate utf8_general_ci;
+
+create table `jogo`(
+`id` int not null auto_increment,
+`escudo` varchar(50),
+`adversario` varchar(50) not null,
+`VDE` enum('Vitória', 'Empate', 'Derrota') not null,
+`golsBotafogo` int not null,
+`golsAdversario` int not null,
+`campeonato` enum('Carioca','Série A', 'Série B', 'Libertadores', 'Copa do Brasil', 'Sul-Americana', 'Amistoso') not null,
+`dataJogo` date not null,
+`ano` year not null,
+`estadio` varchar(100) not null,
+`tecnico` varchar(50) not null,
+primary key (id)
+) default charset = utf8;
+
+insert into jogo
+values
+(DEFAULT, '', 'Atlético-PR', '1', '1', 'Empate', 'Série A', '2004-08-12', 'Caio Martins', 'Mauro Galvão', 'Não');
+
+select * from jogo;
+
+update jogo set adversario = 'Fluminense', VDE = 'Derrota', ingresso = 'Não' where id = 1;
+
+update jogo
+set adversario = 'Flamengo', 
+golsBotafogo = 1, 
+golsAdversario = 0, 
+VDE = 'Vitória', 
+campeonato = 'Carioca', 
+dataJogo = '2004-03-14', 
+tecnico = 'Levir Culpi', 
+ingresso = 'Não' 
+where id = 2;
+
+delete from jogo where id = 4;
+
+truncate jogo;
