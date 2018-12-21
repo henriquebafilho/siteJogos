@@ -32,16 +32,15 @@
     <body>
         <table>
             <tr>
-                <th>Número</th>
-                <th>Escudo</th>
-                <th>Adversário</th>
-                <th>Gols do Botafogo</th>
-                <th>Gols do Adversário</th>
-                <th>VDE</th>
-                <th>Campeonato</th>
-                <th>Data</th>
-                <th>Estádio</th>
-                <th>Técnico</th>
+                <th colspan="2">Número</th>
+                <th colspan="2">Adversário</th>
+                <th colspan="2">Gols do Botafogo</th>
+                <th colspan="2">Gols do Adversário</th>
+                <th colspan="2">VDE</th>
+                <th colspan="2">Campeonato</th>
+                <th colspan="2">Data</th>
+                <th colspan="2">Estádio</th>
+                <th colspan="2">Técnico</th>
             </tr>
             <?php
             header('Content-Type: text/html; charset=utf-8');
@@ -55,15 +54,15 @@
             if ($result->num_rows > 0) {
                 // output data of each row
                 while($row = $result->fetch_assoc()) {
-                    echo "<tr><td>" . $row["id"]. "</td><td>" . $row["escudo"] . "</td><td>"
-                        . $row["adversario"]. "</td><td>" . $row["golsBotafogo"] . "</td><td>"
-                        ."</td><td>" . $row["golsAdversario"] . "</td><td>"
-                        ."</td><td>" . $row["VDE"] . "</td><td>"
-                        ."</td><td>" . $row["campeonato"] . "</td><td>"
-                        ."</td><td>" . $row["dataJogo"] . "</td><td>"
-                        ."</td><td>" . $row["estadio"] . "</td><td>"
-                        ."</td><td>" . $row["tecnico"] . "</td><td>"
-                        ."</td></tr>";
+                    echo "<tr><th colspan=2>" . $row["id"]. "</th>" ."<th colspan=2>"
+                        . $row["adversario"]. "</th><th colspan=2>" . $row["golsBotafogo"] . "</th>"
+                        ."<th colspan=2>" . $row["golsAdversario"] . "</th>"
+                        ."<th colspan=2>" . $row["VDE"] . "</th>"
+                        ."<th colspan=2>" . $row["campeonato"] . "</th>"
+                        ."<th colspan=2>" . $row["dataJogo"] . "</th>"
+                        ."<th colspan=2>" . $row["estadio"] . "</th>"
+                        ."<th colspan=2>" . $row["tecnico"] . "</th>"
+                        ."</tr>";
                 }
                 echo "</table>";
             } else { echo "0 results"; }
