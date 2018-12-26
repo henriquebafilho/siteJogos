@@ -5,6 +5,8 @@
             Jogos do Botafogo que fui
         </title>
         <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <link rel="shortcut icon" href="Times/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="Times/favicon.ico" type="image/x-icon">
         <style>
             body{
                 background-color: black;
