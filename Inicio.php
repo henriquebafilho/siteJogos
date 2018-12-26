@@ -53,7 +53,7 @@
                 // output data of each row
                 while($row = $result->fetch_assoc()) {
                     $escudo = str_replace(' ', '', utf8_encode($row["adversario"]));
-                    echo "<tr><th colspan=2>" . utf8_encode($row["id"]). "</th>" . "<th colspan=2 style='background-color: white'>" . "<img src=index_files/$escudo.png width=70 height=70 alt=Imagem />" . "</th>" ."<th colspan=2>"
+                    echo "<tr><th colspan=2>" . utf8_encode($row["id"]). "</th>" . "<th colspan=2 style='background-color: white; border-bottom:  1px solid black'>" . "<img src=index_files/$escudo.png width=70 height=70 alt=Imagem />" . "</th>" ."<th colspan=2>"
                         . utf8_encode($row["adversario"]). "</th><th colspan=2>" . utf8_encode($row["golsBotafogo"]) . "</th>"
                         ."<th colspan=2>" . utf8_encode($row["golsAdversario"]) . "</th>"
                         ."<th colspan=2>" . utf8_encode($row["VDE"]) . "</th>"
