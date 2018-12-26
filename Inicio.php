@@ -52,31 +52,16 @@
             if ($result->num_rows > 0) {
                 // output data of each row
                 while($row = $result->fetch_assoc()) {
-                    $escudo = utf8_encode($row["adversario"]);
-
-                    switch($escudo){
-                        case "São Paulo":
-                            echo "<tr><th colspan=2>" . utf8_encode($row["id"]). "</th>" . "<th colspan=2 style='background-color: white'>" . "<img src=Times/São_Paulo.png width=70 height=70 alt=Imagem />" . "</th>" ."<th colspan=2>"
-                                . utf8_encode($row["adversario"]). "</th><th colspan=2>" . utf8_encode($row["golsBotafogo"]) . "</th>"
-                                ."<th colspan=2>" . utf8_encode($row["golsAdversario"]) . "</th>"
-                                ."<th colspan=2>" . utf8_encode($row["VDE"]) . "</th>"
-                                ."<th colspan=2>" . utf8_encode($row["campeonato"]) . "</th>"
-                                ."<th colspan=2>" . utf8_encode($row["dataJogo"]) . "</th>"
-                                ."<th colspan=2>" . utf8_encode($row["estadio"]) . "</th>"
-                                ."<th colspan=2>" . utf8_encode($row["tecnico"]) . "</th>"
-                                ."</tr>";
-                            break;
-                        default:
-                            echo "<tr><th colspan=2>" . utf8_encode($row["id"]). "</th>" . "<th colspan=2 style='background-color: white'>" . "<img src=Times/$row[adversario].png width=70 height=70 alt=Imagem />" . "</th>" ."<th colspan=2>"
-                                . utf8_encode($row["adversario"]). "</th><th colspan=2>" . utf8_encode($row["golsBotafogo"]) . "</th>"
-                                ."<th colspan=2>" . utf8_encode($row["golsAdversario"]) . "</th>"
-                                ."<th colspan=2>" . utf8_encode($row["VDE"]) . "</th>"
-                                ."<th colspan=2>" . utf8_encode($row["campeonato"]) . "</th>"
-                                ."<th colspan=2>" . utf8_encode($row["dataJogo"]) . "</th>"
-                                ."<th colspan=2>" . utf8_encode($row["estadio"]) . "</th>"
-                                ."<th colspan=2>" . utf8_encode($row["tecnico"]) . "</th>"
-                                ."</tr>";       
-                    }
+                    $escudo = str_replace(' ', '', utf8_encode($row["adversario"]));
+                    echo "<tr><th colspan=2>" . utf8_encode($row["id"]). "</th>" . "<th colspan=2 style='background-color: white'>" . "<img src=index_files/$escudo.png width=70 height=70 alt=Imagem />" . "</th>" ."<th colspan=2>"
+                        . utf8_encode($row["adversario"]). "</th><th colspan=2>" . utf8_encode($row["golsBotafogo"]) . "</th>"
+                        ."<th colspan=2>" . utf8_encode($row["golsAdversario"]) . "</th>"
+                        ."<th colspan=2>" . utf8_encode($row["VDE"]) . "</th>"
+                        ."<th colspan=2>" . utf8_encode($row["campeonato"]) . "</th>"
+                        ."<th colspan=2>" . utf8_encode($row["dataJogo"]) . "</th>"
+                        ."<th colspan=2>" . utf8_encode($row["estadio"]) . "</th>"
+                        ."<th colspan=2>" . utf8_encode($row["tecnico"]) . "</th>"
+                        ."</tr>";
                 }
                 echo "</table>";
             } else { echo "0 results"; }
