@@ -45,14 +45,14 @@
             <?php
             header('Content-Type: text/html; charset=utf-8');
             $conn = mysqli_connect("localhost", "root", "", "jogos");
-            // Check connection
+            // Checando conexão
             if ($conn->connect_error) {
                 die("Connection failed: " . $conn->connect_error);
             } 
             $sql = "SELECT * FROM jogo";
             $result = $conn->query($sql);
             if ($result->num_rows > 0) {
-                // output data of each row
+                // Mostrando as informações em cada linha
                 while($row = $result->fetch_assoc()) {
                     $escudo = str_replace(' ', '', utf8_encode($row["adversario"]));
                     echo "<tr><th colspan=2>" . utf8_encode($row["id"]). "</th>" . "<th colspan=2 style='background-color: white; border-bottom:  1px solid black'>" . "<img src=index_files/$escudo.png width=70 height=70 alt=Imagem />" . "</th>" ."<th colspan=2>"
