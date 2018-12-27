@@ -24,6 +24,7 @@
                 text-align: center;
                 border-left: 1px solid white;
                 border-bottom: 1px solid white;
+                column-span: 2;
             }
             tr:nth-child(even) {background-color: #f2f2f2; color: black}
         </style>
@@ -34,9 +35,8 @@
                 <th colspan="2" id="head">Número</th>
                 <th colspan="2" id="head">Escudo</th>
                 <th colspan="2" id="head">Adversário</th>
-                <th colspan="2" id="head">Gols do Botafogo</th>
-                <th colspan="2" id="head">Gols do Adversário</th>
                 <th colspan="2" id="head">VDE</th>
+                <th colspan="2" id="head">Placar</th>
                 <th colspan="2" id="head">Campeonato</th>
                 <th colspan="2" id="head">Data</th>
                 <th colspan="2" id="head">Estádio</th>
@@ -56,9 +56,8 @@
                 while($row = $result->fetch_assoc()) {
                     $escudo = str_replace(' ', '', utf8_encode($row["adversario"]));
                     echo "<tr><th colspan=2>" . utf8_encode($row["id"]). "</th>" . "<th colspan=2 style='background-color: white; border-bottom:  1px solid black'>" . "<img src=index_files/$escudo.png width=70 height=70 alt=Imagem />" . "</th>" ."<th colspan=2>"
-                        . utf8_encode($row["adversario"]). "</th><th colspan=2>" . utf8_encode($row["golsBotafogo"]) . "</th>"
-                        ."<th colspan=2>" . utf8_encode($row["golsAdversario"]) . "</th>"
-                        ."<th colspan=2>" . utf8_encode($row["VDE"]) . "</th>"
+                        . utf8_encode($row["adversario"]). "</th>"."<th colspan=2>" . utf8_encode($row["VDE"]) . "</th>"
+                        ."<th colspan=2>" . utf8_encode($row["golsBotafogo"]) ." x ". utf8_encode($row["golsAdversario"]) . "</th>"
                         ."<th colspan=2>" . utf8_encode($row["campeonato"]) . "</th>"
                         ."<th colspan=2>" . utf8_encode($row["dataJogo"]) . "</th>"
                         ."<th colspan=2>" . utf8_encode($row["estadio"]) . "</th>"
