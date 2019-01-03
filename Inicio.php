@@ -29,6 +29,8 @@
         </style>
     </head>
     <body>
+        <h1 style="color: white; text-align: center; font-family: Quicksand;">Jogos Que Fui</h1>
+        <h4 style="color: white; text-align: center; font-family: Quicksand;">Por Henrique Filho</h4>
         <table>
             <tr>
                 <th colspan="1" id="head">Número</th>
