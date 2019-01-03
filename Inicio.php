@@ -53,9 +53,20 @@
             if ($result->num_rows > 0) {
                 // Mostrando as informações em cada linha
                 while($row = $result->fetch_assoc()) {
+                    //Tirando espaços do nome do adversário (para combinar com nomes dos escudos)
                     $escudo = str_replace(' ', '', utf8_encode($row["adversario"]));
+                    //Calculando vitória, derrota ou empate
+                    $status;
+                    if($row["golsBotafogo"] > utf8_encode($row["golsAdversario"])){
+                        $status = "Vitória";
+                    }else if($row["golsBotafogo"] < utf8_encode($row["golsAdversario"])){
+                        $status = "Derrota";
+                    }else{
+                        $status = "Empate";
+                    }
+                    //Desenhando linhas
                     echo "<tr><th colspan=2>" . utf8_encode($row["id"]). "</th>" . "<th colspan=2 style='background-color: white; border-bottom:  1px solid black'>" . "<img src=index_files/$escudo.png width=70 height=70 alt=Imagem />" . "</th>" ."<th colspan=2>"
-                        . utf8_encode($row["adversario"]). "</th>"."<th colspan=2>" . utf8_encode($row["VDE"]) . "</th>"
+                        . utf8_encode($row["adversario"]). "</th>"."<th colspan=2>" . $status . "</th>"
                         ."<th colspan=2>" . utf8_encode($row["golsBotafogo"]) ." x ". utf8_encode($row["golsAdversario"]) . "</th>"
                         ."<th colspan=2>" . utf8_encode($row["campeonato"]) . "</th>"
                         ."<th colspan=2>" . utf8_encode($row["dataJogo"]) . "</th>"
@@ -76,21 +87,21 @@
                         }else{
                             $golsAdversario = "Gols do ".utf8_encode($row["adversario"]);
                         }
-                        echo "<tr><th colspan=5 style='text-align:left'>$golsBotafogo<p style='border: 1px solid white'>pipipkopsdfaopkfdaskop</p></th><th colspan=5 style='text-align:left'>$golsAdversario<p style='border: 1px solid white'>pipipi</p></th></tr>";
+                        echo "<tr><th colspan=5 style='text-align:left'>$golsBotafogo<p style='border: 1px solid white'>". utf8_encode($row["autorBotafogo"]) ."</p></th><th colspan=5 style='text-align:left'>$golsAdversario<p style='border: 1px solid white'>". utf8_encode($row["autorAdversario"]) ."</p></th></tr>";
                     }else if($row["golsBotafogo"]==0 && $row["golsAdversario"]>0){
                         if($row["golsAdversario"]==1){
                             $golsAdversario = "Gol do ".utf8_encode($row["adversario"]);
                         }else{
                             $golsAdversario = "Gols do ".utf8_encode($row["adversario"]);
                         }
-                        echo "<tr><th colspan=5 style='text-align:left'>$golsAdversario<p style='border: 1px solid white'>pipipi</p></th></tr>";
+                        echo "<tr><th colspan=5 style='text-align:left'>$golsAdversario<p style='border: 1px solid white'>". utf8_encode($row["autorAdversario"]) ."</p></th></tr>";
                     }else if($row["golsBotafogo"]>0 && $row["golsAdversario"]==0){
                         if($row["golsBotafogo"]==1){
                             $golsBotafogo = "Gol do Botafogo";
                         }else{
                             $golsBotafogo = "Gols do Botafogo";
                         }
-                        echo "<tr><th colspan=5 style='text-align:left'>$golsBotafogo<p style='border: 1px solid white'>pipipi</p></th></tr>";
+                        echo "<tr><th colspan=5 style='text-align:left'>$golsBotafogo<p style='border: 1px solid white'>". utf8_encode($row["autorBotafogo"]) ."</p></th></tr>";
                     }
                 }
                 echo "</table>";
