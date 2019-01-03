@@ -22,8 +22,7 @@
                 background-color: black;
                 color: white;
                 text-align: center;
-                border-left: 1px solid white;
-                border-bottom: 1px solid white;
+                border: 1px solid white;
                 column-span: 2;
             }
             tr:nth-child(even) {background-color: #f2f2f2; color: black}
@@ -63,6 +62,36 @@
                         ."<th colspan=2>" . utf8_encode($row["estadio"]) . "</th>"
                         ."<th colspan=2>" . utf8_encode($row["tecnico"]) . "</th>"
                         ."</tr>";
+                    //Mostrando jogadores que fizeram gol de acordo com o número de gols
+                    $golsBotafogo;
+                    $golsAdversario;
+                    if($row["golsBotafogo"]>0 && $row["golsAdversario"]>0){
+                        if($row["golsBotafogo"]==1){
+                            $golsBotafogo = "Gol do Botafogo"; 
+                        }else{
+                            $golsBotafogo = "Gols do Botafogo"; 
+                        }
+                        if($row["golsAdversario"]==1){
+                            $golsAdversario = "Gol do ".utf8_encode($row["adversario"]);
+                        }else{
+                            $golsAdversario = "Gols do ".utf8_encode($row["adversario"]);
+                        }
+                        echo "<tr><th colspan=5 style='text-align:left'>$golsBotafogo<p style='border: 1px solid white'>pipipkopsdfaopkfdaskop</p></th><th colspan=5 style='text-align:left'>$golsAdversario<p style='border: 1px solid white'>pipipi</p></th></tr>";
+                    }else if($row["golsBotafogo"]==0 && $row["golsAdversario"]>0){
+                        if($row["golsAdversario"]==1){
+                            $golsAdversario = "Gol do ".utf8_encode($row["adversario"]);
+                        }else{
+                            $golsAdversario = "Gols do ".utf8_encode($row["adversario"]);
+                        }
+                        echo "<tr><th colspan=5 style='text-align:left'>$golsAdversario<p style='border: 1px solid white'>pipipi</p></th></tr>";
+                    }else if($row["golsBotafogo"]>0 && $row["golsAdversario"]==0){
+                        if($row["golsBotafogo"]==1){
+                            $golsBotafogo = "Gol do Botafogo";
+                        }else{
+                            $golsBotafogo = "Gols do Botafogo";
+                        }
+                        echo "<tr><th colspan=5 style='text-align:left'>$golsBotafogo<p style='border: 1px solid white'>pipipi</p></th></tr>";
+                    }
                 }
                 echo "</table>";
             } else { echo "0 results"; }
