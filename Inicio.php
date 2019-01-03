@@ -33,7 +33,6 @@
             <tr>
                 <th colspan="1" id="head">Número</th>
                 <th colspan="2" id="head">Botafogo</th>
-
                 <th colspan="1" id="head">Placar</th>
                 <th colspan="2" id="head">Adversário</th>
                 <th colspan="1" id="head">Campeonato</th>
