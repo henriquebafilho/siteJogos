@@ -31,15 +31,14 @@
     <body>
         <table>
             <tr>
-                <th colspan="2" id="head">Número</th>
-                <th colspan="2" id="head">Escudo</th>
+                <th colspan="1" id="head">Número</th>
+                <th colspan="2" id="head">Botafogo</th>
+
+                <th colspan="1" id="head">Placar</th>
                 <th colspan="2" id="head">Adversário</th>
-                <th colspan="2" id="head">VDE</th>
-                <th colspan="2" id="head">Placar</th>
-                <th colspan="2" id="head">Campeonato</th>
-                <th colspan="2" id="head">Data</th>
-                <th colspan="2" id="head">Estádio</th>
-                <th colspan="2" id="head">Técnico</th>
+                <th colspan="1" id="head">Campeonato</th>
+                <th colspan="1" id="head">Data</th>
+                <th colspan="1" id="head">Estádio</th>
             </tr>
             <?php
             header('Content-Type: text/html; charset=utf-8');
@@ -55,54 +54,18 @@
                 while($row = $result->fetch_assoc()) {
                     //Tirando espaços do nome do adversário (para combinar com nomes dos escudos)
                     $escudo = str_replace(' ', '', utf8_encode($row["adversario"]));
-                    //Calculando vitória, derrota ou empate
-                    $status;
-                    if($row["golsBotafogo"] > utf8_encode($row["golsAdversario"])){
-                        $status = "Vitória";
-                    }else if($row["golsBotafogo"] < utf8_encode($row["golsAdversario"])){
-                        $status = "Derrota";
-                    }else{
-                        $status = "Empate";
-                    }
+                    //Colocando data dd-mm-yyyy
+                    $date = new DateTime($row["dataJogo"]);
                     //Desenhando linhas
-                    echo "<tr><th colspan=2>" . utf8_encode($row["id"]). "</th>" . "<th colspan=2 style='background-color: white; border-bottom:  1px solid black'>" . "<img src=index_files/$escudo.png width=70 height=70 alt=Imagem />" . "</th>" ."<th colspan=2>"
-                        . utf8_encode($row["adversario"]). "</th>"."<th colspan=2>" . $status . "</th>"
-                        ."<th colspan=2>" . utf8_encode($row["golsBotafogo"]) ." x ". utf8_encode($row["golsAdversario"]) . "</th>"
-                        ."<th colspan=2>" . utf8_encode($row["campeonato"]) . "</th>"
-                        ."<th colspan=2>" . utf8_encode($row["dataJogo"]) . "</th>"
-                        ."<th colspan=2>" . utf8_encode($row["estadio"]) . "</th>"
-                        ."<th colspan=2>" . utf8_encode($row["tecnico"]) . "</th>"
-                        ."</tr>";
+                    echo "<tr><th colspan=1 rowspan=2>" . utf8_encode($row["id"]). "</th>" ."<th colspan=1 style='background-color: white; border-bottom:  1px solid black'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem /></th>"."<th colspan=1>Botafogo</th>"."<th colspan=1>" . utf8_encode($row["golsBotafogo"]) ." x ". utf8_encode($row["golsAdversario"]) . "</th>". "<th colspan=1 style='background-color: white; border-bottom:  1px solid black'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /></th>" ."<th colspan=1>"
+                        . utf8_encode($row["adversario"]). "</th>"
+                        ."<th colspan=1>" . utf8_encode($row["campeonato"]) . "</th>"
+                        ."<th colspan=1>" . $date -> format( 'd-m-Y' ) . "</th>"
+                        ."<th colspan=1>" . utf8_encode($row["estadio"]) . "</th>"."</tr>";
                     //Mostrando jogadores que fizeram gol de acordo com o número de gols
-                    $golsBotafogo;
-                    $golsAdversario;
-                    if($row["golsBotafogo"]>0 && $row["golsAdversario"]>0){
-                        if($row["golsBotafogo"]==1){
-                            $golsBotafogo = "Gol do Botafogo"; 
-                        }else{
-                            $golsBotafogo = "Gols do Botafogo"; 
-                        }
-                        if($row["golsAdversario"]==1){
-                            $golsAdversario = "Gol do ".utf8_encode($row["adversario"]);
-                        }else{
-                            $golsAdversario = "Gols do ".utf8_encode($row["adversario"]);
-                        }
-                        echo "<tr><th colspan=5 style='text-align:left'>$golsBotafogo<p style='border: 1px solid white'>". utf8_encode($row["autorBotafogo"]) ."</p></th><th colspan=5 style='text-align:left'>$golsAdversario<p style='border: 1px solid white'>". utf8_encode($row["autorAdversario"]) ."</p></th></tr>";
-                    }else if($row["golsBotafogo"]==0 && $row["golsAdversario"]>0){
-                        if($row["golsAdversario"]==1){
-                            $golsAdversario = "Gol do ".utf8_encode($row["adversario"]);
-                        }else{
-                            $golsAdversario = "Gols do ".utf8_encode($row["adversario"]);
-                        }
-                        echo "<tr><th colspan=5 style='text-align:left'>$golsAdversario<p style='border: 1px solid white'>". utf8_encode($row["autorAdversario"]) ."</p></th></tr>";
-                    }else if($row["golsBotafogo"]>0 && $row["golsAdversario"]==0){
-                        if($row["golsBotafogo"]==1){
-                            $golsBotafogo = "Gol do Botafogo";
-                        }else{
-                            $golsBotafogo = "Gols do Botafogo";
-                        }
-                        echo "<tr><th colspan=5 style='text-align:left'>$golsBotafogo<p style='border: 1px solid white'>". utf8_encode($row["autorBotafogo"]) ."</p></th></tr>";
-                    }
+                    echo "<tr><th colspan=2 style='text-align:left; vertical-align: text-top;'>". utf8_encode($row["autorBotafogo"]) ."</th><th colspan=1></th><th colspan=2 style='text-align:left; vertical-align: text-top;'>". utf8_encode($row["autorAdversario"]) ."</th>";
+                    //Nome do técnico
+                    echo "<th colspan=3>Técnico: " . utf8_encode($row["tecnico"]) . "</th></tr>";
                 }
                 echo "</table>";
             } else { echo "0 results"; }
