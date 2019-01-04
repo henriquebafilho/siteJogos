@@ -73,9 +73,10 @@
                             ."<th colspan=1>" . $date -> format( 'd-m-Y' ) . "</th>"
                             ."<th colspan=1>" . utf8_encode($row["estadio"]) . "</th>"."</tr>";
                         //Mostrando jogadores que fizeram gol de acordo com o número de gols
-                        echo "<tr><th colspan=2 style='text-align:left; vertical-align: text-top;'>". utf8_encode($row["autorBotafogo"]) ."</th><th colspan=1></th><th colspan=2 style='text-align:left; vertical-align: text-top;'>". utf8_encode($row["autorAdversario"]) ."</th>";
+                        echo "<tr><th colspan=2 style='text-align:left; vertical-align: text-top;'>". utf8_encode($row["autorBotafogo"]) ."</th><th colspan=1 style=border:black></th><th colspan=2 style='text-align:left; vertical-align: text-top;'>". utf8_encode($row["autorAdversario"]) ."</th>";
                         //Nome do técnico
                         echo "<th colspan=3>Técnico: " . utf8_encode($row["tecnico"]) . "</th></tr>";
+                        
                     }
                 }
                 echo "</table>";
