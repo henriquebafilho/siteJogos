@@ -18,14 +18,12 @@
                 font-family: monospace;
                 text-align: center;
             } 
-            th {
-                background-color: black;
+            th{
                 color: white;
                 text-align: center;
                 border: 1px solid white;
                 column-span: 2;
             }
-            tr:nth-child(even) {background-color: #f2f2f2; color: black}
         </style>
     </head>
     <body>
@@ -57,25 +55,32 @@
                     $escudo = str_replace(' ', '', utf8_encode($row["adversario"]));
                     //Colocando data dd-mm-yyyy
                     $date = new DateTime($row["dataJogo"]);
+                    //Checando se o id é par ou ímpar pra trocar as cores
+                    $cor;
+                    if($row["id"]%2==0){
+                        $cor = "#232830";
+                    }else{
+                        $cor = "black";
+                    }
                     //Desenhando linhas de se for 0 x 0
                     if(utf8_encode($row["golsBotafogo"])==0 && utf8_encode($row["golsAdversario"])==0){
-                        echo "<tr><th colspan=1 rowspan=2>" . utf8_encode($row["id"]). "</th>" ."<th colspan=1 rowspan=2 style='background-color: white; border-bottom:  1px solid black'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem /></th>"."<th colspan=1 rowspan=2>Botafogo</th>"."<th colspan=1 rowspan=2>" . utf8_encode($row["golsBotafogo"]) ." x ". utf8_encode($row["golsAdversario"]) . "</th>". "<th colspan=1 rowspan=2 style='background-color: white; border-bottom:  1px solid black'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /></th>" ."<th colspan=1 rowspan=2>"
+                        echo "<tr><th colspan=1 rowspan=2 style=background-color:$cor>" . utf8_encode($row["id"]). "</th>" ."<th colspan=1 rowspan=2 style='background-color: white; border-bottom:  1px solid'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem /></th>"."<th colspan=1 rowspan=2 style=background-color:$cor>Botafogo</th>"."<th colspan=1 rowspan=2 style=background-color:$cor>" . utf8_encode($row["golsBotafogo"]) ." x ". utf8_encode($row["golsAdversario"]) . "</th>". "<th colspan=1 rowspan=2 style='background-color: white; border-bottom:  1px solid'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /></th>" ."<th colspan=1 rowspan=2 style=background-color:$cor>"
                             . utf8_encode($row["adversario"]). "</th>"
-                            ."<th colspan=1 rowspan=1>" . utf8_encode($row["campeonato"]) . "</th>"
-                            ."<th colspan=1 rowspan=1>" . $date -> format( 'd-m-Y' ) . "</th>"
-                            ."<th colspan=1 rowspan=1>" . utf8_encode($row["estadio"]) . "</th></tr>";
+                            ."<th colspan=1 rowspan=1 style=background-color:$cor>" . utf8_encode($row["campeonato"]) . "</th>"
+                            ."<th colspan=1 rowspan=1 style=background-color:$cor>" . $date -> format( 'd-m-Y' ) . "</th>"
+                            ."<th colspan=1 rowspan=1 style=background-color:$cor>" . utf8_encode($row["estadio"]) . "</th></tr>";
                         //Nome do técnico
-                        echo "<tr><th colspan=3 rowspan=1>Técnico: " . utf8_encode($row["tecnico"]) . "</th></tr>"; 
+                        echo "<tr><th colspan=3 rowspan=1 style=background-color:$cor>Técnico: " . utf8_encode($row["tecnico"]) . "</th></tr>"; 
                     }else{
-                        echo "<tr><th colspan=1 rowspan=2>" . utf8_encode($row["id"]). "</th>" ."<th colspan=1 style='background-color: white; border-bottom:  1px solid black'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem /></th>"."<th colspan=1>Botafogo</th>"."<th colspan=1 rowspan=2>" . utf8_encode($row["golsBotafogo"]) ." x ". utf8_encode($row["golsAdversario"]) . "</th>". "<th colspan=1 style='background-color: white; border-bottom:  1px solid black'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /></th>" ."<th colspan=1>"
+                        echo "<tr><th colspan=1 rowspan=2 style=background-color:$cor>" . utf8_encode($row["id"]). "</th>" ."<th colspan=1 style='background-color: white; border-bottom:  1px solid'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem /></th>"."<th colspan=1 style=background-color:$cor>Botafogo</th>"."<th colspan=1 rowspan=2 style=background-color:$cor>" . utf8_encode($row["golsBotafogo"]) ." x ". utf8_encode($row["golsAdversario"]) . "</th>". "<th colspan=1 style='background-color: white; border-bottom:  1px solid'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /></th>" ."<th colspan=1 style=background-color:$cor>"
                             . utf8_encode($row["adversario"]). "</th>"
-                            ."<th colspan=1>" . utf8_encode($row["campeonato"]) . "</th>"
-                            ."<th colspan=1>" . $date -> format( 'd-m-Y' ) . "</th>"
-                            ."<th colspan=1>" . utf8_encode($row["estadio"]) . "</th>"."</tr>";
+                            ."<th colspan=1 style=background-color:$cor>" . utf8_encode($row["campeonato"]) . "</th>"
+                            ."<th colspan=1 style=background-color:$cor>" . $date -> format( 'd-m-Y' ) . "</th>"
+                            ."<th colspan=1 style=background-color:$cor>" . utf8_encode($row["estadio"]) . "</th>"."</tr>";
                         //Mostrando jogadores que fizeram gol de acordo com o número de gols
-                        echo "<tr><th colspan=2 style='text-align:left; vertical-align: text-top;'>". utf8_encode($row["autorBotafogo"]) ."</th><th colspan=2 style='text-align:left; vertical-align: text-top;'>". utf8_encode($row["autorAdversario"]) ."</th>";
+                        echo "<tr><th colspan=2 style='text-align:left; vertical-align: text-top;background-color:$cor'>". utf8_encode($row["autorBotafogo"]) ."</th><th colspan=2 style='text-align:left; vertical-align: text-top;background-color:$cor'>". utf8_encode($row["autorAdversario"]) ."</th>";
                         //Nome do técnico
-                        echo "<th colspan=3>Técnico: " . utf8_encode($row["tecnico"]) . "</th></tr>";
+                        echo "<th colspan=3 style=background-color:$cor>Técnico: " . utf8_encode($row["tecnico"]) . "</th></tr>";
                     }
                 }
                 echo "</table>";
