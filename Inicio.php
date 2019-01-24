@@ -62,26 +62,15 @@
                     }else{
                         $cor = "black";
                     }
-                    //Desenhando linhas de se for 0 x 0
-                    if(utf8_encode($row["golsBotafogo"])==0 && utf8_encode($row["golsAdversario"])==0){
-                        echo "<tr><th colspan=1 rowspan=2 style=background-color:$cor>" . utf8_encode($row["id"]). "</th>" ."<th colspan=1 rowspan=2 style='background-color: white; border-bottom:  1px solid'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem /></th>"."<th colspan=1 rowspan=2 style=background-color:$cor>Botafogo</th>"."<th colspan=1 rowspan=2 style=background-color:$cor>" . utf8_encode($row["golsBotafogo"]) ." x ". utf8_encode($row["golsAdversario"]) . "</th>". "<th colspan=1 rowspan=2 style='background-color: white; border-bottom:  1px solid'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /></th>" ."<th colspan=1 rowspan=2 style=background-color:$cor>"
-                            . utf8_encode($row["adversario"]). "</th>"
-                            ."<th colspan=1 rowspan=1 style=background-color:$cor>" . utf8_encode($row["campeonato"]) . "</th>"
-                            ."<th colspan=1 rowspan=1 style=background-color:$cor>" . $date -> format( 'd-m-Y' ) . "</th>"
-                            ."<th colspan=1 rowspan=1 style=background-color:$cor>" . utf8_encode($row["estadio"]) . "</th></tr>";
-                        //Nome do técnico
-                        echo "<tr><th colspan=3 rowspan=1 style=background-color:$cor>Técnico: " . utf8_encode($row["tecnico"]) . "</th></tr>"; 
-                    }else{
-                        echo "<tr><th colspan=1 rowspan=2 style=background-color:$cor>" . utf8_encode($row["id"]). "</th>" ."<th colspan=1 style='background-color: white; border-bottom:  1px solid'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem /></th>"."<th colspan=1 style=background-color:$cor>Botafogo</th>"."<th colspan=1 rowspan=2 style=background-color:$cor>" . utf8_encode($row["golsBotafogo"]) ." x ". utf8_encode($row["golsAdversario"]) . "</th>". "<th colspan=1 style='background-color: white; border-bottom:  1px solid'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /></th>" ."<th colspan=1 style=background-color:$cor>"
-                            . utf8_encode($row["adversario"]). "</th>"
-                            ."<th colspan=1 style=background-color:$cor>" . utf8_encode($row["campeonato"]) . "</th>"
-                            ."<th colspan=1 style=background-color:$cor>" . $date -> format( 'd-m-Y' ) . "</th>"
-                            ."<th colspan=1 style=background-color:$cor>" . utf8_encode($row["estadio"]) . "</th>"."</tr>";
-                        //Mostrando jogadores que fizeram gol de acordo com o número de gols
-                        echo "<tr><th colspan=2 style='text-align:left; vertical-align: text-top;background-color:$cor'>". utf8_encode($row["autorBotafogo"]) ."</th><th colspan=2 style='text-align:left; vertical-align: text-top;background-color:$cor'>". utf8_encode($row["autorAdversario"]) ."</th>";
-                        //Nome do técnico
-                        echo "<th colspan=3 style=background-color:$cor>Técnico: " . utf8_encode($row["tecnico"]) . "</th></tr>";
-                    }
+                    echo "<tr><th colspan=1 rowspan=2 style=background-color:$cor>" . utf8_encode($row["id"]). "</th>" ."<th colspan=1 style='background-color: white; border-bottom:  1px solid'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem /></th>"."<th colspan=1 style=background-color:$cor>Botafogo</th>"."<th colspan=1 rowspan=2 style=background-color:$cor>" . utf8_encode($row["golsBotafogo"]) ." x ". utf8_encode($row["golsAdversario"]) . "</th>". "<th colspan=1 style='background-color: white; border-bottom:  1px solid'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /></th>" ."<th colspan=1 style=background-color:$cor>"
+                        . utf8_encode($row["adversario"]). "</th>"
+                        ."<th colspan=1 style=background-color:$cor>" . utf8_encode($row["campeonato"]) . "</th>"
+                        ."<th colspan=1 style=background-color:$cor>" . $date -> format( 'd-m-Y' ) . "</th>"
+                        ."<th colspan=1 style=background-color:$cor>" . utf8_encode($row["estadio"]) . "</th>"."</tr>";
+                    //Mostrando jogadores que fizeram gol de acordo com o número de gols
+                    echo "<tr><th colspan=2 style='text-align:left; vertical-align: text-top;background-color:$cor'>". utf8_encode($row["autorBotafogo"]) ."</th><th colspan=2 style='text-align:left; vertical-align: text-top;background-color:$cor'>". utf8_encode($row["autorAdversario"]) ."</th>";
+                    //Nome do técnico
+                    echo "<th colspan=3 style=background-color:$cor>Técnico: " . utf8_encode($row["tecnico"]) . "</th></tr>";
                 }
                 echo "</table>";
             } else { echo "0 results"; }
