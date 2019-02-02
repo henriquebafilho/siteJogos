@@ -68,7 +68,7 @@
                         . utf8_encode($row["adversario"]). "</th>"
                         ."<th colspan=1 style=background-color:$cor>" . utf8_encode($row["campeonato"]) . "</th>"
                         ."<th colspan=1 style=background-color:$cor>" . $date -> format( 'd-m-Y' ) . "</th>"
-                        ."<th colspan=1 style=background-color:$cor>" . utf8_encode($row["estadio"]) . "</th>"."</tr>";
+                        ."<th colspan=1 style=background-color:$cor>" . "Estádio ". utf8_encode($row["estadio"]) . "</th>"."</tr>";
                     //Mostrando jogadores que fizeram gol de acordo com o número de gols
                     echo "<tr><th colspan=2 style='text-align:left; vertical-align: text-top;background-color:$cor'>". utf8_encode($row["autorBotafogo"]) ."</th><th colspan=2 style='text-align:left; vertical-align: text-top;background-color:$cor'>". utf8_encode($row["autorAdversario"]) ."</th>";
                     //Nome do técnico
