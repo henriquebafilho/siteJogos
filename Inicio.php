@@ -49,20 +49,22 @@
             $sql = "SELECT * FROM jogo";
             $result = $conn->query($sql);
             if ($result->num_rows > 0) {
+                $numero = 0; //número de jogos
                 // Mostrando as informações em cada linha
                 while($row = $result->fetch_assoc()) {
+                    $numero = $numero + 1;
                     //Tirando espaços do nome do adversário (para combinar com nomes dos escudos)
                     $escudo = str_replace(' ', '', utf8_encode($row["adversario"]));
                     //Colocando data dd-mm-yyyy
                     $date = new DateTime($row["dataJogo"]);
                     //Checando se o id é par ou ímpar pra trocar as cores
                     $cor;
-                    if($row["id"]%2==0){
+                    if($numero%2==0){
                         $cor = "#232830";
                     }else{
                         $cor = "black";
                     }
-                    echo "<tr><th colspan=1 rowspan=2 style=background-color:$cor>" . utf8_encode($row["id"]). "</th>" ."<th colspan=1 style='background-color: white; border-bottom:  1px solid'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem /></th>"."<th colspan=1 style=background-color:$cor>Botafogo</th>"."<th colspan=1 rowspan=2 style=background-color:$cor>" . utf8_encode($row["golsBotafogo"]) ." x ". utf8_encode($row["golsAdversario"]) . "</th>". "<th colspan=1 style='background-color: white; border-bottom:  1px solid'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /></th>" ."<th colspan=1 style=background-color:$cor>"
+                    echo "<tr><th colspan=1 rowspan=2 style=background-color:$cor>" . $numero . "</th>" ."<th colspan=1 style='background-color: white; border-bottom:  1px solid'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem /></th>"."<th colspan=1 style=background-color:$cor>Botafogo</th>"."<th colspan=1 rowspan=2 style=background-color:$cor>" . utf8_encode($row["golsBotafogo"]) ." x ". utf8_encode($row["golsAdversario"]) . "</th>". "<th colspan=1 style='background-color: white; border-bottom:  1px solid'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /></th>" ."<th colspan=1 style=background-color:$cor>"
                         . utf8_encode($row["adversario"]). "</th>"
                         ."<th colspan=1 style=background-color:$cor>" . utf8_encode($row["campeonato"]) . "</th>"
                         ."<th colspan=1 style=background-color:$cor>" . $date -> format( 'd-m-Y' ) . "</th>"
