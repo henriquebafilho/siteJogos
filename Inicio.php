@@ -39,7 +39,12 @@
                 <th colspan="1" id="head">Data</th>
                 <th colspan="1" id="head">Estádio</th>
             </tr>
+            <button type="submit" onclick="<?php getTime('nheeeeee'); ?>">Clicaeee</button>
             <?php
+            function getTime($time){
+                echo $time;
+                return $time;
+            }
             header('Content-Type: text/html; charset=utf-8');
             $conn = mysqli_connect("localhost", "root", "", "jogos");
             // Checando conexão
