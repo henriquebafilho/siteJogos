@@ -24,11 +24,32 @@
                 border: 1px solid white;
                 column-span: 2;
             }
+            h1, h4, p{
+                color: white;
+                font-family: Quicksand;
+                text-align: center;
+            }
         </style>
     </head>
     <body>
-        <h1 style="color: white; text-align: center; font-family: Quicksand;">Jogos Que Fui</h1>
-        <h4 style="color: white; text-align: center; font-family: Quicksand;">Por Henrique Filho</h4>
+        <h1>Jogos Que Fui</h1>
+        <h4>Por Henrique Filho</h4>
+        <form method="POST">
+            <p>Filtrar jogos por:  </p>
+            <select name="opcoes">
+                <option disabled selected value="none"> -- selecionar opção -- </option>
+                <option value="adversario">Adversário</option>
+                <option value="campeonato">Campeonato</option>
+                <option value="data">Data</option>
+                <option value="ano">Ano</option>
+                <option value="estadio">Estádio</option>
+                <option value="tecnico">Técnico</option>
+                <option value="numero">Número</option>
+                <option value="todos">Todos</option>
+            </select>
+            <input type="submit" name="Comentar" value="Selecionar" id="Comentar">
+        </form>
+        <br>
         <table>
             <tr>
                 <th colspan="1" id="head">Número</th>
@@ -39,10 +60,27 @@
                 <th colspan="1" id="head">Data</th>
                 <th colspan="1" id="head">Estádio</th>
             </tr>
+            <!-- ESSENCIAL
+<form method="POST">
+<input id="comentario" type="text" name="comentario">
+<input type="submit" name="Comentar" value="Comentar" id="Comentar">
+</form>
+-->
             <?php
-            function getTime($time){
-                echo $time;
-                return $time;
+            ///COMPARAR STRING EM PHP SÃO TRÊS IGUAIS
+            $valor = $_POST['opcoes'];
+            if($valor === "adversario"){
+                echo "<form style='text-align: center' method='POST'>
+                    <p>Insira o nome do adversário: </p>
+                    <input type='text' name='nometime' placeholder='Nome do time'><br><br>
+                    <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
+                    </form>";
+            }elseif($valor === "tecnico"){
+                echo "<form style='text-align: center' method='POST'>
+                    <p>Insira o nome do técnico: </p>
+                    <input type='text' name='nometecnico' placeholder='Nome do técnico'><br><br>
+                    <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
+                    </form>";
             }
             header('Content-Type: text/html; charset=utf-8');
             $conn = mysqli_connect("localhost", "root", "", "jogos");
@@ -56,7 +94,6 @@
                 $numero = 0; //número de jogos
                 // Mostrando as informações em cada linha
                 while($row = $result->fetch_assoc()) {
-                    $numero = $numero + 1;
                     //Tirando espaços do nome do adversário (para combinar com nomes dos escudos)
                     $escudo = str_replace(' ', '', utf8_encode($row["adversario"]));
                     //Colocando data dd-mm-yyyy
@@ -68,6 +105,7 @@
                     }else{
                         $cor = "black";
                     }
+                    $numero = $numero + 1;
                     echo "<tr><th colspan=1 rowspan=2 style=background-color:$cor>" . $numero . "</th>" ."<th colspan=1 style='background-color: white; border-bottom:  1px solid'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem /></th>"."<th colspan=1 style=background-color:$cor>Botafogo</th>"."<th colspan=1 rowspan=2 style=background-color:$cor>" . utf8_encode($row["golsBotafogo"]) ." x ". utf8_encode($row["golsAdversario"]) . "</th>". "<th colspan=1 style='background-color: white; border-bottom:  1px solid'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /></th>" ."<th colspan=1 style=background-color:$cor>"
                         . utf8_encode($row["adversario"]). "</th>"
                         ."<th colspan=1 style=background-color:$cor>" . utf8_encode($row["campeonato"]) . "</th>"
@@ -78,6 +116,7 @@
                     //Nome do técnico
                     echo "<th colspan=3 style=background-color:$cor>Técnico: " . utf8_encode($row["tecnico"]) . "</th></tr>";
                 }
+
                 echo "</table>";
             } else { echo "0 results"; }
             $conn->close();
