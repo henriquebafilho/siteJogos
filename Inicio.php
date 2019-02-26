@@ -41,7 +41,6 @@
                 text-align: center;
             }#pai div{
                 display: none;
-                text-align: center;
             }p{
                 color: white;
                 font-family: Quicksand;
