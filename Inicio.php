@@ -7,6 +7,10 @@
         <meta http-equiv="content-type" content="text/html;charset=utf-8" />
         <link rel="shortcut icon" href="Times/favicon.ico" type="image/x-icon">
         <link rel="icon" href="Times/favicon.ico" type="image/x-icon">
+        <script src='jquery-3.3.1.min.js'></script>
+        <script src='javascript.js'></script>
+        <script>alert("Olá Mundo!");</script>
+        <link rel='stylesheet' href='stylesheet.css'>
         <style>
             body{
                 background-color: black;
@@ -34,55 +38,67 @@
     <body>
         <h1>Jogos Que Fui</h1>
         <h4>Por Henrique Filho</h4>
-        <form method="POST">
-            <p>Filtrar jogos por:  </p>
-            <select name="opcoes">
-                <option disabled selected value="none"> -- selecionar opção -- </option>
-                <option value="adversario">Adversário</option>
-                <option value="campeonato">Campeonato</option>
-                <option value="data">Data</option>
-                <option value="ano">Ano</option>
-                <option value="estadio">Estádio</option>
-                <option value="tecnico">Técnico</option>
-                <option value="numero">Número</option>
-                <option value="todos">Todos</option>
-            </select>
-            <input type="submit" name="Comentar" value="Selecionar" id="Comentar">
-        </form>
-        <br>
+        <p style="text-align: left">Filtrar jogos por: </p>
+        <select id="select" name="select">
+            <option value="todos">Todos</option>
+            <option value="adversario">Adversário</option>
+            <option value="campeonato">Campeonato</option>
+            <option value="data">Data Específica</option>
+            <option value="ano">Ano</option>
+            <option value="estadio">Estádio</option>
+            <option value="tecnico">Técnico</option>
+            <option value="numero">Número</option>
+        </select>
+        <div id='pai'>
+            <div id='adversario'>
+                <p style='text-align: left'>Insira o nome do adversário: </p>
+                <input type='text' name='inserido' placeholder='Nome do time'><br><br>
+                <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
+            </div>
+            <div id='campeonato'>
+                <p style='text-align: left'>Insira o nome do campeonato: </p>
+                <input type='text' name='inserido' placeholder='Nome do campeonato'><br><br>
+                <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
+            </div>
+            <div id='data'>
+                <p style='text-align: left'>Insira a data do jogo: </p>
+                <input type='date' name='inserido'><br><br>
+                <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
+            </div>
+            <div id='ano'>
+                <p style='text-align: left'>Insira o ano do jogo: </p>
+                <input type='number' name='inserido' placeholder='Ano' min='2002' max='2019'><br><br>
+                <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
+            </div>
+            <div id='estadio'>
+                <p style='text-align: left'>Insira o nome do estádio: </p>
+                <input type='text' name='inserido' placeholder='Nome do estádio'><br><br>
+                <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
+            </div>
+            <div id='tecnico'>
+                <p style='text-align: left'>Insira o nome do técnico: </p>
+                <input type='text' name='inserido' placeholder='Nome do técnico'><br><br>
+                <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
+            </div>
+            <div id='numero'>
+                <p style='text-align: left'>Insira o número do jogo: </p>
+                <input type='number' name='inserido' placeholder='Número' min='0'><br><br>
+                <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
+            </div>
+        </div>
+        <br><br>
         <table>
             <tr>
-                <th colspan="1" id="head">Número</th>
-                <th colspan="2" id="head">Botafogo</th>
-                <th colspan="1" id="head">Placar</th>
-                <th colspan="2" id="head">Adversário</th>
-                <th colspan="1" id="head">Campeonato</th>
-                <th colspan="1" id="head">Data</th>
-                <th colspan="1" id="head">Estádio</th>
+                <th colspan='1' id='head'>Número</th>
+                <th colspan='2' id='head'>Botafogo</th>
+                <th colspan='1' id='head'>Placar</th>
+                <th colspan='2' id='head'>Adversário</th>
+                <th colspan='1' id='head'>Campeonato</th>
+                <th colspan='1' id='head'>Data</th>
+                <th colspan='1' id='head'>Estádio</th>
             </tr>
-            <!-- ESSENCIAL
-<form method="POST">
-<input id="comentario" type="text" name="comentario">
-<input type="submit" name="Comentar" value="Comentar" id="Comentar">
-</form>
--->
             <?php
-            ///COMPARAR STRING EM PHP SÃO TRÊS IGUAIS
-            $valor = $_POST['opcoes'];
-            if($valor === "adversario"){
-                echo "<form style='text-align: center' method='POST'>
-                    <p>Insira o nome do adversário: </p>
-                    <input type='text' name='nometime' placeholder='Nome do time'><br><br>
-                    <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
-                    </form>";
-            }elseif($valor === "tecnico"){
-                echo "<form style='text-align: center' method='POST'>
-                    <p>Insira o nome do técnico: </p>
-                    <input type='text' name='nometecnico' placeholder='Nome do técnico'><br><br>
-                    <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
-                    </form>";
-            }
-            header('Content-Type: text/html; charset=utf-8');
+            //header('Content-Type: text/html; charset=utf-8');
             $conn = mysqli_connect("localhost", "root", "", "jogos");
             // Checando conexão
             if ($conn->connect_error) {
@@ -116,7 +132,6 @@
                     //Nome do técnico
                     echo "<th colspan=3 style=background-color:$cor>Técnico: " . utf8_encode($row["tecnico"]) . "</th></tr>";
                 }
-
                 echo "</table>";
             } else { echo "0 results"; }
             $conn->close();
