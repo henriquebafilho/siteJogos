@@ -35,64 +35,74 @@
                 border: 1px solid white;
                 column-span: 2;
             }
-            h1, h4, p{
+            h1, h4{
                 color: white;
                 font-family: Quicksand;
                 text-align: center;
             }#pai div{
                 display: none;
+                text-align: center;
+            }p{
+                color: white;
+                font-family: Quicksand;
+                text-align: center;
+            }
+            div{
+                text-align: center;
             }
         </style>
     </head>
     <body>
         <h1>Jogos Que Fui</h1>
         <h4>Por Henrique Filho</h4>
-        <p style="text-align: left">Filtrar jogos por: </p>
-        <select id="select" name="select">
-            <option value="todos">Todos</option>
-            <option value="adversario">Adversário</option>
-            <option value="campeonato">Campeonato</option>
-            <option value="data">Data Específica</option>
-            <option value="ano">Ano</option>
-            <option value="estadio">Estádio</option>
-            <option value="tecnico">Técnico</option>
-            <option value="numero">Número</option>
-        </select>
-        <div id='pai'>
-            <div id='adversario'>
-                <p style='text-align: left'>Insira o nome do adversário: </p>
-                <input type='text' name='inserido' placeholder='Nome do time'><br><br>
-                <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
-            </div>
-            <div id='campeonato'>
-                <p style='text-align: left'>Insira o nome do campeonato: </p>
-                <input type='text' name='inserido' placeholder='Nome do campeonato'><br><br>
-                <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
-            </div>
-            <div id='data'>
-                <p style='text-align: left'>Insira a data do jogo: </p>
-                <input type='date' name='inserido'><br><br>
-                <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
-            </div>
-            <div id='ano'>
-                <p style='text-align: left'>Insira o ano do jogo: </p>
-                <input type='number' name='inserido' placeholder='Ano' min='2002' max='2019'><br><br>
-                <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
-            </div>
-            <div id='estadio'>
-                <p style='text-align: left'>Insira o nome do estádio: </p>
-                <input type='text' name='inserido' placeholder='Nome do estádio'><br><br>
-                <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
-            </div>
-            <div id='tecnico'>
-                <p style='text-align: left'>Insira o nome do técnico: </p>
-                <input type='text' name='inserido' placeholder='Nome do técnico'><br><br>
-                <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
-            </div>
-            <div id='numero'>
-                <p style='text-align: left'>Insira o número do jogo: </p>
-                <input type='number' name='inserido' placeholder='Número' min='0'><br><br>
-                <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
+        <div>
+            <p>Filtrar jogos por: </p>
+            <select id="select" name="select">
+                <option value="todos">Todos</option>
+                <option value="adversario">Adversário</option>
+                <option value="campeonato">Campeonato</option>
+                <option value="data">Data Específica</option>
+                <option value="ano">Ano</option>
+                <option value="estadio">Estádio</option>
+                <option value="tecnico">Técnico</option>
+                <option value="numero">Número</option>
+            </select>
+            <div id='pai'>
+                <div id='adversario'>
+                    <p>Insira o nome do adversário: </p>
+                    <input type='text' name='inserido' placeholder='Nome do time'><br><br>
+                    <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
+                </div>
+                <div id='campeonato'>
+                    <p>Insira o nome do campeonato: </p>
+                    <input type='text' name='inserido' placeholder='Nome do campeonato'><br><br>
+                    <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
+                </div>
+                <div id='data'>
+                    <p>Insira a data do jogo: </p>
+                    <input type='date' name='inserido'><br><br>
+                    <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
+                </div>
+                <div id='ano'>
+                    <p>Insira o ano do jogo: </p>
+                    <input type='number' name='inserido' placeholder='Ano' min='2002' max='2019'><br><br>
+                    <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
+                </div>
+                <div id='estadio'>
+                    <p>Insira o nome do estádio: </p>
+                    <input type='text' name='inserido' placeholder='Nome do estádio'><br><br>
+                    <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
+                </div>
+                <div id='tecnico'>
+                    <p>Insira o nome do técnico: </p>
+                    <input type='text' name='inserido' placeholder='Nome do técnico'><br><br>
+                    <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
+                </div>
+                <div id='numero'>
+                    <p>Insira o número do jogo: </p>
+                    <input type='number' name='inserido' placeholder='Número' min='0'><br><br>
+                    <input type='submit' name='pesquisar' value='Pesquisar'><br><br>
+                </div>
             </div>
         </div>
         <br><br>
