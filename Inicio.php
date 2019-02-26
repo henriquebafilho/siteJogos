@@ -8,9 +8,16 @@
         <link rel="shortcut icon" href="Times/favicon.ico" type="image/x-icon">
         <link rel="icon" href="Times/favicon.ico" type="image/x-icon">
         <script src='jquery-3.3.1.min.js'></script>
-        <script src='javascript.js'></script>
-        <script>alert("Olá Mundo!");</script>
-        <link rel='stylesheet' href='stylesheet.css'>
+        <script>
+            $(document).ready(function(){
+                $('#select').on('change',function(){
+                    var selectValor = '#'+$(this).val();
+
+                    $('#pai').children('div').hide();
+                    $('#pai').children(selectValor).show();
+                });
+            });
+        </script>
         <style>
             body{
                 background-color: black;
@@ -32,6 +39,8 @@
                 color: white;
                 font-family: Quicksand;
                 text-align: center;
+            }#pai div{
+                display: none;
             }
         </style>
     </head>
@@ -98,7 +107,6 @@
                 <th colspan='1' id='head'>Estádio</th>
             </tr>
             <?php
-            //header('Content-Type: text/html; charset=utf-8');
             $conn = mysqli_connect("localhost", "root", "", "jogos");
             // Checando conexão
             if ($conn->connect_error) {
