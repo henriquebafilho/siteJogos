@@ -55,10 +55,10 @@
         <h1>Jogos Que Fui</h1>
         <h4>Por Henrique Filho</h4>
         <div>
-            <form action='Inicio.php' method='POST'>
+            <form action='Inicio.php' method='post'>
                 <p>Filtrar jogos por: </p>
                 <select id="select" name="selectopcao">
-                    <option value="todos">--selecione uma opção--</option>
+                    <option>--selecione uma opção--</option>
                     <option value="todos">Todos</option>
                     <option value="adversario">Adversário</option>
                     <option value="campeonato">Campeonato</option>
@@ -67,64 +67,48 @@
                     <option value="estadio">Estádio</option>
                     <option value="tecnico">Técnico</option>
                     <option value="numero">Número</option>
-                </select>
-            </form>    
+                </select> 
                 <div id='pai'>
                     <div id='todos'>
-                        <form action='Inicio.php' method='POST'>
-                            <br><input type='submit' name='pesquisar' value='Pesquisar'>
-                        </form>
+                        <br><input type='submit' name='pesquisar' value='Pesquisar'>
                     </div>
                     <div id='adversario'>
-                        <form action='Inicio.php' method='POST'>
-                            <p>Insira o nome do adversário: </p>
-                            <input type='text' name='inserido' placeholder='Nome do time'><br><br>
-                            <input type='submit' name='pesquisar' value='Pesquisar'>
-                        </form>
+                        <p>Insira o nome do adversário: </p>
+                        <input type='text' name='inserido' placeholder='Nome do time'><br><br>
+                        <input type='submit' name='pesquisar' value='Pesquisar'>
                     </div>
                     <div id='campeonato'>
-                        <form action='Inicio.php' method='POST'>
-                            <p>Insira o nome do campeonato: </p>
-                            <input type='text' name='inserido' placeholder='Nome do campeonato'><br><br>
-                            <input type='submit' name='pesquisar' value='Pesquisar'>
-                        </form>
+                        <p>Insira o nome do campeonato: </p>
+                        <input type='text' name='inserido' placeholder='Nome do campeonato'><br><br>
+                        <input type='submit' name='pesquisar' value='Pesquisar'>
                     </div>
                     <div id='data'>
-                        <form action='Inicio.php' method='POST'>
-                            <p>Insira a data do jogo: </p>
-                            <input type='date' name='inserido'><br><br>
-                            <input type='submit' name='pesquisar' value='Pesquisar'>
-                        </form>
+                        <p>Insira a data do jogo: </p>
+                        <input type='date' name='inserido'><br><br>
+                        <input type='submit' name='pesquisar' value='Pesquisar'>
                     </div>
                     <div id='ano'>
-                        <form action='Inicio.php' method='POST'>
-                            <p>Insira o ano do jogo: </p>
-                            <input type='number' name='inserido' placeholder='Ano' min='2002' max='2019'><br><br>
-                            <input type='submit' name='pesquisar' value='Pesquisar'>
-                        </form>
+                        <p>Insira o ano do jogo: </p>
+                        <input type='number' name='inserido' placeholder='Ano' min='2002' max='2019'><br><br>
+                        <input type='submit' name='pesquisar' value='Pesquisar'>
                     </div>
                     <div id='estadio'>
-                        <form action='Inicio.php' method='POST'>
-                            <p>Insira o nome do estádio: </p>
-                            <input type='text' name='inserido' placeholder='Nome do estádio'><br><br>
-                            <input type='submit' name='pesquisar' value='Pesquisar'>
-                        </form>
+                        <p>Insira o nome do estádio: </p>
+                        <input type='text' name='inserido' placeholder='Nome do estádio'><br><br>
+                        <input type='submit' name='pesquisar' value='Pesquisar'>
                     </div>
                     <div id='tecnico'>
-                        <form action='Inicio.php' method='POST'>
-                            <p>Insira o nome do técnico: </p>
-                            <input type='text' name='inserido' placeholder='Nome do técnico'><br><br>
-                            <input type='submit' name='pesquisar' value='Pesquisar'>
-                        </form>
+                        <p>Insira o nome do técnico: </p>
+                        <input type='text' name='inserido' placeholder='Nome do técnico'><br><br>
+                        <input type='submit' name='pesquisar' value='Pesquisar'>
                     </div>
                     <div id='numero'>
-                        <form action='Inicio.php' method='POST'>
-                            <p>Insira o número do jogo: </p>
-                            <input type='number' name='inserido' placeholder='Número' min='0'><br><br>
-                            <input type='submit' name='pesquisar' value='Pesquisar'>
-                        </form>
+                        <p>Insira o número do jogo: </p>
+                        <input type='number' name='inserido' placeholder='Número' min='0'><br><br>
+                        <input type='submit' name='pesquisar' value='Pesquisar'>
                     </div>
                 </div>
+            </form>   
         </div>
         <br>
         <table>
