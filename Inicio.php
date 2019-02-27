@@ -67,7 +67,7 @@
                     <option value="estadio">Estádio</option>
                     <option value="tecnico">Técnico</option>
                     <option value="numero">Número</option>
-                </select> 
+                </select>
                 <div id='pai'>
                     <div id='todos'>
                         <br><input type='submit' name='pesquisar' value='Pesquisar'>
