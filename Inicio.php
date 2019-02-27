@@ -58,6 +58,7 @@
             <form action='Inicio.php' method='POST'>
                 <p>Filtrar jogos por: </p>
                 <select id="select" name="selectopcao">
+                    <option value="todos">--selecione uma opção--</option>
                     <option value="todos">Todos</option>
                     <option value="adversario">Adversário</option>
                     <option value="campeonato">Campeonato</option>
@@ -67,44 +68,63 @@
                     <option value="tecnico">Técnico</option>
                     <option value="numero">Número</option>
                 </select>
+            </form>    
                 <div id='pai'>
+                    <div id='todos'>
+                        <form action='Inicio.php' method='POST'>
+                            <br><input type='submit' name='pesquisar' value='Pesquisar'>
+                        </form>
+                    </div>
                     <div id='adversario'>
-                        <p>Insira o nome do adversário: </p>
-                        <input type='text' name='inserido' placeholder='Nome do time'><br><br>
-                        <input type='submit' name='pesquisar' value='Pesquisar'>
+                        <form action='Inicio.php' method='POST'>
+                            <p>Insira o nome do adversário: </p>
+                            <input type='text' name='inserido' placeholder='Nome do time'><br><br>
+                            <input type='submit' name='pesquisar' value='Pesquisar'>
+                        </form>
                     </div>
                     <div id='campeonato'>
-                        <p>Insira o nome do campeonato: </p>
-                        <input type='text' name='inserido' placeholder='Nome do campeonato'><br><br>
-                        <input type='submit' name='pesquisar' value='Pesquisar'>
+                        <form action='Inicio.php' method='POST'>
+                            <p>Insira o nome do campeonato: </p>
+                            <input type='text' name='inserido' placeholder='Nome do campeonato'><br><br>
+                            <input type='submit' name='pesquisar' value='Pesquisar'>
+                        </form>
                     </div>
                     <div id='data'>
-                        <p>Insira a data do jogo: </p>
-                        <input type='date' name='inserido'><br><br>
-                        <input type='submit' name='pesquisar' value='Pesquisar'>
+                        <form action='Inicio.php' method='POST'>
+                            <p>Insira a data do jogo: </p>
+                            <input type='date' name='inserido'><br><br>
+                            <input type='submit' name='pesquisar' value='Pesquisar'>
+                        </form>
                     </div>
                     <div id='ano'>
-                        <p>Insira o ano do jogo: </p>
-                        <input type='number' name='inserido' placeholder='Ano' min='2002' max='2019'><br><br>
-                        <input type='submit' name='pesquisar' value='Pesquisar'>
+                        <form action='Inicio.php' method='POST'>
+                            <p>Insira o ano do jogo: </p>
+                            <input type='number' name='inserido' placeholder='Ano' min='2002' max='2019'><br><br>
+                            <input type='submit' name='pesquisar' value='Pesquisar'>
+                        </form>
                     </div>
                     <div id='estadio'>
-                        <p>Insira o nome do estádio: </p>
-                        <input type='text' name='inserido' placeholder='Nome do estádio'><br><br>
-                        <input type='submit' name='pesquisar' value='Pesquisar'>
+                        <form action='Inicio.php' method='POST'>
+                            <p>Insira o nome do estádio: </p>
+                            <input type='text' name='inserido' placeholder='Nome do estádio'><br><br>
+                            <input type='submit' name='pesquisar' value='Pesquisar'>
+                        </form>
                     </div>
                     <div id='tecnico'>
-                        <p>Insira o nome do técnico: </p>
-                        <input type='text' name='inserido' placeholder='Nome do técnico'><br><br>
-                        <input type='submit' name='pesquisar' value='Pesquisar'>
+                        <form action='Inicio.php' method='POST'>
+                            <p>Insira o nome do técnico: </p>
+                            <input type='text' name='inserido' placeholder='Nome do técnico'><br><br>
+                            <input type='submit' name='pesquisar' value='Pesquisar'>
+                        </form>
                     </div>
                     <div id='numero'>
-                        <p>Insira o número do jogo: </p>
-                        <input type='number' name='inserido' placeholder='Número' min='0'><br><br>
-                        <input type='submit' name='pesquisar' value='Pesquisar'>
+                        <form action='Inicio.php' method='POST'>
+                            <p>Insira o número do jogo: </p>
+                            <input type='number' name='inserido' placeholder='Número' min='0'><br><br>
+                            <input type='submit' name='pesquisar' value='Pesquisar'>
+                        </form>
                     </div>
                 </div>
-            </form>
         </div>
         <br>
         <table>
@@ -118,6 +138,8 @@
                 <th colspan='1' id='head'>Estádio</th>
             </tr>
             <?php
+            $select = $_POST['selectopcao'];
+            echo $select;
             function escreveLinha($numero, $row){
                 //Tirando espaços do nome do adversário (para combinar com nomes dos escudos)
                 $escudo = str_replace(' ', '', utf8_encode($row["adversario"]));
@@ -136,26 +158,23 @@
                     ."<th colspan=1 style=background-color:$cor>" . $date -> format( 'd-m-Y' ) . "</th>"
                     ."<th colspan=1 style=background-color:$cor>" . "Estádio ". utf8_encode($row["estadio"]) . "</th>"."</tr>"."<tr><th colspan=2 style='text-align:left; vertical-align: text-top;background-color:$cor'>". utf8_encode($row["autorBotafogo"]) ."</th><th colspan=2 style='text-align:left; vertical-align: text-top;background-color:$cor'>". utf8_encode($row["autorAdversario"]) ."</th>"."<th colspan=3 style=background-color:$cor>Técnico: " . utf8_encode($row["tecnico"]) . "</th></tr>";
             }
-            function checaJogo(){
-                $conn = mysqli_connect("localhost", "root", "", "jogos");
-                // Checando conexão
-                if ($conn->connect_error) {
-                    die("Connection failed: " . $conn->connect_error);
-                } 
-                $sql = "SELECT * FROM jogo";
-                $result = $conn->query($sql);
-                if ($result->num_rows > 0) {
-                    $numero = 0; //número de jogos
-                        // Mostrando as informações em cada linha
-                    while($row = $result->fetch_assoc()) {
-                        echo escreveLinha($numero, $row);
-                        $numero = $numero + 1;
-                    }
-                    echo "</table>";
-                } else { echo "0 results"; }
-                $conn->close();   
-            }
-            checaJogo();
+            $conn = mysqli_connect("localhost", "root", "", "jogos");
+            // Checando conexão
+            if ($conn->connect_error) {
+                die("Connection failed: " . $conn->connect_error);
+            } 
+            $sql = "SELECT * FROM jogo";
+            $result = $conn->query($sql);
+            if ($result->num_rows > 0) {
+                $numero = 0; //número de jogos
+                // Mostrando as informações em cada linha
+                while($row = $result->fetch_assoc()) {
+                    $numero = $numero + 1;
+                    echo escreveLinha($numero, $row);
+                }
+                echo "</table>";
+            } else { echo "0 results"; }
+            $conn->close();   
             ?>
         </table>
     </body>
