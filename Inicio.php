@@ -156,6 +156,10 @@
             while($row = $result->fetch_assoc()) {
                 //echo escreveLinha($numero, $row);
                 switch($select){
+                    case "todos":
+                        $numero = $numero + 1;
+                        echo escreveLinha($numero, $row);
+                        break;
                     case "adversario":
                         $inserido = $_POST['adv'];
                         if($inserido == utf8_encode($row["adversario"])){
@@ -164,34 +168,62 @@
                         }
                         break;
                     case "campeonato":
-                        $numero = $numero + 1;
                         $inserido = $_POST['camp'];
-                        echo $inserido;
+                        if($inserido == utf8_encode($row["campeonato"])){
+                            $numero = $numero + 1;
+                            echo escreveLinha($numero, $row);
+                        }
                         break;
                     case "data":
-                        $numero = $numero + 1;
                         $inserido = $_POST['data']; //2014-08-31
-                        echo $inserido;
+                        if($inserido == utf8_encode($row["dataJogo"])){
+                            $numero = $numero + 1;
+                            echo escreveLinha($numero, $row);
+                        }
                         break;
                     case "ano":
-                        $numero = $numero + 1;
                         $inserido = $_POST['ano'];
-                        echo $inserido;
+                        //pegando ano da data inserida
+                        $dataInserido = explode('-', $inserido);
+                        $anoInserido = $dataInserido[0];
+                        //pegando ano do jogo
+                        $dataJogo = explode('-', $row["dataJogo"]);
+                        $anoJogo = $dataJogo[0];
+                        if($anoInserido == $anoJogo){
+                            $numero = $numero + 1;
+                            echo escreveLinha($numero, $row);
+                        }
                         break;
                     case "estadio":
-                        $numero = $numero + 1;
                         $inserido = $_POST['est'];
-                        echo $inserido;
+                        if($inserido == utf8_encode($row["estadio"])){
+                            $numero = $numero + 1;
+                            echo escreveLinha($numero, $row);
+                        }
                         break;
                     case "tecnico":
-                        $numero = $numero + 1;
                         $inserido = $_POST['tec'];
-                        echo $inserido;
+                        if($inserido == utf8_encode($row["tecnico"])){
+                            $numero = $numero + 1;
+                            echo escreveLinha($numero, $row);
+                        }
                         break;
                     case "numero":
                         $numero = $numero + 1;
                         $inserido = $_POST['num'];
-                        echo $inserido;
+                        if($numero == $inserido){
+                            echo "<table>
+                                    <tr>
+                                        <th colspan='1' id='head'>Número</th>
+                                        <th colspan='2' id='head'>Botafogo</th>
+                                        <th colspan='1' id='head'>Placar</th>
+                                        <th colspan='2' id='head'>Adversário</th>
+                                        <th colspan='1' id='head'>Campeonato</th>
+                                        <th colspan='1' id='head'>Data</th>
+                                        <th colspan='1' id='head'>Estádio</th>
+                                    </tr>";
+                            echo escreveLinha($numero, $row);
+                        }
                         break;
                 }
             }
@@ -202,6 +234,5 @@
         } else { echo "0 results"; }
         $conn->close();   
         ?>
-        </table>
     </body>
 </html>
