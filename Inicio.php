@@ -53,7 +53,7 @@
     </head>
     <body>
         <h1>Jogos Que Fui</h1>
-        <h4>Por Henrique Filho</h4>
+        <h4>Por Henrique Filho</h4><!--
         <div>
             <form action='Inicio.php' method='post'>
                 <p>Filtrar jogos por: </p>
@@ -108,8 +108,8 @@
                         <input type='submit' name='pesquisar' value='Pesquisar'>
                     </div>
                 </div>
-            </form>   
-        </div>
+            </form>  
+        </div>-->
         <br>
         <table>
             <tr>
@@ -123,7 +123,7 @@
             </tr>
             <?php
             $select = $_POST['selectopcao'];
-            echo $select;
+            //echo $select;
             function escreveLinha($numero, $row){
                 //Tirando espaços do nome do adversário (para combinar com nomes dos escudos)
                 $escudo = str_replace(' ', '', utf8_encode($row["adversario"]));
