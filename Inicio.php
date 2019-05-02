@@ -168,33 +168,33 @@
 	$sql = "SELECT * FROM jogo ORDER BY dataJogo DESC";
 	$result = $conn->query($sql);
 	if ($result->num_rows > 0) {
-		$numero = 0; //número de jogos
+		$numero = 164; //número de jogos
 		// Mostrando as informações em cada linha
 		while($row = $result->fetch_assoc()) {
 			//echo escreveLinha($numero, $row);
 			switch($select){
 				case "todos":
-					$numero = $numero + 1;
+					$numero = $numero - 1;
 					echo escreveLinha($numero, $row);
 					break;
 				case "adversario":
 					$inserido = $_POST['adv'];
 					if($inserido == utf8_encode($row["adversario"])){
-						$numero = $numero + 1;
+						$numero = $numero - 1;
 						echo escreveLinha($numero, $row);
 					}
 					break;
 				case "campeonato":
 					$inserido = $_POST['camp'];
 					if($inserido == utf8_encode($row["campeonato"])){
-						$numero = $numero + 1;
+						$numero = $numero - 1;
 						echo escreveLinha($numero, $row);
 					}
 					break;
 				case "data":
 					$inserido = $_POST['data']; //2014-08-31
 					if($inserido == utf8_encode($row["dataJogo"])){
-						$numero = $numero + 1;
+						$numero = $numero - 1;
 						echo escreveLinha($numero, $row);
 					}
 					break;
@@ -207,26 +207,26 @@
 					$dataJogo = explode('-', $row["dataJogo"]);
 					$anoJogo = $dataJogo[0];
 					if($anoInserido == $anoJogo){
-						$numero = $numero + 1;
+						$numero = $numero - 1;
 						echo escreveLinha($numero, $row);
 					}
 					break;
 				case "estadio":
 					$inserido = $_POST['est'];
 					if($inserido == utf8_encode($row["estadio"])){
-						$numero = $numero + 1;
+						$numero = $numero - 1;
 						echo escreveLinha($numero, $row);
 					}
 					break;
 				case "tecnico":
 					$inserido = $_POST['tec'];
 					if($inserido == utf8_encode($row["tecnico"])){
-						$numero = $numero + 1;
+						$numero = $numero - 1;
 						echo escreveLinha($numero, $row);
 					}
 					break;
 				case "numero":
-					$numero = $numero + 1;
+					$numero = $numero - 1;
 					$inserido = $_POST['num'];
 					if($numero == $inserido){
 						echo "<table>
@@ -245,21 +245,21 @@
 				case "vitorias":
 					$inserido = $_POST['vit'];
 					if($row["golsBotafogo"] > $row["golsAdversario"]){
-						$numero = $numero + 1;
+						$numero = $numero - 1;
 						echo escreveLinha($numero, $row);
 					}
 					break;
 				case "empates":
 				$inserido = $_POST['emp'];
 				if($row["golsBotafogo"] == $row["golsAdversario"]){
-					$numero = $numero + 1;
+					$numero = $numero - 1;
 					echo escreveLinha($numero, $row);
 				}
 					break;
 					case "derrotas":
 					$inserido = $_POST['der'];
 					if($row["golsBotafogo"] < $row["golsAdversario"]){
-						$numero = $numero + 1;
+						$numero = $numero - 1;
 						echo escreveLinha($numero, $row);
 					}
 					break;
