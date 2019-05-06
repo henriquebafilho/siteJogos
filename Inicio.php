@@ -54,7 +54,7 @@
 <body>
 	<h1>Jogos Que Fui</h1>
 	<h4>Por Henrique Filho</h4>
-    <!--comenta daqui-->
+    <!--comenta daqui
 	<div>
 		<form action='Inicio.php' method='post'>
 			<p>Filtrar jogos por: </p>
@@ -126,13 +126,14 @@
 			</div>
 		</form>  
 	</div>
-    <!--até aqui-->
+    até aqui-->
 	<br>
 	<?php
 	$select = $_POST['selectopcao'];
 	function escreveLinha($numero, $row){
 		//Cabeçalho
-		if($numero == 164){
+        //número de jogos
+		if($numero == 165){
 			echo "<table>
 		<tr>
 			<th colspan='1' id='head'>Número</th>
@@ -168,7 +169,7 @@
 	$sql = "SELECT * FROM jogo ORDER BY dataJogo DESC";
 	$result = $conn->query($sql);
 	if ($result->num_rows > 0) {
-		$numero = 165; //número de jogos
+		$numero = 166; //número de jogos + 1
 		// Mostrando as informações em cada linha
 		while($row = $result->fetch_assoc()) {
 			//echo escreveLinha($numero, $row);
@@ -265,7 +266,7 @@
 					break;
 			}
 		}
-		if($numero == 165){
+		if($numero == 166){
 			echo "<p>Nenhum jogo encontrado</p>";
 		}
 		echo "</table>";
