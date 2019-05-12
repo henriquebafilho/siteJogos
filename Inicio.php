@@ -133,7 +133,7 @@
 	function escreveLinha($numero, $row){
 		//Cabeçalho
         //número de jogos
-		if($numero == 165){
+		if($numero == 166){
 			echo "<table>
 		<tr>
 			<th colspan='1' id='head'>Número</th>
@@ -169,7 +169,7 @@
 	$sql = "SELECT * FROM jogo ORDER BY dataJogo DESC";
 	$result = $conn->query($sql);
 	if ($result->num_rows > 0) {
-		$numero = 166; //número de jogos + 1
+		$numero = 167; //número de jogos + 1
 		// Mostrando as informações em cada linha
 		while($row = $result->fetch_assoc()) {
 			//echo escreveLinha($numero, $row);
@@ -266,7 +266,7 @@
 					break;
 			}
 		}
-		if($numero == 166){
+		if($numero == 167){
 			echo "<p>Nenhum jogo encontrado</p>";
 		}
 		echo "</table>";
