@@ -259,9 +259,10 @@
                     break;
                 case "derrotas":
                     $inserido = $_POST['der'];
-                    if($row["golsBotafogo"] < $row["golsAdversario"]){}
-                    echo escreveLinha($qtdJogos, $numero, $row);
-                    $numero = $numero - 1;
+                    if($row["golsBotafogo"] < $row["golsAdversario"]){
+                        echo escreveLinha($qtdJogos, $numero, $row);
+                        $numero = $numero - 1;
+                    }
                     break;
             }
         }
