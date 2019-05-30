@@ -54,7 +54,7 @@
     <body>
         <h1>Jogos Que Fui</h1>
         <h4>Por Henrique Filho</h4>
-        <!--comenta daqui-->
+        <!--comenta daqui
         <div>
             <form action='Inicio.php' method='post'>
                 <p>Filtrar jogos por: </p>
@@ -126,7 +126,7 @@
                 </div>
             </form>  
         </div>
-        <!--até aqui-->
+        até aqui-->
         <br>
         <?php
         $select = $_POST['selectopcao'];
