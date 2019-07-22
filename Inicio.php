@@ -126,7 +126,7 @@
                 </div>
             </form>  
         </div>
-        <!--até aqui-->
+        até aqui-->
         <br>
         <?php
         $select = $_POST['selectopcao'];
