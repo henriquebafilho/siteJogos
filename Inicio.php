@@ -126,7 +126,7 @@
                 </div>
             </form>  
         </div>
-        até aqui-->
+        <!--até aqui-->
         <br>
         <?php
         $select = $_POST['selectopcao'];
@@ -171,6 +171,11 @@
         //pegando número de jogos
         $qtdJogos = $result->num_rows;
         $numero = $qtdJogos; //número de jogos + 1
+        $golsBotafogo = 0; 
+        $golsAdversario = 0;
+        $vitorias = 0;
+        $empates = 0;
+        $derrotas = 0;
         // Mostrando as informações em cada linha
         while($row = $result->fetch_assoc()) {
             switch($select){
@@ -265,6 +270,26 @@
                     }
                     break;
             }
+            $golsBotafogo += $row["golsBotafogo"];
+            $golsAdversario += $row["golsAdversario"];
+            
+            if($row["golsBotafogo"] > $row["golsAdversario"]){
+                $vitorias += 1;
+            }else if($row["golsBotafogo"] < $row["golsAdversario"]){
+                $derrotas += 1;
+            }else{
+                $empates += 1;
+            }
+            //quando chega no último, mostra o retrospecto
+            /*if($numero == 1){
+                //echo derrota vitoria empate gols...
+                echo "<center>Vitórias - " . $vitorias  
+                . "<br>Empates - " . $empates 
+                . "<br>Derrotas - " . $derrotas
+                . "<br>"
+                . "<br>Gols do Botafogo - " . $golsBotafogo . " gols"
+                . "<br>Gols dos adversários - ". $golsAdversario . " gols";
+            }*/
         }
         if($numero == $qtdJogos){
             echo "<p>Nenhum jogo encontrado</p>";
