@@ -103,7 +103,7 @@
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
         } 
-        $sql = "SELECT * FROM jogo ORDER BY dataJogo DESC";
+        $sql = "SELECT * FROM jogoteste ORDER BY dataJogo DESC";
         $result = $conn->query($sql);
         //pegando número de jogos
         $qtdJogos = $result->num_rows;
