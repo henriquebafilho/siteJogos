@@ -74,6 +74,10 @@
             $escudo = str_replace(' ', '', utf8_encode($row["adversario"]));
             if(utf8_encode($row["adversario"]) == "Goiás" && explode('-', $row["dataJogo"])[0] >= 2019){
                $escudo = "Goiás2019";
+            } else if(utf8_encode($row["adversario"]) == "Internacional" && explode('-', $row["dataJogo"])[0] < 2009){
+               $escudo = "Internacional2009";
+            } else if(utf8_encode($row["adversario"]) == "Náutico" && explode('-', $row["dataJogo"])[0] <= 2008){
+               $escudo = "Náutico2008";
             }
             //Colocando data dd-mm-yyyy
             $date = new DateTime($row["dataJogo"]);
