@@ -82,6 +82,9 @@
             else if(utf8_encode($row["adversario"]) == "Corinthians"){
                $escudo = "Corinthians1";
             }
+            else if(utf8_encode($row["adversario"]) == "Chapecoense"){
+               $escudo = "Chapecoense1";
+            }
             //Colocando data dd-mm-yyyy
             $date = new DateTime($row["dataJogo"]);
             //Checando se o id é par ou ímpar pra trocar as cores
