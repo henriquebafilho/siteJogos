@@ -78,14 +78,8 @@
             } else if(utf8_encode($row["adversario"]) == "Náutico" && explode('-', $row["dataJogo"])[0] <= 2008){
                $escudo = "Náutico2008";
             }
-            else if(utf8_encode($row["adversario"]) == "Corinthians"){
-               $escudo = "Corinthians1";
-            }
-            else if(utf8_encode($row["adversario"]) == "Chapecoense"){
-               $escudo = "Chapecoense1";
-            }
-            else if(utf8_encode($row["adversario"]) == "Flamengo"){
-               $escudo = "Flamengo1";
+            else if(utf8_encode($row["adversario"]) == "Flamengo" && explode('-', $row["dataJogo"])[0] >= 2018){
+               $escudo = "Flamengo2018";
             }
             //Colocando data dd-mm-yyyy
             $date = new DateTime($row["dataJogo"]);
