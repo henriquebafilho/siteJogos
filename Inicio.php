@@ -81,6 +81,9 @@
             else if(utf8_encode($row["adversario"]) == "Flamengo" && explode('-', $row["dataJogo"])[0] >= 2018){
                $escudo = "Flamengo2018";
             }
+            else if(utf8_encode($row["adversario"]) == "Resenede" && explode('-', $row["dataJogo"])[0] >= 2020){
+               $escudo = "Resende2020";
+            }
             //Colocando data dd-mm-yyyy
             $date = new DateTime($row["dataJogo"]);
             //Checando se o id é par ou ímpar pra trocar as cores
