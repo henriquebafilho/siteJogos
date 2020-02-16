@@ -108,7 +108,7 @@
                         <tr>
                             <th colspan='1' id='head'>Número</th>
                             <th colspan='1' id='head'>Mandante</th>
-                            <th colspan='1' width=400 id='head'>Placar</th>
+                            <th colspan='1' width=20% id='head'>Placar</th>
                             <th colspan='1' id='head'>Visitante</th>
                         </tr>";
             }
@@ -127,11 +127,14 @@
             else if(utf8_encode($row["adversario"]) == "Resende" && explode('-', $row["dataJogo"])[0] >= 2020){
                $escudo = "Resende2020";
             }
+            else if(utf8_encode($row["adversario"]) == "Cruzeiro" && explode('-', $row["dataJogo"])[0] >= 2000){
+               $escudo = "Cruzeiro2000";
+            }
             //Colocando data dd-mm-yyyy
             $date = new DateTime($row["dataJogo"]);
             
             //Colocando cores no fundo e letras do time
-            $corFundo = corFundoTime(utf8_encode($row["adversario"]));
+            $corFundo = corFundoTime(utf8_encode($row["adversario"]), explode('-', $row["dataJogo"])[0]);
             $corLetra = corLetraTime(utf8_encode($row["adversario"]));
             
             //Checando se o id é par ou ímpar pra trocar as cores
@@ -146,11 +149,375 @@
                 return "<tr><th colspan=1 rowspan=3 style=width:50px;background-color:$cor>" . $numero . "</th>" . "<th colspan=3 rowspan=1 style='background-color:$cor; width:400px;'>". $date -> format( 'd-m-Y' ). " | ". "Estádio ". utf8_encode($row["estadio"]). " | ". utf8_encode($row["campeonato"]). "</th>"."<tr><th colspan=1 style='color:$corLetra; background-color:$corFundo;'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /><br>". utf8_encode($row["adversario"]). "</th>" . "<th colspan=1 rowspan=1 style=background-color:$cor>" . utf8_encode($row["golsAdversario"]) ." x ". utf8_encode($row["golsBotafogo"]) . "</th>"."<th colspan=1 style=background-color:black><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem /><br>Botafogo</th>" . "</th>"."<tr><th colspan=1 style=background-color:$cor;>". utf8_encode($row["autorAdversario"]) ."</th>"."<th colspan=1 style=background-color:$cor;>". "Técnico: ". utf8_encode($row["tecnico"]) . "</th>"."<th colspan=1 style=background-color:$cor;>". utf8_encode($row["autorBotafogo"])."</th><tr>";
             }
         }
-        function corFundoTime($time){
-            return "red";
+        function corFundoTime($time, $ano){
+            if($time == "América-MG"){
+                return "#00913c";
+            }
+            else if($time == "Americano"){
+                return "white";
+            }
+            else if($time == "Athletico-PR"){
+                return "#ff0e00";
+            }
+            else if($time == "Atlético Nacional"){
+                return "#00913c";
+            }
+            else if($time == "Atlético-GO"){
+                return "#ff0e00";
+            }
+            else if($time == "Atlético-MG"){
+                return "black";
+            }
+            else if($time == "Atlético-PR"){
+                return "#ff0e00";
+            }
+            else if($time == "Audax Italiano"){
+                return "green";
+            }
+            else if($time == "Avaí"){
+                return "#0188d6";
+            }
+            else if($time == "Bahia"){
+                return "#0188d6";
+            }
+            else if($time == "Bangu"){
+                return "#ff0e00";
+            }
+            else if($time == "Barcelona SC"){
+                return "#fde900";
+            }
+            else if($time == "Boa Esporte"){
+                return "#ff0e00";
+            }
+            else if($time == "Boavista"){
+                return "#00913c";
+            }
+            else if($time == "Bonsucesso"){
+                return "#1c4196";
+            }
+            else if($time == "Bragantino"){
+                return "white";
+            }
+            else if($time == "Ceará"){
+                return "black";
+            }
+            else if($time == "Chapecoense"){
+                return "#00913c";
+            }
+            else if($time == "Colo-Colo"){
+                return "white";
+            }
+            else if($time == "Corinthians"){
+                return "black";
+            }
+            else if($time == "Coritiba"){
+                return "#00544d";
+            }
+            else if($time == "CRB"){
+                return "#ff0e00";
+            }
+            else if($time == "Criciúma"){
+                return "#fdd116";
+            }
+            else if($time == "Cruzeiro"){
+                return "#0063af";
+            }
+            else if($time == "CSA"){
+                return "#041e5c";
+            }
+            else if($time == "Cuiabá"){
+                return "#fde900";
+            }
+            else if($time == "Defensa y Justicia"){
+                return "#fde900";
+            }
+            else if($time == "Deportivo Quito"){
+                return "#0d3264";
+            }
+            else if($time == "Figueirense"){
+                return "black";
+            }
+            else if($time == "Flamengo"){
+                return "#ff0e00";
+            }
+            else if($time == "Fluminense"){
+                return "#00913c";
+            }
+            else if($time == "Fortaleza"){
+                return "#11519b";
+            }
+            else if($time == "Goiás"){
+                return "#048439";
+            }
+            else if($time == "Grêmio"){
+                return "#0d80bf";
+            }
+            else if($time == "Guarani"){
+                return "#048439";
+            }
+            else if($time == "Independiente Del Valle"){
+                return "#0064b3";
+            }
+            else if($time == "Internacional"){
+                return "#ff0e00";
+            }
+            else if($time == "Juventude"){
+                return "#048439";
+            }
+            else if($time == "Macaé"){
+                return "#41afeb";
+            }
+            else if($time == "Madureira"){
+                return "#fde900";
+            }
+            else if($time == "Mogi Mirim"){
+                return "#ff0e00";
+            }
+            else if($time == "Nacional-PAR"){
+                return "#1515ee";
+            }
+            else if($time == "Nacional-URU"){
+                return "#1515ee";
+            }
+            else if($time == "Náutico"){
+                return "#ff0e00";
+            }
+            else if($time == "Nova Iguaçu"){
+                return "#ea8415";
+            }
+            else if($time == "Olimpia"){
+                return "white";
+            }
+            else if($time == "Palmeiras"){
+                return "#048439";
+            }
+            else if($time == "Paraná"){
+                return "#2939b4";
+            }
+            else if($time == "Paysandu"){
+                return "#0091cf";
+            }
+            else if($time == "Ponte Preta"){
+                return "white";
+            }
+            else if($time == "Portuguesa-RJ"){
+                return "#0a9752";
+            }
+            else if($time == "Resende"){
+                return "white";
+            }
+            else if($time == "Santa Cruz"){
+                return "white";
+            }
+            else if($time == "Santos"){
+                return "white";
+            }
+            else if($time == "São Caetano"){
+                return "#212568";
+            }
+            else if($time == "São Paulo"){
+                return "white";
+            }
+            else if($time == "Sol de America"){
+                return "#075798";
+            }
+            else if($time == "Sport"){
+                return "#d30a11";
+            }
+            else if($time == "Vasco"){
+                return "white";
+            }
+            else if($time == "Vitória"){
+                return "#ff0c00";
+            }
+            else if($time == "Volta Redonda"){
+                return "#fde900";
+            }
         }
         function corLetraTime($time){
-            return "white";
+            if($time == "América-MG"){
+                return "white";
+            }
+            else if($time == "Americano"){
+                return "black";
+            }
+            else if($time == "Athletico-PR"){
+                return "black";
+            }
+            else if($time == "Atlético Nacional"){
+                return "white";
+            }
+            else if($time == "Atlético-GO"){
+                return "black";
+            }
+            else if($time == "Atlético-MG"){
+                return "white";
+            }
+            else if($time == "Atlético-PR"){
+                return "black";
+            }
+            else if($time == "Audax Italiano"){
+                return "white";
+            }
+            else if($time == "Avaí"){
+                return "white";
+            }
+            else if($time == "Bahia"){
+                return "white";
+            }
+            else if($time == "Bangu"){
+                return "white";
+            }
+            else if($time == "Barcelona SC"){
+                return "#055daa";
+            }
+            else if($time == "Boa Esporte"){
+                return "white";
+            }
+            else if($time == "Boavista"){
+                return "white";
+            }
+            else if($time == "Bonsucesso"){
+                return "white";
+            }
+            else if($time == "Bragantino"){
+                return "black";
+            }
+            else if($time == "Ceará"){
+                return "white";
+            }
+            else if($time == "Chapecoense"){
+                return "white";
+            }
+            else if($time == "Colo-Colo"){
+                return "black";
+            }
+            else if($time == "Corinthians"){
+                return "white";
+            }
+            else if($time == "Coritiba"){
+                return "white";
+            }
+            else if($time == "CRB"){
+                return "#white";
+            }
+            else if($time == "Criciúma"){
+                return "black";
+            }
+            else if($time == "Cruzeiro"){
+                return "white";
+            }
+            else if($time == "CSA"){
+                return "white";
+            }
+            else if($time == "Cuiabá"){
+                return "#018036";
+            }
+            else if($time == "Defensa y Justicia"){
+                return "#018036";
+            }
+            else if($time == "Deportivo Quito"){
+                return "white";
+            }
+            else if($time == "Figueirense"){
+                return "white";
+            }
+            else if($time == "Flamengo"){
+                return "black";
+            }
+            else if($time == "Fluminense"){
+                return "#8c032a";
+            }
+            else if($time == "Fortaleza"){
+                return "white";
+            }
+            else if($time == "Goiás"){
+                return "white";
+            }
+            else if($time == "Grêmio"){
+                return "black";
+            }
+            else if($time == "Guarani"){
+                return "white";
+            }
+            else if($time == "Independiente Del Valle"){
+                return "white";
+            }
+            else if($time == "Internacional"){
+                return "white";
+            }
+            else if($time == "Juventude"){
+                return "white";
+            }
+            else if($time == "Macaé"){
+                return "white";
+            }
+            else if($time == "Madureira"){
+                return "#13007c";
+            }
+            else if($time == "Mogi Mirim"){
+                return "white";
+            }
+            else if($time == "Nacional-PAR"){
+                return "white";
+            }
+            else if($time == "Nacional-URU"){
+                return "white";
+            }
+            else if($time == "Náutico"){
+                return "white";
+            }
+            else if($time == "Nova Iguaçu"){
+                return "black";
+            }
+            else if($time == "Olimpia"){
+                return "black";
+            }
+            else if($time == "Palmeiras"){
+                return "white";
+            }
+            else if($time == "Paraná"){
+                return "white";
+            }       
+            else if($time == "Paysandu"){
+                return "white";
+            }
+            else if($time == "Ponte Preta"){
+                return "black";
+            }
+            else if($time == "Portuguesa-RJ"){
+                return "white";
+            }
+            else if($time == "Resende"){
+                return "black";
+            }
+            else if($time == "Santa Cruz"){
+                return "red";
+            }
+            else if($time == "Santos"){
+                return "black";
+            }
+            else if($time == "São Caetano"){
+                return "white";
+            }
+            else if($time == "São Paulo"){
+                return "red";
+            }
+            else if($time == "Sol de America"){
+                return "white";
+            }
+            else if($time == "Sport"){
+                return "black";
+            }
+            else if($time == "Vasco"){
+                return "black";
+            }
+            else if($time == "Vitória"){
+                return "black";
+            }
+            else if($time == "Volta Redonda"){
+                return "black";
+            }
         }
         $conn->close();   
         ?>
