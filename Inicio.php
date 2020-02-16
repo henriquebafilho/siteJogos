@@ -27,6 +27,7 @@
                 width: 100%;
                 font-family: monospace;
                 text-align: center;
+                background-color: black;
             } 
             th{
                 color: white;
@@ -55,50 +56,6 @@
         <h4>Por Henrique Filho</h4>
         <br>
         <?php
-        function escreveLinha($qtdJogos, $numero, $row){
-            //Cabeçalho
-            //número de jogos
-            if($numero == $qtdJogos){
-                echo "<table>
-                        <tr>
-                            <th colspan='1' id='head'>Número</th>
-                            <th colspan='1' id='head'>Mandante</th>
-                            <th colspan='1' id='head'>Escudo1</th>
-                            <th colspan='1' id='head'>Placar</th>
-                            <th colspan='1' id='head'>Escudo2</th>
-                            <th colspan='1' id='head'>Visitante</th>
-                        </tr>";
-            }
-            //Tirando espaços do nome do adversário (para combinar com nomes dos escudos)
-            $escudo = str_replace(' ', '', utf8_encode($row["adversario"]));
-            if(utf8_encode($row["adversario"]) == "Goiás" && explode('-', $row["dataJogo"])[0] >= 2019){
-               $escudo = "Goiás2019";
-            } else if(utf8_encode($row["adversario"]) == "Internacional" && explode('-', $row["dataJogo"])[0] < 2009){
-               $escudo = "Internacional2009";
-            } else if(utf8_encode($row["adversario"]) == "Náutico" && explode('-', $row["dataJogo"])[0] <= 2008){
-               $escudo = "Náutico2008";
-            }
-            else if(utf8_encode($row["adversario"]) == "Flamengo" && explode('-', $row["dataJogo"])[0] >= 2018){
-               $escudo = "Flamengo2018";
-            }
-            else if(utf8_encode($row["adversario"]) == "Resende" && explode('-', $row["dataJogo"])[0] >= 2020){
-               $escudo = "Resende2020";
-            }
-            //Colocando data dd-mm-yyyy
-            $date = new DateTime($row["dataJogo"]);
-            //Checando se o id é par ou ímpar pra trocar as cores
-            if($numero%2==0){
-                $cor = "#232830";
-            }else{
-                $cor = "black";
-            }
-            if($row["mandante"] == 1){
-                return "<tr><th colspan=1 rowspan=3 style=width:50px;background-color:$cor>" . $numero . "</th>" . "<th colspan=5 rowspan=1 style='background-color:$cor; width:400px;'>". $date -> format( 'd-m-Y' ). " | ". "Estádio ". utf8_encode($row["estadio"]). " | ". utf8_encode($row["campeonato"]). "</th>"."<tr><th colspan=1 rowspan=1 style=background-color:$cor>Botafogo</th>"."<th colspan=1 rowspan=1 style='background-color: white; border-bottom:  1px solid; width:50px; height:50px;'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem /></th>"."<th colspan=1 rowspan=1 style=background-color:$cor>" . utf8_encode($row["golsBotafogo"]) ." x ". utf8_encode($row["golsAdversario"]) . "</th>" . "<th colspan=1 rowspan=1 style='background-color: white; border-bottom:  1px solid; width:50px; height:50px;'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /></th>"."<th colspan=1 rowspan=1 style=background-color:$cor>". utf8_encode($row["adversario"])  . "</th>". "<tr><th colspan=2 style=background-color:$cor;>". utf8_encode($row["autorBotafogo"]) ."</th>"."<th colspan=1 style=background-color:$cor;>". "Técnico: ". utf8_encode($row["tecnico"]) . "</th>"."<th colspan=2 style=background-color:$cor;>". utf8_encode($row["autorAdversario"])."</th><tr>";
-            } else {
-                return "<tr><th colspan=1 rowspan=3 style=width:50px;background-color:$cor>" . $numero . "</th>" . "<th colspan=5 rowspan=1 style='background-color:$cor; width:500px;'>". $date -> format( 'd-m-Y' ). " | ". "Estádio ". utf8_encode($row["estadio"]). " | ". utf8_encode($row["campeonato"]). "</th>"."<tr><th colspan=1 rowspan=1 style=background-color:$cor>". utf8_encode($row["adversario"]) ."</th>"."<th colspan=1 rowspan=1 style='background-color: white; border-bottom:  1px solid; width:50px; height:50px;'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /></th>"."<th colspan=1 rowspan=1 style=background-color:$cor>" . utf8_encode($row["golsAdversario"]) ." x ". utf8_encode($row["golsBotafogo"]) . "</th>" . "<th colspan=1 rowspan=1 style='background-color: white; border-bottom:  1px solid; width:50px; height:50px;'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem /></th>"."<th colspan=1 rowspan=1 style=background-color:$cor>Botafogo</th>". "<tr><th colspan=2 style=background-color:$cor;>". utf8_encode($row["autorAdversario"]) ."</th>"."<th colspan=1 style=background-color:$cor;>". "Técnico: ". utf8_encode($row["tecnico"]) . "</th>"."<th colspan=2 style=background-color:$cor;>". utf8_encode($row["autorBotafogo"])."</th><tr>";
-            }
-
-        }
         $conn = mysqli_connect("localhost", "root", "", "jogos");
         // Checando conexão
         if ($conn->connect_error) {
@@ -142,6 +99,58 @@
             echo "<p>Nenhum jogo encontrado</p>";
         }
         echo "</table>";
+        function escreveLinha($qtdJogos, $numero, $row){
+            //Cabeçalho
+            //número de jogos
+            if($numero == $qtdJogos){
+                echo "<table>
+                        <tr>
+                            <th colspan='1' id='head'>Número</th>
+                            <th colspan='1' id='head'>Mandante</th>
+                            <th colspan='1' width=400 id='head'>Placar</th>
+                            <th colspan='1' id='head'>Visitante</th>
+                        </tr>";
+            }
+            //Tirando espaços do nome do adversário (para combinar com nomes dos escudos)
+            $escudo = str_replace(' ', '', utf8_encode($row["adversario"]));
+            if(utf8_encode($row["adversario"]) == "Goiás" && explode('-', $row["dataJogo"])[0] >= 2019){
+               $escudo = "Goiás2019";
+            } else if(utf8_encode($row["adversario"]) == "Internacional" && explode('-', $row["dataJogo"])[0] < 2009){
+               $escudo = "Internacional2009";
+            } else if(utf8_encode($row["adversario"]) == "Náutico" && explode('-', $row["dataJogo"])[0] <= 2008){
+               $escudo = "Náutico2008";
+            }
+            else if(utf8_encode($row["adversario"]) == "Flamengo" && explode('-', $row["dataJogo"])[0] >= 2018){
+               $escudo = "Flamengo2018";
+            }
+            else if(utf8_encode($row["adversario"]) == "Resende" && explode('-', $row["dataJogo"])[0] >= 2020){
+               $escudo = "Resende2020";
+            }
+            //Colocando data dd-mm-yyyy
+            $date = new DateTime($row["dataJogo"]);
+            
+            //Colocando cores no fundo e letras do time
+            $corFundo = corFundoTime(utf8_encode($row["adversario"]));
+            $corLetra = corLetraTime(utf8_encode($row["adversario"]));
+            
+            //Checando se o id é par ou ímpar pra trocar as cores
+            if($numero%2==0){
+                $cor = "#232830";
+            }else{
+                $cor = "black";
+            }
+            if($row["mandante"] == 1){
+                return "<tr><th colspan=1 rowspan=3 style=width:50px;background-color:$cor>" . $numero . "</th>" . "<th colspan=3 rowspan=1 style='background-color:$cor; width:400px;'>". $date -> format( 'd-m-Y' ). " | ". "Estádio ". utf8_encode($row["estadio"]). " | ". utf8_encode($row["campeonato"]). "</th>"."<tr><th colspan=1 rowspan=1 style='background-color:black; text-align: center;'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem/><br>Botafogo</th>"."<th colspan=1 rowspan=1 style=background-color:$cor>" . utf8_encode($row["golsBotafogo"]) ." x ". utf8_encode($row["golsAdversario"]) . "</th>" . "<th colspan=1 rowspan=1 style='color:$corLetra; background-color:$corFundo;'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /><br>". utf8_encode($row["adversario"])  . "</th>". "<tr><th colspan=1 style=background-color:$cor;>". utf8_encode($row["autorBotafogo"]) ."</th>"."<th colspan=1 style=background-color:$cor;>". "Técnico: ". utf8_encode($row["tecnico"]) . "</th>"."<th colspan=1 style=background-color:$cor;>". utf8_encode($row["autorAdversario"])."</th><tr>";
+            } else {
+                return "<tr><th colspan=1 rowspan=3 style=width:50px;background-color:$cor>" . $numero . "</th>" . "<th colspan=3 rowspan=1 style='background-color:$cor; width:400px;'>". $date -> format( 'd-m-Y' ). " | ". "Estádio ". utf8_encode($row["estadio"]). " | ". utf8_encode($row["campeonato"]). "</th>"."<tr><th colspan=1 style='color:$corLetra; background-color:$corFundo;'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /><br>". utf8_encode($row["adversario"]). "</th>" . "<th colspan=1 rowspan=1 style=background-color:$cor>" . utf8_encode($row["golsAdversario"]) ." x ". utf8_encode($row["golsBotafogo"]) . "</th>"."<th colspan=1 style=background-color:black><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem /><br>Botafogo</th>" . "</th>"."<tr><th colspan=1 style=background-color:$cor;>". utf8_encode($row["autorAdversario"]) ."</th>"."<th colspan=1 style=background-color:$cor;>". "Técnico: ". utf8_encode($row["tecnico"]) . "</th>"."<th colspan=1 style=background-color:$cor;>". utf8_encode($row["autorBotafogo"])."</th><tr>";
+            }
+        }
+        function corFundoTime($time){
+            return "green";
+        }
+        function corLetraTime($time){
+            return "yellow";
+        }
         $conn->close();   
         ?>
     </body>
