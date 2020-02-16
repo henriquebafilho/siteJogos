@@ -31,6 +31,7 @@
             } 
             th{
                 color: white;
+                font-family: Quicksand;
                 text-align: center;
                 border: 1px solid white;
                 column-span: 2;
@@ -146,10 +147,10 @@
             }
         }
         function corFundoTime($time){
-            return "green";
+            return "red";
         }
         function corLetraTime($time){
-            return "yellow";
+            return "white";
         }
         $conn->close();   
         ?>
