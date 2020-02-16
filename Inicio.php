@@ -274,7 +274,7 @@
                 return "#ff0e00";
             }
             else if($time == "Nacional-PAR"){
-                return "#1515ee";
+                return "#163fb3";
             }
             else if($time == "Nacional-URU"){
                 return "#1515ee";
