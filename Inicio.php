@@ -316,7 +316,7 @@
                 return "#212568";
             }
             else if($time == "São Paulo"){
-                return "white";
+                return "#ff0e00";
             }
             else if($time == "Sol de America"){
                 return "#075798";
@@ -501,7 +501,7 @@
                 return "white";
             }
             else if($time == "São Paulo"){
-                return "red";
+                return "white";
             }
             else if($time == "Sol de America"){
                 return "white";
