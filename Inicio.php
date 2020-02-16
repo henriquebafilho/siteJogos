@@ -426,7 +426,7 @@
                 return "black";
             }
             else if($time == "Fluminense"){
-                return "#8c032a";
+                return "white";
             }
             else if($time == "Fortaleza"){
                 return "white";
