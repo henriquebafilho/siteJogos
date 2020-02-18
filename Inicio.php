@@ -143,13 +143,14 @@
             }else{
                 $cor = "black";
             }
+            //$cor = "black";
             if($row["mandante"] == 1){
-                return "<tr><th colspan=1 rowspan=3 style=width:50px;background-color:$cor>" . $numero . "</th>" . "<th colspan=3 rowspan=1 style='background-color:$cor; width:400px;'>". $date -> format( 'd-m-Y' ). " | ". "Estádio ". utf8_encode($row["estadio"]). " | ". utf8_encode($row["campeonato"]). "</th>"."<tr><th colspan=1 rowspan=1 style='background-color:black; text-align: center;'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem/><br>Botafogo</th>"."<th colspan=1 rowspan=1 style=background-color:$cor>" . utf8_encode($row["golsBotafogo"]) ." x ". utf8_encode($row["golsAdversario"]) . "</th>" . "<th colspan=1 rowspan=1 style='color:$corLetra; background-color:$corFundo;'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /><br>". utf8_encode($row["adversario"])  . "</th>". "<tr><th colspan=1 style=background-color:$cor;>". utf8_encode($row["autorBotafogo"]) ."</th>"."<th colspan=1 style=background-color:$cor;>". "Técnico: ". utf8_encode($row["tecnico"]) . "</th>"."<th colspan=1 style=background-color:$cor;>". utf8_encode($row["autorAdversario"])."</th><tr>";
+                return "<tr><th colspan=1 rowspan=3 style=width:50px;background-color:$cor>" . $numero . "</th>" . "<th colspan=3 rowspan=1 style='background-color:$cor; width:400px;'>". $date -> format( 'd-m-Y' ). " | ". "Estádio ". utf8_encode($row["estadio"]). " | ". utf8_encode($row["campeonato"]). "</th>"."<tr><th colspan=1 rowspan=1 style='background-color:black; text-align: center; color:white'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem/><br>Botafogo</th>"."<th colspan=1 rowspan=1 style=background-color:$cor>" . utf8_encode($row["golsBotafogo"]) ." x ". utf8_encode($row["golsAdversario"]) . "</th>" . "<th colspan=1 rowspan=1 style='color:$corLetra; background-color:$corFundo;'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /><br>". utf8_encode($row["adversario"])  . "</th>". "<tr><th colspan=1 style=background-color:$cor;>". utf8_encode($row["autorBotafogo"]) ."</th>"."<th colspan=1 style=background-color:$cor;>". "Técnico: ". utf8_encode($row["tecnico"]) . "</th>"."<th colspan=1 style=background-color:$cor;>". utf8_encode($row["autorAdversario"])."</th><tr>";
             } else {
-                return "<tr><th colspan=1 rowspan=3 style=width:50px;background-color:$cor>" . $numero . "</th>" . "<th colspan=3 rowspan=1 style='background-color:$cor; width:400px;'>". $date -> format( 'd-m-Y' ). " | ". "Estádio ". utf8_encode($row["estadio"]). " | ". utf8_encode($row["campeonato"]). "</th>"."<tr><th colspan=1 style='color:$corLetra; background-color:$corFundo;'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /><br>". utf8_encode($row["adversario"]). "</th>" . "<th colspan=1 rowspan=1 style=background-color:$cor>" . utf8_encode($row["golsAdversario"]) ." x ". utf8_encode($row["golsBotafogo"]) . "</th>"."<th colspan=1 style=background-color:black><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem /><br>Botafogo</th>" . "</th>"."<tr><th colspan=1 style=background-color:$cor;>". utf8_encode($row["autorAdversario"]) ."</th>"."<th colspan=1 style=background-color:$cor;>". "Técnico: ". utf8_encode($row["tecnico"]) . "</th>"."<th colspan=1 style=background-color:$cor;>". utf8_encode($row["autorBotafogo"])."</th><tr>";
+                return "<tr><th colspan=1 rowspan=3 style=width:50px;background-color:$cor>" . $numero . "</th>" . "<th colspan=3 rowspan=1 style='background-color:$cor; width:400px;'>". $date -> format( 'd-m-Y' ). " | ". "Estádio ". utf8_encode($row["estadio"]). " | ". utf8_encode($row["campeonato"]). "</th>"."<tr><th colspan=1 style='color:$corLetra; background-color:$corFundo;'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /><br>". utf8_encode($row["adversario"]). "</th>" . "<th colspan=1 rowspan=1 style=background-color:$cor>" . utf8_encode($row["golsAdversario"]) ." x ". utf8_encode($row["golsBotafogo"]) . "</th>"."<th colspan=1 style='background-color:black;color:white'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem /><br>Botafogo</th>" . "</th>"."<tr><th colspan=1 style=background-color:$cor;>". utf8_encode($row["autorAdversario"]) ."</th>"."<th colspan=1 style=background-color:$cor;>". "Técnico: ". utf8_encode($row["tecnico"]) . "</th>"."<th colspan=1 style=background-color:$cor;>". utf8_encode($row["autorBotafogo"])."</th><tr>";
             }
         }
-        function corFundoTime($time, $ano){
+                function corFundoTime($time, $ano){
             if($time == "América-MG"){
                 return "#00913c";
             }
@@ -197,6 +198,9 @@
             }
             else if($time == "Bragantino"){
                 return "white";
+            }
+            else if($time == "Cabofriense"){
+                return "#0b9c54";
             }
             else if($time == "Ceará"){
                 return "black";
@@ -303,6 +307,9 @@
             else if($time == "Portuguesa-RJ"){
                 return "#0a9752";
             }
+            else if($time == "Red Bull Bragantino"){
+                return "#001c44";
+            }
             else if($time == "Resende"){
                 return "white";
             }
@@ -382,6 +389,9 @@
             }
             else if($time == "Bragantino"){
                 return "black";
+            }
+            else if($time == "Cabofriense"){
+                return "white";
             }
             else if($time == "Ceará"){
                 return "white";
@@ -486,6 +496,9 @@
                 return "black";
             }
             else if($time == "Portuguesa-RJ"){
+                return "white";
+            }
+            else if($time == "Red Bull Bragantino"){
                 return "white";
             }
             else if($time == "Resende"){
