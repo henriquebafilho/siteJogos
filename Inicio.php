@@ -128,7 +128,7 @@
                $escudo = "Resende2020";
             }
             else if(utf8_encode($row["adversario"]) == "Vasco" && explode('-', $row["dataJogo"])[0] >= 2019){
-               $escudo = "Vasco2019";
+               $escudo = "Vasco20191";
             }
             else if(utf8_encode($row["adversario"]) == "Athletico-PR" && explode('-', $row["dataJogo"])[0] >= 2019){
                $escudo = "Athletico-PR2019";
