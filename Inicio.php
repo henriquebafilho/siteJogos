@@ -127,8 +127,14 @@
             else if(utf8_encode($row["adversario"]) == "Resende" && explode('-', $row["dataJogo"])[0] >= 2020){
                $escudo = "Resende2020";
             }
-            else if(utf8_encode($row["adversario"]) == "Cruzeiro" && explode('-', $row["dataJogo"])[0] >= 2000){
-               $escudo = "Cruzeiro2000";
+            else if(utf8_encode($row["adversario"]) == "Vasco" && explode('-', $row["dataJogo"])[0] >= 2019){
+               $escudo = "Vasco2019";
+            }
+            else if(utf8_encode($row["adversario"]) == "Athletico-PR" && explode('-', $row["dataJogo"])[0] >= 2019){
+               $escudo = "Athletico-PR2019";
+            }
+            else if(utf8_encode($row["adversario"]) == "Macaé"){
+               $escudo = "Macaé2010";
             }
             //Colocando data dd-mm-yyyy
             $date = new DateTime($row["dataJogo"]);
@@ -150,7 +156,7 @@
                 return "<tr><th colspan=1 rowspan=3 style=width:50px;background-color:$cor>" . $numero . "</th>" . "<th colspan=3 rowspan=1 style='background-color:$cor; width:400px;'>". $date -> format( 'd-m-Y' ). " | ". "Estádio ". utf8_encode($row["estadio"]). " | ". utf8_encode($row["campeonato"]). "</th>"."<tr><th colspan=1 style='color:$corLetra; background-color:$corFundo;'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /><br>". utf8_encode($row["adversario"]). "</th>" . "<th colspan=1 rowspan=1 style=background-color:$cor>" . utf8_encode($row["golsAdversario"]) ." x ". utf8_encode($row["golsBotafogo"]) . "</th>"."<th colspan=1 style='background-color:black;color:white'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem /><br>Botafogo</th>" . "</th>"."<tr><th colspan=1 style=background-color:$cor;>". utf8_encode($row["autorAdversario"]) ."</th>"."<th colspan=1 style=background-color:$cor;>". "Técnico: ". utf8_encode($row["tecnico"]) . "</th>"."<th colspan=1 style=background-color:$cor;>". utf8_encode($row["autorBotafogo"])."</th><tr>";
             }
         }
-                function corFundoTime($time, $ano){
+        function corFundoTime($time, $ano){
             if($time == "América-MG"){
                 return "#00913c";
             }
@@ -158,7 +164,7 @@
                 return "white";
             }
             else if($time == "Athletico-PR"){
-                return "#ff0e00";
+                return "#c8060f";
             }
             else if($time == "Atlético Nacional"){
                 return "#00913c";
@@ -445,7 +451,7 @@
                 return "white";
             }
             else if($time == "Grêmio"){
-                return "black";
+                return "white";
             }
             else if($time == "Guarani"){
                 return "white";
