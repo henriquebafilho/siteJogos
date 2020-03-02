@@ -251,7 +251,7 @@
                 return "#ff0e00";
             }
             else if($time == "Fluminense"){
-                return "#00913c";
+                return "#9f022f";
             }
             else if($time == "Fortaleza"){
                 return "#11519b";
