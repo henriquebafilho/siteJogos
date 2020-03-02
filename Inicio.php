@@ -122,7 +122,7 @@
                $escudo = "Náutico2008";
             }
             else if(utf8_encode($row["adversario"]) == "Flamengo" && explode('-', $row["dataJogo"])[0] >= 2018){
-               $escudo = "Flamengo2018";
+               $escudo = "Flamengo2019";
             }
             else if(utf8_encode($row["adversario"]) == "Resende" && explode('-', $row["dataJogo"])[0] >= 2020){
                $escudo = "Resende2020";
