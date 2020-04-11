@@ -136,6 +136,12 @@
             else if(utf8_encode($row["adversario"]) == "Macaé"){
                $escudo = "Macaé2010";
             }
+            else if(utf8_encode($row["adversario"]) == "CRB"){
+               $escudo = "CRB1";
+            }
+            else if(utf8_encode($row["adversario"]) == "Boa Esporte"){
+               $escudo = "BoaEsporte1";
+            }
             //Colocando data dd-mm-yyyy
             $date = new DateTime($row["dataJogo"]);
             
@@ -194,7 +200,7 @@
                 return "#fde900";
             }
             else if($time == "Boa Esporte"){
-                return "#ff0e00";
+                return "#ff181d";
             }
             else if($time == "Boavista"){
                 return "#00913c";
@@ -224,7 +230,7 @@
                 return "#00544d";
             }
             else if($time == "CRB"){
-                return "#ff0e00";
+                return "#de0005";
             }
             else if($time == "Criciúma"){
                 return "#fdd116";
@@ -257,13 +263,13 @@
                 return "#11519b";
             }
             else if($time == "Goiás"){
-                return "#048439";
+                return "#006a58";
             }
             else if($time == "Grêmio"){
                 return "#0d80bf";
             }
             else if($time == "Guarani"){
-                return "#048439";
+                return "#006c51";
             }
             else if($time == "Independiente Del Valle"){
                 return "#0064b3";
@@ -281,7 +287,7 @@
                 return "#fde900";
             }
             else if($time == "Mogi Mirim"){
-                return "#ff0e00";
+                return "#db241c";
             }
             else if($time == "Nacional-PAR"){
                 return "#163fb3";
