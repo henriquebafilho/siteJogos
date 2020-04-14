@@ -115,7 +115,7 @@
             //Tirando espaços do nome do adversário (para combinar com nomes dos escudos)
             $escudo = str_replace(' ', '', utf8_encode($row["adversario"]));
             if(utf8_encode($row["adversario"]) == "Goiás" && explode('-', $row["dataJogo"])[0] >= 2019){
-               $escudo = "Goiás20199";
+               $escudo = "Goiás2019";
             } 
             else if(utf8_encode($row["adversario"]) == "Internacional" && explode('-', $row["dataJogo"])[0] < 2009){
                $escudo = "Internacional2009";
@@ -132,45 +132,9 @@
             else if(utf8_encode($row["adversario"]) == "Athletico-PR" && explode('-', $row["dataJogo"])[0] >= 2019){
                $escudo = "Athletico-PR2019";
             }
-            /*Mudar da próxima vez MUDAR O GOIÁS TAMBÉM*/
-            else if(utf8_encode($row["adversario"]) == "Figueirense"){
-               $escudo = "Figueirensee";
-            }
-            else if(utf8_encode($row["adversario"]) == "Mogi Mirim"){
-               $escudo = "MogiMirimmm";
-            }
-            else if(utf8_encode($row["adversario"]) == "América-MG"){
-               $escudo = "América-MGGG";
-            }
-            else if(utf8_encode($row["adversario"]) == "Avaí"){
-               $escudo = "Avaaí";
-            }
-            else if(utf8_encode($row["adversario"]) == "Resende"){
-               $escudo = "Resendee";
-            }
-            else if(utf8_encode($row["adversario"]) == "Portuguesa-RJ"){
-               $escudo = "Portuguesa-RJJ";
-            }
-            else if(utf8_encode($row["adversario"]) == "Guarani"){
-               $escudo = "Guaranii";
-            }
-            else if(utf8_encode($row["adversario"]) == "Goiás"){
-               $escudo = "Goiáss";
-            }
-            else if(utf8_encode($row["adversario"]) == "Atlético-PR"){
-               $escudo = "Atlético-PRR";
-            }
-            else if(utf8_encode($row["adversario"]) == "Atlético-GO"){
-               $escudo = "Atlético-GOO";
-            }
-            else if(utf8_encode($row["adversario"]) == "Vitória"){
-               $escudo = "Vitóriaa";
-            }
-            else if(utf8_encode($row["adversario"]) == "Fortaleza"){
-               $escudo = "Fortalezaa";
-            }
-            else if(utf8_encode($row["adversario"]) == "Boa Esporte"){
-               $escudo = "BoaEsportee";
+            /*mudar depois*/
+            else if(utf8_encode($row["adversario"]) == "Vasco"){
+               $escudo = "Vascoo";
             }
             //Colocando data dd-mm-yyyy
             $date = new DateTime($row["dataJogo"]);
@@ -292,10 +256,10 @@
             else if($time == "Fortaleza"){
                 return "#11519b";
             }
-            else if($time == "Goiás" && $escudo == "Goiáss"){
+            else if($time == "Goiás" && $escudo == "Goiás"){
                 return "#048439";
             }
-            else if($time == "Goiás" && $escudo == "Goiás20199"){
+            else if($time == "Goiás" && $escudo == "Goiás2019"){
                 return "#006959";
             }
             else if($time == "Grêmio"){
