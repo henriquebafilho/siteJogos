@@ -115,10 +115,12 @@
             //Tirando espaços do nome do adversário (para combinar com nomes dos escudos)
             $escudo = str_replace(' ', '', utf8_encode($row["adversario"]));
             if(utf8_encode($row["adversario"]) == "Goiás" && explode('-', $row["dataJogo"])[0] >= 2019){
-               $escudo = "Goiás2019";
-            } else if(utf8_encode($row["adversario"]) == "Internacional" && explode('-', $row["dataJogo"])[0] < 2009){
+               $escudo = "Goiás20199";
+            } 
+            else if(utf8_encode($row["adversario"]) == "Internacional" && explode('-', $row["dataJogo"])[0] < 2009){
                $escudo = "Internacional2009";
-            } else if(utf8_encode($row["adversario"]) == "Náutico" && explode('-', $row["dataJogo"])[0] <= 2008){
+            } 
+            else if(utf8_encode($row["adversario"]) == "Náutico" && explode('-', $row["dataJogo"])[0] <= 2008){
                $escudo = "Náutico2008";
             }
             else if(utf8_encode($row["adversario"]) == "Flamengo" && explode('-', $row["dataJogo"])[0] >= 2018){
@@ -127,26 +129,54 @@
             else if(utf8_encode($row["adversario"]) == "Resende" && explode('-', $row["dataJogo"])[0] >= 2020){
                $escudo = "Resende2020";
             }
-            else if(utf8_encode($row["adversario"]) == "Vasco" && explode('-', $row["dataJogo"])[0] >= 2019){
-               $escudo = "Vasco20191";
-            }
             else if(utf8_encode($row["adversario"]) == "Athletico-PR" && explode('-', $row["dataJogo"])[0] >= 2019){
                $escudo = "Athletico-PR2019";
             }
-            else if(utf8_encode($row["adversario"]) == "Macaé"){
-               $escudo = "Macaé2010";
+            /*Mudar da próxima vez MUDAR O GOIÁS TAMBÉM*/
+            else if(utf8_encode($row["adversario"]) == "Figueirense"){
+               $escudo = "Figueirensee";
             }
-            else if(utf8_encode($row["adversario"]) == "CRB"){
-               $escudo = "CRB1";
+            else if(utf8_encode($row["adversario"]) == "Mogi Mirim"){
+               $escudo = "MogiMirimmm";
+            }
+            else if(utf8_encode($row["adversario"]) == "América-MG"){
+               $escudo = "América-MGGG";
+            }
+            else if(utf8_encode($row["adversario"]) == "Avaí"){
+               $escudo = "Avaaí";
+            }
+            else if(utf8_encode($row["adversario"]) == "Resende"){
+               $escudo = "Resendee";
+            }
+            else if(utf8_encode($row["adversario"]) == "Portuguesa-RJ"){
+               $escudo = "Portuguesa-RJJ";
+            }
+            else if(utf8_encode($row["adversario"]) == "Guarani"){
+               $escudo = "Guaranii";
+            }
+            else if(utf8_encode($row["adversario"]) == "Goiás"){
+               $escudo = "Goiáss";
+            }
+            else if(utf8_encode($row["adversario"]) == "Atlético-PR"){
+               $escudo = "Atlético-PRR";
+            }
+            else if(utf8_encode($row["adversario"]) == "Atlético-GO"){
+               $escudo = "Atlético-GOO";
+            }
+            else if(utf8_encode($row["adversario"]) == "Vitória"){
+               $escudo = "Vitóriaa";
+            }
+            else if(utf8_encode($row["adversario"]) == "Fortaleza"){
+               $escudo = "Fortalezaa";
             }
             else if(utf8_encode($row["adversario"]) == "Boa Esporte"){
-               $escudo = "BoaEsporte1";
+               $escudo = "BoaEsportee";
             }
             //Colocando data dd-mm-yyyy
             $date = new DateTime($row["dataJogo"]);
             
             //Colocando cores no fundo e letras do time
-            $corFundo = corFundoTime(utf8_encode($row["adversario"]), explode('-', $row["dataJogo"])[0]);
+            $corFundo = corFundoTime(utf8_encode($row["adversario"]), explode('-', $row["dataJogo"])[0], $escudo);
             $corLetra = corLetraTime(utf8_encode($row["adversario"]));
             
             //Checando se o id é par ou ímpar pra trocar as cores
@@ -162,9 +192,9 @@
                 return "<tr><th colspan=1 rowspan=3 style=width:50px;background-color:$cor>" . $numero . "</th>" . "<th colspan=3 rowspan=1 style='background-color:$cor; width:400px;'>". $date -> format( 'd-m-Y' ). " | ". "Estádio ". utf8_encode($row["estadio"]). " | ". utf8_encode($row["campeonato"]). "</th>"."<tr><th colspan=1 style='color:$corLetra; background-color:$corFundo;'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /><br>". utf8_encode($row["adversario"]). "</th>" . "<th colspan=1 rowspan=1 style=background-color:$cor>" . utf8_encode($row["golsAdversario"]) ." x ". utf8_encode($row["golsBotafogo"]) . "</th>"."<th colspan=1 style='background-color:black;color:white'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem /><br>Botafogo</th>" . "</th>"."<tr><th colspan=1 style=background-color:$cor;>". utf8_encode($row["autorAdversario"]) ."</th>"."<th colspan=1 style=background-color:$cor;>". "Técnico: ". utf8_encode($row["tecnico"]) . "</th>"."<th colspan=1 style=background-color:$cor;>". utf8_encode($row["autorBotafogo"])."</th><tr>";
             }
         }
-        function corFundoTime($time, $ano){
+        function corFundoTime($time, $ano, $escudo){
             if($time == "América-MG"){
-                return "#00913c";
+                return "#048439";
             }
             else if($time == "Americano"){
                 return "white";
@@ -188,7 +218,7 @@
                 return "green";
             }
             else if($time == "Avaí"){
-                return "#0188d6";
+                return "#00679a";
             }
             else if($time == "Bahia"){
                 return "#0188d6";
@@ -200,7 +230,7 @@
                 return "#fde900";
             }
             else if($time == "Boa Esporte"){
-                return "#ff181d";
+                return "#ff0e00";
             }
             else if($time == "Boavista"){
                 return "#00913c";
@@ -230,7 +260,7 @@
                 return "#00544d";
             }
             else if($time == "CRB"){
-                return "#de0005";
+                return "#ff0e00";
             }
             else if($time == "Criciúma"){
                 return "#fdd116";
@@ -262,14 +292,17 @@
             else if($time == "Fortaleza"){
                 return "#11519b";
             }
-            else if($time == "Goiás"){
-                return "#006a58";
+            else if($time == "Goiás" && $escudo == "Goiáss"){
+                return "#048439";
+            }
+            else if($time == "Goiás" && $escudo == "Goiás20199"){
+                return "#006959";
             }
             else if($time == "Grêmio"){
                 return "#0d80bf";
             }
             else if($time == "Guarani"){
-                return "#006c51";
+                return "#048439";
             }
             else if($time == "Independiente Del Valle"){
                 return "#0064b3";
@@ -287,7 +320,7 @@
                 return "#fde900";
             }
             else if($time == "Mogi Mirim"){
-                return "#db241c";
+                return "#ff0e00";
             }
             else if($time == "Nacional-PAR"){
                 return "#163fb3";
@@ -317,7 +350,7 @@
                 return "white";
             }
             else if($time == "Portuguesa-RJ"){
-                return "#0a9752";
+                return "#048439";
             }
             else if($time == "Red Bull Bragantino"){
                 return "#001c44";
@@ -347,7 +380,7 @@
                 return "white";
             }
             else if($time == "Vitória"){
-                return "#ff0c00";
+                return "#ff0e00";
             }
             else if($time == "Volta Redonda"){
                 return "#fde900";
