@@ -136,6 +136,24 @@
             else if(utf8_encode($row["adversario"]) == "Vasco"){
                $escudo = "Vascoo";
             }
+            else if(utf8_encode($row["adversario"]) == "Volta Redonda"){
+               $escudo = "VoltaRedondaa";
+            }
+            else if(utf8_encode($row["adversario"]) == "Bangu"){
+               $escudo = "Banguuuu";
+            }
+            else if(utf8_encode($row["adversario"]) == "CSA"){
+               $escudo = "CSAA";
+            }
+            else if(utf8_encode($row["adversario"]) == "CRB"){
+               $escudo = "CRBB";
+            }
+            else if(utf8_encode($row["adversario"]) == "Atlético Nacional"){
+               $escudo = "AtléticoNacionalll";
+            }
+            else if(utf8_encode($row["adversario"]) == "Independiente Del Valle"){
+               $escudo = "IndependienteDelValleee";
+            }
             //Colocando data dd-mm-yyyy
             $date = new DateTime($row["dataJogo"]);
             
@@ -167,7 +185,7 @@
                 return "#c8060f";
             }
             else if($time == "Atlético Nacional"){
-                return "#00913c";
+                return "#048439";
             }
             else if($time == "Atlético-GO"){
                 return "#ff0e00";
@@ -290,7 +308,7 @@
                 return "#163fb3";
             }
             else if($time == "Nacional-URU"){
-                return "#1515ee";
+                return "#172b8c";
             }
             else if($time == "Náutico"){
                 return "#ff0e00";
