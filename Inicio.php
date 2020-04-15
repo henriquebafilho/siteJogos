@@ -133,26 +133,8 @@
                $escudo = "Athletico-PR2019";
             }
             /*mudar depois*/
-            else if(utf8_encode($row["adversario"]) == "Vasco"){
-               $escudo = "Vascoo";
-            }
             else if(utf8_encode($row["adversario"]) == "Volta Redonda"){
                $escudo = "VoltaRedondaa";
-            }
-            else if(utf8_encode($row["adversario"]) == "Bangu"){
-               $escudo = "Banguuuu";
-            }
-            else if(utf8_encode($row["adversario"]) == "CSA"){
-               $escudo = "CSAA";
-            }
-            else if(utf8_encode($row["adversario"]) == "CRB"){
-               $escudo = "CRBB";
-            }
-            else if(utf8_encode($row["adversario"]) == "Atlético Nacional"){
-               $escudo = "AtléticoNacionalll";
-            }
-            else if(utf8_encode($row["adversario"]) == "Independiente Del Valle"){
-               $escudo = "IndependienteDelValleee";
             }
             //Colocando data dd-mm-yyyy
             $date = new DateTime($row["dataJogo"]);
@@ -184,7 +166,7 @@
             else if($time == "Athletico-PR"){
                 return "#c8060f";
             }
-            else if($time == "Atlético Nacional"){
+            else if($time == "Atlético Nacional-COL"){
                 return "#048439";
             }
             else if($time == "Atlético-GO"){
@@ -196,7 +178,7 @@
             else if($time == "Atlético-PR"){
                 return "#ff0e00";
             }
-            else if($time == "Audax Italiano"){
+            else if($time == "Audax Italiano-CHI"){
                 return "green";
             }
             else if($time == "Avaí"){
@@ -208,7 +190,7 @@
             else if($time == "Bangu"){
                 return "#ff0e00";
             }
-            else if($time == "Barcelona SC"){
+            else if($time == "Barcelona de Guayaquil-EQU"){
                 return "#fde900";
             }
             else if($time == "Boa Esporte"){
@@ -232,7 +214,7 @@
             else if($time == "Chapecoense"){
                 return "#00913c";
             }
-            else if($time == "Colo-Colo"){
+            else if($time == "Colo-Colo-CHI"){
                 return "white";
             }
             else if($time == "Corinthians"){
@@ -256,10 +238,10 @@
             else if($time == "Cuiabá"){
                 return "#fde900";
             }
-            else if($time == "Defensa y Justicia"){
+            else if($time == "Defensa y Justicia-ARG"){
                 return "#fde900";
             }
-            else if($time == "Deportivo Quito"){
+            else if($time == "Deportivo Quito-EQU"){
                 return "#0d3264";
             }
             else if($time == "Figueirense"){
@@ -286,7 +268,7 @@
             else if($time == "Guarani"){
                 return "#048439";
             }
-            else if($time == "Independiente Del Valle"){
+            else if($time == "Independiente Del Valle-EQU"){
                 return "#0064b3";
             }
             else if($time == "Internacional"){
@@ -316,7 +298,7 @@
             else if($time == "Nova Iguaçu"){
                 return "#ea8415";
             }
-            else if($time == "Olimpia"){
+            else if($time == "Olimpia-PAR"){
                 return "white";
             }
             else if($time == "Palmeiras"){
@@ -352,7 +334,7 @@
             else if($time == "São Paulo"){
                 return "#ff0e00";
             }
-            else if($time == "Sol de America"){
+            else if($time == "Sol de America-PAR"){
                 return "#075798";
             }
             else if($time == "Sport"){
@@ -378,7 +360,7 @@
             else if($time == "Athletico-PR"){
                 return "black";
             }
-            else if($time == "Atlético Nacional"){
+            else if($time == "Atlético Nacional-COL"){
                 return "white";
             }
             else if($time == "Atlético-GO"){
@@ -390,7 +372,7 @@
             else if($time == "Atlético-PR"){
                 return "black";
             }
-            else if($time == "Audax Italiano"){
+            else if($time == "Audax Italiano-CHI"){
                 return "white";
             }
             else if($time == "Avaí"){
@@ -402,7 +384,7 @@
             else if($time == "Bangu"){
                 return "white";
             }
-            else if($time == "Barcelona SC"){
+            else if($time == "Barcelona de Guayaquil-EQU"){
                 return "#055daa";
             }
             else if($time == "Boa Esporte"){
@@ -426,7 +408,7 @@
             else if($time == "Chapecoense"){
                 return "white";
             }
-            else if($time == "Colo-Colo"){
+            else if($time == "Colo-Colo-CHI"){
                 return "black";
             }
             else if($time == "Corinthians"){
@@ -450,10 +432,10 @@
             else if($time == "Cuiabá"){
                 return "#018036";
             }
-            else if($time == "Defensa y Justicia"){
+            else if($time == "Defensa y Justicia-ARG"){
                 return "#018036";
             }
-            else if($time == "Deportivo Quito"){
+            else if($time == "Deportivo Quito-EQU"){
                 return "white";
             }
             else if($time == "Figueirense"){
@@ -477,7 +459,7 @@
             else if($time == "Guarani"){
                 return "white";
             }
-            else if($time == "Independiente Del Valle"){
+            else if($time == "Independiente Del Valle-EQU"){
                 return "white";
             }
             else if($time == "Internacional"){
@@ -507,7 +489,7 @@
             else if($time == "Nova Iguaçu"){
                 return "black";
             }
-            else if($time == "Olimpia"){
+            else if($time == "Olimpia-PAR"){
                 return "black";
             }
             else if($time == "Palmeiras"){
@@ -543,7 +525,7 @@
             else if($time == "São Paulo"){
                 return "white";
             }
-            else if($time == "Sol de America"){
+            else if($time == "Sol de America-PAR"){
                 return "white";
             }
             else if($time == "Sport"){
