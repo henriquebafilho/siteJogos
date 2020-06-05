@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 05-Ago-2019 às 16:35
+-- Generation Time: 05-Jun-2020 às 00:36
 -- Versão do servidor: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -49,12 +49,12 @@ INSERT INTO `jogo` (`id`, `mandante`, `adversario`, `golsBotafogo`, `golsAdversa
 (2, 1, 'Flamengo', 1, 0, 'Carioca', '2004-03-14', 'Maracanã', 'Levir Culpi', '-Alex Alves', ''),
 (3, 1, 'Atlético-PR', 1, 1, 'Série A', '2004-08-12', 'Caio Martins', 'Mauro Galvão', '-Schwenck', '-Washington'),
 (4, 1, 'Criciúma', 1, 1, 'Série A', '2004-08-28', 'Caio Martins', 'Paulo Bonamigo', '-Schwenck', '-Fernandinho'),
-(5, 1, 'Fluminense', 4, 1, 'Série A', '2004-10-02', 'Maracanã', 'Paulo Bonamigo', '-Almir <br />-Ruy <br />-Ricardinho <br />-Têti', '-Edmundo'),
+(5, 0, 'Fluminense', 4, 1, 'Série A', '2004-10-02', 'Maracanã', 'Paulo Bonamigo', '-Almir <br />-Ruy <br />-Ricardinho <br />-Têti', '-Edmundo'),
 (6, 1, 'Coritiba', 4, 1, 'Série A', '2004-11-13', 'Caio Martins', 'Paulo Bonamigo', '-Caio Ribeiro (2x)  <br />-Schwenck <br />-Ricardinho', '-Jorginho Paulista'),
 (7, 1, 'Guarani', 1, 0, 'Série A', '2004-11-27', 'Caio Martins', 'Paulo Bonamigo', '-Alex Alves', ''),
 (8, 1, 'Corinthians', 1, 2, 'Série A', '2004-12-12', 'Caio Martins', 'Paulo Bonamigo', '-Alex Alves', '-Fábio Baiano <br />-Wendel'),
 (9, 1, 'Americano', 1, 2, 'Carioca', '2005-02-13', 'Maracanã', 'Paulo Bonamigo', '-Alex Alves', '-Marcos Antônio <br />-Washington'),
-(10, 1, 'Fluminense', 0, 4, 'Carioca', '2005-03-13', 'Maracanã', 'Paulo Bonamigo', '', '-Fabiano Eller <br />-Gabriel <br />-Juninho <br />-Alex'),
+(10, 0, 'Fluminense', 0, 4, 'Carioca', '2005-03-13', 'Maracanã', 'Paulo Bonamigo', '', '-Fabiano Eller <br />-Gabriel <br />-Juninho <br />-Alex'),
 (11, 1, 'Atlético-PR', 2, 0, 'Série A', '2005-05-29', 'Luso Brasileiro', 'Paulo César Gusmão', '-Rafael Marques <br />-Almir', ''),
 (12, 1, 'Goiás', 3, 1, 'Série A', '2005-09-18', 'Luso Brasileiro', 'Celso Roth', '-Ramón <br />-Zé Roberto (2x)', '-Souza'),
 (13, 1, 'Palmeiras', 1, 2, 'Série A', '2005-10-08', 'Luso Brasileiro', 'Celso Roth', '-Alex Alves', '-Marcinho Guerreiro <br />-Marcinho'),
@@ -86,11 +86,11 @@ INSERT INTO `jogo` (`id`, `mandante`, `adversario`, `golsBotafogo`, `golsAdversa
 (39, 1, 'Bahia', 2, 2, 'Série A', '2011-10-08', 'São Januário', 'Caio Júnior', '-Alex<br/>-Caio', '-Souza (2x)'),
 (40, 1, 'Vasco', 3, 1, 'Carioca', '2012-04-29', 'Nilton Santos', 'Oswaldo de Oliveira', '-Loco Abreu (2x)<br/>-Maicosuel', '-Carlos Alberto'),
 (41, 0, 'Flamengo', 0, 1, 'Carioca', '2013-02-17', 'Nilton Santos', 'Oswaldo de Oliveira', '', '-Hernane'),
-(42, 1, 'Fluminense', 1, 0, 'Carioca', '2013-05-05', 'Raulino de Oliveira (Volta Redonda)', 'Oswaldo de Oliveira', '-Rafael Marques', ''),
+(42, 1, 'Fluminense', 1, 0, 'Carioca', '2013-05-05', 'Raulino de Oliveira (Volta Redonda-RJ)', 'Oswaldo de Oliveira', '-Rafael Marques', ''),
 (43, 1, 'Grêmio', 0, 1, 'Série A', '2013-10-05', 'Maracanã', 'Oswaldo de Oliveira', '', '-Alex Telles'),
 (44, 1, 'Criciúma', 3, 0, 'Série A', '2013-12-08', 'Maracanã', 'Oswaldo de Oliveira', '-Lodeiro<br/>-Elias<br/>-Seedorf', ''),
-(45, 1, 'Deportivo Quito', 4, 0, 'Libertadores', '2014-02-05', 'Maracanã', 'Eduardo Húngaro', '-Wallyson (3x)<br/>-Henrique Almeida', ''),
-(46, 1, 'Independiente Del Valle', 1, 0, 'Libertadores', '2014-03-18', 'Maracanã', 'Eduardo Húngaro', '-\'El Tanque\' Ferreyra', ''),
+(45, 1, 'Deportivo Quito-EQU', 4, 0, 'Libertadores', '2014-02-05', 'Maracanã', 'Eduardo Húngaro', '-Wallyson (3x)<br/>-Henrique Almeida', ''),
+(46, 1, 'Independiente Del Valle-EQU', 1, 0, 'Libertadores', '2014-03-18', 'Maracanã', 'Eduardo Húngaro', '-\'El Tanque\' Ferreyra', ''),
 (47, 0, 'Flamengo', 0, 1, 'Série A', '2014-07-27', 'Maracanã', 'Vagner Mancini', '', '-Alecsandro'),
 (48, 1, 'Chapecoense', 1, 0, 'Série A', '2014-08-23', 'Maracanã', 'Vagner Mancini', '-Cachito Ramírez', ''),
 (49, 1, 'Santos', 1, 0, 'Série A', '2014-08-31', 'Maracanã', 'Vagner Mancini', '-Daniel', ''),
@@ -119,9 +119,9 @@ INSERT INTO `jogo` (`id`, `mandante`, `adversario`, `golsBotafogo`, `golsAdversa
 (72, 1, 'Boavista', 1, 0, 'Carioca', '2016-03-06', 'São Januário', 'Ricardo Gomes', '-Fernandes', ''),
 (73, 1, 'Vasco', 0, 1, 'Carioca', '2016-05-01', 'Maracanã', 'Ricardo Gomes', '', '-Jorge Henrique'),
 (74, 0, 'Vasco', 1, 1, 'Carioca', '2016-05-08', 'Maracanã', 'Ricardo Gomes', '-Leandrinho', '-Rafael Vaz'),
-(75, 1, 'São Paulo', 0, 1, 'Série A', '2016-05-15', 'Raulino de Oliveira (Volta Redonda)', 'Ricardo Gomes', '', '-Lucas Fernandes'),
-(76, 1, 'Santa Cruz', 2, 1, 'Série A', '2016-07-03', 'Mário Helênio (Juiz de Fora)', 'Ricardo Gomes', '-Sassá<br/>-Neílton', '-João Paulo'),
-(77, 1, 'Palmeiras', 3, 1, 'Série A', '2016-07-31', 'Arena Botafogo', 'Jair Ventura', '-Neílton (2x)<br/>-Camilo', '-Erik'),
+(75, 1, 'São Paulo', 0, 1, 'Série A', '2016-05-15', 'Raulino de Oliveira (Volta Redonda-RJ)', 'Ricardo Gomes', '', '-Lucas Fernandes'),
+(76, 1, 'Santa Cruz', 2, 1, 'Série A', '2016-07-03', 'Mário Helênio (Juiz de Fora-MG)', 'Ricardo Gomes', '-Sassá<br/>-Neílton', '-João Paulo'),
+(77, 1, 'Palmeiras', 3, 1, 'Série A', '2016-07-31', 'Arena Botafogo', 'Ricardo Gomes', '-Neílton (2x)<br/>-Camilo', '-Erik'),
 (78, 1, 'Grêmio', 2, 1, 'Série A', '2016-09-04', 'Arena Botafogo', 'Jair Ventura', '-Camilo<br/>-Sassá', '-Batista'),
 (79, 1, 'Fluminense', 1, 0, 'Série A', '2016-09-07', 'Arena Botafogo', 'Jair Ventura', '-Neílton', ''),
 (80, 1, 'Internacional', 1, 0, 'Série A', '2016-10-12', 'Arena Botafogo', 'Jair Ventura', '-Sassá', ''),
@@ -130,17 +130,17 @@ INSERT INTO `jogo` (`id`, `mandante`, `adversario`, `golsBotafogo`, `golsAdversa
 (83, 1, 'Chapecoense', 0, 2, 'Série A', '2016-11-16', 'Arena Botafogo', 'Jair Ventura', '', '-Kempes<br/>-Sérgio Manoel'),
 (84, 1, 'Ponte Preta', 1, 1, 'Série A', '2016-11-26', 'Arena Botafogo', 'Jair Ventura', '-Sassá', '-William Potker'),
 (85, 1, 'Nova Iguaçu', 1, 1, 'Carioca', '2017-01-28', 'Nilton Santos', 'Jair Ventura', '-Marcelo Benevenuto', '-Murilo Henrique'),
-(86, 1, 'Colo-Colo', 2, 1, 'Libertadores', '2017-02-01', 'Nilton Santos', 'Jair Ventura', '-Airton<br/>-Esteban Pavez (Gol Contra)', '-Paredes'),
+(86, 1, 'Colo-Colo-CHI', 2, 1, 'Libertadores', '2017-02-01', 'Nilton Santos', 'Jair Ventura', '-Airton<br/>-Esteban Pavez (Gol Contra)', '-Paredes'),
 (87, 1, 'Macaé', 2, 1, 'Carioca', '2017-02-04', 'Nilton Santos', 'Jair Ventura', '-Rodrigo Lindoso<br/>-Vinicius Tanque', '-Guilherme Xavier'),
-(88, 1, 'Olimpia', 1, 0, 'Libertadores', '2017-02-15', 'Nilton Santos', 'Jair Ventura', '-Rodrigo Pimpão', ''),
+(88, 1, 'Olimpia-PAR', 1, 0, 'Libertadores', '2017-02-15', 'Nilton Santos', 'Jair Ventura', '-Rodrigo Pimpão', ''),
 (89, 1, 'Volta Redonda', 1, 0, 'Carioca', '2017-03-09', 'Nilton Santos', 'Jair Ventura', '-Victor Luís', ''),
 (90, 1, 'Vasco', 0, 0, 'Carioca', '2017-03-19', 'Nilton Santos', 'Jair Ventura', '', ''),
 (91, 1, 'Fluminense', 2, 3, 'Carioca', '2017-03-23', 'Nilton Santos', 'Jair Ventura', '-Roger (2x)', '-Richarlison (2x)<br/>-Renato Chaves'),
 (92, 1, 'Fluminense', 3, 1, 'Carioca', '2017-04-09', 'Nilton Santos', 'Jair Ventura', '-Igor Rabello<br/>-Dudu Cearense<br/>-Sassá', '-Richarlison'),
 (93, 1, 'Vasco', 0, 2, 'Carioca', '2017-04-16', 'Nilton Santos', 'Jair Ventura', '', '-Douglas Luiz<br/>-Luís Fabiano'),
 (94, 1, 'Sport', 2, 1, 'Copa do Brasil', '2017-04-26', 'Nilton Santos', 'Jair Ventura', '-Guilherme (2x)', '-Samuel Xavier'),
-(95, 1, 'Barcelona SC', 0, 2, 'Libertadores', '2017-05-02', 'Nilton Santos', 'Jair Ventura', '', '-Ayoví<br/>-Jonatan Álvez'),
-(96, 1, 'Atlético Nacional', 1, 0, 'Libertadores', '2017-05-18', 'Nilton Santos', 'Jair Ventura', '-Rodrigo Pimpão', ''),
+(95, 1, 'Barcelona de Guayaquil-EQU', 0, 2, 'Libertadores', '2017-05-02', 'Nilton Santos', 'Jair Ventura', '', '-Ayoví<br/>-Jonatan Álvez'),
+(96, 1, 'Atlético Nacional-COL', 1, 0, 'Libertadores', '2017-05-18', 'Nilton Santos', 'Jair Ventura', '-Rodrigo Pimpão', ''),
 (97, 1, 'Ponte Preta', 2, 0, 'Série A', '2017-05-21', 'Nilton Santos', 'Jair Ventura', '-Bruno Silva <br />-Rodrigo Lindoso', ''),
 (98, 1, 'Bahia', 1, 0, 'Série A', '2017-05-28', 'Nilton Santos', 'Jair Ventura', '-Bruno Silva', ''),
 (99, 1, 'Coritiba', 2, 2, 'Série A', '2017-06-11', 'Nilton Santos', 'Jair Ventura', '-Roger<br/>-Joel Carli', '-Kléber<br/>-Henrique Almeida'),
@@ -177,9 +177,9 @@ INSERT INTO `jogo` (`id`, `mandante`, `adversario`, `golsBotafogo`, `golsAdversa
 (130, 0, 'Fluminense', 0, 3, 'Carioca', '2018-03-25', 'Maracanã', 'Alberto Valentim', '', '-Pedro <br/>-Marcos Júnior <br/>-Jadson'),
 (131, 0, 'Flamengo', 1, 0, 'Carioca', '2018-03-28', 'Maracanã', 'Alberto Valentim', '-Luiz Fernando', ''),
 (132, 1, 'Vasco', 2, 3, 'Carioca', '2018-04-01', 'Nilton Santos', 'Alberto Valentim', '-Renatinho <br/>-Brenner', '-Yago Pikachu (2x) <br/>-Andrés Ríos'),
-(133, 0, 'Vasco', 1, 0, 'Carioca', '2018-04-08', 'Maracanã', 'Alberto Valentim', '-Joel Carli', ''),
+(133, 0, 'Vasco', 1, 0, 'Carioca', '2018-04-08', 'Maracanã', 'Alberto Valentim', '-Joel Carli<br>\r\n<br>Pênaltis: (4)<br>\r\n-Brenner<br>\r\n-Gilson<br>\r\n-Marcinho<br>\r\n-Renatinho', '<br><br>Pênaltis: (3)<br>\r\n-Wagner<br>\r\n-Andrés Ríos<br>\r\n-Yago Pikachu'),
 (134, 1, 'Grêmio', 2, 1, 'Série A', '2018-04-28', 'Nilton Santos', 'Alberto Valentim', '-Brenner <br/>-Gilson', '-Igor Rabello (Gol Contra)'),
-(135, 1, 'Audax Italiano', 1, 1, 'Sul-Americana', '2018-05-09', 'Nilton Santos', 'Alberto Valentim', '-Matheus Fernandes', '-Luis Cabrera'),
+(135, 1, 'Audax Italiano-CHI', 1, 1, 'Sul-Americana', '2018-05-09', 'Nilton Santos', 'Alberto Valentim', '-Matheus Fernandes', '-Luis Cabrera'),
 (136, 1, 'Fluminense', 2, 1, 'Série A', '2018-05-14', 'Nilton Santos', 'Alberto Valentim', '-Rodrigo Lindoso <br/>-Kieza', '-Pedro'),
 (137, 1, 'Vitória', 1, 1, 'Série A', '2018-05-27', 'Nilton Santos', 'Alberto Valentim', '-Kieza', '-Denílson'),
 (138, 0, 'Vasco', 2, 1, 'Série A', '2018-06-02', 'São Januário', 'Alberto Valentim', '-Kieza <br/>-Igor Rabello', '-Andrey'),
@@ -193,7 +193,7 @@ INSERT INTO `jogo` (`id`, `mandante`, `adversario`, `golsBotafogo`, `golsAdversa
 (146, 0, 'Fluminense', 0, 1, 'Série A', '2018-09-09', 'Maracanã', 'Zé Ricardo', '', '-Digão'),
 (147, 1, 'América-MG', 1, 0, 'Série A', '2018-09-16', 'Nilton Santos', 'Zé Ricardo', '-Rodrigo Lindoso', ''),
 (148, 1, 'São Paulo', 2, 2, 'Série A', '2018-09-30', 'Nilton Santos', 'Zé Ricardo', '-Jean <br/>-Kieza', '-Diego Souza <br/>-Gonzalo Carneiro'),
-(149, 1, 'Bahia', 2, 1, 'Sul-Americana', '2018-10-03', 'Nilton Santos', 'Zé Ricardo', '-Rodrigo Pimpão <br/>-Luiz Fernando', '-Edigar Junio'),
+(149, 1, 'Bahia', 2, 1, 'Sul-Americana', '2018-10-03', 'Nilton Santos', 'Zé Ricardo', '-Rodrigo Pimpão <br/>-Luiz Fernando\r\n<br><br>Pênaltis: (4)<br>\r\n-Rodrigo Lindoso<br>\r\n-Aguirre<br>\r\n-Kieza<br>\r\n-Renatinho<br>', '-Edigar Junio\r\n<br><br>Pênaltis: (5)<br>\r\n-Gilberto<br>\r\n-Zé Rafael<br>\r\n-Allione<br>\r\n-Nilton<br>\r\n-Flávio'),
 (150, 1, 'Vasco', 1, 1, 'Série A', '2018-10-09', 'Nilton Santos', 'Zé Ricardo', '-Luiz Fernando', '-Maxi López'),
 (151, 1, 'Bahia', 0, 1, 'Série A', '2018-10-20', 'Nilton Santos', 'Zé Ricardo', '', '-Edigar Junio'),
 (152, 1, 'Corinthians', 1, 0, 'Série A', '2018-11-04', 'Nilton Santos', 'Zé Ricardo', '-Jean', ''),
@@ -202,21 +202,44 @@ INSERT INTO `jogo` (`id`, `mandante`, `adversario`, `golsBotafogo`, `golsAdversa
 (155, 1, 'Paraná', 2, 1, 'Série A', '2018-11-28', 'Nilton Santos', 'Zé Ricardo', '-Erik (2x)', '-Alex Santana'),
 (156, 1, 'Bangu', 0, 0, 'Carioca', '2019-01-23', 'Nilton Santos', 'Zé Ricardo', '', ''),
 (157, 1, 'Resende', 0, 1, 'Carioca', '2019-01-31', 'Nilton Santos', 'Zé Ricardo', '', '-Maxwell'),
-(158, 1, 'Defensa y Justicia', 1, 0, 'Sul-Americana', '2019-02-06', 'Nilton Santos', 'Zé Ricardo', '-Erik', ''),
+(158, 1, 'Defensa y Justicia-ARG', 1, 0, 'Sul-Americana', '2019-02-06', 'Nilton Santos', 'Zé Ricardo', '-Erik', ''),
 (159, 1, 'Vasco', 1, 1, 'Carioca', '2019-02-23', 'Nilton Santos', 'Zé Ricardo', '-Marcelo Benevenuto', '-Yago Pikachu'),
 (160, 1, 'Cuiabá', 3, 0, 'Copa do Brasil', '2019-02-27', 'Nilton Santos', 'Zé Ricardo', '-Erik (2x)<br>-Rodrigo Pimpão', ''),
 (161, 1, 'Madureira', 2, 1, 'Carioca', '2019-03-11', 'Nilton Santos', 'Zé Ricardo', '-Jonathan<br>-Kieza', '-Marcinho (Gol contra)'),
 (162, 0, 'Fluminense', 1, 1, 'Carioca', '2019-03-17', 'Maracanã', 'Zé Ricardo', '-Alex Santana', '-Paulo Henrique Ganso'),
 (163, 1, 'Juventude', 1, 1, 'Copa do Brasil', '2019-04-04', 'Nilton Santos', 'Zé Ricardo', '-Erik', '-Paulo Sérgio'),
-(164, 0, 'São Paulo', 0, 2, 'Série A', '2019-04-27', 'Morumbi', 'Eduardo Barroca', '', '-Éverton<br>-Hudson'),
+(164, 0, 'São Paulo', 0, 2, 'Série A', '2019-04-27', 'Morumbi (São Paulo-SP)', 'Eduardo Barroca', '', '-Éverton<br>-Hudson'),
 (165, 1, 'Fortaleza', 1, 0, 'Série A', '2019-05-05', 'Nilton Santos', 'Eduardo Barroca', '-Alex Santana', ''),
 (166, 0, 'Fluminense', 1, 0, 'Série A', '2019-05-11', 'Maracanã', 'Eduardo Barroca', '-Alex Santana', ''),
-(167, 1, 'Sol de America', 4, 0, 'Sul-Americana', '2019-05-29', 'Nilton Santos', 'Eduardo Barroca', '-Cícero<br>-Luiz Fernando<br>-Gustavo Bochecha<br>-Diego Souza', ''),
+(167, 1, 'Sol de America-PAR', 4, 0, 'Sul-Americana', '2019-05-29', 'Nilton Santos', 'Eduardo Barroca', '-Cícero<br>-Luiz Fernando<br>-Gustavo Bochecha<br>-Diego Souza', ''),
 (168, 1, 'Vasco', 1, 0, 'Série A', '2019-06-02', 'Nilton Santos', 'Eduardo Barroca', '-Diego Souza', ''),
 (169, 1, 'Santos', 0, 1, 'Série A', '2019-07-21', 'Nilton Santos', 'Eduardo Barroca', '', '-Marinho'),
 (170, 1, 'Atlético-MG', 0, 1, 'Sul-Americana', '2019-07-24', 'Nilton Santos', 'Eduardo Barroca', '', '-Vinicius'),
 (171, 0, 'Flamengo', 2, 3, 'Série A', '2019-07-28', 'Maracanã', 'Eduardo Barroca', '-Cícero<br>-Diego Souza', '-Gerson<br>-Gabriel<br>-Bruno Henrique'),
-(172, 0, 'Atlético-MG', 0, 2, 'Sul-Americana', '2019-07-31', 'Arena Independência', 'Eduardo Barroca', '', '-Fábio Santos<br>-Vinicius');
+(172, 0, 'Atlético-MG', 0, 2, 'Sul-Americana', '2019-07-31', 'Arena Independência (Belo Horizonte-MG)', 'Eduardo Barroca', '', '-Fábio Santos<br>-Vinicius'),
+(174, 1, 'Athletico-PR', 2, 1, 'Série A', '2019-08-11', 'Nilton Santos', 'Eduardo Barroca', '-Luiz Fernando<br>-Diego Souza', '-Thonny Anderson'),
+(175, 0, 'Corinthians', 0, 2, 'Série A', '2019-08-17', 'Arena Corinthians (São Paulo-SP)', 'Eduardo Barroca', '', '-Mauro Boselli<br>-Everaldo'),
+(176, 1, 'Chapecoense', 0, 0, 'Série A', '2019-08-26', 'Nilton Santos', 'Eduardo Barroca', '', ''),
+(177, 1, 'Atlético-MG', 2, 1, 'Série A', '2019-09-08', 'Nilton Santos', 'Eduardo Barroca', '-Diego Souza<br>-Alex Santana', '-Di Santo'),
+(178, 1, 'São Paulo', 1, 2, 'Série A', '2019-09-21', 'Nilton Santos', 'Eduardo Barroca', '-João Paulo', '-Hernanes<br>-Pablo'),
+(179, 1, 'Fluminense', 0, 1, 'Série A', '2019-10-06', 'Nilton Santos', 'Eduardo Barroca', '', '-Yony González'),
+(181, 1, 'Goiás', 3, 1, 'Série A', '2019-10-09', 'Nilton Santos', 'Bruno Lazaroni', '-Gabriel<br>-João Paulo<br>-Leo Valencia', '-Marcelo Benevenuto (Gol contra)'),
+(182, 0, 'Vasco', 1, 2, 'Série A', '2019-10-16', 'São Januário', 'Alberto Valentim', '-Marcelo Benevenuto', '-Bruno Gomes<br>-Ribamar'),
+(183, 1, 'CSA', 2, 1, 'Série A', '2019-10-21', 'Nilton Santos', 'Alberto Valentim', '-Luciano Castán (Gol Contra)<br>-Igor Cássio', '-Ricardo Bueno'),
+(184, 1, 'Cruzeiro', 0, 2, 'Série A', '2019-10-31', 'Nilton Santos', 'Alberto Valentim', '', '-Cacá<br>-Éderson'),
+(185, 0, 'Santos', 1, 4, 'Série A', '2019-11-03', 'Vila Belmiro (Santos-SP)', 'Alberto Valentim', '-Igor Cássio', '-Eduardo Sasha<br>-Marinho<br>-Soteldo(2x)'),
+(186, 1, 'Avaí', 2, 0, 'Série A', '2019-11-11', 'Nilton Santos', 'Alberto Valentim', '-Ricardo Thalheimer (Gol Contra)<br>-Diego Souza', ''),
+(187, 1, 'Corinthians', 1, 0, 'Série A', '2019-11-24', 'Nilton Santos', 'Alberto Valentim', '-Diego Souza', ''),
+(188, 1, 'Internacional', 0, 1, 'Série A', '2019-11-30', 'Nilton Santos', 'Alberto Valentim', '', '-Guerrero'),
+(189, 1, 'Ceará', 1, 1, 'Série A', '2019-12-08', 'Nilton Santos', 'Alberto Valentim', '-Marcos Vinícius', '-Thiago Galhardo'),
+(190, 0, 'Volta Redonda', 0, 1, 'Carioca', '2020-01-18', 'Raulino de Oliveira (Volta Redonda-RJ)', 'Bruno Lazaroni', '', '-Saulo'),
+(191, 0, 'Madureira', 0, 2, 'Carioca', '2020-01-21', 'Aniceto Moscoso (Conselheiro Galvão)', 'Bruno Lazaroni', '', '-Emerson Carioca<br>-Ygor Catatau'),
+(192, 1, 'Macaé', 3, 1, 'Carioca', '2020-01-26', 'Nilton Santos', 'Alberto Valentim', '-Pedro Raúl<br>-Luis Henrique<br>-Bruno Nazário', '-Matheus Babi'),
+(194, 1, 'Resende', 2, 1, 'Carioca', '2020-01-30', 'Nilton Santos', 'Alberto Valentim', '-Bruno Nazário<br>-Pedro Raúl', '-Geovani'),
+(195, 1, 'Vasco', 1, 0, 'Carioca', '2020-02-02', 'Nilton Santos', 'Alberto Valentim', '-Igor Cássio', ''),
+(196, 0, 'Fluminense', 0, 3, 'Carioca', '2020-02-09', 'Maracanã', 'Alberto Valentim', '', '-Nenê (2x)<br>-Wellington Silva'),
+(197, 1, 'Boavista', 2, 1, 'Carioca', '2020-03-01', 'Nilton Santos', 'Paulo Autuori', '-Alex Santana<br>-Bruno Nazário', '-Michel'),
+(202, 0, 'Flamengo', 0, 3, 'Carioca', '2020-03-07', 'Maracanã', 'Paulo Autuori', '', '-Éverton Ribeiro<br>-Gabriel<br>-Michael');
 
 --
 -- Indexes for dumped tables
@@ -236,7 +259,7 @@ ALTER TABLE `jogo`
 -- AUTO_INCREMENT for table `jogo`
 --
 ALTER TABLE `jogo`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=173;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=204;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
