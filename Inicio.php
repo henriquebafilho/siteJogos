@@ -37,7 +37,8 @@
                 column-span: 2;
             }
             th#koe{
-              text-shadow: 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000;  
+                color: white;
+                text-shadow: 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000;  
             }
             h1, h4{
                 color: white;
@@ -110,9 +111,9 @@
                 echo "<table>
                         <tr>
                             <th colspan='1' id='head'>Número</th>
-                            <th colspan='1' id='head'>Mandante</th>
+                            <th colspan='1' width=40% id='head'>Mandante</th>
                             <th colspan='1' width=20% id='head'>Placar</th>
-                            <th colspan='1' id='head'>Visitante</th>
+                            <th colspan='1' width=40% id='head'>Visitante</th>
                         </tr>";
             }
             //Tirando espaços do nome do adversário (para combinar com nomes dos escudos)
@@ -192,6 +193,9 @@
             else if($time == "Boavista"){
                 return "#00913c";
             }
+            else if($time == "Boca Juniors"){
+                return "#00458a";
+            }
             else if($time == "Bonsucesso"){
                 return "#1c4196";
             }
@@ -261,6 +265,9 @@
             else if($time == "Guarani"){
                 return "#048439";
             }
+            else if($time == "Independiente"){
+                return "#e2001a";
+            }
             else if($time == "Independiente Del Valle-EQU"){
                 return "#0064b3";
             }
@@ -313,6 +320,9 @@
                 return "#001c44";
             }
             else if($time == "Resende"){
+                return "white";
+            }
+            else if($time == "River Plate"){
                 return "white";
             }
             else if($time == "Santa Cruz"){
@@ -386,6 +396,9 @@
             else if($time == "Boavista"){
                 return "white";
             }
+            else if($time == "Boca Juniors"){
+                return "#fcb000";
+            }
             else if($time == "Bonsucesso"){
                 return "white";
             }
@@ -452,6 +465,9 @@
             else if($time == "Guarani"){
                 return "white";
             }
+            else if($time == "Independiente"){
+                return "white";
+            }
             else if($time == "Independiente Del Valle-EQU"){
                 return "white";
             }
@@ -505,6 +521,9 @@
             }
             else if($time == "Resende"){
                 return "black";
+            }
+            else if($time == "River Plate"){
+                return "red";
             }
             else if($time == "Santa Cruz"){
                 return "red";

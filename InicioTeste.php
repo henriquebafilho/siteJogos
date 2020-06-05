@@ -19,40 +19,40 @@
         </script>
         <style>
             body{
-                background-color: black;
-                color: white;
+                background-color: white;
+                color: black;
             }
             table {
-                border: 2px solid white;
+                border: 2px solid black;
                 width: 100%;
                 font-family: monospace;
-                font-size: 175%;
                 text-align: center;
+                background-color: white;
             } 
             th{
-                color: white;
+                color: black;
+                font-family: Quicksand;
                 text-align: center;
-                vertical-align: middle;
-                border: 1px solid white;
+                border: 1px solid black;
                 column-span: 2;
             }
-            h1, h4{
+            th#dados{
                 color: white;
+                text-shadow: 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000;  
+            }
+            h1, h4{
+                color: black;
                 font-family: Quicksand;
                 text-align: center;
             }#pai div{
                 display: none;
             }p{
-                color: white;
+                color: black;
                 font-family: Quicksand;
                 text-align: center;
-                vertical-align: middle;
             }
             div{
                 text-align: center;
-            }
-            img{
-                vertical-align: middle;
             }
         </style>
     </head>
@@ -61,58 +61,12 @@
         <h4>Por Henrique Filho</h4>
         <br>
         <?php
-        function escreveLinha($qtdJogos, $numero, $row){
-            //Cabeçalho
-            //número de jogos
-            if($numero == $qtdJogos){
-                echo "<table>
-                        <tr>
-                            <th colspan='1' width=1% id='head'>Número</th>
-                            <th colspan='1' width=40% id='head'>Mandante</th>
-                        </tr>";
-                //<th colspan='1' width=40% id='head'>Placar</th>
-                //<th colspan='1' width=40% id='head'>Visitante</th>
-            }
-            //Tirando espaços do nome do adversário (para combinar com nomes dos escudos)
-            $escudo = str_replace(' ', '', utf8_encode($row["adversario"]));
-            if(utf8_encode($row["adversario"]) == "Goiás" && explode('-', $row["dataJogo"])[0] >= 2019){
-               $escudo = "Goiás2019";
-            }
-            //Colocando data dd-mm-yyyy
-            $date = new DateTime($row["dataJogo"]);
-            
-            //Cores dos fundos e das letras
-            $corFundo = corFundoTime(utf8_encode($row["adversario"]), explode('-', $row["dataJogo"])[0]);
-            $corLetra = corLetraTime(utf8_encode($row["adversario"]));
-            
-            //Checando se o id é par ou ímpar pra trocar as cores
-            $cor = "black";
-            
-            //Campeonato: 
-            //utf8_encode($row["campeonato"])
-            //Data: 
-            //$date -> format( 'd-m-Y' )
-            //Estádio:
-            //"Estádio ". utf8_encode($row["estadio"])
-            //Técnico: 
-            //utf8_encode($row["tecnico"])
-            //gols do botafogo:
-            //utf8_encode($row["autorBotafogo"])
-            //gols do adversário:
-            //utf8_encode($row["autorAdversario"])
-            
-            if($row["mandante"] == 1){
-                return "<tr><th colspan=1 rowspan=3 style=width:50px;background-color:$cor>" . $numero . "</th>" . "<th colspan=3 rowspan=1 style='background-color:$cor; width:400px;'>". $date -> format( 'd-m-Y' ). " | ". "Estádio ". utf8_encode($row["estadio"]). " | ". utf8_encode($row["campeonato"]). "</th>"."<tr><th colspan=1 rowspan=1 style='background-color:black; text-align: center; color:white'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem/><br>Botafogo</th>"."<th colspan=1 rowspan=1 style=background-color:$cor>" . utf8_encode($row["golsBotafogo"]) ." x ". utf8_encode($row["golsAdversario"]) . "</th>" . "<th colspan=1 rowspan=1 style='color:$corLetra; background-color:$corFundo;'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /><br>". utf8_encode($row["adversario"])  . "</th>". "<tr><th colspan=1 style=background-color:$cor;>". utf8_encode($row["autorBotafogo"]) ."</th>"."<th colspan=1 style=background-color:$cor;>". "Técnico: ". utf8_encode($row["tecnico"]) . "</th>"."<th colspan=1 style=background-color:$corFundo;color:$corLetra;>". utf8_encode($row["autorAdversario"])."</th><tr>";
-            } else {
-                return "<tr><th colspan=1 rowspan=3 style=width:50px;background-color:$corFundo;color:$corLetra>" . $numero . "</th>" . "<th colspan=3 rowspan=1 style=background-color:$corFundo;color:$corLetra; width:400px;'>". $date -> format( 'd-m-Y' ). " | ". "Estádio ". utf8_encode($row["estadio"]). " | ". utf8_encode($row["campeonato"]). "</th>"."<tr><th colspan=1 style=background-color:$corFundo;color:$corLetra><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /><br>". utf8_encode($row["adversario"]). "</th>" . "<th colspan=1 rowspan=1 style=background-color:$corFundo;color:$corLetra>" . utf8_encode($row["golsAdversario"]) ." x ". utf8_encode($row["golsBotafogo"]) . "</th>"."<th colspan=1 style='background-color:black;color:white'><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem /><br>Botafogo</th>" . "</th>"."<tr><th colspan=1 style=background-color:$corFundo;color:$corLetra;>". utf8_encode($row["autorAdversario"]) ."</th>"."<th colspan=1 style=background-color:$corFundo;color:$corLetra>". "Técnico: ". utf8_encode($row["tecnico"]) . "</th>"."<th colspan=1 style=background-color:$cor;color:white;>". utf8_encode($row["autorBotafogo"])."</th><tr>";
-            }
-        }
         $conn = mysqli_connect("localhost", "root", "", "jogos");
         // Checando conexão
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
         } 
-        $sql = "SELECT * FROM jogoteste ORDER BY dataJogo DESC";
+        $sql = "SELECT * FROM santosdepressivo ORDER BY dataJogo DESC";
         $result = $conn->query($sql);
         //pegando número de jogos
         $qtdJogos = $result->num_rows;
@@ -150,18 +104,66 @@
             echo "<p>Nenhum jogo encontrado</p>";
         }
         echo "</table>";
-        function corFundoTime($time, $ano){
+        function escreveLinha($qtdJogos, $numero, $row){
+            //Cabeçalho
+            //número de jogos
+            if($numero == $qtdJogos){
+                echo "<table>
+                        <tr>
+                            <th colspan='1' id='head'>Número</th>
+                            <th colspan='1' width=40% id='head'>Mandante</th>
+                            <th colspan='1' width=20% id='head'>Placar</th>
+                            <th colspan='1' width=40% id='head'>Visitante</th>
+                        </tr>";
+            }
+            //Tirando espaços do nome do adversário (para combinar com nomes dos escudos)
+            $escudo = str_replace(' ', '', utf8_encode($row["adversario"]));
+            if(utf8_encode($row["adversario"]) == "Goiás" && explode('-', $row["dataJogo"])[0] >= 2019){
+               $escudo = "Goiás2019";
+            } 
+            else if(utf8_encode($row["adversario"]) == "Internacional" && explode('-', $row["dataJogo"])[0] < 2009){
+               $escudo = "Internacional2009";
+            } 
+            else if(utf8_encode($row["adversario"]) == "Náutico" && explode('-', $row["dataJogo"])[0] <= 2008){
+               $escudo = "Náutico2008";
+            }
+            else if(utf8_encode($row["adversario"]) == "Flamengo" && explode('-', $row["dataJogo"])[0] >= 2018){
+               $escudo = "Flamengo2019";
+            }
+            else if(utf8_encode($row["adversario"]) == "Resende" && explode('-', $row["dataJogo"])[0] >= 2020){
+               $escudo = "Resende2020";
+            }
+            else if(utf8_encode($row["adversario"]) == "Athletico-PR" && explode('-', $row["dataJogo"])[0] >= 2019){
+               $escudo = "Athletico-PR2019";
+            }
+            //Colocando data dd-mm-yyyy
+            $date = new DateTime($row["dataJogo"]);
+            
+            //Colocando cores no fundo e letras do time
+            $corFundo = corFundoTime(utf8_encode($row["adversario"]), explode('-', $row["dataJogo"])[0], $escudo);
+            $corLetra = corLetraTime(utf8_encode($row["adversario"]));
+            
+            $cor = "white";
+            if($row["mandante"] == 1){
+                $id = "dados";
+                
+                return "<tr><th colspan=1 rowspan=3 style=width:50px;background-color:$cor;>" . $numero . "</th>" . "<th colspan=3 rowspan=1 style='background:linear-gradient(90deg, $cor 49%, $corFundo 52%); width:400px;'id='dados'>". $date -> format( 'd-m-Y' ). " | ". "Estádio ". utf8_encode($row["estadio"]). " | ". utf8_encode($row["campeonato"]). "</th>"."<tr><th colspan=1 rowspan=1 style='background-color:white; text-align: center; color:black'><img src=index_files/Santos.png width=70 height=70 alt=Imagem/><br>Santos</th>"."<th colspan=1 rowspan=1 style='background:linear-gradient(90deg, $cor 45%, $corFundo 60%);font-size:300%;'id='dados'>" . utf8_encode($row["golsBotafogo"]) ." x ". utf8_encode($row["golsAdversario"]) . "</th>" . "<th colspan=1 rowspan=1 style='color:$corLetra; background-color:$corFundo;'><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /><br>". utf8_encode($row["adversario"])  . "</th>". "<tr><th colspan=1 style=background-color:$cor;>". utf8_encode($row["autorBotafogo"]) ."</th>"."<th colspan=1 style='background:linear-gradient(90deg, $cor 45%, $corFundo 60%);'id='dados'>". "Técnico: ". utf8_encode($row["tecnico"]) . "</th>"."<th colspan=1 style=background-color:$corFundo;color:$corLetra;>". utf8_encode($row["autorAdversario"])."</th><tr>";
+            } else {
+                return "<tr><th colspan=1 rowspan=3 style=width:50px;background-color:$corFundo;color:$corLetra>" . $numero . "</th>" . "<th colspan=3 rowspan=1 style='background:linear-gradient(90deg, $corFundo 49%, $cor 52%); width:400px;'id='dados'>". $date -> format( 'd-m-Y' ). " | ". "Estádio ". utf8_encode($row["estadio"]). " | ". utf8_encode($row["campeonato"]). "</th>"."<tr><th colspan=1 style=background-color:$corFundo;color:$corLetra><img src=index_files/$escudo.png width=70 height=70 alt=Imagem /><br>". utf8_encode($row["adversario"]). "</th>" . "<th colspan=1 rowspan=1 style='background:linear-gradient(90deg, $corFundo 45%, $cor 60%);font-size:300%;'id='dados'>" . utf8_encode($row["golsAdversario"]) ." x ". utf8_encode($row["golsBotafogo"]) . "</th>"."<th colspan=1 style='background-color:white;color:black'><img src=index_files/Santos.png width=70 height=70 alt=Imagem /><br>Santos</th>" . "</th>"."<tr><th colspan=1 style=background-color:$corFundo;color:$corLetra;>". utf8_encode($row["autorAdversario"]) ."</th>"."<th colspan=1 style='background:linear-gradient(90deg, $corFundo 45%, $cor 60%)'id='dados'>". "Técnico: ". utf8_encode($row["tecnico"]) . "</th>"."<th colspan=1 style=background-color:$cor;color:black;>". utf8_encode($row["autorBotafogo"])."</th><tr>";
+            }
+        }
+        function corFundoTime($time, $ano, $escudo){
             if($time == "América-MG"){
-                return "#00913c";
+                return "#048439";
             }
             else if($time == "Americano"){
                 return "white";
             }
             else if($time == "Athletico-PR"){
-                return "#ff0e00";
+                return "#c8060f";
             }
-            else if($time == "Atlético Nacional"){
-                return "#00913c";
+            else if($time == "Atlético Nacional-COL"){
+                return "#048439";
             }
             else if($time == "Atlético-GO"){
                 return "#ff0e00";
@@ -172,11 +174,11 @@
             else if($time == "Atlético-PR"){
                 return "#ff0e00";
             }
-            else if($time == "Audax Italiano"){
+            else if($time == "Audax Italiano-CHI"){
                 return "green";
             }
             else if($time == "Avaí"){
-                return "#0188d6";
+                return "#00679a";
             }
             else if($time == "Bahia"){
                 return "#0188d6";
@@ -184,7 +186,7 @@
             else if($time == "Bangu"){
                 return "#ff0e00";
             }
-            else if($time == "Barcelona SC"){
+            else if($time == "Barcelona de Guayaquil-EQU"){
                 return "#fde900";
             }
             else if($time == "Boa Esporte"){
@@ -192,6 +194,9 @@
             }
             else if($time == "Boavista"){
                 return "#00913c";
+            }
+            else if($time == "Boca Juniors"){
+                return "#00458a";
             }
             else if($time == "Bonsucesso"){
                 return "#1c4196";
@@ -208,7 +213,7 @@
             else if($time == "Chapecoense"){
                 return "#00913c";
             }
-            else if($time == "Colo-Colo"){
+            else if($time == "Colo-Colo-CHI"){
                 return "white";
             }
             else if($time == "Corinthians"){
@@ -232,10 +237,10 @@
             else if($time == "Cuiabá"){
                 return "#fde900";
             }
-            else if($time == "Defensa y Justicia"){
+            else if($time == "Defensa y Justicia-ARG"){
                 return "#fde900";
             }
-            else if($time == "Deportivo Quito"){
+            else if($time == "Deportivo Quito-EQU"){
                 return "#0d3264";
             }
             else if($time == "Figueirense"){
@@ -245,13 +250,16 @@
                 return "#ff0e00";
             }
             else if($time == "Fluminense"){
-                return "#00913c";
+                return "#9f022f";
             }
             else if($time == "Fortaleza"){
                 return "#11519b";
             }
-            else if($time == "Goiás"){
+            else if($time == "Goiás" && $escudo == "Goiás"){
                 return "#048439";
+            }
+            else if($time == "Goiás" && $escudo == "Goiás2019"){
+                return "#006959";
             }
             else if($time == "Grêmio"){
                 return "#0d80bf";
@@ -259,7 +267,10 @@
             else if($time == "Guarani"){
                 return "#048439";
             }
-            else if($time == "Independiente Del Valle"){
+            else if($time == "Independiente"){
+                return "#e2001a";
+            }
+            else if($time == "Independiente Del Valle-EQU"){
                 return "#0064b3";
             }
             else if($time == "Internacional"){
@@ -281,7 +292,7 @@
                 return "#163fb3";
             }
             else if($time == "Nacional-URU"){
-                return "#1515ee";
+                return "#172b8c";
             }
             else if($time == "Náutico"){
                 return "#ff0e00";
@@ -289,7 +300,7 @@
             else if($time == "Nova Iguaçu"){
                 return "#ea8415";
             }
-            else if($time == "Olimpia"){
+            else if($time == "Olimpia-PAR"){
                 return "white";
             }
             else if($time == "Palmeiras"){
@@ -305,12 +316,15 @@
                 return "white";
             }
             else if($time == "Portuguesa-RJ"){
-                return "#0a9752";
+                return "#048439";
             }
             else if($time == "Red Bull Bragantino"){
                 return "#001c44";
             }
             else if($time == "Resende"){
+                return "white";
+            }
+            else if($time == "River Plate"){
                 return "white";
             }
             else if($time == "Santa Cruz"){
@@ -325,7 +339,7 @@
             else if($time == "São Paulo"){
                 return "#ff0e00";
             }
-            else if($time == "Sol de America"){
+            else if($time == "Sol de America-PAR"){
                 return "#075798";
             }
             else if($time == "Sport"){
@@ -335,7 +349,7 @@
                 return "white";
             }
             else if($time == "Vitória"){
-                return "#ff0c00";
+                return "#ff0e00";
             }
             else if($time == "Volta Redonda"){
                 return "#fde900";
@@ -351,7 +365,7 @@
             else if($time == "Athletico-PR"){
                 return "black";
             }
-            else if($time == "Atlético Nacional"){
+            else if($time == "Atlético Nacional-COL"){
                 return "white";
             }
             else if($time == "Atlético-GO"){
@@ -363,7 +377,7 @@
             else if($time == "Atlético-PR"){
                 return "black";
             }
-            else if($time == "Audax Italiano"){
+            else if($time == "Audax Italiano-CHI"){
                 return "white";
             }
             else if($time == "Avaí"){
@@ -375,7 +389,7 @@
             else if($time == "Bangu"){
                 return "white";
             }
-            else if($time == "Barcelona SC"){
+            else if($time == "Barcelona de Guayaquil-EQU"){
                 return "#055daa";
             }
             else if($time == "Boa Esporte"){
@@ -383,6 +397,9 @@
             }
             else if($time == "Boavista"){
                 return "white";
+            }
+            else if($time == "Boca Juniors"){
+                return "#fcb000";
             }
             else if($time == "Bonsucesso"){
                 return "white";
@@ -399,7 +416,7 @@
             else if($time == "Chapecoense"){
                 return "white";
             }
-            else if($time == "Colo-Colo"){
+            else if($time == "Colo-Colo-CHI"){
                 return "black";
             }
             else if($time == "Corinthians"){
@@ -423,10 +440,10 @@
             else if($time == "Cuiabá"){
                 return "#018036";
             }
-            else if($time == "Defensa y Justicia"){
+            else if($time == "Defensa y Justicia-ARG"){
                 return "#018036";
             }
-            else if($time == "Deportivo Quito"){
+            else if($time == "Deportivo Quito-EQU"){
                 return "white";
             }
             else if($time == "Figueirense"){
@@ -445,12 +462,15 @@
                 return "white";
             }
             else if($time == "Grêmio"){
-                return "black";
+                return "white";
             }
             else if($time == "Guarani"){
                 return "white";
             }
-            else if($time == "Independiente Del Valle"){
+            else if($time == "Independiente"){
+                return "white";
+            }
+            else if($time == "Independiente Del Valle-EQU"){
                 return "white";
             }
             else if($time == "Internacional"){
@@ -480,7 +500,7 @@
             else if($time == "Nova Iguaçu"){
                 return "black";
             }
-            else if($time == "Olimpia"){
+            else if($time == "Olimpia-PAR"){
                 return "black";
             }
             else if($time == "Palmeiras"){
@@ -504,6 +524,9 @@
             else if($time == "Resende"){
                 return "black";
             }
+            else if($time == "River Plate"){
+                return "red";
+            }
             else if($time == "Santa Cruz"){
                 return "red";
             }
@@ -516,14 +539,14 @@
             else if($time == "São Paulo"){
                 return "white";
             }
-            else if($time == "Sol de America"){
+            else if($time == "Sol de America-PAR"){
                 return "white";
             }
             else if($time == "Sport"){
                 return "black";
             }
             else if($time == "Vasco"){
-                return "black";
+                return "red";
             }
             else if($time == "Vitória"){
                 return "black";
