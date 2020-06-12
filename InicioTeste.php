@@ -151,7 +151,10 @@
             }
         }
         function corFundoTime($time, $ano, $escudo){
-            if($time == "América-MG"){
+            if($time == "América"){
+                return "red";
+            }
+            else if($time == "América-MG"){
                 return "#048439";
             }
             else if($time == "Americano"){
@@ -253,6 +256,9 @@
             else if($time == "Fortaleza"){
                 return "#11519b";
             }
+            else if($time == "Friburguense"){
+                return "#3d295a";
+            }
             else if($time == "Goiás" && $escudo == "Goiás"){
                 return "#048439";
             }
@@ -266,22 +272,31 @@
                 return "#048439";
             }
             else if($time == "Independiente"){
-                return "#e2001a";
+                return "#ff0000";
             }
             else if($time == "Independiente Del Valle-EQU"){
-                return "#0064b3";
+                return "#e132a6";
             }
             else if($time == "Internacional"){
                 return "#ff0e00";
             }
+            else if($time == "Ituano"){
+                return "#ff0000";
+            }
             else if($time == "Juventude"){
                 return "#048439";
+            }
+            else if($time == "Juventus"){
+                return "#6a023c";
             }
             else if($time == "Macaé"){
                 return "#41afeb";
             }
             else if($time == "Madureira"){
                 return "#fde900";
+            }
+            else if($time == "Marília"){
+                return "#54a9d8";
             }
             else if($time == "Mogi Mirim"){
                 return "#ff0e00";
@@ -313,6 +328,9 @@
             else if($time == "Ponte Preta"){
                 return "white";
             }
+            else if($time == "Portuguesa"){
+                return "red";
+            }
             else if($time == "Portuguesa-RJ"){
                 return "#048439";
             }
@@ -330,6 +348,9 @@
             }
             else if($time == "Santos"){
                 return "white";
+            }
+            else if($time == "Santo André"){
+                return "#2d3491";
             }
             else if($time == "São Caetano"){
                 return "#212568";
@@ -354,7 +375,10 @@
             }
         }
         function corLetraTime($time){
-            if($time == "América-MG"){
+            if($time == "América"){
+                return "white";
+            }
+            else if($time == "América-MG"){
                 return "white";
             }
             else if($time == "Americano"){
@@ -456,6 +480,9 @@
             else if($time == "Fortaleza"){
                 return "white";
             }
+            else if($time == "Friburguense"){
+                return "white";
+            }
             else if($time == "Goiás"){
                 return "white";
             }
@@ -474,7 +501,13 @@
             else if($time == "Internacional"){
                 return "white";
             }
+            else if($time == "Ituano"){
+                return "black";
+            }
             else if($time == "Juventude"){
+                return "white";
+            }
+            else if($time == "Juventus"){
                 return "white";
             }
             else if($time == "Macaé"){
@@ -482,6 +515,9 @@
             }
             else if($time == "Madureira"){
                 return "#13007c";
+            }
+            else if($time == "Marília"){
+                return "white";
             }
             else if($time == "Mogi Mirim"){
                 return "white";
@@ -513,6 +549,9 @@
             else if($time == "Ponte Preta"){
                 return "black";
             }
+            else if($time == "Portuguesa"){
+                return "white";
+            }
             else if($time == "Portuguesa-RJ"){
                 return "white";
             }
@@ -527,6 +566,9 @@
             }
             else if($time == "Santa Cruz"){
                 return "red";
+            }
+            else if($time == "Santo André"){
+                return "white";
             }
             else if($time == "Santos"){
                 return "black";

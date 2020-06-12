@@ -269,13 +269,16 @@
                 return "#e2001a";
             }
             else if($time == "Independiente Del Valle-EQU"){
-                return "#0064b3";
+                return "#fb37b9";
             }
             else if($time == "Internacional"){
                 return "#ff0e00";
             }
             else if($time == "Juventude"){
                 return "#048439";
+            }
+            else if($time == "Juventus"){
+                return "#6a023c";
             }
             else if($time == "Macaé"){
                 return "#41afeb";
@@ -312,6 +315,9 @@
             }
             else if($time == "Ponte Preta"){
                 return "white";
+            }
+            else if($time == "Portuguesa"){
+                return "red";
             }
             else if($time == "Portuguesa-RJ"){
                 return "#048439";
@@ -469,12 +475,15 @@
                 return "white";
             }
             else if($time == "Independiente Del Valle-EQU"){
-                return "white";
+                return "black";
             }
             else if($time == "Internacional"){
                 return "white";
             }
             else if($time == "Juventude"){
+                return "white";
+            }
+            else if($time == "Juventus"){
                 return "white";
             }
             else if($time == "Macaé"){
@@ -512,6 +521,9 @@
             }
             else if($time == "Ponte Preta"){
                 return "black";
+            }
+            else if($time == "Portuguesa"){
+                return "white";
             }
             else if($time == "Portuguesa-RJ"){
                 return "white";
