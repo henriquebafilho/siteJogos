@@ -475,7 +475,7 @@
                 return "white";
             }
             else if($time == "Independiente Del Valle-EQU"){
-                return "black";
+                return "white";
             }
             else if($time == "Internacional"){
                 return "white";
