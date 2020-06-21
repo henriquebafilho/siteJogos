@@ -66,7 +66,7 @@
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
         } 
-        $sql = "SELECT * FROM santosdepressivo ORDER BY dataJogo DESC";
+        $sql = "SELECT * FROM jogoTeste ORDER BY dataJogo DESC";
         $result = $conn->query($sql);
         //pegando número de jogos
         $qtdJogos = $result->num_rows;
@@ -230,7 +230,7 @@
                 return "#fdd116";
             }
             else if($time == "Cruzeiro"){
-                return "#0063af";
+                return "#1200ff";
             }
             else if($time == "CSA"){
                 return "#041e5c";
@@ -351,6 +351,9 @@
             }
             else if($time == "Santo André"){
                 return "#2d3491";
+            }
+            else if($time == "São Bernardo"){
+                return "#ffdd00";
             }
             else if($time == "São Caetano"){
                 return "#212568";
@@ -569,6 +572,9 @@
             }
             else if($time == "Santo André"){
                 return "white";
+            }
+            else if($time == "São Bernardo"){
+                return "black";
             }
             else if($time == "Santos"){
                 return "black";
