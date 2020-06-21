@@ -206,6 +206,9 @@
             else if($time == "Barcelona de Guayaquil-EQU"){
                 return "#fde900";
             }
+            else if($time == "Benfica"){
+                return "red";
+            }
             else if($time == "Boa Esporte"){
                 return "#ff0e00";
             }
@@ -266,11 +269,17 @@
             else if($time == "Deportivo Quito-EQU"){
                 return "#0d3264";
             }
+            else if($time == "Estudiantes-ARG"){
+                return "red";
+            }
             else if($time == "Figueirense"){
                 return "black";
             }
             else if($time == "Flamengo"){
                 return "#ff0e00";
+            }
+            else if($time == "Floresta-CE"){
+                return "#87c53f";
             }
             else if($time == "Fluminense"){
                 return "#9f022f";
@@ -296,6 +305,9 @@
             else if($time == "Independiente Del Valle-EQU"){
                 return "#fb37b9";
             }
+            else if($time == "Independiente Santa Fé-COL"){
+                return "red";
+            }
             else if($time == "Internacional"){
                 return "#ff0e00";
             }
@@ -307,6 +319,15 @@
             }
             else if($time == "Juventus"){
                 return "#6a023c";
+            }
+            else if($time == "Kenitra"){
+                return "#038b5d";
+            }
+            else if($time == "Linense"){
+                return "red";
+            }
+            else if($time == "Luverdense"){
+                return "#8bc23d";
             }
             else if($time == "Macaé"){
                 return "#41afeb";
@@ -350,8 +371,14 @@
             else if($time == "Portuguesa-RJ"){
                 return "#048439";
             }
+            else if($time == "Real Garcilaso-PER"){
+                return "#0197ee";
+            }
             else if($time == "Red Bull Bragantino"){
                 return "#001c44";
+            }
+            else if($time == "Red Bull Brasil"){
+                return "red";
             }
             else if($time == "Resende"){
                 return "white";
@@ -385,6 +412,12 @@
             }
             else if($time == "Sport"){
                 return "#d30a11";
+            }
+            else if($time == "Sporting Cristal-PER"){
+                return "#54c6ed";
+            }
+            else if($time == "The Strongest"){
+                return "#ffcc00";
             }
             else if($time == "Vasco"){
                 return "white";
@@ -440,6 +473,9 @@
                 return "#055daa";
             }
             else if($time == "Boa Esporte"){
+                return "white";
+            }
+            else if($time == "Benfica"){
                 return "white";
             }
             else if($time == "Boavista"){
@@ -499,11 +535,17 @@
             else if($time == "Deportivo Quito-EQU"){
                 return "white";
             }
+            else if($time == "Estudiantes-ARG"){
+                return "white";
+            }
             else if($time == "Figueirense"){
                 return "white";
             }
             else if($time == "Flamengo"){
                 return "black";
+            }
+            else if($time == "Floresta-CE"){
+                return "#036c3c";
             }
             else if($time == "Fluminense"){
                 return "white";
@@ -526,6 +568,9 @@
             else if($time == "Independiente Del Valle-EQU"){
                 return "white";
             }
+            else if($time == "Independiente Santa Fé-COL"){
+                return "white";
+            }
             else if($time == "Internacional"){
                 return "white";
             }
@@ -537,6 +582,15 @@
             }
             else if($time == "Juventus"){
                 return "white";
+            }
+            else if($time == "Kenitra"){
+                return "white";
+            }
+            else if($time == "Linense"){
+                return "white";
+            }
+            else if($time == "Luverdense"){
+                return "#426d33";
             }
             else if($time == "Macaé"){
                 return "white";
@@ -580,7 +634,13 @@
             else if($time == "Portuguesa-RJ"){
                 return "white";
             }
+            else if($time == "Real Garcilaso-PER"){
+                return "#fdf21c";
+            }
             else if($time == "Red Bull Bragantino"){
+                return "white";
+            }
+            else if($time == "Red Bull Brasil"){
                 return "white";
             }
             else if($time == "Resende"){
@@ -594,6 +654,9 @@
             }
             else if($time == "Santos"){
                 return "black";
+            }
+            else if($time == "Santo André"){
+                return "white";
             }
             else if($time == "São Bernardo"){
                 return "black";
@@ -611,6 +674,12 @@
                 return "white";
             }
             else if($time == "Sport"){
+                return "black";
+            }
+            else if($time == "Sporting Cristal-PER"){
+                return "white";
+            }
+            else if($time == "The Strongest"){
                 return "black";
             }
             else if($time == "Vasco"){
