@@ -215,7 +215,7 @@
             else if($time == "Boavista"){
                 return "#00913c";
             }
-            else if($time == "Boca Juniors"){
+            else if($time == "Boca Juniors-ARG"){
                 return "#00458a";
             }
             else if($time == "Bonsucesso"){
@@ -272,6 +272,9 @@
             else if($time == "Estudiantes-ARG"){
                 return "red";
             }
+            else if($time == "Ferroviária"){
+                return "#511a1d";
+            }
             else if($time == "Figueirense"){
                 return "black";
             }
@@ -299,8 +302,8 @@
             else if($time == "Guarani"){
                 return "#048439";
             }
-            else if($time == "Independiente"){
-                return "#e2001a";
+            else if($time == "Independiente-ARG"){
+                return "red";
             }
             else if($time == "Independiente Del Valle-EQU"){
                 return "#fb37b9";
@@ -481,7 +484,7 @@
             else if($time == "Boavista"){
                 return "white";
             }
-            else if($time == "Boca Juniors"){
+            else if($time == "Boca Juniors-ARG"){
                 return "#fcb000";
             }
             else if($time == "Bonsucesso"){
@@ -538,6 +541,9 @@
             else if($time == "Estudiantes-ARG"){
                 return "white";
             }
+            else if($time == "Ferroviária"){
+                return "white";
+            }
             else if($time == "Figueirense"){
                 return "white";
             }
@@ -562,7 +568,7 @@
             else if($time == "Guarani"){
                 return "white";
             }
-            else if($time == "Independiente"){
+            else if($time == "Independiente-ARG"){
                 return "white";
             }
             else if($time == "Independiente Del Valle-EQU"){
