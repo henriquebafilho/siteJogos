@@ -173,6 +173,9 @@
             else if($time == "Americano"){
                 return "white";
             }
+            else if($time == "América-RN"){
+                return "red";
+            }
             else if($time == "Athletico-PR"){
                 return "#c8060f";
             }
@@ -338,6 +341,9 @@
             else if($time == "Madureira"){
                 return "#fde900";
             }
+            else if($time == "Mirassol"){
+                return "#ffec00";
+            }
             else if($time == "Mogi Mirim"){
                 return "#ff0e00";
             }
@@ -352,6 +358,12 @@
             }
             else if($time == "Nova Iguaçu"){
                 return "#ea8415";
+            }
+            else if($time == "Novorizontino"){
+                return "#fff500";
+            }
+            else if($time == "Oeste"){
+                return "red";
             }
             else if($time == "Olimpia-PAR"){
                 return "white";
@@ -388,6 +400,9 @@
             }
             else if($time == "River Plate"){
                 return "white";
+            }
+            else if($time == "River Plate-URU"){
+                return "red";
             }
             else if($time == "Santa Cruz"){
                 return "white";
@@ -441,6 +456,9 @@
             }
             else if($time == "Americano"){
                 return "black";
+            }
+            else if($time == "América-RN"){
+                return "white";
             }
             else if($time == "Athletico-PR"){
                 return "black";
@@ -604,6 +622,9 @@
             else if($time == "Madureira"){
                 return "#13007c";
             }
+            else if($time == "Mirassol"){
+                return "#00722c";
+            }
             else if($time == "Mogi Mirim"){
                 return "white";
             }
@@ -617,6 +638,12 @@
                 return "white";
             }
             else if($time == "Nova Iguaçu"){
+                return "black";
+            }
+            else if($time == "Novorizontino"){
+                return "black";
+            }
+            else if($time == "Oeste"){
                 return "black";
             }
             else if($time == "Olimpia-PAR"){
@@ -654,6 +681,9 @@
             }
             else if($time == "River Plate"){
                 return "red";
+            }
+            else if($time == "River Plate-URU"){
+                return "white";
             }
             else if($time == "Santa Cruz"){
                 return "red";
