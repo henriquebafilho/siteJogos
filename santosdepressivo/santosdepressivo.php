@@ -167,6 +167,9 @@
             if($time == "Água Santa"){
                 return "#153160";
             }
+            else if($time == "América-MEX"){
+                return "#fef000";
+            }
             else if($time == "América-MG"){
                 return "#048439";
             }
@@ -239,6 +242,9 @@
             else if($time == "Ceará"){
                 return "black";
             }
+            else if($time == "Cerro Porteño-PAR"){
+                return "#c40215";
+            }
             else if($time == "Chapecoense"){
                 return "#00913c";
             }
@@ -271,6 +277,9 @@
             }
             else if($time == "Deportivo Quito-EQU"){
                 return "#0d3264";
+            }
+            else if($time == "Deportivo Tachira-VEN"){
+                return "#f2d902";
             }
             else if($time == "Estudiantes-ARG"){
                 return "red";
@@ -362,6 +371,9 @@
             else if($time == "Novorizontino"){
                 return "#fff500";
             }
+            else if($time == "Once Caldas-COL"){
+                return "white";
+            }
             else if($time == "Oeste"){
                 return "red";
             }
@@ -451,6 +463,9 @@
             if($time == "Água Santa"){
                 return "white";
             }
+            else if($time == "América-MEX"){
+                return "#00163f";
+            }
             else if($time == "América-MG"){
                 return "white";
             }
@@ -523,6 +538,9 @@
             else if($time == "Ceará"){
                 return "white";
             }
+            else if($time == "Cerro Porteño-PAR"){
+                return "#073756";
+            }
             else if($time == "Chapecoense"){
                 return "white";
             }
@@ -555,6 +573,9 @@
             }
             else if($time == "Deportivo Quito-EQU"){
                 return "white";
+            }
+            else if($time == "Deportivo Tachira-VEN"){
+                return "black";
             }
             else if($time == "Estudiantes-ARG"){
                 return "white";
@@ -641,6 +662,9 @@
                 return "black";
             }
             else if($time == "Novorizontino"){
+                return "black";
+            }
+            else if($time == "Once Caldas-COL"){
                 return "black";
             }
             else if($time == "Oeste"){
