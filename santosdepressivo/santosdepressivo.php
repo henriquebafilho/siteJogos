@@ -51,9 +51,12 @@
                 color: black;
                 font-family: Quicksand;
                 text-align: center;
-            }#pai div{
+                vertical-align: middle;
+            }
+            #pai div{
                 display: none;
-            }p{
+            }
+            p{
                 color: white;
                 font-family: Quicksand;
                 text-align: center;
@@ -64,7 +67,7 @@
         </style>
     </head>
     <body>
-        <h1>Jogos Que Fui</h1>
+        <h1><img src=index_files/Santos.png width=70 height=70 alt=Imagem>Jogos Que Fui<img src=index_files/Santos.png width=70 height=70 alt=Imagem></h1>
         <h4>Por Guilherme Gianinni</h4>
         <br>
         <?php
