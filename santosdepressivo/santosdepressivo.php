@@ -212,7 +212,7 @@
             else if($time == "Barcelona de Guayaquil-EQU"){
                 return "#fde900";
             }
-            else if($time == "Benfica"){
+            else if($time == "Benfica-POR"){
                 return "red";
             }
             else if($time == "Boa Esporte"){
@@ -335,7 +335,7 @@
             else if($time == "Juventus"){
                 return "#6a023c";
             }
-            else if($time == "Kenitra"){
+            else if($time == "Kenitra-MAR"){
                 return "#038b5d";
             }
             else if($time == "Linense"){
@@ -446,7 +446,7 @@
             else if($time == "Sporting Cristal-PER"){
                 return "#54c6ed";
             }
-            else if($time == "The Strongest"){
+            else if($time == "The Strongest-BOL"){
                 return "#ffcc00";
             }
             else if($time == "Vasco"){
@@ -511,7 +511,7 @@
             else if($time == "Boa Esporte"){
                 return "white";
             }
-            else if($time == "Benfica"){
+            else if($time == "Benfica-POR"){
                 return "white";
             }
             else if($time == "Boavista"){
@@ -628,7 +628,7 @@
             else if($time == "Juventus"){
                 return "white";
             }
-            else if($time == "Kenitra"){
+            else if($time == "Kenitra-MAR"){
                 return "white";
             }
             else if($time == "Linense"){
@@ -739,7 +739,7 @@
             else if($time == "Sporting Cristal-PER"){
                 return "white";
             }
-            else if($time == "The Strongest"){
+            else if($time == "The Strongest-BOL"){
                 return "black";
             }
             else if($time == "Vasco"){
