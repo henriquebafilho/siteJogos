@@ -54,11 +54,14 @@
             div{
                 text-align: center;
             }
+            img{
+                vertical-align: middle;
+            }
         </style>
     </head>
     <body>
-        <h1>Jogos Que Fui</h1>
-        <h4>Por Henrique Filho</h4>
+        <h1><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem> JOGOS QUE FUI <img src=index_files/Botafogo.png width=70 height=70 alt=Imagem></h1>
+        <h4>Henrique Filho</h4>
         <br>
         <?php
         $conn = mysqli_connect("localhost", "root", "", "jogos");

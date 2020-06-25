@@ -50,8 +50,8 @@
             h1, h4{
                 color: black;
                 font-family: Quicksand;
-                text-align: center;
                 vertical-align: middle;
+                text-align: center;
             }
             #pai div{
                 display: none;
@@ -64,11 +64,14 @@
             div{
                 text-align: center;
             }
+            img{
+                vertical-align: middle;
+            }
         </style>
     </head>
     <body>
-        <h1><img src=index_files/Santos.png width=70 height=70 alt=Imagem>Jogos Que Fui<img src=index_files/Santos.png width=70 height=70 alt=Imagem></h1>
-        <h4>Por Guilherme Gianinni</h4>
+        <h1><img src=index_files/Santos.png width=70 height=70 alt=Imagem> JOGOS QUE FUI <img src=index_files/Santos.png width=70 height=70 alt=Imagem></h1>
+        <h4>Guilherme Gianinni</h4>
         <br>
         <?php
         $conn = mysqli_connect("localhost", "root", "", "jogos");
