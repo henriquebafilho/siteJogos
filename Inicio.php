@@ -5,8 +5,7 @@
             Jogos do Botafogo que fui
         </title>
         <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-        <link rel="shortcut icon" href="Times/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="Times/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="index_files/Botafogo.png" type="image/x-icon">
         <script src='jquery-3.3.1.min.js'></script>
         <script>
             $(document).ready(function(){
