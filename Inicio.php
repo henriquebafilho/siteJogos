@@ -229,7 +229,7 @@
                 return "#fdd116";
             }
             else if($time == "Cruzeiro"){
-                return "#1200ff";
+                return "#075798";
             }
             else if($time == "CSA"){
                 return "#041e5c";
