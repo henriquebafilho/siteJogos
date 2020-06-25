@@ -72,7 +72,6 @@
     <body>
         <h1><img src=index_files/Santos.png width=70 height=70 alt=Imagem> JOGOS QUE FUI <img src=index_files/Santos.png width=70 height=70 alt=Imagem></h1>
         <h4>Guilherme Gianinni</h4>
-        <br>
         <?php
         $conn = mysqli_connect("localhost", "root", "", "jogos");
         // Checando conexão
@@ -107,10 +106,10 @@
             //quando chega no último, mostra o retrospecto
             if($numero == 0){
                 //echo derrota vitoria empate gols...
-                echo "Vitórias/Empates/Derrotas - " . $vitorias  
-                    . "/" . $empates 
-                    . "/" . $derrotas
-                    . "<br>Gols do Santos/Adversário - " . $golsSantos . " x ". $golsAdversario;
+                echo "<h4>Vitórias - " . $vitorias  
+                    . "/ Empates - " . $empates 
+                    . "/ Derrotas - " . $derrotas
+                    . "<br>Gols do Santos - " . $golsSantos . " / Gols dos Adversários - ". $golsAdversario. "</h4>";
             }
         }
         if($numero == $qtdJogos){
