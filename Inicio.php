@@ -24,13 +24,13 @@
             table {
                 border: 2px solid white;
                 width: 100%;
-                font-family: monospace;
+                font-family: Arial;
                 text-align: center;
                 background-color: black;
             } 
             th{
                 color: white;
-                font-family: Quicksand;
+                font-family: Arial;
                 text-align: center;
                 border: 1px solid white;
                 column-span: 2;
@@ -41,13 +41,13 @@
             }
             h1, h4{
                 color: white;
-                font-family: Quicksand;
+                font-family: Arial;
                 text-align: center;
             }#pai div{
                 display: none;
             }p{
                 color: white;
-                font-family: Quicksand;
+                font-family: Arial;
                 text-align: center;
             }
             div{
