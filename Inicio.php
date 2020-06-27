@@ -137,6 +137,9 @@
             else if(utf8_encode($row["adversario"]) == "Athletico-PR" && explode('-', $row["dataJogo"])[0] >= 2019){
                $escudo = "Athletico-PR2019";
             }
+            else if(utf8_encode($row["adversario"]) == "Cruzeiro"){
+               $escudo = "Cruzeiroo";
+            }
             //Colocando data dd-mm-yyyy
             $date = new DateTime($row["dataJogo"]);
             
