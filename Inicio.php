@@ -231,7 +231,7 @@
                 return "#075798";
             }
             else if($time == "CSA"){
-                return "#041e5c";
+                return "#075798";
             }
             else if($time == "Cuiabá"){
                 return "#fde900";
