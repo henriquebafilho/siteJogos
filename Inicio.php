@@ -59,8 +59,7 @@
         </style>
     </head>
     <body>
-        <h1><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem> JOGOS QUE FUI <img src=index_files/Botafogo.png width=70 height=70 alt=Imagem></h1>
-        <h4>Henrique Filho</h4>
+        <h1><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem> HENRIQUE FILHO <img src=index_files/Botafogo.png width=70 height=70 alt=Imagem></h1>
         <?php
         $conn = mysqli_connect("localhost", "root", "", "jogos");
         // Checando conexão
