@@ -58,6 +58,18 @@ function escolheData(){
 	}
 }
 
+function ano(){
+	var ano = document.getElementById('anoJogo').value;
+
+	for(var i = 0; i < jogos.length; i++){
+		var dataCortada = jogos[i][4].split("-")
+
+		if(dataCortada[0] == ano.toString()){
+			escreveLinha(jogos[i]);
+		}
+	}
+}
+
 function vitorias(){
 	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][2] > jogos[i][3]){

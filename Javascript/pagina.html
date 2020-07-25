@@ -62,7 +62,7 @@
 	});
 </script>
 <body>
-	<h1><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem> HENRIQUE FILHO <img src=index_files/Botafogo.png width=70 height=70 alt=Imagem></h1>
+	<h1 style="white-space: nowrap;"><img src=index_files/Botafogo.png width=70 height=70 alt=Imagem> HENRIQUE FILHO <img src=index_files/Botafogo.png width=70 height=70 alt=Imagem></h1>
 	<div>
 		<form action='pagina.html' method='post'>
 			Filtrar jogos por: 
@@ -121,7 +121,7 @@
 				<div id='ano'>
 					<p>Insira o ano do jogo: </p>
 					<input type='number' id="anoJogo" placeholder='Ano' min='2002' max='2100'><br><br>
-					<input type='button' name='pesquisar' value='Pesquisar' onclick="escolhePesquisa()">
+					<input type='button' name='pesquisar' value='Pesquisar' onclick="ano()">
 				</div>
 
 				<div id='estadio'>
@@ -138,7 +138,7 @@
 
 				<div id='numero'>
 					<p>Insira o número do jogo: </p>
-					<input type='number' id="numeroJogo" placeholder='Número' min='0'><br><br>
+					<input type='number' id="numeroJogo" placeholder='Número' min='1'><br><br>
 					<input type='button' name='pesquisar' value='Pesquisar' onclick="escolhePesquisa()">
 				</div>
 
