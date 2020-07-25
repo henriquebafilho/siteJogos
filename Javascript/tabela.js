@@ -70,6 +70,12 @@ function ano(){
 	}
 }
 
+function numero(){
+	var numero = document.getElementById('numeroJogo').value;
+	
+	escreveLinha(jogos[numero - 1]);
+}
+
 function vitorias(){
 	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][2] > jogos[i][3]){
