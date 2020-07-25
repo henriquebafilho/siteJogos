@@ -1,0 +1,18 @@
+	var jogos = [];
+	
+	var jogo1 = {
+		numero: 1,
+		adversario: "Flamengo", 
+		golsBotafogo: 5, 
+		golsAdversario: 0, 
+		data: "2020-08-31", 
+		estadio: "nilton santos",
+		campeonato: "série a",
+		tecnico: "paulo autuori",
+		autorBotafogo: "Honda (5x)",
+		autorAdversario: ""
+	};
+
+	jogos.push(jogo1);
+
+	escreveLinha(jogo1);
