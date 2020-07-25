@@ -103,8 +103,8 @@
 				<div id='adversario'>
 					<p>Escolha o time adversário: </p>
 					<select id='selectAdversario'>
-						<option id='flamengo'>Flamengo</option>
-						<option id='santos' selected>Santos</option>
+						<option value='Flamengo'>Flamengo</option>
+						<option value='Santos' selected>Santos</option>
 					</select>
 					<br><br>
 					<input type='button' name='pesquisar' value='Pesquisar' onclick="adversario()">
@@ -112,7 +112,12 @@
 
 				<div id='campeonato'>
 					<p>Escolha o nome do campeonato: </p>
-					<input type='text' id="campeonatoJogo" placeholder='Nome do campeonato'><br><br>
+					<select id='selectCampeonato'>
+						<option value='Carioca'>Carioca</option>
+						<option value='Série A' selected>Série A</option>
+						<option value='Copa do Brasil'>Copa do Brasil</option>
+					</select>
+					<br><br>
 					<input type='button' name='pesquisar' value='Pesquisar' onclick="campeonato()">
 				</div>
 
