@@ -1,9 +1,9 @@
 var jogos = [];
 
-var jogo1 = [true, "Flamengo", 5, 0, "2020-08-31", "nilton santos", "Série A", "paulo autuori", "Honda (5x)", ""];
-var jogo2 = [false, "Santos", 3, 4, "2019-08-31", "nilton santos", "Série A", "paulo autuori", "Honda (5x)", ""];
-var jogo3 = [true, "Flamengo", 2, 2, "2050-08-31", "nilton santos", "Série A", "paulo autuori", "Honda (5x)", ""];
-var jogo4 = [false, "Flamengo", 2, 1, "2050-08-31", "nilton santos", "Série A", "paulo autuori", "Honda (5x)", ""];
+var jogo1 = [true, "Flamengo", 5, 0, "2020-08-31", "nilton santos", "Série A", "Paulo Autuori", "Honda (5x)", ""];
+var jogo2 = [false, "Santos", 3, 4, "2019-08-31", "nilton santos", "Série A", "Paulo Autuori", "Honda (5x)", ""];
+var jogo3 = [true, "Flamengo", 2, 2, "2050-08-31", "nilton santos", "Série A", "Paulo Autuori", "Honda (5x)", ""];
+var jogo4 = [false, "Flamengo", 2, 1, "2050-08-31", "nilton santos", "Série A", "Paulo Autuori", "Honda (5x)", ""];
 
 jogos.push(jogo1);
 jogos.push(jogo2);
@@ -57,6 +57,30 @@ function campeonato(){
 
 	for(var i = 0; i < jogos.length; i++){
 		if(campeonato == jogos[i][6]){
+			escreveLinha(jogos[i]);
+		}
+	}
+}
+
+function estadio(){
+	var estadio = document.getElementById('selectEstadio').value;
+
+	console.log(estadio);
+
+	for(var i = 0; i < jogos.length; i++){
+		if(estadio == jogos[i][5]){
+			escreveLinha(jogos[i]);
+		}
+	}
+}
+
+function tecnico(){
+	var tecnico = document.getElementById('selectTecnico').value;
+
+	console.log(tecnico);
+
+	for(var i = 0; i < jogos.length; i++){
+		if(tecnico == jogos[i][7]){
 			escreveLinha(jogos[i]);
 		}
 	}

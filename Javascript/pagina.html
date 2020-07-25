@@ -135,13 +135,23 @@
 
 				<div id='estadio'>
 					<p>Escolha o nome do estádio: </p>
-					<input type='text' id="estadioJogo" placeholder='Nome do estádio'><br><br>
+					<select id='selectEstadio'>
+						<option value='Nilton Santos' selected>Nilton Santos</option>
+						<option value='Maracanã'>Maracanã</option>
+						<option value='São Januário'>São Januário</option>
+					</select>
+					<br><br>
 					<input type='button' name='pesquisar' value='Pesquisar' onclick="estadio()">
 				</div>
 
 				<div id='tecnico'>
 					<p>Escolha o nome do técnico: </p>
-					<input type='text' id="tecnicoJogo" placeholder='Nome do técnico'><br><br>
+					<select id='selectTecnico'>
+						<option value='Paulo Autuori' selected>Paulo Autuori</option>
+						<option value='Cuca'>Cuca</option>
+						<option value='Jair Ventura'>Jair Ventura</option>
+					</select>
+					<br><br>
 					<input type='button' name='pesquisar' value='Pesquisar' onclick="tecnico()">
 				</div>
 
