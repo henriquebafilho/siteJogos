@@ -66,7 +66,7 @@
 	<div>
 		<form action='pagina.html' method='post'>
 			Filtrar jogos por: 
-			<select id='select' name='select'>
+			<select id='select'>
 				<option value='' disabled selected="">--Selecione uma opção--</option>
 				<option value='decrescente'>Ordem Decrescente</option>
 				<option value='crescente'>Ordem Crescente</option>
@@ -101,15 +101,19 @@
 				</div>
 
 				<div id='adversario'>
-					<p>Insira o nome do adversário: </p>
-					<input type='text' id="adversarioJogo" placeholder='Nome do time'><br><br>
+					<p>Escolha o time adversário: </p>
+					<select id='selectAdversario'>
+						<option id='flamengo'>Flamengo</option>
+						<option id='santos' selected>Santos</option>
+					</select>
+					<br><br>
 					<input type='button' name='pesquisar' value='Pesquisar' onclick="adversario()">
 				</div>
 
 				<div id='campeonato'>
-					<p>Insira o nome do campeonato: </p>
+					<p>Escolha o nome do campeonato: </p>
 					<input type='text' id="campeonatoJogo" placeholder='Nome do campeonato'><br><br>
-					<input type='button' name='pesquisar' value='Pesquisar' onclick="escolhePesquisa()">
+					<input type='button' name='pesquisar' value='Pesquisar' onclick="campeonato()">
 				</div>
 
 				<div id='data'>
@@ -125,19 +129,19 @@
 				</div>
 
 				<div id='estadio'>
-					<p>Insira o nome do estádio: </p>
+					<p>Escolha o nome do estádio: </p>
 					<input type='text' id="estadioJogo" placeholder='Nome do estádio'><br><br>
-					<input type='button' name='pesquisar' value='Pesquisar' onclick="escolhePesquisa()">
+					<input type='button' name='pesquisar' value='Pesquisar' onclick="estadio()">
 				</div>
 
 				<div id='tecnico'>
-					<p>Insira o nome do técnico: </p>
+					<p>Escolha o nome do técnico: </p>
 					<input type='text' id="tecnicoJogo" placeholder='Nome do técnico'><br><br>
-					<input type='button' name='pesquisar' value='Pesquisar' onclick="escolhePesquisa()">
+					<input type='button' name='pesquisar' value='Pesquisar' onclick="tecnico()">
 				</div>
 
 				<div id='numero'>
-					<p>Insira o número do jogo: </p>
+					<p>Insira o número do jogo na ordem cronológica: </p>
 					<input type='number' id="numeroJogo" placeholder='Número' min='1'><br><br>
 					<input type='button' name='pesquisar' value='Pesquisar' onclick="numero()">
 				</div>

@@ -35,11 +35,13 @@ function visitante(){
 		if(jogos[i][0] == false){
 			escreveLinha(jogos[i]);
 		}
-	}	
+	}
 }
 
 function adversario(){
-	var adversario = document.getElementById('adversarioJogo').value;
+	var adversario = document.getElementById('selectAdversario').value;
+
+	console.log(adversario);
 
 	for(var i = 0; i < jogos.length; i++){
 		if(adversario == jogos[i][1]){
@@ -103,10 +105,9 @@ function derrotas(){
 function escreveLinha(jogo){
 	// checa se o time é mandante ou não
 	if(jogo[0] == true){
-		console.log("escreve linha MANDANTE");
-		console.log(jogo);
+		// ESCREVE LINHA MANDANTE
 	} else {
-		console.log("escreve linha VISITANTE");
-		console.log(jogo);
+		// ESCREVE LINHA VISITANTE
 	}
+	console.log(jogo);
 }
