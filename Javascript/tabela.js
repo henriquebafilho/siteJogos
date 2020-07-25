@@ -22,6 +22,22 @@ function decrescente(){
 	}
 }
 
+function mandante(){
+	for(var i = jogos.length - 1; i >= 0; i--){
+		if(jogos[i][0] == true){
+			escreveLinha(jogos[i]);
+		}
+	}	
+}
+
+function visitante(){
+	for(var i = jogos.length - 1; i >= 0; i--){
+		if(jogos[i][0] == false){
+			escreveLinha(jogos[i]);
+		}
+	}	
+}
+
 function adversario(){
 	var adversario = document.getElementById('adversarioJogo').value;
 
