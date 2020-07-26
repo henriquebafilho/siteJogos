@@ -239,6 +239,29 @@ function converteData(data){
 	return novaData;
 }
 
+// Limpa a tabela e reescreve o cabeçalho
 function limpaTabela(){
 	$("tr").remove(); 
+
+	var tabela = document.getElementById('jogos');
+	var linha = tabela.insertRow(0);
+
+	// Célula número
+	var cellNumero = linha.insertCell(0);
+	cellNumero.innerHTML = "Número";
+
+	// Célula mandante
+	var cellMandante = linha.insertCell(1);
+	cellMandante.width = "40%";
+	cellMandante.innerHTML = "Mandante";
+
+	// Célula placar
+	var cellPlacar = linha.insertCell(2);
+	cellPlacar.width = "20%";
+	cellPlacar.innerHTML = "Placar";
+
+	// Célula visitante
+	var cellVisitante = linha.insertCell(3);
+	cellVisitante.width = "40%";
+	cellVisitante.innerHTML = "Visitante";
 }
