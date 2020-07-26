@@ -97,6 +97,8 @@ function escolheData(){
 }
 
 function ano(){
+	limpaTabela();
+
 	var ano = document.getElementById('anoJogo').value;
 
 	for(var i = 0; i < jogos.length; i++){
@@ -152,8 +154,9 @@ function escreveLinha(jogo){
 	cellTecnico.innerHTML = jogo[7];
 
 	var cellAutorAdversario = linha3.insertCell(2);
-	cellAutorBotafogo.innerHTML = jogo[8];
+	cellAutorAdversario.innerHTML = jogo[9];
 
+	console.log(qtdLinhas);
 	// Célula com times e placar
 	var linha2 = tabela.insertRow(qtdLinhas);
 
@@ -166,6 +169,7 @@ function escreveLinha(jogo){
 	var cellAdversario = linha2.insertCell(2);
 	cellAdversario.innerHTML = jogo[1]; // Adicionar escudo aqui
 
+	console.log(qtdLinhas);
 	// Célula com o número e informações
 	var linha1 = tabela.insertRow(qtdLinhas);
 
@@ -177,6 +181,7 @@ function escreveLinha(jogo){
 	cellCabecalho.colSpan = 3;
 	cellCabecalho.innerHTML = jogo[4] + " | " + jogo[5] + " | " + jogo[6]; // Cabeçalho
 
+	console.log(qtdLinhas);
 	/*
 	// checa se o time é mandante ou não
 	if(jogo[0] == true){
@@ -186,4 +191,13 @@ function escreveLinha(jogo){
 	}
 	*/
 	console.log(jogo);
+}
+
+function limpaTabela(){
+	var tabela = document.getElementById('jogos');
+	var qtdLinhas = tabela.rows.length;
+
+	for(var i = 1; i < qtdLinhas; i++){
+		table.deleteRow(i);
+	}
 }
