@@ -1,6 +1,6 @@
 var jogos = [];
 
-var jogo1 = [true, "Flamengo", 5, 0, "2020-08-31", "Nilton Santos", "Série A", "Paulo Autuori", "Honda (5x)", ""];
+var jogo1 = [true, "Flamengo", 5, 0, "2020-08-31", "Nilton Santos", "Série A", "Paulo Autuori", "Honda (5x)", "um otário aí"];
 var jogo2 = [false, "Santos", 3, 4, "2019-08-31", "Nilton Santos", "Série A", "Paulo Autuori", "Honda (5x)", ""];
 var jogo3 = [true, "Flamengo", 2, 2, "2050-08-31", "Nilton Santos", "Série A", "Paulo Autuori", "Honda (5x)", ""];
 var jogo4 = [false, "Flamengo", 2, 1, "2050-08-31", "Nilton Santos", "Série A", "Paulo Autuori", "Honda (5x)", ""];
@@ -141,25 +141,41 @@ function derrotas(){
 function escreveLinha(jogo){
 	var tabela = document.getElementById('jogos');
 	var qtdLinhas = tabela.rows.length;
-	
-	var linha1 = tabela.insertRow(qtdLinhas);
 
-	// Célula com o número e informações
-	var cellNumero = linha1.insertCell(0);
-	cellNumero.rowSpan = 3;
-	
-	cellNumero.innerHTML = 1;
+	// Célula com autores dos gols e técnico no meio 
+	var linha3 = tabela.insertRow(qtdLinhas);
 
-	var cellCabecalho = linha1.insertCell(1);
-	cellCabecalho.colSpan = 3;
+	var cellAutorBotafogo = linha3.insertCell(0);
+	cellAutorBotafogo.innerHTML = jogo[8];
 
-	cellCabecalho.innerHTML = jogo[4] + " | " + jogo[5] + " | " + jogo[6];
+	var cellTecnico = linha3.insertCell(1);
+	cellTecnico.innerHTML = jogo[7];
+
+	var cellAutorAdversario = linha3.insertCell(2);
+	cellAutorBotafogo.innerHTML = jogo[8];
 
 	// Célula com times e placar
 	var linha2 = tabela.insertRow(qtdLinhas);
 
-	// Célula com autores dos gols e técnico no meio 
-	var linha3 = tabela.insertRow(qtdLinhas);
+	var cellBotafogo = linha2.insertCell(0);
+	cellBotafogo.innerHTML = "Botafogo"; // Adicionar escudo aqui
+
+	var cellPlacar = linha2.insertCell(1);
+	cellPlacar.innerHTML = jogo[2] + " x " + jogo[3];
+
+	var cellAdversario = linha2.insertCell(2);
+	cellAdversario.innerHTML = jogo[1]; // Adicionar escudo aqui
+
+	// Célula com o número e informações
+	var linha1 = tabela.insertRow(qtdLinhas);
+
+	var cellNumero = linha1.insertCell(0);
+	cellNumero.rowSpan = 3;
+	cellNumero.innerHTML = 1; // Número do jogo
+
+	var cellCabecalho = linha1.insertCell(1);
+	cellCabecalho.colSpan = 3;
+	cellCabecalho.innerHTML = jogo[4] + " | " + jogo[5] + " | " + jogo[6]; // Cabeçalho
 
 	/*
 	// checa se o time é mandante ou não
