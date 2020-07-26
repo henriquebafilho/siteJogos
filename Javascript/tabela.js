@@ -1,9 +1,9 @@
 var jogos = [];
 
-var jogo1 = [true, "Flamengo", 5, 0, "2020-08-31", "Nilton Santos", "Série A", "Paulo Autuori", "Honda (5x)", "um otário aí"];
-var jogo2 = [false, "Santos", 3, 4, "2019-08-31", "Nilton Santos", "Série A", "Paulo Autuori", "Honda (5x)", ""];
-var jogo3 = [true, "Flamengo", 2, 2, "2050-08-31", "Nilton Santos", "Série A", "Paulo Autuori", "Honda (5x)", ""];
-var jogo4 = [false, "Flamengo", 2, 1, "2050-08-31", "Nilton Santos", "Série A", "Paulo Autuori", "Honda (5x)", ""];
+var jogo1 = [true, "Flamengo", 5, 0, "2020-08-31", "Nilton Santos", "Carioca", "Paulo Autuori", "Honda (5x)", "um otário aí"];
+var jogo2 = [false, "Santos", 3, 4, "2019-08-31", "Vila Belmiro", "Série A", "Paulo Autuori", "Kalou", "um otário aí"];
+var jogo3 = [true, "Flamengo", 2, 2, "2050-08-31", "Nilton Santos", "Carioca", "Paulo Autuori", "Bruno Nazário", "um otário aí"];
+var jogo4 = [false, "Flamengo", 2, 1, "2050-08-31", "Maracanã", "Série A", "Paulo Autuori", "Luis Henrique", "um otário aí"];
 
 jogos.push(jogo1);
 jogos.push(jogo2);
@@ -11,18 +11,24 @@ jogos.push(jogo3);
 jogos.push(jogo4);
 
 function crescente(){
+	limpaTabela();
+
 	for(var i = 0; i < jogos.length; i++){
 		escreveLinha(jogos[i]);
 	}
 }
 
 function decrescente(){
+	limpaTabela();
+
 	for(var i = jogos.length - 1; i >= 0; i--){
 		escreveLinha(jogos[i]);
 	}
 }
 
 function mandante(){
+	limpaTabela();
+
 	for(var i = jogos.length - 1; i >= 0; i--){
 		if(jogos[i][0] == true){
 			escreveLinha(jogos[i]);
@@ -31,6 +37,8 @@ function mandante(){
 }
 
 function visitante(){
+	limpaTabela();
+
 	for(var i = jogos.length - 1; i >= 0; i--){
 		if(jogos[i][0] == false){
 			escreveLinha(jogos[i]);
@@ -39,6 +47,8 @@ function visitante(){
 }
 
 function adversario(){
+	limpaTabela();
+
 	var adversario = document.getElementById('selectAdversario').value;
 
 	console.log(adversario);
@@ -51,6 +61,8 @@ function adversario(){
 }
 
 function campeonato(){
+	limpaTabela();
+
 	var campeonato = document.getElementById('selectCampeonato').value;
 
 	console.log(campeonato);
@@ -63,6 +75,8 @@ function campeonato(){
 }
 
 function estadio(){
+	limpaTabela();
+
 	var estadio = document.getElementById('selectEstadio').value;
 
 	console.log(estadio);
@@ -75,6 +89,8 @@ function estadio(){
 }
 
 function tecnico(){
+	limpaTabela();
+
 	var tecnico = document.getElementById('selectTecnico').value;
 
 	console.log(tecnico);
@@ -87,6 +103,8 @@ function tecnico(){
 }
 
 function escolheData(){
+	limpaTabela();
+
 	var data = document.getElementById('dataJogo').value;
 
 	for(var i = 0; i < jogos.length; i++){
@@ -111,12 +129,16 @@ function ano(){
 }
 
 function numero(){
+	limpaTabela();
+
 	var numero = document.getElementById('numeroJogo').value;
 	
 	escreveLinha(jogos[numero - 1]);
 }
 
 function vitorias(){
+	limpaTabela();
+
 	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][2] > jogos[i][3]){
 			escreveLinha(jogos[i]);
@@ -125,6 +147,8 @@ function vitorias(){
 }
 
 function empates(){
+	limpaTabela();
+
 	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][2] == jogos[i][3]){
 			escreveLinha(jogos[i]);
@@ -133,6 +157,8 @@ function empates(){
 }
 
 function derrotas(){
+	limpaTabela();
+	
 	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][2] < jogos[i][3]){
 			escreveLinha(jogos[i]);
@@ -194,10 +220,5 @@ function escreveLinha(jogo){
 }
 
 function limpaTabela(){
-	var tabela = document.getElementById('jogos');
-	var qtdLinhas = tabela.rows.length;
-
-	for(var i = 1; i < qtdLinhas; i++){
-		table.deleteRow(i);
-	}
+	$("#jogos tr").remove(); 
 }
