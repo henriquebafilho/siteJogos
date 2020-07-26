@@ -14,7 +14,7 @@ function crescente(){
 	limpaTabela();
 
 	for(var i = 0; i < jogos.length; i++){
-		escreveLinha(jogos[i]);
+		escreveLinha(jogos[i], i + 1);
 	}
 }
 
@@ -22,26 +22,32 @@ function decrescente(){
 	limpaTabela();
 
 	for(var i = jogos.length - 1; i >= 0; i--){
-		escreveLinha(jogos[i]);
+		escreveLinha(jogos[i], i + 1);
 	}
 }
 
 function mandante(){
 	limpaTabela();
 
-	for(var i = jogos.length - 1; i >= 0; i--){
+	var contador = 0;
+
+	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][0] == true){
-			escreveLinha(jogos[i]);
+			contador += 1;
+			escreveLinha(jogos[i], contador);
 		}
-	}	
+	}
 }
 
 function visitante(){
 	limpaTabela();
 
-	for(var i = jogos.length - 1; i >= 0; i--){
+	var contador = 0;
+
+	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][0] == false){
-			escreveLinha(jogos[i]);
+			contador += 1;
+			escreveLinha(jogos[i], contador);
 		}
 	}
 }
@@ -50,12 +56,12 @@ function adversario(){
 	limpaTabela();
 
 	var adversario = document.getElementById('selectAdversario').value;
-
-	console.log(adversario);
+	var contador = 0;
 
 	for(var i = 0; i < jogos.length; i++){
 		if(adversario == jogos[i][1]){
-			escreveLinha(jogos[i]);
+			contador += 1;
+			escreveLinha(jogos[i], contador);
 		}
 	}
 }
@@ -64,12 +70,12 @@ function campeonato(){
 	limpaTabela();
 
 	var campeonato = document.getElementById('selectCampeonato').value;
-
-	console.log(campeonato);
+	var contador = 0;
 
 	for(var i = 0; i < jogos.length; i++){
 		if(campeonato == jogos[i][6]){
-			escreveLinha(jogos[i]);
+			contador += 1;
+			escreveLinha(jogos[i], contador);
 		}
 	}
 }
@@ -78,12 +84,12 @@ function estadio(){
 	limpaTabela();
 
 	var estadio = document.getElementById('selectEstadio').value;
-
-	console.log(estadio);
+	var contador = 0;
 
 	for(var i = 0; i < jogos.length; i++){
 		if(estadio == jogos[i][5]){
-			escreveLinha(jogos[i]);
+			contador += 1;
+			escreveLinha(jogos[i], contador);
 		}
 	}
 }
@@ -92,12 +98,12 @@ function tecnico(){
 	limpaTabela();
 
 	var tecnico = document.getElementById('selectTecnico').value;
-
-	console.log(tecnico);
+	var contador = 0;
 
 	for(var i = 0; i < jogos.length; i++){
 		if(tecnico == jogos[i][7]){
-			escreveLinha(jogos[i]);
+			contador += 1;
+			escreveLinha(jogos[i], contador);
 		}
 	}
 }
@@ -106,10 +112,12 @@ function escolheData(){
 	limpaTabela();
 
 	var data = document.getElementById('dataJogo').value;
+	var contador = 0;
 
 	for(var i = 0; i < jogos.length; i++){
 		if(data == jogos[i][4]){
-			escreveLinha(jogos[i]);
+			contador += 1;
+			escreveLinha(jogos[i], contador);
 		}
 	}
 }
@@ -118,12 +126,14 @@ function ano(){
 	limpaTabela();
 
 	var ano = document.getElementById('anoJogo').value;
+	var contador = 0;
 
 	for(var i = 0; i < jogos.length; i++){
 		var dataCortada = jogos[i][4].split("-")
 
 		if(dataCortada[0] == ano.toString()){
-			escreveLinha(jogos[i]);
+			contador += 1;
+			escreveLinha(jogos[i], contador);
 		}
 	}
 }
@@ -133,15 +143,18 @@ function numero(){
 
 	var numero = document.getElementById('numeroJogo').value;
 	
-	escreveLinha(jogos[numero - 1]);
+	escreveLinha(jogos[numero - 1], numero);
 }
 
 function vitorias(){
 	limpaTabela();
 
+	var contador = 0;
+
 	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][2] > jogos[i][3]){
-			escreveLinha(jogos[i]);
+			contador += 1;
+			escreveLinha(jogos[i], contador);
 		}
 	}
 }
@@ -149,9 +162,12 @@ function vitorias(){
 function empates(){
 	limpaTabela();
 
+	var contador = 0;
+
 	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][2] == jogos[i][3]){
-			escreveLinha(jogos[i]);
+			contador += 1;
+			escreveLinha(jogos[i], contador);
 		}
 	}
 }
@@ -159,19 +175,23 @@ function empates(){
 function derrotas(){
 	limpaTabela();
 
+	var contador = 0;
+
 	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][2] < jogos[i][3]){
-			escreveLinha(jogos[i]);
+			contador += 1;
+			escreveLinha(jogos[i], contador);
 		}
 	}
 }
 
-function escreveLinha(jogo){
+function escreveLinha(jogo, numero){
 	var tabela = document.getElementById('jogos');
 	var qtdLinhas = tabela.rows.length;
 
 	// Célula com autores dos gols e técnico no meio 
 	var linha3 = tabela.insertRow(qtdLinhas);
+	linha3.id = "koe";
 
 	var cellAutorBotafogo = linha3.insertCell(0);
 	cellAutorBotafogo.innerHTML = jogo[8];
@@ -184,6 +204,7 @@ function escreveLinha(jogo){
 
 	// Célula com times e placar
 	var linha2 = tabela.insertRow(qtdLinhas);
+	linha2.id = "koe";
 
 	var cellBotafogo = linha2.insertCell(0);
 	cellBotafogo.innerHTML = "Botafogo"; // Adicionar escudo aqui
@@ -196,16 +217,24 @@ function escreveLinha(jogo){
 
 	// Célula com o número e informações
 	var linha1 = tabela.insertRow(qtdLinhas);
+	linha1.id = "koe";
 
 	var cellNumero = linha1.insertCell(0);
 	cellNumero.rowSpan = 3;
-	cellNumero.innerHTML = 1; // Número do jogo
+	cellNumero.innerHTML = numero; // Número do jogo
 
 	var cellCabecalho = linha1.insertCell(1);
 	cellCabecalho.colSpan = 3;
-	cellCabecalho.innerHTML = jogo[4] + " | " + jogo[5] + " | " + jogo[6]; // Cabeçalho
+	cellCabecalho.innerHTML = converteData(jogo[4]) + " | " + "Estádio " + jogo[5] + " | " + jogo[6]; // Cabeçalho
 
 	console.log(jogo);
+}
+
+function converteData(data){
+	var array = data.split("-");
+	var novaData = array[2] + "/" + array[1] + "/" + array[0];
+
+	return novaData;
 }
 
 function limpaTabela(){
