@@ -10,8 +10,6 @@ jogos.push(jogo2);
 jogos.push(jogo3);
 jogos.push(jogo4);
 
-decrescente();
-
 function crescente(){
 	limpaTabela();
 
@@ -211,5 +209,5 @@ function escreveLinha(jogo){
 }
 
 function limpaTabela(){
-	$("#jogos tr").remove(); 
+	$("tr").remove(); 
 }
