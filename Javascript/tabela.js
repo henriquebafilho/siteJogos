@@ -10,6 +10,8 @@ jogos.push(jogo2);
 jogos.push(jogo3);
 jogos.push(jogo4);
 
+decrescente();
+
 function crescente(){
 	limpaTabela();
 
@@ -158,7 +160,7 @@ function empates(){
 
 function derrotas(){
 	limpaTabela();
-	
+
 	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][2] < jogos[i][3]){
 			escreveLinha(jogos[i]);
@@ -182,7 +184,6 @@ function escreveLinha(jogo){
 	var cellAutorAdversario = linha3.insertCell(2);
 	cellAutorAdversario.innerHTML = jogo[9];
 
-	console.log(qtdLinhas);
 	// Célula com times e placar
 	var linha2 = tabela.insertRow(qtdLinhas);
 
@@ -195,7 +196,6 @@ function escreveLinha(jogo){
 	var cellAdversario = linha2.insertCell(2);
 	cellAdversario.innerHTML = jogo[1]; // Adicionar escudo aqui
 
-	console.log(qtdLinhas);
 	// Célula com o número e informações
 	var linha1 = tabela.insertRow(qtdLinhas);
 
@@ -207,15 +207,6 @@ function escreveLinha(jogo){
 	cellCabecalho.colSpan = 3;
 	cellCabecalho.innerHTML = jogo[4] + " | " + jogo[5] + " | " + jogo[6]; // Cabeçalho
 
-	console.log(qtdLinhas);
-	/*
-	// checa se o time é mandante ou não
-	if(jogo[0] == true){
-		// ESCREVE LINHA MANDANTE
-	} else {
-		// ESCREVE LINHA VISITANTE
-	}
-	*/
 	console.log(jogo);
 }
 

@@ -54,7 +54,7 @@
 <script>
 	//Mostrar e esconder divs dos filtros de jogos
 	$(document).ready(function(){
-		$('select').on('change',function(){
+		$("#cabecalho").on('change',function(){
 			var selectValor = $(this).val();
 			$('#pai').children('div').hide();
 			$('#pai').children('#'+selectValor).show();
@@ -66,7 +66,7 @@
 	<div>
 		<form action='pagina.html' method='post'>
 			Filtrar jogos por: 
-			<select id='select'>
+			<select id='cabecalho'>
 				<option value='' disabled selected="">--Selecione uma opção--</option>
 				<option value='decrescente'>Ordem Decrescente</option>
 				<option value='crescente'>Ordem Crescente</option>
@@ -181,6 +181,12 @@
 	<br>
 	<div>
 		<table id="jogos">
+			<tr>
+				<th colspan='1' id='head'>Número</th>
+				<th colspan='1' width=40% id='head'>Mandante</th>
+				<th colspan='1' width=20% id='head'>Placar</th>
+				<th colspan='1' width=40% id='head'>Visitante</th>
+			</tr>
 		</table>
 	</div>
 	<br>
