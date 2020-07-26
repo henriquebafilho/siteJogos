@@ -1,14 +1,16 @@
 var jogos = [];
 
-var jogo1 = [true, "Flamengo", 5, 0, "2020-08-31", "Nilton Santos", "Carioca", "Paulo Autuori", "Honda (5x)", "um otário aí"];
-var jogo2 = [false, "Santos", 3, 4, "2019-08-31", "Vila Belmiro", "Série A", "Paulo Autuori", "Kalou", "um otário aí"];
-var jogo3 = [true, "Flamengo", 2, 2, "2050-08-31", "Nilton Santos", "Carioca", "Paulo Autuori", "Bruno Nazário", "um otário aí"];
-var jogo4 = [false, "Flamengo", 2, 1, "2050-08-31", "Maracanã", "Série A", "Paulo Autuori", "Luis Henrique", "um otário aí"];
+var jogo1 = [true, "Fluminense", 2, 3, "2002-10-26", "Maracanã", "Série A", "Ivo Wortmann", ["Galeano", "Léo Inácio"], ["César", "Magno Alves", "Romário"]];
+var jogo2 = [true, "Flamengo", 1, 0, "2004-03-14", "Maracanã", "Carioca", "Levir Culpi", ["Alex Alves"], []];
+var jogo3 = [true, "Atlético-PR", 2, 2, "2050-08-31", "Nilton Santos", "Carioca", "Paulo Autuori", "Bruno Nazário", "um otário aí"];
+var jogo4 = [true, "Criciúma", 2, 1, "2050-08-31", "Maracanã", "Série A", "Paulo Autuori", "Luis Henrique", "um otário aí"];
+var jogo5 = [false, "Fluminense", 2, 1, "2050-08-31", "Maracanã", "Série A", "Paulo Autuori", "Luis Henrique", "um otário aí"];
 
 jogos.push(jogo1);
 jogos.push(jogo2);
 jogos.push(jogo3);
 jogos.push(jogo4);
+jogos.push(jogo5);
 
 function crescente(){
 	limpaTabela();
