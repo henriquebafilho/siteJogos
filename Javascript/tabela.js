@@ -141,18 +141,25 @@ function derrotas(){
 function escreveLinha(jogo){
 	var tabela = document.getElementById('jogos');
 	var qtdLinhas = tabela.rows.length;
-	var linha = tabela.insertRow(qtdLinhas);
-
-	console.log(qtdLinhas);
-
-	var cellNumero = linha.insertCell(0);
 	
+	var linha1 = tabela.insertRow(qtdLinhas);
 
-	cellNumero.innerHTML = 2;
-	cellMandante = jogo[4];
-	cellPlacar = jogo[5];
-	cellVisitante = jogo[3];
+	// Célula com o número e informações
+	var cellNumero = linha1.insertCell(0);
+	cellNumero.rowSpan = 3;
+	
+	cellNumero.innerHTML = 1;
 
+	var cellCabecalho = linha1.insertCell(1);
+	cellCabecalho.colSpan = 3;
+
+	cellCabecalho.innerHTML = jogo[4] + " | " + jogo[5] + " | " + jogo[6];
+
+	// Célula com times e placar
+	var linha2 = tabela.insertRow(qtdLinhas);
+
+	// Célula com autores dos gols e técnico no meio 
+	var linha3 = tabela.insertRow(qtdLinhas);
 
 	/*
 	// checa se o time é mandante ou não
