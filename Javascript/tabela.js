@@ -5,12 +5,28 @@ var jogo2 = [true, "Flamengo", 1, 0, "2004-03-14", "Maracanã", "Carioca", "Levi
 var jogo3 = [true, "Atlético-PR", 1, 1, "2004-08-12", "Caio Martins", "Série A", "Mauro Galvão", ["Schwenck"], ["Washington"]];
 var jogo4 = [true, "Criciúma", 1, 1, "2004-08-28", "Caio Martins", "Série A", "Paulo Bonamigo", ["Schwenck"], ["Fernandinho"]];
 var jogo5 = [false, "Fluminense", 4, 1, "2004-10-02", "Maracanã", "Série A", "Paulo Bonamigo", ["Almir","Ruy","Ricardinho","Têti"], ["Edmundo"]];
+var jogo6 = [true, "Coritiba", 4, 1, "2004-11-13", "Caio Martins", "Série A", "Paulo Bonamigo", ["Caio Ribeiro (2x)", "Schwenck", "Ricardinho"], ["Jorginho Paulista"]]
+var jogo7 = [true, "Guarani", 1, 0, "2004-11-27", "Caio Martins", "Série A", "Paulo Bonamigo", ["Alex Alves"], []];
+var jogo8 = [true, "Corinthians", 1, 2, "2004-12-12", "Caio Martins", "Série A", "Paulo Bonamigo", ["Alex Alves"], ["Fábio Baiano","Wendel"]];
+var jogo9 = [true, "Americano", 1, 2, "2005-02-13", "Maracanã", "Carioca", "Paulo Bonamigo", ["Alex Alves"], ["Marcos Antônio","Washington"]];
+var jogo10 = [false, "Fluminense", 0, 4, "2005-03-13", "Maracanã", "Carioca", "Paulo Bonamigo", [], ["Fabiano Eller","Gabriel","Juninho","Alex"]];
+var jogo11 = [true, "Atlético-PR", 2, 0, "2005-05-29", "Luso Brasileiro", "Série A", "Paulo César Gusmão", ["Rafael Marques", "Almir"], []];
+var jogo12 = [true, "Goiás", 3, 1, "2005-09-18", "Luso Brasileiro", "Série A", "Celso Roth", ["Ramón", "Zé Roberto (2x)"], ["Souza"]];
+var jogo18 = [true, "Santos", 4, 3, "2006-10-14", "Maracanã", "Série A", "Cuca", ["Asprila","Reinaldo","Zé Roberto","Juca"], ["Kléber","Wellington Paulista","Reinaldo"]];
 
 jogos.push(jogo1);
 jogos.push(jogo2);
 jogos.push(jogo3);
 jogos.push(jogo4);
 jogos.push(jogo5);
+jogos.push(jogo6);
+jogos.push(jogo7);
+jogos.push(jogo8);
+jogos.push(jogo9);
+jogos.push(jogo10);
+jogos.push(jogo11);
+jogos.push(jogo12);
+jogos.push(jogo18);
 
 function crescente(){
 	limpaTabela();
@@ -742,6 +758,7 @@ function limpaTabela(){
 
 	var tabela = document.getElementById('jogos');
 	var linha = tabela.insertRow(0);
+	tabela.style.fontWeight = "bold";
 
 	// Célula número
 	var cellNumero = linha.insertCell(0);
