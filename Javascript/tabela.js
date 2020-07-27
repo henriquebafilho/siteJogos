@@ -209,6 +209,8 @@ function escreveLinha(jogo, numero){
 	linha3.id = "linha3";
 
 	var cellAutorMandante = linha3.insertCell(0);
+	cellAutorMandante.style.fontFamily = "Arial";
+	cellAutorMandante.style.fontWeight = "bold";
 	cellAutorMandante.style.backgroundColor = getColorFundo(mandante);
 	cellAutorMandante.style.color = getColorLetra(mandante);
 	if(jogo[0] == true){
@@ -218,10 +220,15 @@ function escreveLinha(jogo, numero){
 	}
 
 	var cellTecnico = linha3.insertCell(1);
+	cellTecnico.style.fontFamily = "Arial";
+	cellTecnico.style.fontWeight = "bold";
 	cellTecnico.style.background = "linear-gradient(90deg, " + getColorFundo(mandante) + " 49%, " + getColorFundo(visitante) + " 52%)";
+	cellTecnico.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
 	cellTecnico.innerHTML = "Técnico: " + jogo[7];
 
 	var cellAutorVisitante = linha3.insertCell(2);
+	cellAutorVisitante.style.fontFamily = "Arial";
+	cellAutorVisitante.style.fontWeight = "bold";
 	cellAutorVisitante.style.backgroundColor = getColorFundo(visitante);
 	cellAutorVisitante.style.color = getColorLetra(visitante);
 	if(jogo[0] == true){
@@ -236,6 +243,8 @@ function escreveLinha(jogo, numero){
 
 	var cellMandante = linha2.insertCell(0);
 	cellMandante.id = "mandante" + numero;
+	cellMandante.style.fontFamily = "Arial";
+	cellMandante.style.fontWeight = "bold";
 	cellMandante.style.backgroundColor = getColorFundo(mandante);
 	cellMandante.style.color = getColorLetra(mandante);
 
@@ -247,7 +256,11 @@ function escreveLinha(jogo, numero){
 
 	var cellPlacar = linha2.insertCell(1);
 	cellPlacar.id = "placar";
+	cellPlacar.style.fontFamily = "Arial";
+	cellPlacar.style.fontWeight = "bold";
+	cellPlacar.style.fontSize = "300%";
 	cellPlacar.style.background = "linear-gradient(90deg, " + getColorFundo(mandante) + " 49%, " + getColorFundo(visitante) + " 52%)";
+	cellPlacar.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
 	if(jogo[0] == true){
 		cellPlacar.innerHTML = jogo[2] + " x " + jogo[3];
 	} else {
@@ -256,6 +269,8 @@ function escreveLinha(jogo, numero){
 
 	var cellVisitante = linha2.insertCell(2);
 	cellVisitante.id = "visitante" + numero;
+	cellVisitante.style.fontFamily = "Arial";
+	cellVisitante.style.fontWeight = "bold";
 	cellVisitante.style.backgroundColor = getColorFundo(visitante);
 	cellVisitante.style.color = getColorLetra(visitante);
 	var img = document.createElement("img");
@@ -270,13 +285,18 @@ function escreveLinha(jogo, numero){
 
 	var cellNumero = linha1.insertCell(0);
 	cellNumero.rowSpan = 3;
+	cellNumero.style.fontFamily = "Arial";
+	cellNumero.style.fontWeight = "bold";
 	cellNumero.style.backgroundColor = getColorFundo(mandante);
 	cellNumero.style.color = getColorLetra(mandante);
 	cellNumero.innerHTML = numero; // Número do jogo
 
 	var cellCabecalho = linha1.insertCell(1);
 	cellCabecalho.colSpan = 3;
+	cellCabecalho.style.fontFamily = "Arial";
+	cellCabecalho.style.fontWeight = "bold";
 	cellCabecalho.style.background = "linear-gradient(90deg, " + getColorFundo(mandante) + " 49%, " + getColorFundo(visitante) + " 50%)";
+	cellCabecalho.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
 	cellCabecalho.innerHTML = converteData(jogo[4]) + " | " + "Estádio " + jogo[5] + " | " + jogo[6]; // Cabeçalho
 
 	console.log(jogo);
