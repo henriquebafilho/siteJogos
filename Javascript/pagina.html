@@ -15,7 +15,7 @@
 			color: white;
 		}
 		table {
-			border: 2px solid white;
+			border: 2px solid black;
 			width: 100%;
 			font-family: Arial;
 			text-align: center;
@@ -46,7 +46,7 @@
 		img{
 			vertical-align: middle;
 		}
-		select{
+		select, .main option{
 			text-align: center;
 			text-align-last: center;
 		}
@@ -84,8 +84,8 @@
 			Filtrar jogos por: 
 			<select id='cabecalho' onclick="getFuncaoSelect(this.value)">
 				<option value='' disabled selected="">Selecione uma opção</option>
-				<option value='decrescente'>Ordem Decrescente</option>
-				<option value='crescente'>Ordem Crescente</option>
+				<option value='decrescente'>Todos (Ordem Decrescente)</option>
+				<option value='crescente'>Todos (Ordem Crescente)</option>
 				<option value='mandante'>Jogos de Mandante</option>
 				<option value='visitante'>Jogos de Visitante</option>
 				<option value='adversario'>Adversário</option>

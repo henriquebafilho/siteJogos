@@ -390,6 +390,7 @@ jogos.push(jogo196);
 jogos.push(jogo197);
 jogos.push(jogo202);
 
+limpaTabela();
 decrescente();
 
 /*
@@ -634,6 +635,7 @@ function escreveLinha(jogo, numero){
 	cellAutorMandante.style.fontWeight = "bold";
 	cellAutorMandante.style.backgroundColor = getColorFundo(mandante);
 	cellAutorMandante.style.color = getColorLetra(mandante);
+	cellAutorMandante.style.border = "1px solid white";
 	if(jogo[0] == true){
 		cellAutorMandante.innerHTML = jogo[8];
 	} else {
@@ -645,6 +647,7 @@ function escreveLinha(jogo, numero){
 	cellTecnico.style.fontWeight = "bold";
 	cellTecnico.style.background = "linear-gradient(90deg, " + getColorFundo(mandante) + " 49%, " + getColorFundo(visitante) + " 52%)";
 	cellTecnico.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+	cellTecnico.style.border = "1px solid white";
 	cellTecnico.innerHTML = "Técnico: " + jogo[7];
 
 	var cellAutorVisitante = linha3.insertCell(2);
@@ -652,6 +655,7 @@ function escreveLinha(jogo, numero){
 	cellAutorVisitante.style.fontWeight = "bold";
 	cellAutorVisitante.style.backgroundColor = getColorFundo(visitante);
 	cellAutorVisitante.style.color = getColorLetra(visitante);
+	cellAutorVisitante.style.border = "1px solid white";
 	if(jogo[0] == true){
 		cellAutorVisitante.innerHTML = jogo[9];
 	} else {
@@ -668,6 +672,7 @@ function escreveLinha(jogo, numero){
 	cellMandante.style.fontWeight = "bold";
 	cellMandante.style.backgroundColor = getColorFundo(mandante);
 	cellMandante.style.color = getColorLetra(mandante);
+	cellMandante.style.border = "1px solid white";
 	cellMandante.innerHTML = "<img src=index_files/" + getEscudoName(mandante) + ".png width=70 height=70 alt=Imagem><br>" + mandante;
 
 	var cellPlacar = linha2.insertCell(1);
@@ -678,6 +683,7 @@ function escreveLinha(jogo, numero){
 	cellPlacar.style.whiteSpace = "nowrap";
 	cellPlacar.style.background = "linear-gradient(90deg, " + getColorFundo(mandante) + " 49%, " + getColorFundo(visitante) + " 52%)";
 	cellPlacar.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+	cellPlacar.style.border = "1px solid white";
 	if(jogo[0] == true){
 		cellPlacar.innerHTML = jogo[2] + " x " + jogo[3];
 	} else {
@@ -690,6 +696,7 @@ function escreveLinha(jogo, numero){
 	cellVisitante.style.fontWeight = "bold";
 	cellVisitante.style.backgroundColor = getColorFundo(visitante);
 	cellVisitante.style.color = getColorLetra(visitante);
+	cellVisitante.style.border = "1px solid white";
 	cellVisitante.innerHTML = "<img src=index_files/" + getEscudoName(visitante) + ".png width=70 height=70 alt=Imagem><br>" + visitante;
 
 	// Célula com o número e informações
@@ -702,6 +709,7 @@ function escreveLinha(jogo, numero){
 	cellNumero.style.fontWeight = "bold";
 	cellNumero.style.backgroundColor = getColorFundo(mandante);
 	cellNumero.style.color = getColorLetra(mandante);
+	cellNumero.style.border = "1px solid white";
 	cellNumero.innerHTML = numero; // Número do jogo
 
 	var cellCabecalho = linha1.insertCell(1);
@@ -710,6 +718,7 @@ function escreveLinha(jogo, numero){
 	cellCabecalho.style.fontWeight = "bold";
 	cellCabecalho.style.background = "linear-gradient(90deg, " + getColorFundo(mandante) + " 49%, " + getColorFundo(visitante) + " 50%)";
 	cellCabecalho.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+	cellCabecalho.style.border = "1px solid white";
 	cellCabecalho.innerHTML = converteData(jogo[5]) + " | " + "Estádio " + jogo[6] + " | " + jogo[4]; // Cabeçalho
 }
 
@@ -1187,25 +1196,29 @@ function limpaTabela(){
 	$("tr").remove(); 
 
 	var tabela = document.getElementById("jogos");
-	var linha = tabela.insertRow(-1);
+	var linha = tabela.insertRow(0);
 	tabela.style.fontWeight = "bold";
 
 	// Célula número
 	var cellNumero = linha.insertCell(0);
 	cellNumero.innerHTML = "Número";
+	cellNumero.style.border = "1px solid white";
 
 	// Célula mandante
 	var cellMandante = linha.insertCell(1);
 	cellMandante.width = "40%";
 	cellMandante.innerHTML = "Mandante";
+	cellMandante.style.border = "1px solid white";
 
 	// Célula placar
 	var cellPlacar = linha.insertCell(2);
 	cellPlacar.width = "20%";
 	cellPlacar.innerHTML = "Placar";
+	cellPlacar.style.border = "1px solid white";
 
 	// Célula visitante
 	var cellVisitante = linha.insertCell(3);
 	cellVisitante.width = "40%";
 	cellVisitante.innerHTML = "Visitante";
+	cellVisitante.style.border = "1px solid white";
 }
