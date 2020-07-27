@@ -209,6 +209,7 @@ function escreveLinha(jogo, numero){
 	linha3.id = "linha3";
 
 	var cellAutorMandante = linha3.insertCell(0);
+	cellAutorMandante.style.backgroundColor = getColor(mandante);
 	if(jogo[0] == true){
 		cellAutorMandante.innerHTML = jogo[8];
 	} else {
@@ -216,9 +217,11 @@ function escreveLinha(jogo, numero){
 	}
 
 	var cellTecnico = linha3.insertCell(1);
+	cellTecnico.style.background = "linear-gradient(90deg, " + getColor(mandante) + " 49%, " + getColor(visitante) + " 52%)";
 	cellTecnico.innerHTML = "Técnico: " + jogo[7];
 
 	var cellAutorVisitante = linha3.insertCell(2);
+	cellAutorVisitante.style.backgroundColor = getColor(visitante);
 	if(jogo[0] == true){
 		cellAutorVisitante.innerHTML = jogo[9];
 	} else {
@@ -231,6 +234,7 @@ function escreveLinha(jogo, numero){
 
 	var cellMandante = linha2.insertCell(0);
 	cellMandante.id = "mandante" + numero;
+	cellMandante.style.backgroundColor = getColor(mandante);
 	var img = document.createElement("img");
 	img.src = "index_files/" + mandante + ".png";
 	img.width = 70;
@@ -239,6 +243,7 @@ function escreveLinha(jogo, numero){
 
 	var cellPlacar = linha2.insertCell(1);
 	cellPlacar.id = "placar";
+	cellPlacar.style.background = "linear-gradient(90deg, " + getColor(mandante) + " 49%, " + getColor(visitante) + " 52%)";
 	if(jogo[0] == true){
 		cellPlacar.innerHTML = jogo[2] + " x " + jogo[3];
 	} else {
@@ -247,6 +252,7 @@ function escreveLinha(jogo, numero){
 
 	var cellVisitante = linha2.insertCell(2);
 	cellVisitante.id = "visitante" + numero;
+	cellVisitante.style.backgroundColor = getColor(visitante);
 	var img = document.createElement("img");
 	img.src = "index_files/" + visitante + ".png";
 	img.width = 70;
@@ -259,13 +265,233 @@ function escreveLinha(jogo, numero){
 
 	var cellNumero = linha1.insertCell(0);
 	cellNumero.rowSpan = 3;
+	cellNumero.style.backgroundColor = getColor(mandante);
 	cellNumero.innerHTML = numero; // Número do jogo
 
 	var cellCabecalho = linha1.insertCell(1);
 	cellCabecalho.colSpan = 3;
+	cellCabecalho.style.background = "linear-gradient(90deg, " + getColor(mandante) + " 49%, " + getColor(visitante) + " 52%)";
 	cellCabecalho.innerHTML = converteData(jogo[4]) + " | " + "Estádio " + jogo[5] + " | " + jogo[6]; // Cabeçalho
 
 	console.log(jogo);
+}
+
+function getColor(time){
+	switch (time) {
+		case "América-MG":
+		return "#048439";
+		break;
+		case "Americano":
+		return "white";
+		break;
+		case "Athletico-PR":
+		return "#c8060f";
+		break;
+		case "Atlético Nacional-COL":
+		return "#048439";
+		break;
+		case "Atlético-GO":
+		return "#ff0e00";
+		break
+		case "Atlético-MG":
+		return "black";
+		break;
+		case "Atlético-PR":
+		return "#ff0e00";
+		break;
+		case "Audax Italiano-CHI":
+		return "green";
+		break;
+		case "Avaí":
+		return "#00679a";
+		break;
+		case "Bahia":
+		return "#0188d6";
+		break;
+		case "Bangu":
+		return "#ff0e00";
+		break;
+		case "Barcelona de Guayaquil-EQU":
+		return "#fde900";
+		break;
+		case "Boa Esporte":
+		return "#ff0e00";
+		break;
+		case "Boavista":
+		return "#00913c";
+		break;
+		case "Boca Juniors":
+		return "#00458a";
+		break;
+		case "Bonsucesso":
+		return "#1c4196";
+		break;
+		case "Botafogo":
+		return "black";
+		break;
+		case "Bragantino":
+		return "white";
+		break;
+		case "Cabofriense":
+		return "#0b9c54";
+		break;
+		case "Ceará":
+		return "black";
+		break;
+		case "Chapecoense":
+		return "#00913c";
+		break;
+		case "Colo-Colo-CHI":
+		return "white";
+		break;
+		case "Corinthians":
+		return "black";
+		break;
+		case "Coritiba":
+		return "#00544d";
+		break;
+		case "CRB":
+		return "#ff0e00";
+		break;
+		case "Criciúma":
+		return "#fdd116";
+		break;
+		case "Cruzeiro":
+		return "#075798";
+		break;
+		case "CSA":
+		return "#075798";
+		break;
+		case "Cuiabá":
+		return "#fde900";
+		break;
+		case "Defensa y Justicia-ARG":
+		return "#fde900";
+		break;
+		case "Deportivo Quito-EQU":
+		return "#073756";
+		break;
+		case "Figueirense":
+		return "black";
+		break;
+		case "Flamengo":
+		return "#ff0e00";
+		break;
+		case "Fluminense":
+		return "#9f022f";
+		break;
+		case "Fortaleza":
+		return "#11519b";
+		break;
+		case "Goiás":
+		return "#048439";
+		break;
+		case "Goiás2019":
+		return "#006959";
+		break;
+		case "Grêmio":
+		return "#0d80bf";
+		break;
+		case "Guarani":
+		return "#048439";
+		break;
+		case "Independiente":
+		return "#e2001a";
+		break;
+		case "Independiente Del Valle-EQU":
+		return "#fb37b9";
+		break;
+		case "Internacional":
+		return "#ff0e00";
+		break;
+		case "Juventude":
+		return "#048439";
+		break;
+		case "Juventus":
+		return "#6a023c";
+		break;
+		case "Macaé":
+		return "#41afeb";
+		break;
+		case "Madureira":
+		return "#fde900";
+		break;
+		case "Mogi Mirim":
+		return "#ff0e00";
+		break;
+		case "Nacional-PAR":
+		return "#163fb3";
+		break;
+		case "Nacional-URU":
+		return "#172b8c";
+		break;
+		case "Náutico":
+		return "#ff0e00";
+		break;
+		case "Nova Iguaçu":
+		return "#ea8415";
+		break;
+		case "Olimpia-PAR":
+		return "white";
+		break;
+		case "Palmeiras":
+		return "#048439";
+		break;
+		case "Paraná":
+		return "#2939b4";
+		break;
+		case "Paysandu":
+		return "#0091cf";
+		break;
+		case "Ponte Preta":
+		return "white";
+		break;
+		case "Portuguesa":
+		return "red";
+		break;
+		case "Portuguesa-RJ":
+		return "#048439";
+		break;
+		case "Red Bull Bragantino":
+		return "#001c44";
+		break;
+		case "Resende":
+		return "white";
+		break;
+		case "River Plate":
+		return "white";
+		break;
+		case "Santa Cruz":
+		return "white";
+		break;
+		case "Santos":
+		return "white";
+		break;
+		case "São Bernardo":
+		return "#ffdd00";
+		break;
+		case "São Caetano":
+		return "#212568";
+		break;
+		case "São Paulo":
+		return "#ff0e00";
+		break;
+		case "Sol de America-PAR":
+		return "#075798";
+		break;
+		case "Sport":
+		return "#d30a11";
+		break;
+		case "Vasco":
+		return "white";
+		break;
+		case "Vitória":
+		return "#ff0e00";
+		break;
+		case "Volta Redonda":
+		return "#fde900";
+		break;
+	}
 }
 
 function converteData(data){
