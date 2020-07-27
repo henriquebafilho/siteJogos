@@ -46,7 +46,7 @@
 		img{
 			vertical-align: middle;
 		}
-		select, .main option{
+		select{
 			text-align: center;
 			text-align-last: center;
 		}
@@ -82,7 +82,7 @@
 	<div>
 		<form action='pagina.html' method='post'>
 			Filtrar jogos por: 
-			<select id='cabecalho' onclick="getFuncaoSelect(this.value)">
+			<select id='cabecalho' class="select" onclick="getFuncaoSelect(this.value)">
 				<option value='' disabled selected="">Selecione uma opção</option>
 				<option value='decrescente'>Todos (Ordem Decrescente)</option>
 				<option value='crescente'>Todos (Ordem Crescente)</option>
@@ -104,29 +104,65 @@
 					<p>Escolha o time adversário: </p>
 					<select id='selectAdversario' onclick="adversario()">
 						<option value="" disabled selected>Selecione um time</option>
+						<option value='América-MG'>América-MG</option>
 						<option value='Americano'>Americano</option>
-						<option value='Atlético-PR'>Atlético-PR (Athletico-PR)</option>
+						<option value='Atlético-GO'>Atlético-GO</option>
 						<option value='Atlético-MG'>Atlético-MG</option>
+						<option value='Atlético Nacional-COL'>Atlético Nacional-COL</option>
+						<option value='Atlético-PR'>Atlético-PR (Athletico-PR)</option>
+						<option value='Audax Italiano-CHI'>Audax Italiano-CHI</option>
+						<option value='Avaí'>Avaí</option>
+						<option value='Bahia'>Bahia</option>
+						<option value='Bangu'>Bangu</option>
+						<option value='Barcelona de Guayaquil-EQU'>Barcelona de Guayaquil-EQU</option>
+						<option value='Boa Esporte'>Boa Esporte</option>
 						<option value='Boavista'>Boavista</option>
+						<option value='Bonsucesso'>Bonsucesso</option>
+						<option value='Bragantino'>Bragantino</option>
+						<option value='Ceará'>Ceará</option>
+						<option value='Chapecoense'>Chapecoense</option>
 						<option value='Colo-Colo-CHI'>Colo-Colo-CHI</option>
 						<option value='Corinthians'>Corinthians</option>
 						<option value='Coritiba'>Coritiba</option>
+						<option value='CRB'>CRB</option>
 						<option value='Criciúma'>Criciúma</option>
 						<option value='Cruzeiro'>Cruzeiro</option>
+						<option value='CSA'>CSA</option>
+						<option value='Cuiabá'>Cuiabá</option>
+						<option value='Defensa y Justicia-ARG'>Defensa y Justicia-ARG</option>
+						<option value='Deportivo Quito-EQU'>Deportivo Quito-EQU</option>
+						<option value='Figueirense'>Figueirense</option>
 						<option value='Flamengo'>Flamengo</option>
 						<option value='Fluminense'>Fluminense</option>
+						<option value='Fortaleza'>Fortaleza</option>
 						<option value='Goiás'>Goiás</option>
 						<option value='Grêmio'>Grêmio</option>
 						<option value='Guarani'>Guarani</option>
 						<option value='Independiente Del Valle-EQU'>Independiente Del Valle-EQU</option>
 						<option value='Internacional'>Internacional</option>
-						<option value='Madureira'>Madureira</option>
+						<option value='Juventude'>Juventude</option>
 						<option value='Macaé'>Macaé</option>
+						<option value='Madureira'>Madureira</option>
+						<option value='Mogi Mirim'>Mogi Mirim</option>
+						<option value='Nacional-PAR'>Nacional-PAR</option>
+						<option value='Nacional-URU'>Nacional-URU</option>
+						<option value='Náutico'>Náutico</option>
+						<option value='Nova Iguaçu'>Nova Iguaçu</option>
+						<option value='Olimpia-PAR'>Olimpia-PAR</option>
 						<option value='Palmeiras'>Palmeiras</option>
 						<option value='Paraná'>Paraná</option>
+						<option value='Paysandu'>Paysandu</option>
+						<option value='Ponte Preta'>Ponte Preta</option>
+						<option value='Portuguesa-RJ'>Portuguesa-RJ</option>
+						<option value='Resende'>Resende</option>
+						<option value='Santa Cruz'>Santa Cruz</option>
 						<option value='Santos'>Santos</option>
+						<option value='São Caetano'>São Caetano</option>
 						<option value='São Paulo'>São Paulo</option>
+						<option value='Sol de América-PAR'>Sol de América-PAR</option>
+						<option value='Sport'>Sport</option>
 						<option value='Vasco'>Vasco</option>
+						<option value='Vitória'>Vitória</option>
 						<option value='Volta Redonda'>Volta Redonda</option>
 					</select>
 					<br><br>
