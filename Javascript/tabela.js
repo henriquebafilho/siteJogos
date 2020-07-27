@@ -133,21 +133,21 @@ var jogo131 = [false, "Flamengo", 1, 0, "Carioca", "2018-03-28", "Maracanã", "A
 var jogo132 = [true, "Vasco", 2, 3, "Carioca", "2018-04-01", "Nilton Santos", "Alberto Valentim", "-Renatinho <br/>-Brenner", "-Yago Pikachu (2x) <br/>-Andrés Ríos"];
 var jogo133 = [false, "Vasco", 1, 0, "Carioca", "2018-04-08", "Maracanã", "Alberto Valentim", "-Joel Carli<br>\r\n<br>Pênaltis: (4)<br>\r\n-Brenner<br>\r\n-Gilson<br>\r\n-Marcinho<br>\r\n-Renatinho", "<br><br>Pênaltis: (3)<br>\r\n-Wagner<br>\r\n-Andrés Ríos<br>\r\n-Yago Pikachu"];
 var jogo134 = [true, "Grêmio", 2, 1, "Série A", "2018-04-28", "Nilton Santos", "Alberto Valentim", "-Brenner <br/>-Gilson", "-Igor Rabello (Gol Contra)"];
-var jogo135 = [true, "Audax Italiano-CHI", 1, 1, "Sul-Americana", "2018-05-09", "Nilton Santos", "Alberto Valentim", "-Matheus Fernandes", "-Luis Cabrera"];
+var jogo135 = [true, "Audax Italiano-CHI", 1, 1, "Copa Sul-Americana", "2018-05-09", "Nilton Santos", "Alberto Valentim", "-Matheus Fernandes", "-Luis Cabrera"];
 var jogo136 = [true, "Fluminense", 2, 1, "Série A", "2018-05-14", "Nilton Santos", "Alberto Valentim", "-Rodrigo Lindoso <br/>-Kieza", "-Pedro"];
 var jogo137 = [true, "Vitória", 1, 1, "Série A", "2018-05-27", "Nilton Santos", "Alberto Valentim", "-Kieza", "-Denílson"];
 var jogo138 = [false, "Vasco", 2, 1, "Série A", "2018-06-02", "São Januário", "Alberto Valentim", "-Kieza <br/>-Igor Rabello", "-Andrey"];
 var jogo139 = [true, "Ceará", 0, 0, "Série A", "2018-06-06", "Nilton Santos", "Alberto Valentim", "", ""];
 var jogo140 = [true, "Chapecoense", 1, 0, "Série A", "2018-07-26", "Nilton Santos", "Marcos Paquetá", "-Marcinho", ""];
 var jogo141 = [true, "Santos", 0, 0, "Série A", "2018-08-04", "Nilton Santos", "Bruno Lazaroni", "", ""];
-var jogo142 = [true, "Nacional-PAR", 2, 0, "Sul-Americana", "2018-08-16", "Nilton Santos", "Zé Ricardo", "-Rodrigo Lindoso <br/>-Léo Valencia", ""];
+var jogo142 = [true, "Nacional-PAR", 2, 0, "Copa Sul-Americana", "2018-08-16", "Nilton Santos", "Zé Ricardo", "-Rodrigo Lindoso <br/>-Léo Valencia", ""];
 var jogo143 = [true, "Atlético-MG", 0, 3, "Série A", "2018-08-19", "Nilton Santos", "Zé Ricardo", "", "-Luan <br/>-Cazares <br/>-Tomás Andrade"];
 var jogo144 = [true, "Sport", 2, 0, "Série A", "2018-08-25", "Nilton Santos", "Zé Ricardo", "-Joel Carli <br/>-Rodrigo Aguirre", ""];
 var jogo145 = [true, "Cruzeiro", 1, 1, "Série A", "2018-09-05", "Nilton Santos", "Zé Ricardo", "-Luiz Fernando", "-Edílson"];
 var jogo146 = [false, "Fluminense", 0, 1, "Série A", "2018-09-09", "Maracanã", "Zé Ricardo", "", "-Digão"];
 var jogo147 = [true, "América-MG", 1, 0, "Série A", "2018-09-16", "Nilton Santos", "Zé Ricardo", "-Rodrigo Lindoso", ""];
 var jogo148 = [true, "São Paulo", 2, 2, "Série A", "2018-09-30", "Nilton Santos", "Zé Ricardo", "-Jean <br/>-Kieza", "-Diego Souza <br/>-Gonzalo Carneiro"];
-var jogo149 = [true, "Bahia", 2, 1, "Sul-Americana", "2018-10-03", "Nilton Santos", "Zé Ricardo", "-Rodrigo Pimpão <br/>-Luiz Fernando\r\n<br><br>Pênaltis: (4)<br>\r\n-Rodrigo Lindoso<br>\r\n-Aguirre<br>\r\n-Kieza<br>\r\n-Renatinho<br>", "-Edigar Junio\r\n<br><br>Pênaltis: (5)<br>\r\n-Gilberto<br>\r\n-Zé Rafael<br>\r\n-Allione<br>\r\n-Nilton<br>\r\n-Flávio"];
+var jogo149 = [true, "Bahia", 2, 1, "Copa Sul-Americana", "2018-10-03", "Nilton Santos", "Zé Ricardo", "-Rodrigo Pimpão <br/>-Luiz Fernando\r\n<br><br>Pênaltis: (4)<br>\r\n-Rodrigo Lindoso<br>\r\n-Aguirre<br>\r\n-Kieza<br>\r\n-Renatinho<br>", "-Edigar Junio\r\n<br><br>Pênaltis: (5)<br>\r\n-Gilberto<br>\r\n-Zé Rafael<br>\r\n-Allione<br>\r\n-Nilton<br>\r\n-Flávio"];
 var jogo150 = [true, "Vasco", 1, 1, "Série A", "2018-10-09", "Nilton Santos", "Zé Ricardo", "-Luiz Fernando", "-Maxi López"];
 var jogo151 = [true, "Bahia", 0, 1, "Série A", "2018-10-20", "Nilton Santos", "Zé Ricardo", "", "-Edigar Junio"];
 var jogo152 = [true, "Corinthians", 1, 0, "Série A", "2018-11-04", "Nilton Santos", "Zé Ricardo", "-Jean", ""];
@@ -156,7 +156,7 @@ var jogo154 = [true, "Internacional", 1, 0, "Série A", "2018-11-18", "Nilton Sa
 var jogo155 = [true, "Paraná", 2, 1, "Série A", "2018-11-28", "Nilton Santos", "Zé Ricardo", "-Erik (2x)", "-Alex Santana"];
 var jogo156 = [true, "Bangu", 0, 0, "Carioca", "2019-01-23", "Nilton Santos", "Zé Ricardo", "", ""];
 var jogo157 = [true, "Resende", 0, 1, "Carioca", "2019-01-31", "Nilton Santos", "Zé Ricardo", "", "-Maxwell"];
-var jogo158 = [true, "Defensa y Justicia-ARG", 1, 0, "Sul-Americana", "2019-02-06", "Nilton Santos", "Zé Ricardo", "-Erik", ""];
+var jogo158 = [true, "Defensa y Justicia-ARG", 1, 0, "Copa Sul-Americana", "2019-02-06", "Nilton Santos", "Zé Ricardo", "-Erik", ""];
 var jogo159 = [true, "Vasco", 1, 1, "Carioca", "2019-02-23", "Nilton Santos", "Zé Ricardo", "-Marcelo Benevenuto", "-Yago Pikachu"];
 var jogo160 = [true, "Cuiabá", 3, 0, "Copa do Brasil", "2019-02-27", "Nilton Santos", "Zé Ricardo", "-Erik (2x)<br>-Rodrigo Pimpão", ""];
 var jogo161 = [true, "Madureira", 2, 1, "Carioca", "2019-03-11", "Nilton Santos", "Zé Ricardo", "-Jonathan<br>-Kieza", "-Marcinho (Gol contra)"];
@@ -165,12 +165,12 @@ var jogo163 = [true, "Juventude", 1, 1, "Copa do Brasil", "2019-04-04", "Nilton 
 var jogo164 = [false, "São Paulo", 0, 2, "Série A", "2019-04-27", "Morumbi (São Paulo-SP)", "Eduardo Barroca", "", "-Éverton<br>-Hudson"];
 var jogo165 = [true, "Fortaleza", 1, 0, "Série A", "2019-05-05", "Nilton Santos", "Eduardo Barroca", "-Alex Santana", ""];
 var jogo166 = [false, "Fluminense", 1, 0, "Série A", "2019-05-11", "Maracanã", "Eduardo Barroca", "-Alex Santana", ""];
-var jogo167 = [true, "Sol de America-PAR", 4, 0, "Sul-Americana", "2019-05-29", "Nilton Santos", "Eduardo Barroca", "-Cícero<br>-Luiz Fernando<br>-Gustavo Bochecha<br>-Diego Souza", ""];
+var jogo167 = [true, "Sol de America-PAR", 4, 0, "Copa Sul-Americana", "2019-05-29", "Nilton Santos", "Eduardo Barroca", "-Cícero<br>-Luiz Fernando<br>-Gustavo Bochecha<br>-Diego Souza", ""];
 var jogo168 = [true, "Vasco", 1, 0, "Série A", "2019-06-02", "Nilton Santos", "Eduardo Barroca", "-Diego Souza", ""];
 var jogo169 = [true, "Santos", 0, 1, "Série A", "2019-07-21", "Nilton Santos", "Eduardo Barroca", "", "-Marinho"];
-var jogo170 = [true, "Atlético-MG", 0, 1, "Sul-Americana", "2019-07-24", "Nilton Santos", "Eduardo Barroca", "", "-Vinicius"];
+var jogo170 = [true, "Atlético-MG", 0, 1, "Copa Sul-Americana", "2019-07-24", "Nilton Santos", "Eduardo Barroca", "", "-Vinicius"];
 var jogo171 = [false, "Flamengo", 2, 3, "Série A", "2019-07-28", "Maracanã", "Eduardo Barroca", "-Cícero<br>-Diego Souza", "-Gerson<br>-Gabriel<br>-Bruno Henrique"];
-var jogo172 = [false, "Atlético-MG", 0, 2, "Sul-Americana", "2019-07-31", "Arena Independência (Belo Horizonte-MG)", "Eduardo Barroca", "", "-Fábio Santos<br>-Vinicius"];
+var jogo172 = [false, "Atlético-MG", 0, 2, "Copa Sul-Americana", "2019-07-31", "Arena Independência (Belo Horizonte-MG)", "Eduardo Barroca", "", "-Fábio Santos<br>-Vinicius"];
 var jogo174 = [true, "Athletico-PR", 2, 1, "Série A", "2019-08-11", "Nilton Santos", "Eduardo Barroca", "-Luiz Fernando<br>-Diego Souza", "-Thonny Anderson"];
 var jogo175 = [false, "Corinthians", 0, 2, "Série A", "2019-08-17", "Arena Corinthians (São Paulo-SP)", "Eduardo Barroca", "", "-Mauro Boselli<br>-Everaldo"];
 var jogo176 = [true, "Chapecoense", 0, 0, "Série A", "2019-08-26", "Nilton Santos", "Eduardo Barroca", "", ""];
@@ -545,12 +545,17 @@ function vitorias(){
 	limpaTabela();
 
 	var contador = 0;
+	var selecionados = [];
 
 	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][2] > jogos[i][3]){
 			contador += 1;
-			escreveLinha(jogos[i], contador);
+			selecionados.push(jogos[i]);
 		}
+	}
+
+	for(var i = contador - 1; i >= 0; i--){
+		escreveLinha(selecionados[i], i + 1);
 	}
 }
 
@@ -558,12 +563,17 @@ function empates(){
 	limpaTabela();
 
 	var contador = 0;
+	var selecionados = [];
 
 	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][2] == jogos[i][3]){
 			contador += 1;
-			escreveLinha(jogos[i], contador);
+			selecionados.push(jogos[i]);
 		}
+	}
+
+	for(var i = contador - 1; i >= 0; i--){
+		escreveLinha(selecionados[i], i + 1);
 	}
 }
 
@@ -571,12 +581,17 @@ function derrotas(){
 	limpaTabela();
 
 	var contador = 0;
+	var selecionados = [];
 
 	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][2] < jogos[i][3]){
 			contador += 1;
-			escreveLinha(jogos[i], contador);
+			selecionados.push(jogos[i]);
 		}
+	}
+
+	for(var i = contador - 1; i >= 0; i--){
+		escreveLinha(selecionados[i], i + 1);
 	}
 }
 
@@ -652,6 +667,7 @@ function escreveLinha(jogo, numero){
 	cellPlacar.style.fontFamily = "Arial";
 	cellPlacar.style.fontWeight = "bold";
 	cellPlacar.style.fontSize = "300%";
+	cellPlacar.style.whiteSpace = "nowrap";
 	cellPlacar.style.background = "linear-gradient(90deg, " + getColorFundo(mandante) + " 49%, " + getColorFundo(visitante) + " 52%)";
 	cellPlacar.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
 	if(jogo[0] == true){

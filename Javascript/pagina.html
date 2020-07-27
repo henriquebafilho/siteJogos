@@ -50,6 +50,20 @@
 			text-align: center;
 			text-align-last: center;
 		}
+		input, select{
+			background-color: white;
+			color: black;
+			border-color: black;
+			border-radius: 50px;
+			cursor: pointer;
+		}
+		input:hover{
+			background-color: black;
+			color: white;
+			border-color: white;
+			border-radius: 50px;
+			cursor: pointer;
+		}
 	</style>
 </head>
 <script>
@@ -86,19 +100,19 @@
 			</select>
 			<div id='pai'>
 				<div id='decrescente'>
-					<br><input type='button' id="decrescenteJogo" value='Pesquisar' onclick="decrescente()">
+					<br><input type='button' id="decrescenteJogo" name='pesquisar' value='Pesquisar' onclick="decrescente()">
 				</div>
 
 				<div id='crescente'>
-					<br><input type='button' id="crescenteJogo" value='Pesquisar' onclick="crescente()">
+					<br><input type='button' id="crescenteJogo" name='pesquisar' value='Pesquisar' onclick="crescente()">
 				</div>
 
 				<div id='mandante'>
-					<br><input type='button' id="mandanteJogo" value='Pesquisar' onclick="mandante()">
+					<br><input type='button' id="mandanteJogo" name='pesquisar' value='Pesquisar' onclick="mandante()">
 				</div>
 
 				<div id='visitante'>
-					<br><input type='button' id="visitanteJogo" value='Pesquisar' onclick="visitante()">
+					<br><input type='button' id="visitanteJogo" name='pesquisar' value='Pesquisar' onclick="visitante()">
 				</div>
 
 				<div id='adversario'>
@@ -190,17 +204,17 @@
 
 				<div id='vitorias'>
 					<br>
-					<input type='button' id="vitoriasJogo" value='Pesquisar' onclick="vitorias()">
+					<input type='button' id="vitoriasJogo" name='pesquisar' value='Pesquisar' onclick="vitorias()">
 				</div>
 
 				<div id='empates'>
 					<br>
-					<input type='button' id="empatesJogo" value='Pesquisar' onclick="empates()">
+					<input type='button' id="empatesJogo" name='pesquisar' value='Pesquisar' onclick="empates()">
 				</div>
 
 				<div id='derrotas'>
 					<br>
-					<input type='button' id="derrotasJogo" value='Pesquisar' onclick="derrotas()">
+					<input type='button' id="derrotasJogo" name='pesquisar' value='Pesquisar' onclick="derrotas()">
 				</div>
 			</div>
 		</form>
