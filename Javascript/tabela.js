@@ -390,7 +390,6 @@ jogos.push(jogo196);
 jogos.push(jogo197);
 jogos.push(jogo202);
 
-limpaTabela();
 decrescente();
 
 /*
@@ -669,12 +668,7 @@ function escreveLinha(jogo, numero){
 	cellMandante.style.fontWeight = "bold";
 	cellMandante.style.backgroundColor = getColorFundo(mandante);
 	cellMandante.style.color = getColorLetra(mandante);
-
-	var img = document.createElement("img");
-	img.src = "index_files/" + getEscudoName(mandante) + ".png";
-	img.width = 70;
-	img.height = 70;
-	document.getElementById("mandante" + numero).appendChild(img);
+	cellMandante.innerHTML = "<img src=index_files/" + getEscudoName(mandante) + ".png width=70 height=70 alt=Imagem><br>" + mandante;
 
 	var cellPlacar = linha2.insertCell(1);
 	cellPlacar.id = "placar";
@@ -696,11 +690,7 @@ function escreveLinha(jogo, numero){
 	cellVisitante.style.fontWeight = "bold";
 	cellVisitante.style.backgroundColor = getColorFundo(visitante);
 	cellVisitante.style.color = getColorLetra(visitante);
-	var img = document.createElement("img");
-	img.src = "index_files/" + getEscudoName(visitante) + ".png";
-	img.width = 70;
-	img.height = 70;
-	document.getElementById("visitante" + numero).appendChild(img);
+	cellVisitante.innerHTML = "<img src=index_files/" + getEscudoName(visitante) + ".png width=70 height=70 alt=Imagem><br>" + visitante;
 
 	// Célula com o número e informações
 	var linha1 = tabela.insertRow(qtdLinhas);
@@ -1197,7 +1187,7 @@ function limpaTabela(){
 	$("tr").remove(); 
 
 	var tabela = document.getElementById("jogos");
-	var linha = tabela.insertRow(0);
+	var linha = tabela.insertRow(-1);
 	tabela.style.fontWeight = "bold";
 
 	// Célula número
