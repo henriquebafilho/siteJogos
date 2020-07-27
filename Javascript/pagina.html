@@ -81,7 +81,7 @@
 	<div>
 		<form action='pagina.html' method='post'>
 			Filtrar jogos por: 
-			<select id='cabecalho'>
+			<select id='cabecalho' onclick="getFuncaoSelect(this.value)">
 				<option value='' disabled selected="">Selecione uma opção</option>
 				<option value='decrescente'>Ordem Decrescente</option>
 				<option value='crescente'>Ordem Crescente</option>
@@ -99,28 +99,12 @@
 				<option value='derrotas'>Derrotas</option>
 			</select>
 			<div id='pai'>
-				<div id='decrescente'>
-					<br><input type='button' id="decrescenteJogo" name='pesquisar' value='Pesquisar' onclick="decrescente()">
-				</div>
-
-				<div id='crescente'>
-					<br><input type='button' id="crescenteJogo" name='pesquisar' value='Pesquisar' onclick="crescente()">
-				</div>
-
-				<div id='mandante'>
-					<br><input type='button' id="mandanteJogo" name='pesquisar' value='Pesquisar' onclick="mandante()">
-				</div>
-
-				<div id='visitante'>
-					<br><input type='button' id="visitanteJogo" name='pesquisar' value='Pesquisar' onclick="visitante()">
-				</div>
-
 				<div id='adversario'>
 					<p>Escolha o time adversário: </p>
-					<select id='selectAdversario'>
-						<option value='' disabled selected="">Selecione um time</option>
+					<select id='selectAdversario' onclick="adversario()">
+						<option value="" disabled selected>Selecione um time</option>
 						<option value='Americano'>Americano</option>
-						<option value='Atlético-PR'>Atlético-PR</option>
+						<option value='Atlético-PR'>Atlético-PR (Athletico-PR)</option>
 						<option value='Atlético-MG'>Atlético-MG</option>
 						<option value='Boavista'>Boavista</option>
 						<option value='Colo-Colo-CHI'>Colo-Colo-CHI</option>
@@ -145,12 +129,11 @@
 						<option value='Volta Redonda'>Volta Redonda</option>
 					</select>
 					<br><br>
-					<input type='button' name='pesquisar' value='Pesquisar' onclick="adversario()">
 				</div>
 
 				<div id='campeonato'>
 					<p>Escolha o nome do campeonato: </p>
-					<select id='selectCampeonato'>
+					<select id='selectCampeonato' onclick="campeonato()">
 						<option value='' disabled selected>Selecione um campeonato</option>
 						<option value='Carioca'>Carioca</option>
 						<option value='Série A'>Série A</option>
@@ -159,7 +142,6 @@
 						<option value='Copa Sul-Americana'>Copa Sul-Americana</option>
 					</select>
 					<br><br>
-					<input type='button' name='pesquisar' value='Pesquisar' onclick="campeonato()">
 				</div>
 
 				<div id='data'>
@@ -176,45 +158,30 @@
 
 				<div id='estadio'>
 					<p>Escolha o nome do estádio: </p>
-					<select id='selectEstadio'>
-						<option value='Nilton Santos' selected>Nilton Santos</option>
+					<select id='selectEstadio' onclick="estadio()">
+						<option value="" disabled selected>Selecione o estádio</option>
+						<option value='Nilton Santos'>Nilton Santos</option>
 						<option value='Maracanã'>Maracanã</option>
 						<option value='São Januário'>São Januário</option>
 					</select>
 					<br><br>
-					<input type='button' name='pesquisar' value='Pesquisar' onclick="estadio()">
 				</div>
 
 				<div id='tecnico'>
 					<p>Escolha o nome do técnico: </p>
-					<select id='selectTecnico'>
-						<option value='Paulo Autuori' selected>Paulo Autuori</option>
+					<select id='selectTecnico' onclick="tecnico()">
+						<option value="" disabled selected>Selecione o técnico</option>
+						<option value='Paulo Autuori'>Paulo Autuori</option>
 						<option value='Cuca'>Cuca</option>
 						<option value='Jair Ventura'>Jair Ventura</option>
 					</select>
 					<br><br>
-					<input type='button' name='pesquisar' value='Pesquisar' onclick="tecnico()">
 				</div>
 
 				<div id='numero'>
 					<p>Insira o número do jogo na ordem cronológica: </p>
 					<input type='number' id="numeroJogo" placeholder='Número' min='1'><br><br>
 					<input type='button' name='pesquisar' value='Pesquisar' onclick="numero()">
-				</div>
-
-				<div id='vitorias'>
-					<br>
-					<input type='button' id="vitoriasJogo" name='pesquisar' value='Pesquisar' onclick="vitorias()">
-				</div>
-
-				<div id='empates'>
-					<br>
-					<input type='button' id="empatesJogo" name='pesquisar' value='Pesquisar' onclick="empates()">
-				</div>
-
-				<div id='derrotas'>
-					<br>
-					<input type='button' id="derrotasJogo" name='pesquisar' value='Pesquisar' onclick="derrotas()">
 				</div>
 			</div>
 		</form>

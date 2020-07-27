@@ -43,8 +43,8 @@ var jogo41 = [false, "Flamengo", 0, 1, "Carioca", "2013-02-17", "Nilton Santos",
 var jogo42 = [true, "Fluminense", 1, 0, "Carioca", "2013-05-05", "Raulino de Oliveira (Volta Redonda-RJ)", "Oswaldo de Oliveira", "-Rafael Marques", ""];
 var jogo43 = [true, "Grêmio", 0, 1, "Série A", "2013-10-05", "Maracanã", "Oswaldo de Oliveira", "", "-Alex Telles"];
 var jogo44 = [true, "Criciúma", 3, 0, "Série A", "2013-12-08", "Maracanã", "Oswaldo de Oliveira", "-Lodeiro<br/>-Elias<br/>-Seedorf", ""];
-var jogo45 = [true, "Deportivo Quito-EQU", 4, 0, "Libertadores", "2014-02-05", "Maracanã", "Eduardo Húngaro", "-Wallyson (3x)<br/>-Henrique Almeida", ""];
-var jogo46 = [true, "Independiente Del Valle-EQU", 1, 0, "Libertadores", "2014-03-18", "Maracanã", "Eduardo Húngaro", "-\"El Tanque\" Ferreyra", ""];
+var jogo45 = [true, "Deportivo Quito-EQU", 4, 0, "Copa Libertadores", "2014-02-05", "Maracanã", "Eduardo Húngaro", "-Wallyson (3x)<br/>-Henrique Almeida", ""];
+var jogo46 = [true, "Independiente Del Valle-EQU", 1, 0, "Copa Libertadores", "2014-03-18", "Maracanã", "Eduardo Húngaro", "-\"El Tanque\" Ferreyra", ""];
 var jogo47 = [false, "Flamengo", 0, 1, "Série A", "2014-07-27", "Maracanã", "Vagner Mancini", "", "-Alecsandro"];
 var jogo48 = [true, "Chapecoense", 1, 0, "Série A", "2014-08-23", "Maracanã", "Vagner Mancini", "-Cachito Ramírez", ""];
 var jogo49 = [true, "Santos", 1, 0, "Série A", "2014-08-31", "Maracanã", "Vagner Mancini", "-Daniel", ""];
@@ -84,17 +84,17 @@ var jogo82 = [true, "Coritiba", 0, 0, "Série A", "2016-10-29", "Arena Botafogo"
 var jogo83 = [true, "Chapecoense", 0, 2, "Série A", "2016-11-16", "Arena Botafogo", "Jair Ventura", "", "-Kempes<br/>-Sérgio Manoel"];
 var jogo84 = [true, "Ponte Preta", 1, 1, "Série A", "2016-11-26", "Arena Botafogo", "Jair Ventura", "-Sassá", "-William Potker"];
 var jogo85 = [true, "Nova Iguaçu", 1, 1, "Carioca", "2017-01-28", "Nilton Santos", "Jair Ventura", "-Marcelo Benevenuto", "-Murilo Henrique"];
-var jogo86 = [true, "Colo-Colo-CHI", 2, 1, "Libertadores", "2017-02-01", "Nilton Santos", "Jair Ventura", "-Airton<br/>-Esteban Pavez (Gol Contra)", "-Paredes"];
+var jogo86 = [true, "Colo-Colo-CHI", 2, 1, "Copa Libertadores", "2017-02-01", "Nilton Santos", "Jair Ventura", "-Airton<br/>-Esteban Pavez (Gol Contra)", "-Paredes"];
 var jogo87 = [true, "Macaé", 2, 1, "Carioca", "2017-02-04", "Nilton Santos", "Jair Ventura", "-Rodrigo Lindoso<br/>-Vinicius Tanque", "-Guilherme Xavier"];
-var jogo88 = [true, "Olimpia-PAR", 1, 0, "Libertadores", "2017-02-15", "Nilton Santos", "Jair Ventura", "-Rodrigo Pimpão", ""];
+var jogo88 = [true, "Olimpia-PAR", 1, 0, "Copa Libertadores", "2017-02-15", "Nilton Santos", "Jair Ventura", "-Rodrigo Pimpão", ""];
 var jogo89 = [true, "Volta Redonda", 1, 0, "Carioca", "2017-03-09", "Nilton Santos", "Jair Ventura", "-Victor Luís", ""];
 var jogo90 = [true, "Vasco", 0, 0, "Carioca", "2017-03-19", "Nilton Santos", "Jair Ventura", "", ""];
 var jogo91 = [true, "Fluminense", 2, 3, "Carioca", "2017-03-23", "Nilton Santos", "Jair Ventura", "-Roger (2x)", "-Richarlison (2x)<br/>-Renato Chaves"];
 var jogo92 = [true, "Fluminense", 3, 1, "Carioca", "2017-04-09", "Nilton Santos", "Jair Ventura", "-Igor Rabello<br/>-Dudu Cearense<br/>-Sassá", "-Richarlison"];
 var jogo93 = [true, "Vasco", 0, 2, "Carioca", "2017-04-16", "Nilton Santos", "Jair Ventura", "", "-Douglas Luiz<br/>-Luís Fabiano"];
 var jogo94 = [true, "Sport", 2, 1, "Copa do Brasil", "2017-04-26", "Nilton Santos", "Jair Ventura", "-Guilherme (2x)", "-Samuel Xavier"];
-var jogo95 = [true, "Barcelona de Guayaquil-EQU", 0, 2, "Libertadores", "2017-05-02", "Nilton Santos", "Jair Ventura", "", "-Ayoví<br/>-Jonatan Álvez"];
-var jogo96 = [true, "Atlético Nacional-COL", 1, 0, "Libertadores", "2017-05-18", "Nilton Santos", "Jair Ventura", "-Rodrigo Pimpão", ""];
+var jogo95 = [true, "Barcelona de Guayaquil-EQU", 0, 2, "Copa Libertadores", "2017-05-02", "Nilton Santos", "Jair Ventura", "", "-Ayoví<br/>-Jonatan Álvez"];
+var jogo96 = [true, "Atlético Nacional-COL", 1, 0, "Copa Libertadores", "2017-05-18", "Nilton Santos", "Jair Ventura", "-Rodrigo Pimpão", ""];
 var jogo97 = [true, "Ponte Preta", 2, 0, "Série A", "2017-05-21", "Nilton Santos", "Jair Ventura", "-Bruno Silva <br />-Rodrigo Lindoso", ""];
 var jogo98 = [true, "Bahia", 1, 0, "Série A", "2017-05-28", "Nilton Santos", "Jair Ventura", "-Bruno Silva", ""];
 var jogo99 = [true, "Coritiba", 2, 2, "Série A", "2017-06-11", "Nilton Santos", "Jair Ventura", "-Roger<br/>-Joel Carli", "-Kléber<br/>-Henrique Almeida"];
@@ -106,12 +106,12 @@ var jogo104 = [true, "Sport", 2, 1, "Série A", "2017-07-17", "Nilton Santos", "
 var jogo105 = [true, "Atlético-MG", 3, 0, "Copa do Brasil", "2017-07-26", "Nilton Santos", "Jair Ventura", "-Joel Carli<br/>-Roger<br/>-Gilson", ""];
 var jogo106 = [true, "São Paulo", 3, 4, "Série A", "2017-07-29", "Nilton Santos", "Jair Ventura", "-Marcos Vinícius (2x) <br/>-Guilherme", "-Cueva <br/>-Marcos Guilherme (2x)<br/>-Hernanes"];
 var jogo107 = [true, "Palmeiras", 1, 2, "Série A", "2017-08-02", "Nilton Santos", "Jair Ventura", "-Rodrigo Pimpão", "-Igor Rabello (Gol Contra) <br/>-Deyverson"];
-var jogo108 = [true, "Nacional-URU", 2, 0, "Libertadores", "2017-08-10", "Nilton Santos", "Jair Ventura", "-Bruno Silva <br/>-Rodrigo Pimpão", ""];
+var jogo108 = [true, "Nacional-URU", 2, 0, "Copa Libertadores", "2017-08-10", "Nilton Santos", "Jair Ventura", "-Bruno Silva <br/>-Rodrigo Pimpão", ""];
 var jogo109 = [true, "Grêmio", 1, 0, "Série A", "2017-08-13", "Nilton Santos", "Jair Ventura", "-Leandrinho", ""];
 var jogo110 = [true, "Flamengo", 0, 0, "Copa do Brasil", "2017-08-16", "Nilton Santos", "Jair Ventura", "", ""];
 var jogo111 = [false, "Flamengo", 0, 1, "Copa do Brasil", "2017-08-23", "Maracanã", "Jair Ventura", "", "-Diego"];
 var jogo112 = [true, "Flamengo", 2, 0, "Série A", "2017-09-10", "Nilton Santos", "Jair Ventura", "-Roger (2x)", ""];
-var jogo113 = [true, "Grêmio", 0, 0, "Libertadores", "2017-09-13", "Nilton Santos", "Jair Ventura", "", ""];
+var jogo113 = [true, "Grêmio", 0, 0, "Copa Libertadores", "2017-09-13", "Nilton Santos", "Jair Ventura", "", ""];
 var jogo114 = [true, "Santos", 2, 0, "Série A", "2017-09-16", "Nilton Santos", "Jair Ventura", "-Rodrigo Lindoso <br/>-Guilherme", ""];
 var jogo115 = [true, "Vitória", 2, 3, "Série A", "2017-10-01", "Nilton Santos", "Jair Ventura", "-Brenner (2x)", "-David <br/>-André Lima <br/>-Danilinho"];
 var jogo116 = [true, "Chapecoense", 2, 1, "Série A", "2017-10-11", "Nilton Santos", "Jair Ventura", "-Brenner <br/>-Vinicius Tanque", "-Apodi"];
@@ -390,6 +390,9 @@ jogos.push(jogo196);
 jogos.push(jogo197);
 jogos.push(jogo202);
 
+limpaTabela();
+decrescente();
+
 /*
 0 - mandante
 1 - adversario
@@ -448,57 +451,68 @@ function visitante(){
 }
 
 function adversario(){
-	limpaTabela();
-
 	var adversario = document.getElementById("selectAdversario").value;
-	var contador = 0;
+	
+	if(adversario != ""){
+		limpaTabela();
 
-	for(var i = 0; i < jogos.length; i++){
-		if(adversario == jogos[i][1]){
-			contador += 1;
-			escreveLinha(jogos[i], contador);
+		var contador = 0;
+
+		for(var i = 0; i < jogos.length; i++){
+			if(adversario == jogos[i][1]){
+				contador += 1;
+				escreveLinha(jogos[i], contador);
+			}
 		}
 	}
 }
 
 function campeonato(){
-	limpaTabela();
-
 	var campeonato = document.getElementById("selectCampeonato").value;
-	var contador = 0;
 
-	for(var i = 0; i < jogos.length; i++){
-		if(campeonato == jogos[i][4]){
-			contador += 1;
-			escreveLinha(jogos[i], contador);
+	if(campeonato != ""){
+		limpaTabela();
+		var contador = 0;
+
+		for(var i = 0; i < jogos.length; i++){
+			if(campeonato == jogos[i][4]){
+				contador += 1;
+				escreveLinha(jogos[i], contador);
+			}
 		}
 	}
 }
 
 function estadio(){
-	limpaTabela();
-
 	var estadio = document.getElementById("selectEstadio").value;
-	var contador = 0;
 
-	for(var i = 0; i < jogos.length; i++){
-		if(estadio == jogos[i][6]){
-			contador += 1;
-			escreveLinha(jogos[i], contador);
+	if(estadio != ""){
+		limpaTabela();
+
+		var contador = 0;
+
+		for(var i = 0; i < jogos.length; i++){
+			if(estadio == jogos[i][6]){
+				contador += 1;
+				escreveLinha(jogos[i], contador);
+			}
 		}
 	}
 }
 
 function tecnico(){
-	limpaTabela();
-
 	var tecnico = document.getElementById("selectTecnico").value;
-	var contador = 0;
 
-	for(var i = 0; i < jogos.length; i++){
-		if(tecnico == jogos[i][7]){
-			contador += 1;
-			escreveLinha(jogos[i], contador);
+	if(tecnico != ""){
+		limpaTabela();
+
+		var contador = 0;
+
+		for(var i = 0; i < jogos.length; i++){
+			if(tecnico == jogos[i][7]){
+				contador += 1;
+				escreveLinha(jogos[i], contador);
+			}
 		}
 	}
 }
@@ -1151,6 +1165,31 @@ function getEscudoName(nome){
 		juntaNome += cortaNome[i];
 	}
 	return juntaNome;
+}
+
+function getFuncaoSelect(valor){
+
+	if(valor == "decrescente"){
+		decrescente();
+	}
+	else if(valor == "crescente"){
+		crescente();
+	}
+	else if(valor == "mandante"){
+		mandante();
+	}
+	else if(valor == "visitante"){
+		visitante();
+	}
+	else if(valor == "vitorias"){
+		vitorias();
+	}
+	else if(valor == "empates"){
+		empates();
+	}
+	else if(valor == "derrotas"){
+		derrotas();
+	}
 }
 
 // Limpa a tabela e reescreve o cabeçalho
