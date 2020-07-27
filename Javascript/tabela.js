@@ -1,6 +1,6 @@
 var jogos = [];
 
-var jogo1 = [true, "Fluminense", 2, 3, "Série A", "2002-10-26", "Maracanã", "Ivo Wortmann", ["Galeano", "Léo Inácio"], ["César", "Magno Alves", "Romário"]];
+var jogo1 = [true, "Fluminense", 2, 3, "Série A", "2002-10-26", "Maracanã", "Ivo Wortmann", "-Galeano <br />-Léo Inácio", "-César <br />-Magno Alves <br />-Romário"];
 var jogo2 =  [true, "Flamengo", 1, 0, "Carioca", "2004-03-14", "Maracanã", "Levir Culpi", "-Alex Alves", ""];
 var jogo3 = [true, "Atlético-PR", 1, 1, "Série A", "2004-08-12", "Caio Martins", "Mauro Galvão", "-Schwenck", "-Washington"];
 var jogo4 = [true, "Criciúma", 1, 1, "Série A", "2004-08-28", "Caio Martins", "Paulo Bonamigo", "-Schwenck", "-Fernandinho"];
@@ -401,6 +401,8 @@ jogos.push(jogo202);
 7 - técnico
 8 - autorBotafogo
 9 - autorAdversario
+10 - coresFundo (0 - principal/ 1 - uniformePrimária)
+11 - coresLetra (0 - principal/ 1 - uniformeSecundária)
 */
 
 function crescente(){
@@ -640,7 +642,7 @@ function escreveLinha(jogo, numero){
 	cellMandante.style.color = getColorLetra(mandante);
 
 	var img = document.createElement("img");
-	img.src = "index_files/" + mandante + ".png";
+	img.src = "index_files/" + getEscudoName(mandante) + ".png";
 	img.width = 70;
 	img.height = 70;
 	document.getElementById("mandante" + numero).appendChild(img);
@@ -665,7 +667,7 @@ function escreveLinha(jogo, numero){
 	cellVisitante.style.backgroundColor = getColorFundo(visitante);
 	cellVisitante.style.color = getColorLetra(visitante);
 	var img = document.createElement("img");
-	img.src = "index_files/" + visitante + ".png";
+	img.src = "index_files/" + getEscudoName(visitante) + ".png";
 	img.width = 70;
 	img.height = 70;
 	document.getElementById("visitante" + numero).appendChild(img);
@@ -689,8 +691,6 @@ function escreveLinha(jogo, numero){
 	cellCabecalho.style.background = "linear-gradient(90deg, " + getColorFundo(mandante) + " 49%, " + getColorFundo(visitante) + " 50%)";
 	cellCabecalho.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
 	cellCabecalho.innerHTML = converteData(jogo[5]) + " | " + "Estádio " + jogo[6] + " | " + jogo[4]; // Cabeçalho
-
-	console.log(jogo);
 }
 
 function getColorFundo(time){
@@ -1125,6 +1125,16 @@ function converteData(data){
 	var novaData = array[2] + "/" + array[1] + "/" + array[0];
 
 	return novaData;
+}
+
+function getEscudoName(nome){
+	var cortaNome = nome.split(" ");
+	var juntaNome = "";
+
+	for(var i = 0; i < cortaNome.length; i++){
+		juntaNome += cortaNome[i];
+	}
+	return juntaNome;
 }
 
 // Limpa a tabela e reescreve o cabeçalho
