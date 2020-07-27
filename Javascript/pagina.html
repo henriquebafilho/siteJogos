@@ -28,10 +28,6 @@
 			border: 1px solid white;
 			column-span: 2;
 		}
-		th#koe{
-			color: white;
-			text-shadow: 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000;  
-		}
 		h1, h4{
 			color: white;
 			text-align: center;
@@ -67,7 +63,7 @@
 		<form action='pagina.html' method='post'>
 			Filtrar jogos por: 
 			<select id='cabecalho'>
-				<option value='' disabled selected="">--Selecione uma opção--</option>
+				<option value='' disabled selected="">Selecione uma opção</option>
 				<option value='decrescente'>Ordem Decrescente</option>
 				<option value='crescente'>Ordem Crescente</option>
 				<option value='mandante'>Jogos de Mandante</option>
@@ -103,8 +99,13 @@
 				<div id='adversario'>
 					<p>Escolha o time adversário: </p>
 					<select id='selectAdversario'>
+						<option value='' disabled selected="">Selecione um time</option>
 						<option value='Flamengo'>Flamengo</option>
-						<option value='Santos' selected>Santos</option>
+						<option value='Fluminense'>Fluminense</option>
+						<option value='Vasco'>Vasco</option>
+						<option value='Santos'>Santos</option>
+						<option value='Atlético-PR'>Atlético-PR</option>
+						<option value='Criciúma'>Criciúma</option>
 					</select>
 					<br><br>
 					<input type='button' name='pesquisar' value='Pesquisar' onclick="adversario()">

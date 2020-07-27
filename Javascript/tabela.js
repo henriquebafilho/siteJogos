@@ -2,9 +2,9 @@ var jogos = [];
 
 var jogo1 = [true, "Fluminense", 2, 3, "2002-10-26", "Maracanã", "Série A", "Ivo Wortmann", ["Galeano", "Léo Inácio"], ["César", "Magno Alves", "Romário"]];
 var jogo2 = [true, "Flamengo", 1, 0, "2004-03-14", "Maracanã", "Carioca", "Levir Culpi", ["Alex Alves"], []];
-var jogo3 = [true, "Atlético-PR", 2, 2, "2050-08-31", "Nilton Santos", "Carioca", "Paulo Autuori", "Bruno Nazário", "um otário aí"];
-var jogo4 = [true, "Criciúma", 2, 1, "2050-08-31", "Maracanã", "Série A", "Paulo Autuori", "Luis Henrique", "um otário aí"];
-var jogo5 = [false, "Fluminense", 2, 1, "2050-08-31", "Maracanã", "Série A", "Paulo Autuori", "Luis Henrique", "um otário aí"];
+var jogo3 = [true, "Atlético-PR", 1, 1, "2004-08-12", "Caio Martins", "Série A", "Mauro Galvão", ["Schwenck"], ["Washington"]];
+var jogo4 = [true, "Criciúma", 1, 1, "2004-08-28", "Caio Martins", "Série A", "Paulo Bonamigo", ["Schwenck"], ["Fernandinho"]];
+var jogo5 = [false, "Fluminense", 4, 1, "2004-10-02", "Maracanã", "Série A", "Paulo Bonamigo", ["Almir","Ruy","Ricardinho","Têti"], ["Edmundo"]];
 
 jogos.push(jogo1);
 jogos.push(jogo2);
@@ -188,38 +188,74 @@ function derrotas(){
 }
 
 function escreveLinha(jogo, numero){
+	// setando o mandante e o visitante
+	var mandante;
+	var visitante;
+
+	if(jogo[0] == true){
+		mandante = "Botafogo";
+		visitante = jogo[1];
+	} else {
+		mandante = jogo[1];
+		visitante = "Botafogo";
+	}
+
+	// Pegando a tabela
 	var tabela = document.getElementById('jogos');
 	var qtdLinhas = tabela.rows.length;
 
 	// Célula com autores dos gols e técnico no meio 
 	var linha3 = tabela.insertRow(qtdLinhas);
-	linha3.id = "koe";
+	linha3.id = "linha3";
 
-	var cellAutorBotafogo = linha3.insertCell(0);
-	cellAutorBotafogo.innerHTML = jogo[8];
+	var cellAutorMandante = linha3.insertCell(0);
+	if(jogo[0] == true){
+		cellAutorMandante.innerHTML = jogo[8];
+	} else {
+		cellAutorMandante.innerHTML = jogo[9];
+	}
 
 	var cellTecnico = linha3.insertCell(1);
-	cellTecnico.innerHTML = jogo[7];
+	cellTecnico.innerHTML = "Técnico: " + jogo[7];
 
-	var cellAutorAdversario = linha3.insertCell(2);
-	cellAutorAdversario.innerHTML = jogo[9];
+	var cellAutorVisitante = linha3.insertCell(2);
+	if(jogo[0] == true){
+		cellAutorVisitante.innerHTML = jogo[9];
+	} else {
+		cellAutorVisitante.innerHTML = jogo[8];
+	}
 
-	// Célula com times e placar
+	// Célula com times, escudos e placar
 	var linha2 = tabela.insertRow(qtdLinhas);
-	linha2.id = "koe";
+	linha2.id = "linha2";
 
-	var cellBotafogo = linha2.insertCell(0);
-	cellBotafogo.innerHTML = "Botafogo"; // Adicionar escudo aqui
+	var cellMandante = linha2.insertCell(0);
+	cellMandante.id = "mandante" + numero;
+	var img = document.createElement("img");
+	img.src = "index_files/" + mandante + ".png";
+	img.width = 70;
+	img.height = 70;
+	document.getElementById("mandante" + numero).appendChild(img);
 
 	var cellPlacar = linha2.insertCell(1);
-	cellPlacar.innerHTML = jogo[2] + " x " + jogo[3];
+	cellPlacar.id = "placar";
+	if(jogo[0] == true){
+		cellPlacar.innerHTML = jogo[2] + " x " + jogo[3];
+	} else {
+		cellPlacar.innerHTML = jogo[3] + " x " + jogo[2];
+	}
 
-	var cellAdversario = linha2.insertCell(2);
-	cellAdversario.innerHTML = jogo[1]; // Adicionar escudo aqui
+	var cellVisitante = linha2.insertCell(2);
+	cellVisitante.id = "visitante" + numero;
+	var img = document.createElement("img");
+	img.src = "index_files/" + visitante + ".png";
+	img.width = 70;
+	img.height = 70;
+	document.getElementById("visitante" + numero).appendChild(img);
 
 	// Célula com o número e informações
 	var linha1 = tabela.insertRow(qtdLinhas);
-	linha1.id = "koe";
+	linha1.id = "linha1";
 
 	var cellNumero = linha1.insertCell(0);
 	cellNumero.rowSpan = 3;
