@@ -390,9 +390,6 @@ jogos.push(jogo196);
 jogos.push(jogo197);
 jogos.push(jogo202);
 
-limpaTabela();
-decrescente();
-
 /*
 0 - mandante
 1 - adversario
@@ -408,18 +405,18 @@ decrescente();
 11 - coresLetra (0 - principal/ 1 - uniformeSecundária)
 */
 
-function crescente(){
-	limpaTabela();
-
-	for(var i = 0; i < jogos.length; i++){
-		escreveLinha(jogos[i], i + 1);
-	}
-}
-
 function decrescente(){
 	limpaTabela();
 
 	for(var i = jogos.length - 1; i >= 0; i--){
+		escreveLinha(jogos[i], i + 1);
+	}
+}
+
+function crescente(){
+	limpaTabela();
+
+	for(var i = 0; i < jogos.length; i++){
 		escreveLinha(jogos[i], i + 1);
 	}
 }
@@ -559,17 +556,12 @@ function vitorias(){
 	limpaTabela();
 
 	var contador = 0;
-	var selecionados = [];
-
+	
 	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][2] > jogos[i][3]){
 			contador += 1;
-			selecionados.push(jogos[i]);
+			escreveLinha(jogos[i], contador);
 		}
-	}
-
-	for(var i = contador - 1; i >= 0; i--){
-		escreveLinha(selecionados[i], i + 1);
 	}
 }
 
@@ -577,17 +569,12 @@ function empates(){
 	limpaTabela();
 
 	var contador = 0;
-	var selecionados = [];
-
+	
 	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][2] == jogos[i][3]){
 			contador += 1;
-			selecionados.push(jogos[i]);
+			escreveLinha(jogos[i], contador);
 		}
-	}
-
-	for(var i = contador - 1; i >= 0; i--){
-		escreveLinha(selecionados[i], i + 1);
 	}
 }
 
@@ -595,17 +582,12 @@ function derrotas(){
 	limpaTabela();
 
 	var contador = 0;
-	var selecionados = [];
 
 	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][2] < jogos[i][3]){
 			contador += 1;
-			selecionados.push(jogos[i]);
+			escreveLinha(jogos[i], contador);
 		}
-	}
-
-	for(var i = contador - 1; i >= 0; i--){
-		escreveLinha(selecionados[i], i + 1);
 	}
 }
 
@@ -1197,6 +1179,8 @@ function limpaTabela(){
 
 	var tabela = document.getElementById("jogos");
 	var linha = tabela.insertRow(0);
+	tabela.width = "100%";
+	linha.width = "100%";
 	tabela.style.fontWeight = "bold";
 
 	// Célula número
@@ -1218,7 +1202,7 @@ function limpaTabela(){
 
 	// Célula visitante
 	var cellVisitante = linha.insertCell(3);
-	cellVisitante.width = "40%";
+	cellVisitante.width = "40%%";
 	cellVisitante.innerHTML = "Visitante";
 	cellVisitante.style.border = "1px solid white";
 }

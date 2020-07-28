@@ -17,7 +17,6 @@
 		}
 		table {
 			border: 2px solid black;
-			width: 100%;
 			font-family: Arial;
 			text-align: center;
 			background-color: black;
@@ -88,8 +87,11 @@
 				<option value='' disabled selected>Selecione uma opção</option>
 				<option value='decrescente'>Todos (Ordem Decrescente)</option>
 				<option value='crescente'>Todos (Ordem Crescente)</option>
-				<option value='mandante'>Jogos de Mandante</option>
+				<option value='vitorias'>Vitórias</option>
+				<option value='empates'>Empates</option>
+				<option value='derrotas'>Derrotas</option>
 				<option value='visitante'>Jogos de Visitante</option>
+				<option value='mandante'>Jogos de Mandante</option>
 				<option value='adversario'>Adversário</option>
 				<option value='campeonato'>Campeonato</option>
 				<option value='data'>Data</option>
@@ -97,9 +99,6 @@
 				<option value='estadio'>Estádio</option>
 				<option value='tecnico'>Técnico</option>
 				<option value='numero'>Número</option>
-				<option value='vitorias'>Vitórias</option>
-				<option value='empates'>Empates</option>
-				<option value='derrotas'>Derrotas</option>
 			</select>
 			<div id='pai'>
 				<div id='adversario'>
@@ -278,7 +277,7 @@
 	</div>
 	<br>
 	<div>
-		<table id="jogos" width="device-width">
+		<table id="jogos">
 			
 		</table>
 	</div>
