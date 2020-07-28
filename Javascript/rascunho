@@ -4,15 +4,17 @@ window.onload = function(){
 	var cabecalho = document.createElement("thead");
 	var corpo = document.createElement("tbody");
 
+	tabela.id = "jogos";
+
+	tabela.width = "100%";
+
 	tabela.appendChild(cabecalho);
 	tabela.appendChild(corpo);
 	tabelaJogos.appendChild(tabela);
-
-	tabela.width = "100%";
 
 	tabela.style.borderColor = "white";
 	cabecalho.style.borderColor = "white";
 	corpo.style.borderColor = "white";
 
-	cabecalho.innerHTML = "<tr><td>FOGO<td><td>FOGO<td><td>FOGO<td></tr>"
+	cabecalho.innerHTML = "<tr><td>Número<td><td>Mandante<td><td>Placar<td><td>Visitante<td></tr>"
 };

@@ -406,24 +406,7 @@ jogos.push(jogo202);
 */
 
 window.onload = function(){
-	var tabelaJogos = document.getElementById("tabelaJogos");
-	var tabela = document.createElement("table");
-	var cabecalho = document.createElement("thead");
-	var corpo = document.createElement("tbody");
-
-	tabela.id = "jogos";
-
-	tabela.width = "100%";
-
-	tabela.appendChild(cabecalho);
-	tabela.appendChild(corpo);
-	tabelaJogos.appendChild(tabela);
-
-	tabela.style.borderColor = "white";
-	cabecalho.style.borderColor = "white";
-	corpo.style.borderColor = "white";
-
-	cabecalho.innerHTML = "<tr><td>Número<td><td>Mandante<td><td>Placar<td><td>Visitante<td></tr>"
+	decrescente();
 };
 
 function decrescente(){
@@ -772,7 +755,8 @@ function limpaTabela(){
 	$("tr").remove(); 
 
 	var tabela = document.getElementById("jogos");
-	var linha = tabela.insertRow(0);
+	var qtdLinhas = tabela.rows.length;
+	var linha = tabela.insertRow(qtdLinhas);
 	tabela.width = "100%";
 	linha.width = "100%";
 	tabela.style.fontWeight = "bold";
