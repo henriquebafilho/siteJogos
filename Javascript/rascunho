@@ -1,3 +1,1 @@
-cellNumero.style.background = "linear-gradient(90deg, green 49%, red 52%)";
-cellNumero.style.backgroundColor = "#FF0000";
-cellNumero.style.backgroundColor = "red";
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
