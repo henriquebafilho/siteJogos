@@ -100,6 +100,22 @@
 				<option value='derrotas'>Derrotas</option>
 			</select>
 			<div id='pai'>
+				<div id='decrescente'>
+					<br><input type='button' id="decrescenteJogo" value='Pesquisar' onclick="decrescente()">
+				</div>
+
+				<div id='crescente'>
+					<br><input type='button' id="crescenteJogo" value='Pesquisar' onclick="crescente()">
+				</div>
+
+				<div id='mandante'>
+					<br><input type='button' id="mandanteJogo" value='Pesquisar' onclick="mandante()">
+				</div>
+
+				<div id='visitante'>
+					<br><input type='button' id="visitanteJogo" value='Pesquisar' onclick="visitante()">
+				</div>
+
 				<div id='adversario'>
 					<p>Escolha o time adversário: </p>
 					<select id='selectAdversario' onselect="adversario()">
@@ -166,6 +182,7 @@
 						<option value='Volta Redonda'>Volta Redonda</option>
 					</select>
 					<br><br>
+					<input type='button' name='pesquisar' value='Pesquisar' onclick="adversario()">
 				</div>
 
 				<div id='campeonato'>
@@ -179,6 +196,7 @@
 						<option value='Copa Sul-Americana'>Copa Sul-Americana</option>
 					</select>
 					<br><br>
+					<input type='button' name='pesquisar' value='Pesquisar' onclick="campeonato()">
 				</div>
 
 				<div id='data'>
@@ -212,6 +230,7 @@
 						<option value='Vila Belmiro (Santos-SP)'>Vila Belmiro (Santos-SP)</option>
 					</select>
 					<br><br>
+					<input type='button' name='pesquisar' value='Pesquisar' onclick="estadio()">
 				</div>
 
 				<div id='tecnico'>
@@ -244,12 +263,28 @@
 						<option value='Zé Ricardo'>Zé Ricardo</option>
 					</select>
 					<br><br>
+					<input type='button' name='pesquisar' value='Pesquisar' onclick="tecnico()">
 				</div>
 
 				<div id='numero'>
 					<p>Insira o número do jogo na ordem cronológica: </p>
 					<input type='number' id="numeroJogo" placeholder='Número' min='1'><br><br>
 					<input type='button' id='pesquisar' value='Pesquisar' onclick="numero()">
+				</div>
+
+				<div id='vitorias'>
+					<br>
+					<input type='button' id="vitoriasJogo" value='Pesquisar' onclick="vitorias()">
+				</div>
+
+				<div id='empates'>
+					<br>
+					<input type='button' id="empatesJogo" value='Pesquisar' onclick="empates()">
+				</div>
+
+				<div id='derrotas'>
+					<br>
+					<input type='button' id="derrotasJogo" value='Pesquisar' onclick="derrotas()">
 				</div>
 			</div>
 		</form>
