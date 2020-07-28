@@ -1,8 +1,18 @@
-<thead>
-<tr width="device-width">
-<th width=20%>Número</th>
-<th width=40%>Mandante</th>
-<th width=20%>Placar</th>
-<th width=40%>Visitante</th>
-</tr>
-</thead>
+window.onload = function(){
+	var tabelaJogos = document.getElementById("tabelaJogos");
+	var tabela = document.createElement("table");
+	var cabecalho = document.createElement("thead");
+	var corpo = document.createElement("tbody");
+
+	tabela.appendChild(cabecalho);
+	tabela.appendChild(corpo);
+	tabelaJogos.appendChild(tabela);
+
+	tabela.width = "100%";
+
+	tabela.style.borderColor = "white";
+	cabecalho.style.borderColor = "white";
+	corpo.style.borderColor = "white";
+
+	cabecalho.innerHTML = "<tr><td>FOGO<td><td>FOGO<td><td>FOGO<td></tr>"
+};

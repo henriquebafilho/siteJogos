@@ -405,6 +405,27 @@ jogos.push(jogo202);
 11 - coresLetra (0 - principal/ 1 - uniformeSecundária)
 */
 
+window.onload = function(){
+	var tabelaJogos = document.getElementById("tabelaJogos");
+	var tabela = document.createElement("table");
+	var cabecalho = document.createElement("thead");
+	var corpo = document.createElement("tbody");
+
+	tabela.id = "jogos";
+
+	tabela.width = "100%";
+
+	tabela.appendChild(cabecalho);
+	tabela.appendChild(corpo);
+	tabelaJogos.appendChild(tabela);
+
+	tabela.style.borderColor = "white";
+	cabecalho.style.borderColor = "white";
+	corpo.style.borderColor = "white";
+
+	cabecalho.innerHTML = "<tr><td>Número<td><td>Mandante<td><td>Placar<td><td>Visitante<td></tr>"
+};
+
 function decrescente(){
 	limpaTabela();
 
@@ -703,6 +724,83 @@ function escreveLinha(jogo, numero){
 	cellCabecalho.style.border = "1px solid white";
 	cellCabecalho.innerHTML = converteData(jogo[5]) + " | " + "Estádio " + jogo[6] + " | " + jogo[4]; // Cabeçalho
 }
+
+function converteData(data){
+	var array = data.split("-");
+	var novaData = array[2] + "/" + array[1] + "/" + array[0];
+
+	return novaData;
+}
+
+function getEscudoName(nome){
+	var cortaNome = nome.split(" ");
+	var juntaNome = "";
+
+	for(var i = 0; i < cortaNome.length; i++){
+		juntaNome += cortaNome[i];
+	}
+	return juntaNome;
+}
+
+function getFuncaoSelect(valor){
+
+	if(valor == "decrescente"){
+		decrescente();
+	}
+	else if(valor == "crescente"){
+		crescente();
+	}
+	else if(valor == "mandante"){
+		mandante();
+	}
+	else if(valor == "visitante"){
+		visitante();
+	}
+	else if(valor == "vitorias"){
+		vitorias();
+	}
+	else if(valor == "empates"){
+		empates();
+	}
+	else if(valor == "derrotas"){
+		derrotas();
+	}
+}
+
+// Limpa a tabela e reescreve o cabeçalho
+function limpaTabela(){
+	$("tr").remove(); 
+
+	var tabela = document.getElementById("jogos");
+	var linha = tabela.insertRow(0);
+	tabela.width = "100%";
+	linha.width = "100%";
+	tabela.style.fontWeight = "bold";
+
+	// Célula número
+	var cellNumero = linha.insertCell(0);
+	cellNumero.innerHTML = "Número";
+	cellNumero.style.border = "1px solid white";
+
+	// Célula mandante
+	var cellMandante = linha.insertCell(1);
+	cellMandante.width = "40%";
+	cellMandante.innerHTML = "Mandante";
+	cellMandante.style.border = "1px solid white";
+
+	// Célula placar
+	var cellPlacar = linha.insertCell(2);
+	cellPlacar.width = "20%";
+	cellPlacar.innerHTML = "Placar";
+	cellPlacar.style.border = "1px solid white";
+
+	// Célula visitante
+	var cellVisitante = linha.insertCell(3);
+	cellVisitante.width = "40%";
+	cellVisitante.innerHTML = "Visitante";
+	cellVisitante.style.border = "1px solid white";
+}
+
 
 function getColorFundo(time){
 	switch (time) {
@@ -1129,80 +1227,4 @@ function getColorLetra(time){
 		return "black";
 		break;
 	}
-}
-
-function converteData(data){
-	var array = data.split("-");
-	var novaData = array[2] + "/" + array[1] + "/" + array[0];
-
-	return novaData;
-}
-
-function getEscudoName(nome){
-	var cortaNome = nome.split(" ");
-	var juntaNome = "";
-
-	for(var i = 0; i < cortaNome.length; i++){
-		juntaNome += cortaNome[i];
-	}
-	return juntaNome;
-}
-
-function getFuncaoSelect(valor){
-
-	if(valor == "decrescente"){
-		decrescente();
-	}
-	else if(valor == "crescente"){
-		crescente();
-	}
-	else if(valor == "mandante"){
-		mandante();
-	}
-	else if(valor == "visitante"){
-		visitante();
-	}
-	else if(valor == "vitorias"){
-		vitorias();
-	}
-	else if(valor == "empates"){
-		empates();
-	}
-	else if(valor == "derrotas"){
-		derrotas();
-	}
-}
-
-// Limpa a tabela e reescreve o cabeçalho
-function limpaTabela(){
-	$("tr").remove(); 
-
-	var tabela = document.getElementById("jogos");
-	var linha = tabela.insertRow(0);
-	tabela.width = "100%";
-	linha.width = "100%";
-	tabela.style.fontWeight = "bold";
-
-	// Célula número
-	var cellNumero = linha.insertCell(0);
-	cellNumero.innerHTML = "Número";
-	cellNumero.style.border = "1px solid white";
-
-	// Célula mandante
-	var cellMandante = linha.insertCell(1);
-	cellMandante.width = "40%";
-	cellMandante.innerHTML = "Mandante";
-	cellMandante.style.border = "1px solid white";
-
-	// Célula placar
-	var cellPlacar = linha.insertCell(2);
-	cellPlacar.width = "20%";
-	cellPlacar.innerHTML = "Placar";
-	cellPlacar.style.border = "1px solid white";
-
-	// Célula visitante
-	var cellVisitante = linha.insertCell(3);
-	cellVisitante.width = "40%%";
-	cellVisitante.innerHTML = "Visitante";
-	cellVisitante.style.border = "1px solid white";
 }
