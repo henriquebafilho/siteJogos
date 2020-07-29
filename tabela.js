@@ -460,7 +460,19 @@ function adversario(){
 		var contador = 0;
 
 		for(var i = 0; i < jogos.length; i++){
-			if(adversario == jogos[i][1]){
+			if(adversario == "Atlético-PR" || adversario == "Athletico-PR"){
+				if(jogos[i][1] == "Atlético-PR" || jogos[i][1] == "Athletico-PR"){
+					contador += 1;
+					escreveLinha(jogos[i], contador);
+				}
+			}
+			else if(adversario == "Bragantino" || adversario == "Red Bull Bragantino"){
+				if(jogos[i][1] == "Bragantino" || jogos[i][1] == "Red Bull Bragantino"){
+					contador += 1;
+					escreveLinha(jogos[i], contador);
+				}
+			}
+			else if(adversario == jogos[i][1]){
 				contador += 1;
 				escreveLinha(jogos[i], contador);
 			}
