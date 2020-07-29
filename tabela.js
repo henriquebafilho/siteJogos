@@ -401,8 +401,7 @@ jogos.push(jogo202);
 7 - técnico
 8 - autorBotafogo
 9 - autorAdversario
-10 - coresFundo (0 - principal/ 1 - uniformePrimária)
-11 - coresLetra (0 - principal/ 1 - uniformeSecundária)
+10 - escudo novo (se tiver)
 */
 
 window.onload = function(){
@@ -631,7 +630,7 @@ function escreveLinha(jogo, numero){
 	var cellAutorMandante = linha3.insertCell(0);
 	cellAutorMandante.style.fontFamily = "Arial";
 	cellAutorMandante.style.fontWeight = "bold";
-	cellAutorMandante.style.backgroundColor = getColorFundo(mandante);
+	cellAutorMandante.style.backgroundColor = getColorFundo(mandante, jogo);
 	cellAutorMandante.style.color = getColorLetra(mandante);
 	cellAutorMandante.style.border = "1px solid white";
 	if(jogo[0] == true){
@@ -643,7 +642,7 @@ function escreveLinha(jogo, numero){
 	var cellTecnico = linha3.insertCell(1);
 	cellTecnico.style.fontFamily = "Arial";
 	cellTecnico.style.fontWeight = "bold";
-	cellTecnico.style.background = "linear-gradient(90deg, " + getColorFundo(mandante) + " 49%, " + getColorFundo(visitante) + " 52%)";
+	cellTecnico.style.background = "linear-gradient(90deg, " + getColorFundo(mandante, jogo) + " 49%, " + getColorFundo(visitante, jogo) + " 52%)";
 	cellTecnico.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
 	cellTecnico.style.border = "1px solid white";
 	cellTecnico.innerHTML = "Técnico: " + jogo[7];
@@ -651,7 +650,7 @@ function escreveLinha(jogo, numero){
 	var cellAutorVisitante = linha3.insertCell(2);
 	cellAutorVisitante.style.fontFamily = "Arial";
 	cellAutorVisitante.style.fontWeight = "bold";
-	cellAutorVisitante.style.backgroundColor = getColorFundo(visitante);
+	cellAutorVisitante.style.backgroundColor = getColorFundo(visitante, jogo);
 	cellAutorVisitante.style.color = getColorLetra(visitante);
 	cellAutorVisitante.style.border = "1px solid white";
 	if(jogo[0] == true){
@@ -668,10 +667,10 @@ function escreveLinha(jogo, numero){
 	cellMandante.id = "mandante" + numero;
 	cellMandante.style.fontFamily = "Arial";
 	cellMandante.style.fontWeight = "bold";
-	cellMandante.style.backgroundColor = getColorFundo(mandante);
+	cellMandante.style.backgroundColor = getColorFundo(mandante, jogo);
 	cellMandante.style.color = getColorLetra(mandante);
 	cellMandante.style.border = "1px solid white";
-	cellMandante.innerHTML = "<img src=index_files/" + getEscudoName(mandante) + ".png width=70 height=70 alt=Imagem><br>" + mandante;
+	cellMandante.innerHTML = "<img src=index_files/" + getEscudoName(mandante, jogo) + ".png width=70 height=70 alt=Imagem><br>" + mandante;
 
 	var cellPlacar = linha2.insertCell(1);
 	cellPlacar.id = "placar";
@@ -679,7 +678,7 @@ function escreveLinha(jogo, numero){
 	cellPlacar.style.fontWeight = "bold";
 	cellPlacar.style.fontSize = "250%";
 	cellPlacar.style.whiteSpace = "nowrap";
-	cellPlacar.style.background = "linear-gradient(90deg, " + getColorFundo(mandante) + " 49%, " + getColorFundo(visitante) + " 52%)";
+	cellPlacar.style.background = "linear-gradient(90deg, " + getColorFundo(mandante, jogo) + " 49%, " + getColorFundo(visitante, jogo) + " 52%)";
 	cellPlacar.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
 	cellPlacar.style.border = "1px solid white";
 	if(jogo[0] == true){
@@ -692,10 +691,10 @@ function escreveLinha(jogo, numero){
 	cellVisitante.id = "visitante" + numero;
 	cellVisitante.style.fontFamily = "Arial";
 	cellVisitante.style.fontWeight = "bold";
-	cellVisitante.style.backgroundColor = getColorFundo(visitante);
+	cellVisitante.style.backgroundColor = getColorFundo(visitante, jogo);
 	cellVisitante.style.color = getColorLetra(visitante);
 	cellVisitante.style.border = "1px solid white";
-	cellVisitante.innerHTML = "<img src=index_files/" + getEscudoName(visitante) + ".png width=70 height=70 alt=Imagem><br>" + visitante;
+	cellVisitante.innerHTML = "<img src=index_files/" + getEscudoName(visitante, jogo) + ".png width=70 height=70 alt=Imagem><br>" + visitante;
 
 	// Célula com o número e informações
 	var linha1 = tabela.insertRow(qtdLinhas);
@@ -705,7 +704,7 @@ function escreveLinha(jogo, numero){
 	cellNumero.rowSpan = 3;
 	cellNumero.style.fontFamily = "Arial";
 	cellNumero.style.fontWeight = "bold";
-	cellNumero.style.backgroundColor = getColorFundo(mandante);
+	cellNumero.style.backgroundColor = getColorFundo(mandante, jogo);
 	cellNumero.style.color = getColorLetra(mandante);
 	cellNumero.style.border = "1px solid white";
 	cellNumero.innerHTML = numero; // Número do jogo
@@ -714,7 +713,7 @@ function escreveLinha(jogo, numero){
 	cellCabecalho.colSpan = 3;
 	cellCabecalho.style.fontFamily = "Arial";
 	cellCabecalho.style.fontWeight = "bold";
-	cellCabecalho.style.background = "linear-gradient(90deg, " + getColorFundo(mandante) + " 49%, " + getColorFundo(visitante) + " 50%)";
+	cellCabecalho.style.background = "linear-gradient(90deg, " + getColorFundo(mandante, jogo) + " 49%, " + getColorFundo(visitante, jogo) + " 50%)";
 	cellCabecalho.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
 	cellCabecalho.style.border = "1px solid white";
 	cellCabecalho.innerHTML = converteData(jogo[5]) + " | " + "Estádio " + jogo[6] + " | " + jogo[4]; // Cabeçalho
@@ -727,8 +726,23 @@ function converteData(data){
 	return novaData;
 }
 
-function getEscudoName(nome){
-	var cortaNome = nome.split(" ");
+function getEscudoName(time, jogo){
+	var dataCortada = jogo[5].split("-");
+	var ano = parseInt(dataCortada[0]);
+
+	if(time == "Goiás" && ano >= 2019){
+		return "Goiás2019";
+	} else if (time == "Internacional" && ano < 2009){
+		return "Internacional2009";
+	} else if (time == "Náutico" && ano >= 2008){
+		return "Náutico2008";
+	} else if (time == "Flamengo" && ano >= 2018){
+		return "Flamengo2018";
+	} else if (time == "Resende" && ano >= 2020){
+		return "Resende2020";
+	}
+
+	var cortaNome = time.split(" ");
 	var juntaNome = "";
 
 	for(var i = 0; i < cortaNome.length; i++){
@@ -798,7 +812,10 @@ function limpaTabela(){
 }
 
 
-function getColorFundo(time){
+function getColorFundo(time, jogo){
+	var dataCortada = jogo[5].split("-");
+	var ano = parseInt(dataCortada[0]);
+
 	switch (time) {
 		case "América-MG":
 		return "#048439";
@@ -906,11 +923,13 @@ function getColorFundo(time){
 		return "#11519b";
 		break;
 		case "Goiás":
-		return "#048439";
-		break;
-		case "Goiás2019":
-		return "#006959";
-		break;
+		if(ano < 2019){
+			return "#048439";
+			break;
+		} else if (ano >= 2019){
+			return "#006959";
+			break;
+		}
 		case "Grêmio":
 		return "#0d80bf";
 		break;
