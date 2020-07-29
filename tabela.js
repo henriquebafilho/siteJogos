@@ -665,7 +665,7 @@ function escreveLinha(jogo, numero){
 	cellPlacar.id = "placar";
 	cellPlacar.style.fontFamily = "Arial";
 	cellPlacar.style.fontWeight = "bold";
-	cellPlacar.style.fontSize = "300%";
+	cellPlacar.style.fontSize = "250%";
 	cellPlacar.style.whiteSpace = "nowrap";
 	cellPlacar.style.background = "linear-gradient(90deg, " + getColorFundo(mandante) + " 49%, " + getColorFundo(visitante) + " 52%)";
 	cellPlacar.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
