@@ -410,6 +410,7 @@ window.onload = function(){
 
 function decrescente(){
 	limpaTabela();
+	cabecalho();
 
 	for(var i = jogos.length - 1; i >= 0; i--){
 		escreveLinha(jogos[i], i + 1);
@@ -418,6 +419,7 @@ function decrescente(){
 
 function crescente(){
 	limpaTabela();
+	cabecalho();
 
 	for(var i = 0; i < jogos.length; i++){
 		escreveLinha(jogos[i], i + 1);
@@ -426,6 +428,7 @@ function crescente(){
 
 function mandante(){
 	limpaTabela();
+	cabecalho();
 
 	var contador = 0;
 
@@ -439,6 +442,7 @@ function mandante(){
 
 function visitante(){
 	limpaTabela();
+	cabecalho();
 
 	var contador = 0;
 
@@ -455,6 +459,7 @@ function adversario(){
 	
 	if(adversario != ""){
 		limpaTabela();
+		cabecalho();
 
 		var contador = 0;
 
@@ -484,6 +489,8 @@ function campeonato(){
 
 	if(campeonato != ""){
 		limpaTabela();
+		cabecalho();
+
 		var contador = 0;
 
 		for(var i = 0; i < jogos.length; i++){
@@ -500,6 +507,7 @@ function estadio(){
 
 	if(estadio != ""){
 		limpaTabela();
+		cabecalho();
 
 		var contador = 0;
 
@@ -517,6 +525,7 @@ function tecnico(){
 
 	if(tecnico != ""){
 		limpaTabela();
+		cabecalho();
 
 		var contador = 0;
 
@@ -531,20 +540,28 @@ function tecnico(){
 
 function escolheData(){
 	limpaTabela();
+	cabecalho();
 
 	var data = document.getElementById("dataJogo").value;
 	var contador = 0;
+	var achou = false;
 
 	for(var i = 0; i < jogos.length; i++){
 		if(data == jogos[i][5]){
+			achou = true;
 			contador += 1;
 			escreveLinha(jogos[i], contador);
 		}
+	}
+	//se não achou nenhum jogo
+	if(achou == false){
+		fail();
 	}
 }
 
 function ano(){
 	limpaTabela();
+	cabecalho();
 
 	var ano = document.getElementById("anoJogo").value;
 	var contador = 0;
@@ -561,14 +578,20 @@ function ano(){
 
 function numero(){
 	limpaTabela();
+	cabecalho();
 
 	var numero = document.getElementById("numeroJogo").value;
-	
-	escreveLinha(jogos[numero - 1], numero);
+
+	if(numero < 1 || numero > 194){
+		fail();
+	} else{
+		escreveLinha(jogos[numero - 1], numero);
+	}
 }
 
 function vitorias(){
 	limpaTabela();
+	cabecalho();
 
 	var contador = 0;
 	
@@ -582,6 +605,7 @@ function vitorias(){
 
 function empates(){
 	limpaTabela();
+	cabecalho();
 
 	var contador = 0;
 	
@@ -595,6 +619,7 @@ function empates(){
 
 function derrotas(){
 	limpaTabela();
+	cabecalho();
 
 	var contador = 0;
 
@@ -779,7 +804,20 @@ function getFuncaoSelect(valor){
 // Limpa a tabela e reescreve o cabeçalho
 function limpaTabela(){
 	$("tr").remove(); 
+	$("#fail").remove(); 
+}
 
+function fail(){
+	limpaTabela();
+	var elemento_pai = document.body;
+	var titulo = document.createElement('p');
+	titulo.id = "fail";
+	var texto  = document.createTextNode("Nenhum jogo encontrado");
+	titulo.appendChild(texto);
+	elemento_pai.append(titulo);
+}
+
+function cabecalho(){
 	var tabela = document.getElementById("jogos");
 	var qtdLinhas = tabela.rows.length;
 	var linha = tabela.insertRow(qtdLinhas);
