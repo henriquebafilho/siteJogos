@@ -729,7 +729,7 @@ function numero(){
 
 	var numero = document.getElementById("numeroJogo").value;
 
-	if(numero < 1 || numero > 194){
+	if(numero < 1 || numero > jogos.length){
 		fail();
 	} else{
 		escreveLinha(jogos[numero - 1], numero);
