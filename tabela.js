@@ -1133,7 +1133,7 @@ function getColorFundo(time, jogo){
 		return "white";
 		break;
 		case "Corinthians":
-		return "black";
+		return "white";
 		break;
 		case "Coritiba":
 		return "#00544d";
@@ -1350,7 +1350,7 @@ function getColorLetra(time){
 		return "black";
 		break;
 		case "Corinthians":
-		return "white";
+		return "black";
 		break;
 		case "Coritiba":
 		return "white";
