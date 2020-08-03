@@ -723,26 +723,6 @@ function ano(){
 	estatisticas(contador, vitorias, empates, derrotas);
 }
 
-function numero(){
-	limpaTabela();
-	cabecalho();
-
-	var numero = document.getElementById("numeroJogo").value;
-
-	if(numero < 1 || numero > jogos.length){
-		fail();
-	} else{
-		escreveLinha(jogos[numero - 1], numero);
-		if(jogos[numero - 1][2] > jogos[numero - 1][3]){
-			getVitorias(1);
-		} else if (jogos[numero - 1][2] == jogos[numero - 1][3]){
-			getEmpates(1);
-		} else {
-			getDerrotas(1);
-		}
-	}
-}
-
 function vitorias(){
 	limpaTabela();
 	cabecalho();
