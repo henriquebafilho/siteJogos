@@ -1252,7 +1252,7 @@ function getColorFundo(time, jogo){
 		return "white";
 		break;
 		case "Santa Cruz":
-		return "white";
+		return "red";
 		break;
 		case "Santos":
 		return "white";
@@ -1464,7 +1464,7 @@ function getColorLetra(time){
 		return "red";
 		break;
 		case "Santa Cruz":
-		return "red";
+		return "white";
 		break;
 		case "Santos":
 		return "black";
