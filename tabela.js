@@ -1039,6 +1039,25 @@ function cabecalho(){
 	cellVisitante.style.border = "1px solid white";
 }
 
+//Botão de voltar ao topo
+window.onscroll = function(){
+	scroll();
+}
+
+function scroll(){
+	var botao = document.getElementById("btnTop");
+
+	if(document.documentElement.scrollTop > 50){
+		botao.style.display = "block";
+	} else{
+		botao.style.display = "none";
+	}
+}
+
+function backToTop(){
+	document.documentElement.scrollTop = 0;
+}
+
 
 function coresTimes(time, jogo){
 	var dataCortada = jogo[5].split("-");

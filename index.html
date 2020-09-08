@@ -10,6 +10,9 @@
 	<script src="jquery-3.3.1.min.js" type="text/javascript"></script>
 	<script src="tabela.js" type="text/javascript"></script>
 	<style>
+		html{
+			scroll-behavior: smooth;
+		}
 		body{
 			font-family: Arial;
 			background-color: black;
@@ -67,6 +70,19 @@
 			border-color: white;
 			border-radius: 50px;
 			cursor: pointer;
+		}
+		#btnTop{
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+
+			height: 5%;
+			width: 5%;
+			background-color: white;
+			color: black;
+			border-radius: 10px;
+
+			display: none;
 		}
 	</style>
 </head>
@@ -283,5 +299,6 @@
 		</table>
 	</div>
 	<br>
+	<button id="btnTop" onclick="backToTop()">▲</button>
 </body>
 </html>
