@@ -1040,6 +1040,7 @@ function cabecalho(){
 }
 
 //Botão de voltar ao topo
+/*
 window.onscroll = function(){
 	scroll();
 }
@@ -1057,7 +1058,7 @@ function scroll(){
 function backToTop(){
 	document.documentElement.scrollTop = 0;
 }
-
+*/
 
 function coresTimes(time, jogo){
 	var dataCortada = jogo[5].split("-");
