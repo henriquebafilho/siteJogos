@@ -865,6 +865,7 @@ function escreveLinha(jogo, numero){
 	cellNumero.rowSpan = 3;
 	cellNumero.style.fontFamily = "Arial";
 	cellNumero.style.fontWeight = "bold";
+	cellNumero.style.fontSize = "150%";
 	cellNumero.style.backgroundColor = coresTimes(mandante, jogo)[0];
 	cellNumero.style.color = coresTimes(mandante, jogo)[1];
 	cellNumero.style.border = "1px solid white";
