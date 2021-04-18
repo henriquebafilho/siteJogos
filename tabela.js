@@ -457,15 +457,22 @@ function mandante(){
 	limpaTabela();
 	cabecalho();
 
-	var contador = 0;
+	var contador = jogos.length;
+	var quantidade = 0;
 	var vitorias = 0;
 	var empates = 0;
 	var derrotas = 0;
 
 	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][0] == true){
-			contador += 1;
-			escreveLinha(jogos[i], contador);
+			quantidade += 1;
+		}
+	}
+
+	for(var i = contador - 1; i >= 0; i--){
+		if(jogos[i][0] == true){
+			escreveLinha(jogos[i], quantidade);
+			quantidade -= 1;
 			// Contabiliza vitória, empate ou derrota
 			if(jogos[i][2] > jogos[i][3]){
 				vitorias += 1;
@@ -473,9 +480,10 @@ function mandante(){
 				empates += 1;
 			} else{
 				derrotas += 1;
-			}
+			}	
 		}
 	}
+
 	estatisticas(contador, vitorias, empates, derrotas);
 }
 
