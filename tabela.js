@@ -1064,6 +1064,7 @@ function scroll(){
 	}
 }
 
+
 function backToTop(){
 	document.documentElement.scrollTop = 0;
 }

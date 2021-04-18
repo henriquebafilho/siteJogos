@@ -1,0 +1,81 @@
+html{
+			scroll-behavior: smooth;
+		}
+		body{
+			font-family: Arial;
+			background-color: black;
+			color: white;
+			margin: 0;
+		}
+		table {
+			border: 2px solid black;
+			font-family: Arial;
+			text-align: center;
+			background-color: black;
+		} 
+		th{
+			color: white;
+			font-family: Arial;
+			text-align: center;
+			border: 1px solid white;
+			column-span: 2;
+		}
+		h1, h4{
+			color: white;
+			text-align: center;
+			width: 100%;
+			font-size: 100%;
+		}
+		#pai div{
+			display: none;
+		}
+		p{
+			color: white;
+			text-align: center;
+			font-family: Arial;
+		}
+		div{
+			text-align: center;
+		}
+		img{
+			vertical-align: middle;
+		}
+		select{
+			text-align: center;
+			text-align-last: center;
+		}
+		input, select{
+			background-color: white;
+			color: black;
+			text-align: center;
+			border-color: black;
+			border-radius: 50px;
+			cursor: pointer;
+		}
+		input#pesquisar:hover{
+			background-color: black;
+			color: white;
+			border-color: white;
+			border-radius: 50px;
+			cursor: pointer;
+		}
+		#btnTop{
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+
+			background-color: white;
+			text-align: center;
+			font-size: 200%;
+			color: black;
+			border-radius: 10px;
+			border-color: black;
+
+			display: none;
+		}
+		@media(min-width: 1000px){
+			#tabelaJogos{
+				padding-left: 10%;
+				padding-right: 10%;
+			}
+		}
