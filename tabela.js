@@ -766,45 +766,75 @@ function vitorias(){
 	limpaTabela();
 	cabecalho();
 
-	var contador = 0;
+	var contador = jogos.length;
+	var quantidade = 0;
+	var quantidadeFixa = 0;
+	
 	
 	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][2] > jogos[i][3]){
-			contador += 1;
-			escreveLinha(jogos[i], contador);
+			quantidade += 1;
+			quantidadeFixa += 1;
 		}
 	}
-	getVitorias(contador);
+
+	for(var i = contador - 1; i >= 0; i--){
+		if(jogos[i][2] > jogos[i][3]){
+			escreveLinha(jogos[i], quantidade);
+			quantidade -= 1;
+		}
+	}
+	getVitorias(quantidadeFixa);
 }
 
 function empates(){
 	limpaTabela();
 	cabecalho();
 
-	var contador = 0;
+	var contador = jogos.length;
+	var quantidade = 0;
+	var quantidadeFixa = 0;
+	
 	
 	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][2] == jogos[i][3]){
-			contador += 1;
-			escreveLinha(jogos[i], contador);
+			quantidade += 1;
+			quantidadeFixa += 1;
 		}
 	}
-	getEmpates(contador);
+
+	for(var i = contador - 1; i >= 0; i--){
+		if(jogos[i][2] == jogos[i][3]){
+			escreveLinha(jogos[i], quantidade);
+			quantidade -= 1;
+		}
+	}
+	getEmpates(quantidadeFixa);
 }
 
 function derrotas(){
 	limpaTabela();
 	cabecalho();
 
-	var contador = 0;
-
+	var contador = jogos.length;
+	var quantidade = 0;
+	var quantidadeFixa = 0;
+	
+	
 	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][2] < jogos[i][3]){
-			contador += 1;
-			escreveLinha(jogos[i], contador);
+			quantidade += 1;
+			quantidadeFixa += 1;
 		}
 	}
-	getDerrotas(contador);
+
+	for(var i = contador - 1; i >= 0; i--){
+		if(jogos[i][2] < jogos[i][3]){
+			escreveLinha(jogos[i], quantidade);
+			quantidade -= 1;
+		}
+	}
+	getDerrotas(quantidadeFixa);
 }
 
 function escreveLinha(jogo, numero){
