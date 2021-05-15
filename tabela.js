@@ -755,17 +755,28 @@ function ano(){
 	cabecalho();
 
 	var ano = document.getElementById("anoJogo").value;
-	var contador = 0;
+	var contador = jogos.length;
+	var quantidade = 0;
+	var quantidadeFixa = 0;
 	var vitorias = 0;
 	var empates = 0;
 	var derrotas = 0;
 
 	for(var i = 0; i < jogos.length; i++){
-		var dataCortada = jogos[i][5].split("-")
+		var dataCortada = jogos[i][5].split("-");
 
 		if(dataCortada[0] == ano.toString()){
-			contador += 1;
-			escreveLinha(jogos[i], contador);
+			quantidade += 1;
+			quantidadeFixa += 1;
+		}
+	}
+
+	for(var i = contador - 1; i >= 0; i--){
+		var dataCortada = jogos[i][5].split("-");
+
+		if(dataCortada[0] == ano.toString()){
+			escreveLinha(jogos[i], quantidade);
+			quantidade -= 1;
 			// Contabiliza vitória, empate ou derrota
 			if(jogos[i][2] > jogos[i][3]){
 				vitorias += 1;
@@ -773,10 +784,10 @@ function ano(){
 				empates += 1;
 			} else{
 				derrotas += 1;
-			}
+			}	
 		}
 	}
-	estatisticas(contador, vitorias, empates, derrotas);
+	estatisticas(quantidadeFixa, vitorias, empates, derrotas);
 }
 
 function vitorias(){
