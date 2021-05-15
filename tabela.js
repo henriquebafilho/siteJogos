@@ -391,7 +391,7 @@ jogos.push(jogo202);
 
 var outros = [];
 
-var jogo20070715 = ["Brasil", "Cruzeiro",  3, 0, "Jogos Pan-Americanos", "2007-07-15", "Estádio João Havelange (Engenhão)", "-Luiz Nizzo", "", "-Lulinha (3x)"];
+var jogo20070715 = ["Brasil", "Honduras",  3, 0, "Jogos Pan-Americanos", "2007-07-15", "Estádio João Havelange (Engenhão)", "Luiz Nizzo", "", "-Lulinha (3x)"];
 outros.push(jogo20070715);
 var jogo20180901 = ["Vasco", "Santos",  0, 3, "Série A", "2018-09-01", "Maracanã", "-Cuca", "", "-Gabriel (3x)"];
 outros.push(jogo20180901);
