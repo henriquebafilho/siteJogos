@@ -609,28 +609,38 @@ function adversario(){
 			limpaTabela();
 			cabecalho();
 
-			var contador = 0;
+			var contador = jogos.length;
+			var quantidade = 0;
+			var quantidadeFixa = 0;
 			var vitorias = 0;
 			var empates = 0;
 			var derrotas = 0;
 
 			for(var i = 0; i < jogos.length; i++){
 				if(campeonato == jogos[i][4]){
-					contador += 1;
-					escreveLinha(jogos[i], contador);
-				// Contabiliza vitória, empate ou derrota
-				if(jogos[i][2] > jogos[i][3]){
-					vitorias += 1;
-				} else if (jogos[i][2] == jogos[i][3]){
-					empates += 1;
-				} else{
-					derrotas += 1;
+					quantidade += 1;
+					quantidadeFixa += 1;
 				}
 			}
+
+			for(var i = contador - 1; i >= 0; i--){
+				if(campeonato == jogos[i][4]){
+					escreveLinha(jogos[i], quantidade);
+					quantidade -= 1;
+			// Contabiliza vitória, empate ou derrota
+			if(jogos[i][2] > jogos[i][3]){
+				vitorias += 1;
+			} else if (jogos[i][2] == jogos[i][3]){
+				empates += 1;
+			} else{
+				derrotas += 1;
+			}	
 		}
-		estatisticas(contador, vitorias, empates, derrotas);
 	}
 }
+estatisticas(quantidadeFixa, vitorias, empates, derrotas);
+}
+
 
 function estadio(){
 	var estadio = document.getElementById("selectEstadio").value;
