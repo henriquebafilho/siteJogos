@@ -538,69 +538,86 @@ function adversario(){
 		var vitorias = 0;
 		var empates = 0;
 		var derrotas = 0;
+		var selecionados = [];
 
 		for(var i = 0; i < jogos.length; i++){
 			if(adversario == "Atlético-PR" || adversario == "Athletico-PR"){
 				if(jogos[i][1] == "Atlético-PR" || jogos[i][1] == "Athletico-PR"){
-					contador += 1;
-					escreveLinha(jogos[i], contador);
-					// Contabiliza vitória, empate ou derrota
-					if(jogos[i][2] > jogos[i][3]){
-						vitorias += 1;
-					} else if (jogos[i][2] == jogos[i][3]){
-						empates += 1;
-					} else{
-						derrotas += 1;
-					}
+					quantidade += 1;
+					quantidadeFixa += 1;
 				}
-			}
-			else if(adversario == "Bragantino" || adversario == "Red Bull Bragantino"){
+			}else if(adversario == "Bragantino" || adversario == "Red Bull Bragantino"){
 				if(jogos[i][1] == "Bragantino" || jogos[i][1] == "Red Bull Bragantino"){
-					contador += 1;
-					escreveLinha(jogos[i], contador);
-					// Contabiliza vitória, empate ou derrota
-					if(jogos[i][2] > jogos[i][3]){
-						vitorias += 1;
-					} else if (jogos[i][2] == jogos[i][3]){
-						empates += 1;
-					} else{
-						derrotas += 1;
-					}
+					quantidade += 1;
+					quantidadeFixa += 1;
 				}
-			}
-			else if(adversario == jogos[i][1]){
-				contador += 1;
-				escreveLinha(jogos[i], contador);
-				// Contabiliza vitória, empate ou derrota
-				if(jogos[i][2] > jogos[i][3]){
-					vitorias += 1;
-				} else if (jogos[i][2] == jogos[i][3]){
-					empates += 1;
-				} else{
-					derrotas += 1;
-				}
+			}else if(adversario == jogos[i][1]){
+				quantidade += 1;
+				quantidadeFixa += 1;
 			}
 		}
-		estatisticas(contador, vitorias, empates, derrotas);
+
+		for(var i = contador - 1; i >= 0; i--){
+			if(adversario == "Atlético-PR" || adversario == "Athletico-PR"){
+				if(jogos[i][1] == "Atlético-PR" || jogos[i][1] == "Athletico-PR"){
+					escreveLinha(jogos[i], quantidade);
+					quantidade -= 1;
+					// Contabiliza vitória, empate ou derrota
+					if(jogos[i][2] > jogos[i][3]){
+						vitorias += 1;
+					} else if (jogos[i][2] == jogos[i][3]){
+						empates += 1;
+					} else{
+						derrotas += 1;
+					}
+				}
+			} else if(adversario == "Bragantino" || adversario == "Red Bull Bragantino"){
+				if(jogos[i][1] == "Bragantino" || jogos[i][1] == "Red Bull Bragantino"){
+					escreveLinha(jogos[i], quantidade);
+					quantidade -= 1;
+					// Contabiliza vitória, empate ou derrota
+					if(jogos[i][2] > jogos[i][3]){
+						vitorias += 1;
+					} else if (jogos[i][2] == jogos[i][3]){
+						empates += 1;
+					} else{
+						derrotas += 1;
+					}
+				}
+			} else if(adversario == jogos[i][1]){
+				escreveLinha(jogos[i], quantidade);
+				quantidade -= 1;
+					// Contabiliza vitória, empate ou derrota
+					if(jogos[i][2] > jogos[i][3]){
+						vitorias += 1;
+					} else if (jogos[i][2] == jogos[i][3]){
+						empates += 1;
+					} else{
+						derrotas += 1;
+					}
+				}
+			} 
+			estatisticas(quantidadeFixa, vitorias, empates, derrotas);
+		}
 	}
-}
 
-function campeonato(){
-	var campeonato = document.getElementById("selectCampeonato").value;
 
-	if(campeonato != ""){
-		limpaTabela();
-		cabecalho();
+	function campeonato(){
+		var campeonato = document.getElementById("selectCampeonato").value;
 
-		var contador = 0;
-		var vitorias = 0;
-		var empates = 0;
-		var derrotas = 0;
+		if(campeonato != ""){
+			limpaTabela();
+			cabecalho();
 
-		for(var i = 0; i < jogos.length; i++){
-			if(campeonato == jogos[i][4]){
-				contador += 1;
-				escreveLinha(jogos[i], contador);
+			var contador = 0;
+			var vitorias = 0;
+			var empates = 0;
+			var derrotas = 0;
+
+			for(var i = 0; i < jogos.length; i++){
+				if(campeonato == jogos[i][4]){
+					contador += 1;
+					escreveLinha(jogos[i], contador);
 				// Contabiliza vitória, empate ou derrota
 				if(jogos[i][2] > jogos[i][3]){
 					vitorias += 1;
