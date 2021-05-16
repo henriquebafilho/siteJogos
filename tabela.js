@@ -386,8 +386,8 @@ var jogo196 = ["Fluminense", "Botafogo",  3, 0, "Carioca", "2020-02-09", "Maraca
 jogos.push(jogo196);
 var jogo197 = ["Botafogo", "Boavista", 2, 1, "Carioca", "2020-03-01", "Nilton Santos", "Paulo Autuori", "-Alex Santana<br>-Bruno Nazário", "-Michel"];
 jogos.push(jogo197);
-var jogo202 = ["Flamengo", "Botafogo",  3, 0, "Carioca", "2020-03-07", "Maracanã", "Paulo Autuori", "", "-Éverton Ribeiro<br>-Gabriel<br>-Michael"];
-jogos.push(jogo202);
+var jogo20200307 = ["Flamengo", "Botafogo",  3, 0, "Carioca", "2020-03-07", "Maracanã", "Paulo Autuori", "", "-Éverton Ribeiro<br>-Gabriel<br>-Michael"];
+jogos.push(jogo20200307);
 
 var outros = [];
 
@@ -596,7 +596,7 @@ function adversario(){
 					quantidade += 1;
 					quantidadeFixa += 1;
 				}
-			}else if(adversario == jogos[i][1]){
+			}else if(adversario == jogos[i][0] || adversario == jogos[i][1]){
 				quantidade += 1;
 				quantidadeFixa += 1;
 			}
@@ -645,7 +645,7 @@ function adversario(){
 						}
 					}
 				}
-			} else if(adversario == jogos[i][1]){
+			} else if(adversario == jogos[i][0] || adversario == jogos[i][1]){
 				escreveLinha(jogos[i], quantidade);
 				quantidade -= 1;
 					// Contabiliza vitória, empate ou derrota
@@ -1020,7 +1020,7 @@ function escreveLinha(jogo, numero){
 	cellAutorMandante.style.backgroundColor = coresTimes(mandante, jogo)[0];
 	cellAutorMandante.style.color = coresTimes(mandante, jogo)[1];
 	cellAutorMandante.style.border = "1px solid white";
-	if(jogo[0] == true){
+	if(jogo[0] == "Botafogo"){
 		cellAutorMandante.innerHTML = jogo[8];
 	} else {
 		cellAutorMandante.innerHTML = jogo[9];
@@ -1040,10 +1040,10 @@ function escreveLinha(jogo, numero){
 	cellAutorVisitante.style.backgroundColor = coresTimes(visitante, jogo)[0];
 	cellAutorVisitante.style.color = coresTimes(visitante, jogo)[1];
 	cellAutorVisitante.style.border = "1px solid white";
-	if(jogo[0] == true){
-		cellAutorVisitante.innerHTML = jogo[9];
-	} else {
+	if(jogo[1] == "Botafogo"){
 		cellAutorVisitante.innerHTML = jogo[8];
+	} else {
+		cellAutorVisitante.innerHTML = jogo[9];
 	}
 
 	// Célula com times, escudos e placar
