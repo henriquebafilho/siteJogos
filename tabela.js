@@ -391,15 +391,15 @@ jogos.push(jogo20200307);
 
 var outros = [];
 
-var jogo20070715 = ["Brasil", "Honduras",  3, 0, "Jogos Pan-Americanos", "2007-07-15", "Estádio João Havelange (Engenhão)", "Luiz Nizzo", "", "-Lulinha (3x)"];
+var jogo20070715 = ["Brasil", "Honduras",  3, 0, "Jogos Pan-Americanos", "2007-07-15", "Estádio João Havelange (Engenhão)", "<br>Brasil: Luiz Nizzo<br>Honduras: Miguel Escalante", "-Lulinha (3x)", ""];
 outros.push(jogo20070715);
-var jogo20180901 = ["Vasco", "Santos",  0, 3, "Série A", "2018-09-01", "Maracanã", "-Cuca", "", "-Gabriel (3x)"];
+var jogo20180901 = ["Vasco", "Santos",  0, 3, "Série A", "2018-09-01", "Maracanã", "<br>Vasco: Alberto Valentim<br>Santos: Cuca", "", "-Gabriel (3x)"];
 outros.push(jogo20180901);
-var jogo20190624 = ["Nova Iguaçu", "Grêmio",  0, 1, "Copa América", "2019-06-24", "Maracanã", "-", "", "-Cavani"];
+var jogo20190624 = ["Chile", "Uruguai",  0, 1, "Copa América", "2019-06-24", "Maracanã", "", "", "-Cavani"];
 outros.push(jogo20190624);
-var jogo20190914 = ["Flamengo", "Santos",  1, 0, "Série A", "2019-09-14", "Maracanã", "-Sampaoli", "-Gabriel", ""];
+var jogo20190914 = ["Flamengo", "Santos",  1, 0, "Série A", "2019-09-14", "Maracanã", "<br>Flamengo: Jorge Jesus<br>Santos: Sampaoli", "-Gabriel", ""];
 outros.push(jogo20190914);
-var jogo20191005 = ["Vasco", "Santos",  0, 1, "Série A", "2019-10-05", "São Januário", "-Sampaoli", "", "-Tailson"];
+var jogo20191005 = ["Vasco", "Santos",  0, 1, "Série A", "2019-10-05", "São Januário", "<br>Vasco: Vanderlei Luxemburgo<br>Santos: Sampaoli", "", "-Tailson"];
 outros.push(jogo20191005);
 
 /*
@@ -994,8 +994,6 @@ function outrosJogos(){
 
 	var contador = outros.length;
 
-	console.log(outros);
-
 	for(var i = contador - 1; i >=0; i--){
 		escreveLinha(outros[i], i + 1);
 	}
@@ -1023,7 +1021,7 @@ function escreveLinha(jogo, numero){
 	if(jogo[0] == "Botafogo"){
 		cellAutorMandante.innerHTML = jogo[8];
 	} else {
-		cellAutorMandante.innerHTML = jogo[9];
+		cellAutorMandante.innerHTML = jogo[8];
 	}
 
 	var cellTecnico = linha3.insertCell(1);
@@ -1355,6 +1353,9 @@ function coresTimes(time, jogo){
 		case "Chapecoense":
 		return ["#00913c", "white"];
 		break;
+		case "Chile":
+		return ["#ff0e00", "white"];
+		break;
 		case "Colo-Colo-CHI":
 		return ["white", "black"];
 		break;
@@ -1485,6 +1486,9 @@ function coresTimes(time, jogo){
 		break;
 		case "Sport":
 		return ["#d30a11", "black"];
+		break;
+		case "Uruguai":
+		return ["#0d80bf", "white"];;
 		break;
 		case "Vasco":
 		return ["white", "black"];
