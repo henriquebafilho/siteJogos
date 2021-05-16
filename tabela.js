@@ -395,7 +395,7 @@ var jogo20070715 = ["Brasil", "Honduras",  3, 0, "Jogos Pan-Americanos", "2007-0
 outros.push(jogo20070715);
 var jogo20180901 = ["Vasco", "Santos",  0, 3, "Série A", "2018-09-01", "Maracanã", "<br>Vasco: Alberto Valentim<br>Santos: Cuca", "", "-Gabriel (3x)"];
 outros.push(jogo20180901);
-var jogo20190624 = ["Chile", "Uruguai",  0, 1, "Copa América", "2019-06-24", "Maracanã", "", "", "-Cavani"];
+var jogo20190624 = ["Chile", "Uruguai",  0, 1, "Copa América", "2019-06-24", "Maracanã", "<br>Chile: Reinaldo Rueda<br>Uruguai: Oscar Tabárez", "", "-Cavani"];
 outros.push(jogo20190624);
 var jogo20190914 = ["Flamengo", "Santos",  1, 0, "Série A", "2019-09-14", "Maracanã", "<br>Flamengo: Jorge Jesus<br>Santos: Sampaoli", "-Gabriel", ""];
 outros.push(jogo20190914);
