@@ -1,3 +1,35 @@
+function cabecalho(){
+	var tabela = document.getElementById("jogos");
+	var qtdLinhas = tabela.rows.length;
+	var linha = tabela.insertRow(qtdLinhas);
+	tabela.width = "100%";
+	linha.width = "100%";
+	tabela.style.fontWeight = "bold";
+
+	// Célula número
+	var cellNumero = linha.insertCell(0);
+	cellNumero.innerHTML = "Número";
+	cellNumero.style.border = "1px solid white";
+
+	// Célula mandante
+	var cellMandante = linha.insertCell(1);
+	cellMandante.width = "40%";
+	cellMandante.innerHTML = "Mandante";
+	cellMandante.style.border = "1px solid white";
+
+	// Célula placar
+	var cellPlacar = linha.insertCell(2);
+	cellPlacar.width = "20%";
+	cellPlacar.innerHTML = "Placar";
+	cellPlacar.style.border = "1px solid white";
+
+	// Célula visitante
+	var cellVisitante = linha.insertCell(3);
+	cellVisitante.width = "40%";
+	cellVisitante.innerHTML = "Visitante";
+	cellVisitante.style.border = "1px solid white";
+}
+
 function escreveLinha(jogo, numero){
 	// setando o mandante e o visitante
 	var mandante = jogo[0];
