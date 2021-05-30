@@ -206,6 +206,9 @@ function coresTimes(time, jogo){
 		case "Vasco":
 		return ["white", "black"];
 		break;
+		case "Vila Nova":
+		return ["#ff0e00", "white"];
+		break;
 		case "Vitória":
 		return ["#ff0e00", "black"];
 		break;

@@ -104,10 +104,10 @@ var jogo20131208 = ["Botafogo", "Criciúma", 3, 0, "Série A", "2013-12-08", "Ma
 jogos.push(jogo20131208);
 var jogo20140205 = ["Botafogo", "Deportivo Quito-EQU", 4, 0, "Copa Libertadores", "2014-02-05", "Maracanã", "Eduardo Húngaro", "-Wallyson (3x)<br/>-Henrique Almeida", ""];
 jogos.push(jogo20140205);
-var jogo46 = ["Botafogo", "Independiente Del Valle-EQU", 1, 0, "Copa Libertadores", "2014-03-18", "Maracanã", "Eduardo Húngaro", "-\"El Tanque\" Ferreyra", ""];
-jogos.push(jogo46);
-var jogo47 = ["Flamengo", "Botafogo", 1, 0, "Série A", "2014-07-27", "Maracanã", "Vagner Mancini", "", "-Alecsandro"];
-jogos.push(jogo47);
+var jogo20140318 = ["Botafogo", "Independiente Del Valle-EQU", 1, 0, "Copa Libertadores", "2014-03-18", "Maracanã", "Eduardo Húngaro", "-\"El Tanque\" Ferreyra", ""];
+jogos.push(jogo20140318);
+var jogo20140727 = ["Flamengo", "Botafogo", 1, 0, "Série A", "2014-07-27", "Maracanã", "Vagner Mancini", "", "-Alecsandro"];
+jogos.push(jogo20140727);
 var jogo48 = ["Botafogo", "Chapecoense", 1, 0, "Série A", "2014-08-23", "Maracanã", "Vagner Mancini", "-Cachito Ramírez", ""];
 jogos.push(jogo48);
 var jogo49 = ["Botafogo", "Santos", 1, 0, "Série A", "2014-08-31", "Maracanã", "Vagner Mancini", "-Daniel", ""];
@@ -417,3 +417,5 @@ var jogo20190914 = ["Flamengo", "Santos",  1, 0, "Série A", "2019-09-14", "Mara
 outros.push(jogo20190914);
 var jogo20191005 = ["Vasco", "Santos",  0, 1, "Série A", "2019-10-05", "São Januário", "<br>Vasco: Vanderlei Luxemburgo<br>Santos: Sampaoli", "", "-Tailson"];
 outros.push(jogo20191005);
+var jogo20210528 = ["Vila Nova", "Botafogo",  3, 0, "Carioca", "2020-03-07", "Maracanã", "Paulo Autuori", "", "-Éverton Ribeiro<br>-Gabriel<br>-Michael"];
+outros.push(jogo20210528);
