@@ -85,7 +85,7 @@ function coresTimes(time, jogo){
 		return ["#fdd116", "black"];
 		break;
 		case "Cruzeiro":
-		return ["#075798", "white"];
+		return ["#003a94", "white"];
 		break;
 		case "CSA":
 		return ["#075798", "white"];
