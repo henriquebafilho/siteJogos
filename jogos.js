@@ -398,10 +398,10 @@ var jogo194 = ["Botafogo", "Resende", 2, 1, "Carioca", "2020-01-30", "Nilton San
 jogos.push(jogo194);
 var jogo195 = ["Botafogo", "Vasco", 1, 0, "Carioca", "2020-02-02", "Nilton Santos", "Alberto Valentim", "-Igor Cássio", ""];
 jogos.push(jogo195);
-var jogo196 = ["Fluminense", "Botafogo",  3, 0, "Carioca", "2020-02-09", "Maracanã", "Alberto Valentim", "", "-Nenê (2x)<br>-Wellington Silva"];
-jogos.push(jogo196);
-var jogo197 = ["Botafogo", "Boavista", 2, 1, "Carioca", "2020-03-01", "Nilton Santos", "Paulo Autuori", "-Alex Santana<br>-Bruno Nazário", "-Michel"];
-jogos.push(jogo197);
+var jogo20200209 = ["Fluminense", "Botafogo",  3, 0, "Carioca", "2020-02-09", "Maracanã", "Alberto Valentim", "", "-Nenê (2x)<br>-Wellington Silva"];
+jogos.push(jogo20200209);
+var jogo20200301 = ["Botafogo", "Boavista", 2, 1, "Carioca", "2020-03-01", "Nilton Santos", "Paulo Autuori", "-Alex Santana<br>-Bruno Nazário", "-Michel"];
+jogos.push(jogo20200301);
 var jogo20200307 = ["Flamengo", "Botafogo",  3, 0, "Carioca", "2020-03-07", "Maracanã", "Paulo Autuori", "", "-Éverton Ribeiro<br>-Gabriel<br>-Michael"];
 jogos.push(jogo20200307);
 
@@ -417,5 +417,3 @@ var jogo20190914 = ["Flamengo", "Santos",  1, 0, "Série A", "2019-09-14", "Mara
 outros.push(jogo20190914);
 var jogo20191005 = ["Vasco", "Santos",  0, 1, "Série A", "2019-10-05", "São Januário", "<br>Vasco: Vanderlei Luxemburgo<br>Santos: Sampaoli", "", "-Tailson"];
 outros.push(jogo20191005);
-var jogo20210528 = ["Vila Nova", "Botafogo",  3, 0, "Carioca", "2020-03-07", "Maracanã", "Paulo Autuori", "", "-Éverton Ribeiro<br>-Gabriel<br>-Michael"];
-outros.push(jogo20210528);
