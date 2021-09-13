@@ -566,6 +566,8 @@ function ano(){
 			return "Flamengo2018";
 		} else if (time == "Resende" && ano >= 2020){
 			return "Resende2020";
+		} else if (time == "Vasco" && ano >= 2021){
+			return "Vasco2021";
 		}
 
 		var cortaNome = time.split(" ");
