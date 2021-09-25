@@ -188,6 +188,9 @@ function coresTimes(time, jogo){
 		case "Santos":
 		return ["white", "black"];
 		break;
+		case "Sampaio Corrêa":
+		return ["#ffd652", "#008253"];
+		break;
 		case "São Caetano":
 		return ["#212568", "white"];
 		break;
