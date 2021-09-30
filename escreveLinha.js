@@ -6,7 +6,7 @@ function cabecalho(){
 	var linha = thead.insertRow(qtdLinhas);
 	tabela.width = "100%";
 	linha.width = "100%";
-	tabela.style.fontWeight = "bold";
+	//tabela.style.fontWeight = "bold";
 
 	
 	// Célula número
@@ -56,12 +56,17 @@ function escreveLinha(jogo, numero){
 	linhaGeral.width = "100%";
 	linhaGeral.style.background = "linear-gradient(90deg, " + coresTimes(mandante, jogo)[0] + " 51%, " + coresTimes(visitante, jogo)[0] + " 49%)";
 
-	// Célula com o número e informações
-	var linha1 = tbody.insertRow(qtdLinhas);
-	linha1.id = "linha1";
-	linha1.width = "100%";
-	//linha1.colSpan = 3;
-	linhaGeral.appendChild(linha1);
+	var cellAutorMandante = linha3.insertCell(0);
+	cellAutorMandante.style.fontFamily = "Arial";
+	//cellAutorMandante.style.fontWeight = "bold";
+	cellAutorMandante.style.backgroundColor = coresTimes(mandante, jogo)[0];
+	cellAutorMandante.style.color = coresTimes(mandante, jogo)[1];
+	cellAutorMandante.style.border = "1px solid white";
+	if(jogo[0] == "Botafogo" || (jogo[0] != "Botafogo" && jogo[1] != "Botafogo")){
+		cellAutorMandante.innerHTML = jogo[8];
+	} else {
+		cellAutorMandante.innerHTML = jogo[9];
+	}
 
 	var cellNumero = linha1.insertCell(0);
 	cellNumero.rowSpan = 3;
@@ -73,14 +78,17 @@ function escreveLinha(jogo, numero){
 	cellNumero.style.color = coresTimes(mandante, jogo)[1];
 	cellNumero.innerHTML = numero; // Número do jogo
 
-	var cellCabecalho = linha1.insertCell(1);
-	cellCabecalho.colSpan = 3;
-	//cellCabecalho.width = "100%";
-	cellCabecalho.style.fontFamily = "Arial";
-	cellCabecalho.style.fontWeight = "bold";
-	cellCabecalho.style.backgroundColor.opacity = '.4';
-	cellCabecalho.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
-	cellCabecalho.innerHTML = converteData(jogo[5]) + " | " + "Estádio " + jogo[6] + " | " + jogo[4]; // Cabeçalho
+	var cellAutorVisitante = linha3.insertCell(2);
+	cellAutorVisitante.style.fontFamily = "Arial";
+	//cellAutorVisitante.style.fontWeight = "bold";
+	cellAutorVisitante.style.backgroundColor = coresTimes(visitante, jogo)[0];
+	cellAutorVisitante.style.color = coresTimes(visitante, jogo)[1];
+	cellAutorVisitante.style.border = "1px solid white";
+	if(jogo[1] == "Botafogo"){
+		cellAutorVisitante.innerHTML = jogo[8];
+	} else {
+		cellAutorVisitante.innerHTML = jogo[9];
+	}
 
 	// Célula com times, escudos e placar
 	var linha2 = tabela.insertRow(qtdLinhas);

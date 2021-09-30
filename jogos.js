@@ -406,6 +406,8 @@ var jogo20200307 = ["Flamengo", "Botafogo",  3, 0, "Carioca", "2020-03-07", "Mar
 jogos.push(jogo20200307);
 var jogo20210926 = ["Botafogo", "Sampaio Corrêa", 2, 0, "Série B", "2021-09-26", "Nilton Santos", "Enderson Moreira", "-Rafael Navarro<br>-Luís Oyama", ""];
 jogos.push(jogo20210926);
+var jogo20211002 = ["Botafogo", "Avaí", 0, 0, "Série B", "2021-10-02", "Nilton Santos", "Enderson Moreira", "", ""];
+jogos.push(jogo20211002);
 
 var outros = [];
 
