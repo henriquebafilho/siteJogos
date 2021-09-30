@@ -187,7 +187,7 @@ function adversario(){
 					derrotas += 1;
 				}
 			} else if (selecionados[i][0] != "Botafogo"){
-				if(selecionados[i][2] > selecionados[i][3]){
+				if(selecionados[i][3] > selecionados[i][2]){
 					vitorias += 1;
 				} else {
 					derrotas += 1;
