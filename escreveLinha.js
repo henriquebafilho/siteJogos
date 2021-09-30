@@ -4,7 +4,7 @@ function cabecalho(){
 	var linha = tabela.insertRow(qtdLinhas);
 	tabela.width = "100%";
 	linha.width = "100%";
-	tabela.style.fontWeight = "bold";
+	//tabela.style.fontWeight = "bold";
 
 	// Célula número
 	var cellNumero = linha.insertCell(0);
@@ -45,7 +45,7 @@ function escreveLinha(jogo, numero){
 
 	var cellAutorMandante = linha3.insertCell(0);
 	cellAutorMandante.style.fontFamily = "Arial";
-	cellAutorMandante.style.fontWeight = "bold";
+	//cellAutorMandante.style.fontWeight = "bold";
 	cellAutorMandante.style.backgroundColor = coresTimes(mandante, jogo)[0];
 	cellAutorMandante.style.color = coresTimes(mandante, jogo)[1];
 	cellAutorMandante.style.border = "1px solid white";
@@ -65,7 +65,7 @@ function escreveLinha(jogo, numero){
 
 	var cellAutorVisitante = linha3.insertCell(2);
 	cellAutorVisitante.style.fontFamily = "Arial";
-	cellAutorVisitante.style.fontWeight = "bold";
+	//cellAutorVisitante.style.fontWeight = "bold";
 	cellAutorVisitante.style.backgroundColor = coresTimes(visitante, jogo)[0];
 	cellAutorVisitante.style.color = coresTimes(visitante, jogo)[1];
 	cellAutorVisitante.style.border = "1px solid white";
