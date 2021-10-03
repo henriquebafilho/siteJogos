@@ -386,8 +386,8 @@ var jogo187 = ["Botafogo", "Corinthians", 1, 0, "Série A", "2019-11-24", "Nilto
 jogos.push(jogo187);
 var jogo188 = ["Botafogo", "Internacional", 0, 1, "Série A", "2019-11-30", "Nilton Santos", "Alberto Valentim", "", "-Guerrero"];
 jogos.push(jogo188);
-var jogo189 = ["Botafogo", "Ceará", 1, 1, "Série A", "2019-12-08", "Nilton Santos", "Alberto Valentim", "-Marcos Vinícius", "-Thiago Galhardo"];
-jogos.push(jogo189);
+var jogo20191208 = ["Botafogo", "Ceará", 1, 1, "Série A", "2019-12-08", "Nilton Santos", "Alberto Valentim", "-Marcos Vinícius", "-Thiago Galhardo"];
+jogos.push(jogo20191208);
 var jogo20200118 = ["Volta Redonda", "Botafogo",  1, 0, "Carioca", "2020-01-18", "Raulino de Oliveira (Volta Redonda-RJ)", "Bruno Lazaroni", "", "-Saulo"];
 jogos.push(jogo20200118);
 var jogo20200121 = ["Madureira", "Botafogo",  2, 0, "Carioca", "2020-01-21", "Aniceto Moscoso (Conselheiro Galvão)", "Bruno Lazaroni", "", "-Emerson Carioca<br>-Ygor Catatau"];
