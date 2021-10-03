@@ -408,6 +408,10 @@ var jogo20210926 = ["Botafogo", "Sampaio Corrêa", 2, 0, "Série B", "2021-09-26
 jogos.push(jogo20210926);
 var jogo20211002 = ["Botafogo", "Avaí", 1, 2, "Série B", "2021-10-02", "Nilton Santos", "Enderson Moreira", "-Diego Gonçalves", "-Jean Cleber<br>-Bruno Silva"];
 jogos.push(jogo20211002);
+/*var jogo20211004 = ["Botafogo", "CRB", 1, 2, "Série B", "2021-10-02", "Nilton Santos", "Enderson Moreira", "-Diego Gonçalves", "-Jean Cleber<br>-Bruno Silva"];
+jogos.push(jogo20211004);
+var jogo20211004 = ["Botafogo", "Brusque", 1, 2, "Série B", "2021-10-02", "Nilton Santos", "Enderson Moreira", "-Diego Gonçalves", "-Jean Cleber<br>-Bruno Silva"];
+jogos.push(jogo20211004);*/
 
 var outros = [];
 

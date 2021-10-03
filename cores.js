@@ -57,6 +57,9 @@ function coresTimes(time, jogo){
 		case "Brasil":
 		return ["#fde900", "#018036"];
 		break;
+		case "Brusque":
+		return ["#fde900", "red"];
+		break;
 		case "Cabofriense":
 		return ["#0b9c54", "white"];
 		break;
