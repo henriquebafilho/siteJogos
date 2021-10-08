@@ -108,8 +108,8 @@ var jogo20140318 = ["Botafogo", "Independiente Del Valle-EQU", 1, 0, "Copa Liber
 jogos.push(jogo20140318);
 var jogo20140727 = ["Flamengo", "Botafogo", 1, 0, "Série A", "2014-07-27", "Maracanã", "Vagner Mancini", "", "-Alecsandro"];
 jogos.push(jogo20140727);
-var jogo48 = ["Botafogo", "Chapecoense", 1, 0, "Série A", "2014-08-23", "Maracanã", "Vagner Mancini", "-Cachito Ramírez", ""];
-jogos.push(jogo48);
+var jogo20140823 = ["Botafogo", "Chapecoense", 1, 0, "Série A", "2014-08-23", "Maracanã", "Vagner Mancini", "-Cachito Ramírez", ""];
+jogos.push(jogo20140823);
 var jogo49 = ["Botafogo", "Santos", 1, 0, "Série A", "2014-08-31", "Maracanã", "Vagner Mancini", "-Daniel", ""];
 jogos.push(jogo49);
 var jogo50 = ["Botafogo", "Bahia", 2, 3, "Série A", "2014-09-17", "Maracanã", "Vagner Mancini", "-Emerson Sheik (2x)", "-Dankler (Gol Contra)<br/>-Maxi Biancucchi<br/>-Branquinho"];
@@ -408,8 +408,8 @@ var jogo20210926 = ["Botafogo", "Sampaio Corrêa", 2, 0, "Série B", "2021-09-26
 jogos.push(jogo20210926);
 var jogo20211002 = ["Botafogo", "Avaí", 1, 2, "Série B", "2021-10-02", "Nilton Santos", "Enderson Moreira", "-Diego Gonçalves", "-Jean Cleber<br>-Bruno Silva"];
 jogos.push(jogo20211002);
-var jogo20211004 = ["Botafogo", "CRB", 0, 0, "Série B", "2021-10-02", "Nilton Santos", "Enderson Moreira", "", ""];
-jogos.push(jogo20211004);
+var jogo20211008 = ["Botafogo", "CRB", 0, 0, "Série B", "2021-10-08", "Nilton Santos", "Enderson Moreira", "", ""];
+jogos.push(jogo20211008);
 /*var jogo20211004 = ["Botafogo", "Brusque", 1, 2, "Série B", "2021-10-02", "Nilton Santos", "Enderson Moreira", "-Diego Gonçalves", "-Jean Cleber<br>-Bruno Silva"];
 jogos.push(jogo20211004);*/
 
