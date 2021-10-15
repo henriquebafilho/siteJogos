@@ -61,12 +61,14 @@ function escreveLinha(jogo, numero){
 
 	var linhaDetails = document.createElement("details");
 	linhaDetails.id = "jogoIndividual";
-	linhaDetails.text = "jogoIndividual";
+	linhaDetails.title = "jogoIndividual";
 	console.log(linhaDetails);
 
 	var summaryDetails = document.createElement("summary");
-	summaryDetails.title = "hello world";
+	summaryDetails.text = "hello world";
 	summaryDetails.style.color = "white";
+	var text = document.createTextNode("sou botafogo")
+	summaryDetails.appendChild(text);
 	linhaDetails.appendChild(summaryDetails);
 	tabela.appendChild(linhaDetails);
 
