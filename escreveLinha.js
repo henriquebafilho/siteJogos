@@ -50,12 +50,27 @@ function escreveLinha(jogo, numero){
 	//tbody.colSpan = 4;
 
 	// Célula com autores dos gols e técnico no meio 
+	/*
 	var linhaGeral = tbody.insertRow(qtdLinhas);
 	linhaGeral.id = "linhaGeral";
 	//linhaGeral.colSpan = 4;
 	linhaGeral.width = "100%";
 	linhaGeral.style.background = "linear-gradient(90deg, " + coresTimes(mandante, jogo)[0] + " 51%, " + coresTimes(visitante, jogo)[0] + " 49%)";
+	*/
 
+
+	var linhaDetails = document.createElement("details");
+	linhaDetails.id = "jogoIndividual";
+	linhaDetails.text = "jogoIndividual";
+	console.log(linhaDetails);
+
+	var summaryDetails = document.createElement("summary");
+	summaryDetails.title = "hello world";
+	summaryDetails.style.color = "white";
+	linhaDetails.appendChild(summaryDetails);
+	tabela.appendChild(linhaDetails);
+
+	/*
 	var cellAutorMandante = linha3.insertCell(0);
 	cellAutorMandante.style.fontFamily = "Arial";
 	//cellAutorMandante.style.fontWeight = "bold";
@@ -159,4 +174,14 @@ function escreveLinha(jogo, numero){
 	} else {
 		cellAutorVisitante.innerHTML = jogo[9];
 	}	
+	
+	var cellCabecalho = linha1.insertCell(1);
+	cellCabecalho.colSpan = 3;
+	cellCabecalho.style.fontFamily = "Arial";
+	cellCabecalho.style.fontWeight = "bold";
+	cellCabecalho.style.background = "linear-gradient(90deg, " + coresTimes(mandante, jogo)[0] + " 49%, " + coresTimes(visitante, jogo)[0] + " 50%)";
+	cellCabecalho.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+	cellCabecalho.style.border = "1px solid white";
+	cellCabecalho.innerHTML = converteData(jogo[5]) + " | " + "Estádio " + jogo[6] + " | " + jogo[4]; // Cabeçalho
+	*/
 }
