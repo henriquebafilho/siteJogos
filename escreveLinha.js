@@ -67,15 +67,29 @@ function escreveLinha(jogo, numero){
 	var summary = document.createElement("summary");
 	summary.style.color = "white";
 	summary.style.textAlign = "center";
-	var summaryText = document.createTextNode("SUMMARY DO JOGO");
+	summary.style.fontWeight = "bold";
+	var summaryText = document.createTextNode(jogo[0].toUpperCase() + " " + jogo[2] + " X " + jogo[3] + " " + jogo[1].toUpperCase());
 	summary.appendChild(summaryText);
 
-	var p = document.createElement("p");
-	var detailsText = document.createTextNode("INFORMAÇÕES DO JOGO");
-	p.appendChild(detailsText);
+	var pTecnico = document.createElement("p");
+	var textTecnico = document.createTextNode("Técnico: " + jogo[7]);
+	pTecnico.style.textAlign = "center";
+	pTecnico.appendChild(textTecnico);
+	
+	var pAutorMandante = document.createElement("p"); 
+	var textAutorMandante = jogo[0] == 'Botafogo' ? document.createTextNode("Gols do Botafogo: " + jogo[8]) : document.createTextNode("Gols do Adversário: " + jogo[9]);
+	pAutorMandante.style.textAlign = "left";
+	pAutorMandante.appendChild(textAutorMandante);
+
+	var pAutorVisitante = document.createElement("p"); 
+	var textAutorVisitante = jogo[1] == 'Botafogo' ? document.createTextNode("Gols do Botafogo: " + jogo[8]) : document.createTextNode("Gols do Adversário: " + jogo[9]);
+	pAutorVisitante.style.textAlign = "right";
+	pAutorVisitante.appendChild(textAutorVisitante);
 
 	details.appendChild(summary);
-	details.appendChild(p);
+	details.appendChild(pTecnico);
+	details.appendChild(pAutorMandante);
+	details.appendChild(pAutorVisitante);
 	tabela.appendChild(details);
 
 	/*

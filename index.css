@@ -73,6 +73,28 @@ input#pesquisar:hover{
 
 	display: none;
 }
+/*Details*/
+summary {
+	padding: 1em;
+}
+details{
+	border: 1px solid white;
+	border-radius: 7px;
+	margin-bottom: 1em;
+}
+details[open] summary ~ *{
+	animation: sweep .5s ease-in-out;
+}
+@keyframes sweep{
+	from{
+		opacity: 0; margin-top: 0;
+	}
+	to{
+		opacity: 1; margin-top: 15px;
+	}
+}
+
+/*Ajustando tamanho da tabela de acordo com a tela*/
 @media(min-width: 1000px){
 	#tabelaJogos{
 		padding-left: 10%;
