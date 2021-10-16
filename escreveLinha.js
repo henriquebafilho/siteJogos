@@ -64,27 +64,35 @@ function escreveLinha(jogo, numero){
 	details.style.background = "linear-gradient(90deg, " + coresTimes(mandante, jogo)[0] + " 49%, " + coresTimes(visitante, jogo)[0] + " 52%)";
 	details.style.cursor = "pointer";
 
-	var summary = document.createElement("summary");
-	summary.style.color = "white";
-	summary.style.textAlign = "center";
-	summary.style.fontWeight = "bold";
-	var summaryText = document.createTextNode(jogo[0].toUpperCase() + " " + jogo[2] + " X " + jogo[3] + " " + jogo[1].toUpperCase());
-	summary.appendChild(summaryText);
+		var summary = document.createElement("summary");
+		summary.style.color = "white";
+		summary.style.textAlign = "center";
+		summary.style.fontWeight = "bold";
+		summary.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+		var summaryText = document.createTextNode(jogo[0].toUpperCase() + " " + jogo[2] + " X " + jogo[3] + " " + jogo[1].toUpperCase());
+		summary.appendChild(summaryText);
 
-	var pTecnico = document.createElement("p");
-	var textTecnico = document.createTextNode("Técnico: " + jogo[7]);
-	pTecnico.style.textAlign = "center";
-	pTecnico.appendChild(textTecnico);
-	
-	var pAutorMandante = document.createElement("p"); 
-	var textAutorMandante = jogo[0] == 'Botafogo' ? document.createTextNode("Gols do Botafogo: " + jogo[8]) : document.createTextNode("Gols do Adversário: " + jogo[9]);
-	pAutorMandante.style.textAlign = "left";
-	pAutorMandante.appendChild(textAutorMandante);
+			var pTecnico = document.createElement("p");
+			var textTecnico = document.createTextNode("Técnico: " + jogo[7]);
+			pTecnico.style.textAlign = "center";
+			pTecnico.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+			pTecnico.appendChild(textTecnico);
+			
+			var pAutorMandante = document.createElement("p"); 
+			var textAutorMandante = jogo[0] == 'Botafogo' ? document.createTextNode(jogo[8]) : document.createTextNode(jogo[9]);
+			pAutorMandante.style.textAlign = "left";
+			pAutorMandante.style.paddingLeft = '10%';
+			pAutorMandante.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+			pAutorMandante.style.display = 'inline';
+			pAutorMandante.appendChild(textAutorMandante);
 
-	var pAutorVisitante = document.createElement("p"); 
-	var textAutorVisitante = jogo[1] == 'Botafogo' ? document.createTextNode("Gols do Botafogo: " + jogo[8]) : document.createTextNode("Gols do Adversário: " + jogo[9]);
-	pAutorVisitante.style.textAlign = "right";
-	pAutorVisitante.appendChild(textAutorVisitante);
+			var pAutorVisitante = document.createElement("p"); 
+			var textAutorVisitante = jogo[1] == 'Botafogo' ? document.createTextNode(jogo[8]) : document.createTextNode(jogo[9]);
+			pAutorVisitante.style.textAlign = "right";
+			pAutorVisitante.style.paddingRight = '10%';
+			pAutorVisitante.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+			pAutorVisitante.style.display = 'inline';
+			pAutorVisitante.appendChild(textAutorVisitante);
 
 	details.appendChild(summary);
 	details.appendChild(pTecnico);
