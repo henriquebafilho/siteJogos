@@ -82,6 +82,9 @@ details{
 	border-radius: 7px;
 	margin-bottom: 1em;
 }
+details[open]{
+	padding-bottom: 1em;
+}
 details[open] summary ~ *{
 	animation: sweep .5s ease-in-out;
 }

@@ -69,8 +69,18 @@ function escreveLinha(jogo, numero){
 		summary.style.textAlign = "center";
 		summary.style.fontWeight = "bold";
 		summary.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+		var escudoMandante = document.createElement("img");
+		escudoMandante.src = "index_files/" + jogo[0] + ".png";
+		escudoMandante.width = 70;
+		escudoMandante.height = 70;
 		var summaryText = document.createTextNode(jogo[0].toUpperCase() + " " + jogo[2] + " X " + jogo[3] + " " + jogo[1].toUpperCase());
+		var escudoVisitante = document.createElement("img");
+		escudoVisitante.src = "index_files/" + jogo[1] + ".png";
+		escudoVisitante.width = 70;
+		escudoVisitante.height = 70;
+		summary.appendChild(escudoMandante);
 		summary.appendChild(summaryText);
+		summary.appendChild(escudoVisitante);
 
 			var pTecnico = document.createElement("p");
 			var textTecnico = document.createTextNode("Técnico: " + jogo[7]);
