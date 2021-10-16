@@ -58,53 +58,65 @@ function escreveLinha(jogo, numero){
 	linhaGeral.style.background = "linear-gradient(90deg, " + coresTimes(mandante, jogo)[0] + " 51%, " + coresTimes(visitante, jogo)[0] + " 49%)";
 	*/
 
+	// INTERFACE DO DETAILS
 
 	var details = document.createElement("details");
 	//details.style.textAlign = "left";
 	details.style.background = "linear-gradient(90deg, " + coresTimes(mandante, jogo)[0] + " 49%, " + coresTimes(visitante, jogo)[0] + " 52%)";
 	details.style.cursor = "pointer";
 
-		var summary = document.createElement("summary");
-		summary.style.color = "white";
-		summary.style.textAlign = "center";
-		summary.style.fontWeight = "bold";
-		//summary.style.fontSize = '2em';
-		summary.style.fontSize = '200%';
-		summary.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
-		var escudoMandante = document.createElement("img");
-		escudoMandante.src = "index_files/" + getEscudoName(mandante, jogo) + ".png";
-		escudoMandante.width = 70;
-		escudoMandante.height = 70;
-		var summaryText = document.createTextNode(" " + jogo[0].toUpperCase() + " " + jogo[2] + " X " + jogo[3] + " " + jogo[1].toUpperCase() + " ");
-		var escudoVisitante = document.createElement("img");
-		escudoVisitante.src = "index_files/" + getEscudoName(visitante, jogo) + ".png";
-		escudoVisitante.width = 70;
-		escudoVisitante.height = 70;
-		summary.appendChild(escudoMandante);
-		summary.appendChild(summaryText);
-		summary.appendChild(escudoVisitante);
+	var summary = document.createElement("summary");
+	summary.style.textAlign = "center";
+	summary.style.fontWeight = "bold";
+	//summary.style.fontSize = '2em';
+	summary.style.fontSize = '200%';
+	summary.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+	summary.style.whiteSpace = "nowrap";
+	
+	var pCabecalho = document.createElement("p");
+	pCabecalho.style.fontWeight = "normal";
+	pCabecalho.style.fontSize = '60%';
+	var textCabecalho = document.createTextNode(converteData(jogo[5]) + " | " + "Estádio " + jogo[6] + " | " + jogo[4]);
+	pCabecalho.appendChild(textCabecalho);
+	
+	var escudoMandante = document.createElement("img");
+	escudoMandante.src = "index_files/" + getEscudoName(mandante, jogo) + ".png";
+	escudoMandante.width = 70;
+	escudoMandante.height = 70;
+	var summaryText = document.createTextNode(" " + jogo[0].toUpperCase() + " " + jogo[2] + " X " + jogo[3] + " " + jogo[1].toUpperCase() + " ");
+	var escudoVisitante = document.createElement("img");
+	escudoVisitante.src = "index_files/" + getEscudoName(visitante, jogo) + ".png";
+	escudoVisitante.width = 70;
+	escudoVisitante.height = 70;
+	
+	summary.appendChild(pCabecalho);
+	summary.appendChild(escudoMandante);
+	summary.appendChild(summaryText);
+	summary.appendChild(escudoVisitante);
 
-			var pTecnico = document.createElement("p");
-			var textTecnico = document.createTextNode("Técnico: " + jogo[7]);
-			pTecnico.style.textAlign = "center";
-			pTecnico.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
-			pTecnico.appendChild(textTecnico);
-			
-			var pAutorMandante = document.createElement("p"); 
-			var textAutorMandante = jogo[0] == 'Botafogo' ? document.createTextNode(jogo[8]) : document.createTextNode(jogo[9]);
-			pAutorMandante.style.textAlign = "left";
-			pAutorMandante.style.paddingLeft = '10%';
-			pAutorMandante.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
-			pAutorMandante.style.display = 'inline';
-			pAutorMandante.appendChild(textAutorMandante);
+	// INFORMAÇÕES ADICIONAIS
 
-			var pAutorVisitante = document.createElement("p"); 
-			var textAutorVisitante = jogo[1] == 'Botafogo' ? document.createTextNode(jogo[8]) : document.createTextNode(jogo[9]);
-			pAutorVisitante.style.textAlign = "right";
-			pAutorVisitante.style.paddingRight = '10%';
-			pAutorVisitante.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
-			pAutorVisitante.style.display = 'inline';
-			pAutorVisitante.appendChild(textAutorVisitante);
+	var pTecnico = document.createElement("p");
+	var textTecnico = document.createTextNode("Técnico: " + jogo[7]);
+	pTecnico.style.textAlign = "center";
+	pTecnico.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+	pTecnico.appendChild(textTecnico);
+	
+	var pAutorMandante = document.createElement("p"); 
+	var textAutorMandante = jogo[0] == 'Botafogo' ? document.createTextNode(jogo[8]) : document.createTextNode(jogo[9]);
+	pAutorMandante.style.textAlign = "left";
+	pAutorMandante.style.paddingLeft = '10%';
+	pAutorMandante.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+	pAutorMandante.style.display = 'inline';
+	pAutorMandante.appendChild(textAutorMandante);
+
+	var pAutorVisitante = document.createElement("p"); 
+	var textAutorVisitante = jogo[1] == 'Botafogo' ? document.createTextNode(jogo[8]) : document.createTextNode(jogo[9]);
+	pAutorVisitante.style.textAlign = "right";
+	pAutorVisitante.style.paddingRight = '10%';
+	pAutorVisitante.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+	pAutorVisitante.style.display = 'inline';
+	pAutorVisitante.appendChild(textAutorVisitante);
 
 	details.appendChild(summary);
 	details.appendChild(pTecnico);
