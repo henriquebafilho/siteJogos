@@ -410,8 +410,8 @@ var jogo20211002 = ["Botafogo", "Avaí", 1, 2, "Série B", "2021-10-02", "Nilton
 jogos.push(jogo20211002);
 var jogo20211008 = ["Botafogo", "CRB", 2, 0, "Série B", "2021-10-08", "Nilton Santos", "Enderson Moreira", "-Marco Antônio<br>-Carlinhos", ""];
 jogos.push(jogo20211008);
-/*var jogo20211020 = ["Botafogo", "Brusque", 0, 0, "Série B", "2021-10-20", "Nilton Santos", "Enderson Moreira", "", ""];
-jogos.push(jogo20211004);*/
+var jogo20211020 = ["Botafogo", "Brusque", 0, 0, "Série B", "2021-10-20", "Nilton Santos", "Enderson Moreira", "", ""];
+jogos.push(jogo20211020);
 
 var outros = [];
 
