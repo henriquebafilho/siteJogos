@@ -2,7 +2,7 @@ function cabecalho(){
 	var tabela = document.getElementById("jogos");
 	var qtdLinhas = tabela.rows.length;
 	var thead = document.createElement("thead");
-	tabela.appendChild(thead);
+	//tabela.appendChild(thead);
 	var linha = thead.insertRow(qtdLinhas);
 	tabela.width = "100%";
 	linha.width = "100%";
@@ -34,7 +34,7 @@ function cabecalho(){
 
 	var tbody = document.createElement("tbody");
 	tbody.id = "corpoDaTabela";
-	tabela.appendChild(tbody);
+	//tabela.appendChild(tbody);
 }
 
 function escreveLinha(jogo, numero){
@@ -59,18 +59,24 @@ function escreveLinha(jogo, numero){
 	*/
 
 
-	var linhaDetails = document.createElement("details");
-	linhaDetails.id = "jogoIndividual";
-	linhaDetails.title = "jogoIndividual";
-	console.log(linhaDetails);
+	var details = document.createElement("details");
+	//details.style.textAlign = "left";
+	details.style.background = "linear-gradient(90deg, " + coresTimes(mandante, jogo)[0] + " 49%, " + coresTimes(visitante, jogo)[0] + " 52%)";
+	details.style.cursor = "pointer";
 
-	var summaryDetails = document.createElement("summary");
-	summaryDetails.text = "hello world";
-	summaryDetails.style.color = "white";
-	var text = document.createTextNode("sou botafogo")
-	summaryDetails.appendChild(text);
-	linhaDetails.appendChild(summaryDetails);
-	tabela.appendChild(linhaDetails);
+	var summary = document.createElement("summary");
+	summary.style.color = "white";
+	summary.style.textAlign = "center";
+	var summaryText = document.createTextNode("SUMMARY DO JOGO");
+	summary.appendChild(summaryText);
+
+	var p = document.createElement("p");
+	var detailsText = document.createTextNode("INFORMAÇÕES DO JOGO");
+	p.appendChild(detailsText);
+
+	details.appendChild(summary);
+	details.appendChild(p);
+	tabela.appendChild(details);
 
 	/*
 	var cellAutorMandante = linha3.insertCell(0);
