@@ -46,7 +46,7 @@ function coresTimes(time, jogo){
 		return ["#00913c", "white"];
 		break;
 		case "Bonsucesso":
-		return ["#1c4196", "#e61407"];
+		return ["#1c4196", "white"];
 		break;
 		case "Botafogo":
 		return ["black", "white"];
@@ -56,6 +56,9 @@ function coresTimes(time, jogo){
 		break;
 		case "Brasil":
 		return ["#fde900", "#018036"];
+		break;
+		case "Brusque":
+		return ["#fde900", "red"];
 		break;
 		case "Cabofriense":
 		return ["#0b9c54", "white"];
