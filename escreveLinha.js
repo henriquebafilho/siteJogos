@@ -48,37 +48,28 @@ function escreveLinha(jogo, numero){
 	var qtdLinhas = tabela.rows.length - 1;
 	var tbody = document.getElementById("corpoDaTabela");
 	//tbody.colSpan = 4;
-
-	// Célula com autores dos gols e técnico no meio 
-	/*
-	var linhaGeral = tbody.insertRow(qtdLinhas);
-	linhaGeral.id = "linhaGeral";
-	//linhaGeral.colSpan = 4;
-	linhaGeral.width = "100%";
-	linhaGeral.style.background = "linear-gradient(90deg, " + coresTimes(mandante, jogo)[0] + " 51%, " + coresTimes(visitante, jogo)[0] + " 49%)";
-	*/
-
+	
 	// INTERFACE DO DETAILS
 
 	var details = document.createElement("details");
-	//details.style.textAlign = "left";
 	details.style.background = "linear-gradient(90deg, " + coresTimes(mandante, jogo)[0] + " 49%, " + coresTimes(visitante, jogo)[0] + " 52%)";
 	details.style.cursor = "pointer";
 
 	var summary = document.createElement("summary");
 	summary.style.textAlign = "center";
 	summary.style.fontWeight = "bold";
-	//summary.style.fontSize = '2em';
 	summary.style.fontSize = '200%';
 	summary.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
-	//summary.style.whiteSpace = "nowrap";
 
 	var pCabecalho = document.createElement("p");
 	pCabecalho.style.fontWeight = "normal";
 	pCabecalho.style.fontSize = '60%';
 	var textCabecalho = document.createTextNode(converteData(jogo[5]) + " | " + "Estádio " + jogo[6] + " | " + jogo[4]);
 	pCabecalho.appendChild(textCabecalho);
-	
+
+	var divPlacar = document.createElement("div");
+	divPlacar.className = "placar";
+	divPlacar.style.display = "nowrap";
 	var escudoMandante = document.createElement("img");
 	escudoMandante.src = "index_files/" + getEscudoName(mandante, jogo) + ".png";
 	escudoMandante.width = 70;
@@ -88,11 +79,13 @@ function escreveLinha(jogo, numero){
 	escudoVisitante.src = "index_files/" + getEscudoName(visitante, jogo) + ".png";
 	escudoVisitante.width = 70;
 	escudoVisitante.height = 70;
+
+	divPlacar.appendChild(escudoMandante);
+	divPlacar.appendChild(summaryText);
+	divPlacar.appendChild(escudoVisitante);
 	
 	summary.appendChild(pCabecalho);
-	summary.appendChild(escudoMandante);
-	summary.appendChild(summaryText);
-	summary.appendChild(escudoVisitante);
+	summary.appendChild(divPlacar);
 
 	// INFORMAÇÕES ADICIONAIS
 
@@ -128,8 +121,6 @@ function escreveLinha(jogo, numero){
 	details.appendChild(summary);
 	details.appendChild(pTecnico);
 	details.appendChild(divGols);
-	details.appendChild(pAutorMandante);
-	details.appendChild(pAutorVisitante);
 	tabela.appendChild(details);
 
 	/*
