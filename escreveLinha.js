@@ -69,7 +69,7 @@ function escreveLinha(jogo, numero){
 
 	var divPlacar = document.createElement("div");
 	divPlacar.className = "placar";
-	divPlacar.style.display = "nowrap";
+	//divPlacar.style.display = "nowrap";
 	var escudoMandante = document.createElement("img");
 	escudoMandante.src = "index_files/" + getEscudoName(mandante, jogo) + ".png";
 	escudoMandante.width = 70;
@@ -104,18 +104,50 @@ function escreveLinha(jogo, numero){
 	divMandante.style.gridRow = 1;
 	divMandante.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
 
+	var listaGolsMandante = document.createElement("ul");
+	var golsMandante = jogo[0] == 'Botafogo' ? jogo[8] : jogo[9];
+	for(var i = 0; i < golsMandante.length; i++){
+		if(golsMandante[i] != "" && golsMandante[i] != " " && golsMandante[i].indexOf("Pênaltis:")){
+			var bolinhaGol = document.createElement("img");
+			bolinhaGol.src = "index_files/bola.png";
+			bolinhaGol.width = 15;
+			bolinhaGol.height = 15;
+			bolinhaGol.style.display = 'inline';
+			listaGolsMandante.appendChild(bolinhaGol);
+		}
+		var autorGol = document.createElement("li");
+		autorGol.style.display = 'inline';
+		autorGol.appendChild(document.createTextNode(golsMandante[i]));
+		autorGol.appendChild(document.createElement("br"));
+		listaGolsMandante.appendChild(autorGol); 
+	}
+
 	var divVisitante = document.createElement("div"); 
 	divVisitante.className = "visitante";
 	divVisitante.style.gridColumn = 0.5;
 	divVisitante.style.gridRow = 1;
 	divVisitante.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
 
-	var textAutorMandante = jogo[0] == 'Botafogo' ? document.createTextNode(jogo[8]) : document.createTextNode(jogo[9]);
+	var listaGolsVisitante = document.createElement("ul");
+	var golsVisitante = jogo[1] == 'Botafogo' ? jogo[8] : jogo[9];
+	for(var i = 0; i < golsVisitante.length; i++){
+		if(golsVisitante[i] != "" && golsVisitante[i] != " " && golsVisitante[i].indexOf("Pênaltis:")){
+			var bolinhaGol = document.createElement("img");
+			bolinhaGol.src = "index_files/bola.png";
+			bolinhaGol.width = 15;
+			bolinhaGol.height = 15;
+			bolinhaGol.style.display = 'inline';
+			listaGolsVisitante.appendChild(bolinhaGol);
+		}
+		var autorGol = document.createElement("li");
+		autorGol.style.display = 'inline';
+		autorGol.appendChild(document.createTextNode(golsVisitante[i]));
+		autorGol.appendChild(document.createElement("br"));
+		listaGolsVisitante.appendChild(autorGol); 
+	}
 
-	var textAutorVisitante = jogo[1] == 'Botafogo' ? document.createTextNode(jogo[8]) : document.createTextNode(jogo[9]);
-
-	divMandante.append(textAutorMandante);
-	divVisitante.append(textAutorVisitante);
+	divMandante.append(listaGolsMandante);
+	divVisitante.append(listaGolsVisitante);
 	divGols.appendChild(divMandante);
 	divGols.appendChild(divVisitante);
 	details.appendChild(summary);

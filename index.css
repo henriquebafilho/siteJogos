@@ -73,6 +73,9 @@ input#pesquisar:hover{
 
 	display: none;
 }
+li{
+	list-style: none;
+}
 /*Details*/
 summary {
 	padding: 1em;
