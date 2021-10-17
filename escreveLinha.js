@@ -71,8 +71,8 @@ function escreveLinha(jogo, numero){
 	//summary.style.fontSize = '2em';
 	summary.style.fontSize = '200%';
 	summary.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
-	summary.style.whiteSpace = "nowrap";
-	
+	//summary.style.whiteSpace = "nowrap";
+
 	var pCabecalho = document.createElement("p");
 	pCabecalho.style.fontWeight = "normal";
 	pCabecalho.style.fontSize = '60%';
@@ -101,25 +101,33 @@ function escreveLinha(jogo, numero){
 	pTecnico.style.textAlign = "center";
 	pTecnico.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
 	pTecnico.appendChild(textTecnico);
-	
-	var pAutorMandante = document.createElement("p"); 
+
+	var divGols = document.createElement("div"); 
+	divGols.style.display = "grid";
+	divGols.style.gridColumn = 1;
+
+	var divMandante = document.createElement("div"); 
+	divMandante.className = "mandante";
+	divMandante.style.gridRow = 1;
+	divMandante.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+
+	var divVisitante = document.createElement("div"); 
+	divVisitante.className = "visitante";
+	divVisitante.style.gridColumn = 0.5;
+	divVisitante.style.gridRow = 1;
+	divVisitante.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+
 	var textAutorMandante = jogo[0] == 'Botafogo' ? document.createTextNode(jogo[8]) : document.createTextNode(jogo[9]);
-	pAutorMandante.style.textAlign = "left";
-	pAutorMandante.style.paddingLeft = '10%';
-	pAutorMandante.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
-	pAutorMandante.style.display = 'inline';
-	pAutorMandante.appendChild(textAutorMandante);
 
-	var pAutorVisitante = document.createElement("p"); 
 	var textAutorVisitante = jogo[1] == 'Botafogo' ? document.createTextNode(jogo[8]) : document.createTextNode(jogo[9]);
-	pAutorVisitante.style.textAlign = "right";
-	pAutorVisitante.style.paddingRight = '10%';
-	pAutorVisitante.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
-	pAutorVisitante.style.display = 'inline';
-	pAutorVisitante.appendChild(textAutorVisitante);
 
+	divMandante.append(textAutorMandante);
+	divVisitante.append(textAutorVisitante);
+	divGols.appendChild(divMandante);
+	divGols.appendChild(divVisitante);
 	details.appendChild(summary);
 	details.appendChild(pTecnico);
+	details.appendChild(divGols);
 	details.appendChild(pAutorMandante);
 	details.appendChild(pAutorVisitante);
 	tabela.appendChild(details);
