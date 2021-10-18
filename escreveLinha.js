@@ -54,11 +54,13 @@ function escreveLinha(jogo, numero){
 	var details = document.createElement("details");
 	details.style.background = "linear-gradient(90deg, " + coresTimes(mandante, jogo)[0] + " 49%, " + coresTimes(visitante, jogo)[0] + " 52%)";
 	details.style.cursor = "pointer";
+	details.style.outline = "none";
 
 	var summary = document.createElement("summary");
 	summary.style.textAlign = "center";
 	summary.style.fontWeight = "bold";
 	summary.style.fontSize = '200%';
+	summary.style.outline = "none";
 	summary.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
 
 	var pCabecalho = document.createElement("p");
@@ -78,7 +80,6 @@ function escreveLinha(jogo, numero){
 	escudoMandante.src = "index_files/" + getEscudoName(mandante, jogo) + ".png";
 	escudoMandante.style.width = '7vw';
 	escudoMandante.style.height = '7vw';
-	var summaryText = document.createTextNode(" " + jogo[0].toUpperCase() + " " + jogo[2] + " X " + jogo[3] + " " + jogo[1].toUpperCase() + " ");
 	var escudoVisitante = document.createElement("img");
 	escudoVisitante.src = "index_files/" + getEscudoName(visitante, jogo) + ".png";
 	escudoVisitante.style.width = '7vw';
@@ -116,8 +117,8 @@ function escreveLinha(jogo, numero){
 		if(golsMandante[i] != "" && golsMandante[i] != " " && golsMandante[i].indexOf("Pênaltis:")){
 			var bolinhaGol = document.createElement("img");
 			bolinhaGol.src = "index_files/bola.png";
-			bolinhaGol.width = 15;
-			bolinhaGol.height = 15;
+			bolinhaGol.style.width = '1.5vw';
+			bolinhaGol.style.height = '1.5vw';
 			bolinhaGol.style.display = 'inline';
 			bolinhaGol.style.paddingRight = '5px';
 			listaGolsMandante.appendChild(bolinhaGol);
