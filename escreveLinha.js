@@ -63,22 +63,26 @@ function escreveLinha(jogo, numero){
 
 	var pCabecalho = document.createElement("p");
 	pCabecalho.style.fontWeight = "normal";
-	pCabecalho.style.fontSize = '60%';
+	pCabecalho.style.fontSize = '2vw';
+	pCabecalho.style.display = "nowrap";
+	//pCabecalho.style.whiteSpace = "nowrap";
 	var textCabecalho = document.createTextNode(converteData(jogo[5]) + " | " + "Estádio " + jogo[6] + " | " + jogo[4]);
 	pCabecalho.appendChild(textCabecalho);
 
 	var divPlacar = document.createElement("div");
 	divPlacar.className = "placar";
-	//divPlacar.style.display = "nowrap";
+	divPlacar.style.display = "nowrap";
+	//divPlacar.style.whiteSpace = "nowrap";
+	divPlacar.style.fontSize = '2vw';
 	var escudoMandante = document.createElement("img");
 	escudoMandante.src = "index_files/" + getEscudoName(mandante, jogo) + ".png";
-	escudoMandante.width = 70;
-	escudoMandante.height = 70;
+	escudoMandante.style.width = '7vw';
+	escudoMandante.style.height = '7vw';
 	var summaryText = document.createTextNode(" " + jogo[0].toUpperCase() + " " + jogo[2] + " X " + jogo[3] + " " + jogo[1].toUpperCase() + " ");
 	var escudoVisitante = document.createElement("img");
 	escudoVisitante.src = "index_files/" + getEscudoName(visitante, jogo) + ".png";
-	escudoVisitante.width = 70;
-	escudoVisitante.height = 70;
+	escudoVisitante.style.width = '7vw';
+	escudoVisitante.style.height = '7vw';
 
 	divPlacar.appendChild(escudoMandante);
 	divPlacar.appendChild(summaryText);
@@ -91,6 +95,7 @@ function escreveLinha(jogo, numero){
 
 	var pTecnico = document.createElement("p");
 	var textTecnico = document.createTextNode("Técnico: " + jogo[7]);
+	pTecnico.style.fontSize = '1.5vw';
 	pTecnico.style.textAlign = "center";
 	pTecnico.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
 	pTecnico.appendChild(textTecnico);
@@ -98,6 +103,7 @@ function escreveLinha(jogo, numero){
 	var divGols = document.createElement("div"); 
 	divGols.style.display = "grid";
 	divGols.style.gridColumn = 1;
+	divGols.style.fontSize = '1.5vw';
 
 	var divMandante = document.createElement("div"); 
 	divMandante.className = "mandante";
