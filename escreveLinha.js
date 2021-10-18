@@ -113,6 +113,7 @@ function escreveLinha(jogo, numero){
 			bolinhaGol.width = 15;
 			bolinhaGol.height = 15;
 			bolinhaGol.style.display = 'inline';
+			bolinhaGol.style.paddingRight = '5px';
 			listaGolsMandante.appendChild(bolinhaGol);
 		}
 		var autorGol = document.createElement("li");
@@ -137,6 +138,7 @@ function escreveLinha(jogo, numero){
 			bolinhaGol.width = 15;
 			bolinhaGol.height = 15;
 			bolinhaGol.style.display = 'inline';
+			bolinhaGol.style.paddingRight = '5px';
 			listaGolsVisitante.appendChild(bolinhaGol);
 		}
 		var autorGol = document.createElement("li");
