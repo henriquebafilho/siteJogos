@@ -80,6 +80,7 @@ function escreveLinha(jogo, numero){
 	escudoMandante.src = "index_files/" + getEscudoName(mandante, jogo) + ".png";
 	escudoMandante.style.width = '7vw';
 	escudoMandante.style.height = '7vw';
+	var summaryText = document.createTextNode("  " + jogo[0].toUpperCase() + " " + jogo[2] + " X " + jogo[3] + " " + jogo[1].toUpperCase() + "  ");
 	var escudoVisitante = document.createElement("img");
 	escudoVisitante.src = "index_files/" + getEscudoName(visitante, jogo) + ".png";
 	escudoVisitante.style.width = '7vw';
