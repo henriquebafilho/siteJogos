@@ -122,3 +122,11 @@ details[open] summary ~ *{
 		padding-right: 10%;
 	}
 }
+/*tentando acertar o tamanho do texto no details*/
+@media screen and (max-width : 1000px)
+{
+  details
+  {
+    font-size:7px; /* or 1em */
+  }
+}

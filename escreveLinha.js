@@ -63,26 +63,25 @@ function escreveLinha(jogo, numero){
 
 	var pCabecalho = document.createElement("p");
 	pCabecalho.style.fontWeight = "normal";
-	pCabecalho.style.fontSize = '2vw';
+	pCabecalho.style.fontSize = '1em';
 	pCabecalho.style.display = "nowrap";
-	//pCabecalho.style.whiteSpace = "nowrap";
 	var textCabecalho = document.createTextNode(converteData(jogo[5]) + " | " + "Estádio " + jogo[6] + " | " + jogo[4]);
 	pCabecalho.appendChild(textCabecalho);
 
 	var divPlacar = document.createElement("div");
 	divPlacar.className = "placar";
 	divPlacar.style.display = "nowrap";
-	//divPlacar.style.whiteSpace = "nowrap";
-	divPlacar.style.fontSize = '2vw';
+	divPlacar.style.whiteSpace = "nowrap";
+	divPlacar.style.fontSize = '1em';
 	var escudoMandante = document.createElement("img");
 	escudoMandante.src = "index_files/" + getEscudoName(mandante, jogo) + ".png";
-	escudoMandante.style.width = '7vw';
-	escudoMandante.style.height = '7vw';
+	escudoMandante.style.width = '3em';
+	escudoMandante.style.height = '3em';
 	var summaryText = document.createTextNode(" " + jogo[0].toUpperCase() + " " + jogo[2] + " X " + jogo[3] + " " + jogo[1].toUpperCase() + " ");
 	var escudoVisitante = document.createElement("img");
 	escudoVisitante.src = "index_files/" + getEscudoName(visitante, jogo) + ".png";
-	escudoVisitante.style.width = '7vw';
-	escudoVisitante.style.height = '7vw';
+	escudoVisitante.style.width = '3em';
+	escudoVisitante.style.height = '3em';
 
 	divPlacar.appendChild(escudoMandante);
 	divPlacar.appendChild(summaryText);

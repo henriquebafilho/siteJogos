@@ -78,7 +78,7 @@ var jogo20080830 = ["Botafogo", "Náutico", 1, 1, "Série A", "2008-08-30", "Nil
 jogos.push(jogo20080830);
 var jogo20090328 = ["Fluminense", "Botafogo", 2, 1, "Carioca", "2009-03-28", "Maracanã", "Ney Franco", ["Maicosuel"], ["Maicon","Conca"]];
 jogos.push(jogo20090328);
-var jogo20100329 = ["Botafogo", "Boavista", 4, 1, "Carioca", "2010-03-29", "São Januário", "Joel Santana", ["Loco Abreu (3x)","Marcelo Cordeiro"], ""];
+var jogo20100329 = ["Boavista", "Botafogo", 1, 4, "Carioca", "2010-03-29", "São Januário", "Joel Santana", ["Loco Abreu (3x)","Marcelo Cordeiro"], ["Tony"]];
 jogos.push(jogo20100329);
 var jogo20100807 = ["Botafogo", "Atlético-MG", 3, 0, "Série A", "2010-08-07", "Nilton Santos", "Joel Santana", ["Maicosuel","Somália","Herrera"], ""];
 jogos.push(jogo20100807);
