@@ -75,6 +75,9 @@ function coresTimes(time, jogo){
 		case "Colo-Colo-CHI":
 		return ["white", "black"];
 		break;
+		case "Confiança":
+		return ["#003a94", "white"];
+		break;
 		case "Corinthians":
 		return ["white", "black"];
 		break;
