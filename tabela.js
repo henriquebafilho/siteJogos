@@ -609,7 +609,7 @@ function ano(){
 
 // Limpa a tabela e reescreve o cabeçalho
 function limpaTabela(){
-	$("tr").remove(); 
+	$("details").remove(); 
 	$("#fail").remove();
 	$("#pEstatisticas").remove();
 }
