@@ -116,17 +116,32 @@ details[open] summary ~ *{
 }
 
 /*Ajustando tamanho da tabela de acordo com a tela*/
-@media(min-width: 1000px){
+@media(min-width: 600px){
 	#tabelaJogos{
 		padding-left: 10%;
 		padding-right: 10%;
 	}
 }
 /*tentando acertar o tamanho do texto no details*/
-@media screen and (max-width : 1000px)
-{
-  details
-  {
-    font-size:7px; /* or 1em */
+@media screen and (max-width : 1000px){
+  details{
+    font-size:6px; 
   }
+  ul{
+	font-size:8px; 
+  }
+  p#pTecnico{
+	font-size:8px; 
+  }
+}
+@media screen and (min-width : 1000px) and (max-width: 2000px){
+  details{
+    font-size:11px; 
+  }
+  ul{
+	font-size:20px; 
+  }
+  p#pTecnico{
+	font-size:20px; 
+  } 
 }

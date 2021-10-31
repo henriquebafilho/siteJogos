@@ -93,8 +93,9 @@ function escreveLinha(jogo, numero){
 	// INFORMAÇÕES ADICIONAIS
 
 	var pTecnico = document.createElement("p");
+	pTecnico.id = 'pTecnico';
 	var textTecnico = document.createTextNode("Técnico: " + jogo[7]);
-	pTecnico.style.fontSize = '1.5vw';
+	//pTecnico.style.fontSize = '1em';
 	pTecnico.style.textAlign = "center";
 	pTecnico.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
 	pTecnico.appendChild(textTecnico);
@@ -102,11 +103,12 @@ function escreveLinha(jogo, numero){
 	var divGols = document.createElement("div"); 
 	divGols.style.display = "grid";
 	divGols.style.gridColumn = 1;
-	divGols.style.fontSize = '1.5vw';
+	divGols.style.fontSize = '1em';
 
 	var divMandante = document.createElement("div"); 
 	divMandante.className = "mandante";
 	divMandante.style.gridRow = 1;
+	divMandante.style.gridColumn = 0.5;
 	divMandante.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
 
 	var listaGolsMandante = document.createElement("ul");
