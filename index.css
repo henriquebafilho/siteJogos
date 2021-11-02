@@ -81,6 +81,10 @@ summary {
 	padding: 1em;
 	padding-top: 0.1em;
 }
+summary:focus{
+	outline: none;
+	box-shadow: none;
+}
 details{
 	border: 1px solid white;
 	border-radius: 7px;
