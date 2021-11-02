@@ -102,6 +102,7 @@ function escreveLinha(jogo, numero){
 
 	var divGols = document.createElement("div"); 
 	divGols.style.display = "grid";
+	divGols.style.gridTemplateColumns = 'auto auto';
 	divGols.style.gridColumn = 1;
 	divGols.style.fontSize = '1em';
 
@@ -110,6 +111,7 @@ function escreveLinha(jogo, numero){
 	divMandante.style.gridRow = 1;
 	divMandante.style.gridColumn = 0.5;
 	divMandante.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+	divMandante.style.boxSizing = '200px';
 
 	var listaGolsMandante = document.createElement("ul");
 	var golsMandante = jogo[0] == 'Botafogo' ? jogo[8] : jogo[9];
@@ -135,8 +137,10 @@ function escreveLinha(jogo, numero){
 	divVisitante.style.gridColumn = 0.5;
 	divVisitante.style.gridRow = 1;
 	divVisitante.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+	divVisitante.style.boxSizing = '50%';
 
 	var listaGolsVisitante = document.createElement("ul");
+	listaGolsVisitante.style.textAlign = golsMandante == "" ? 'center' : '';
 	var golsVisitante = jogo[1] == 'Botafogo' ? jogo[8] : jogo[9];
 	for(var i = 0; i < golsVisitante.length; i++){
 		if(golsVisitante[i] != "" && golsVisitante[i] != " " && golsVisitante[i].indexOf("Pênaltis:")){

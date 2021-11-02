@@ -58,11 +58,11 @@ var jogo20061102 = ["Botafogo", "Internacional", 0, 1, "Série A", "2006-11-02",
 jogos.push(jogo20061102);
 var jogo20061119 = ["Botafogo", "Goiás", 2, 2, "Série A", "2006-11-19", "Maracanã", "Cuca", ["Wando","Lúcio Flávio"], ["Robson Luiz","Rogério Corrêa"]];
 jogos.push(jogo20061119);
-var jogo20070523 = ["Botafogo", "Figueirense", 3, 1, "Copa do Brasil", "2007-05-23", "Maracanã", "Cuca", ["Zé Roberto","André Lima","Vinícius (Gol Contra)"], ["Cleiton Xavier"]];
+var jogo20070523 = ["Botafogo", "Figueirense", 3, 1, "Copa do Brasil", "2007-05-23", "Maracanã", "Cuca", ["Zé Roberto","André Lima","Vinícius (GC)"], ["Cleiton Xavier"]];
 jogos.push(jogo20070523);
 var jogo20070602 = ["Botafogo", "Grêmio", 3, 0, "Série A", "2007-06-02", "Maracanã", "Cuca", ["Juninho","Luciano Almeida","Dodô"], ""];
 jogos.push(jogo20070602);
-var jogo20070617 = ["Botafogo", "Náutico", 3, 1, "Série A", "2007-06-17", "Maracanã", "Cuca", ["Juninho","André Lima","Jorge Henrique"], ["Alex (Gol Contra)"]];
+var jogo20070617 = ["Botafogo", "Náutico", 3, 1, "Série A", "2007-06-17", "Maracanã", "Cuca", ["Juninho","André Lima","Jorge Henrique"], ["Alex (GC)"]];
 jogos.push(jogo20070617);
 var jogo20070819 = ["Botafogo", "Internacional", 1, 1, "Série A", "2007-08-19", "Maracanã", "Cuca", ["André Lima"], ["Ceará"]];
 jogos.push(jogo20070819);
@@ -112,7 +112,7 @@ var jogo20140823 = ["Botafogo", "Chapecoense", 1, 0, "Série A", "2014-08-23", "
 jogos.push(jogo20140823);
 var jogo20140831 = ["Botafogo", "Santos", 1, 0, "Série A", "2014-08-31", "Maracanã", "Vagner Mancini", ["Daniel"], ""];
 jogos.push(jogo20140831);
-var jogo20140917 = ["Botafogo", "Bahia", 2, 3, "Série A", "2014-09-17", "Maracanã", "Vagner Mancini", ["Emerson Sheik (2x)"], ["Dankler (Gol Contra)","Maxi Biancucchi","Branquinho"]];
+var jogo20140917 = ["Botafogo", "Bahia", 2, 3, "Série A", "2014-09-17", "Maracanã", "Vagner Mancini", ["Emerson Sheik (2x)"], ["Dankler (GC)","Maxi Biancucchi","Branquinho"]];
 jogos.push(jogo20140917);
 var jogo20141008 = ["Botafogo", "Palmeiras", 0, 1, "Série A", "2014-10-08", "Maracanã", "Vagner Mancini", "", ["Henrique Dourado"]];
 jogos.push(jogo20141008);
@@ -120,7 +120,7 @@ var jogo20150131 = ["Botafogo", "Boavista", 1, 0, "Carioca", "2015-01-31", "São
 jogos.push(jogo20150131);
 var jogo20150207 = ["Botafogo", "Bonsucesso", 4, 0, "Carioca", "2015-02-07", "Nilton Santos", "Renê Simões", ["Diego Jardel","Bill","Thiago Carleto","Fernandes"], ""];
 jogos.push(jogo20150207);
-var jogo20150221 = ["Botafogo", "Nova Iguaçu", 2, 1, "Carioca", "2015-02-21", "Nilton Santos", "Renê Simões", ["Paulo Henrique (Gol Contra)","Jóbson"], ["Marlon"]];
+var jogo20150221 = ["Botafogo", "Nova Iguaçu", 2, 1, "Carioca", "2015-02-21", "Nilton Santos", "Renê Simões", ["Paulo Henrique (GC)","Jóbson"], ["Marlon"]];
 jogos.push(jogo20150221);
 var jogo20150301 = ["Botafogo", "Flamengo", 1, 0, "Carioca", "2015-03-01", "Maracanã", "Renê Simões", ["Tomás Bastos"], ""];
 jogos.push(jogo20150301);
@@ -184,7 +184,7 @@ var jogo20161126 = ["Botafogo", "Ponte Preta", 1, 1, "Série A", "2016-11-26", "
 jogos.push(jogo20161126);
 var jogo20170128 = ["Botafogo", "Nova Iguaçu", 1, 1, "Carioca", "2017-01-28", "Nilton Santos", "Jair Ventura", ["Marcelo Benevenuto"], ["Murilo Henrique"]];
 jogos.push(jogo20170128);
-var jogo20170201 = ["Botafogo", "Colo-Colo-CHI", 2, 1, "Copa Libertadores", "2017-02-01", "Nilton Santos", "Jair Ventura", ["Airton","Esteban Pavez (Gol Contra)"], ["Paredes"]];
+var jogo20170201 = ["Botafogo", "Colo-Colo-CHI", 2, 1, "Copa Libertadores", "2017-02-01", "Nilton Santos", "Jair Ventura", ["Airton","Esteban Pavez (GC)"], ["Paredes"]];
 jogos.push(jogo20170201);
 var jogo20170204 = ["Botafogo", "Macaé", 2, 1, "Carioca", "2017-02-04", "Nilton Santos", "Jair Ventura", ["Rodrigo Lindoso","Vinicius Tanque"], ["Guilherme Xavier"]];
 jogos.push(jogo20170204);
@@ -226,7 +226,7 @@ var jogo20170726 = ["Botafogo", "Atlético-MG", 3, 0, "Copa do Brasil", "2017-07
 jogos.push(jogo20170726);
 var jogo20170729 = ["Botafogo", "São Paulo", 3, 4, "Série A", "2017-07-29", "Nilton Santos", "Jair Ventura", ["Marcos Vinícius (2x)","Guilherme"], ["Cueva ","Marcos Guilherme (2x)","Hernanes"]];
 jogos.push(jogo20170729);
-var jogo20170802 = ["Botafogo", "Palmeiras", 1, 2, "Série A", "2017-08-02", "Nilton Santos", "Jair Ventura", ["Rodrigo Pimpão"], ["Igor Rabello (Gol Contra)","Deyverson"]];
+var jogo20170802 = ["Botafogo", "Palmeiras", 1, 2, "Série A", "2017-08-02", "Nilton Santos", "Jair Ventura", ["Rodrigo Pimpão"], ["Igor Rabello (GC)","Deyverson"]];
 jogos.push(jogo20170802);
 var jogo20170810 = ["Botafogo", "Nacional-URU", 2, 0, "Copa Libertadores", "2017-08-10", "Nilton Santos", "Jair Ventura", ["Bruno Silva ","Rodrigo Pimpão"], ""];
 jogos.push(jogo20170810);
@@ -280,7 +280,7 @@ var jogo20180401 = ["Botafogo", "Vasco", 2, 3, "Carioca", "2018-04-01", "Nilton 
 jogos.push(jogo20180401);
 var jogo20180408 = ["Vasco", "Botafogo", 0, 1, "Carioca", "2018-04-08", "Maracanã", "Alberto Valentim", ["Joel Carli","","Pênaltis: (4)","Brenner","Gilson","Marcinho","Renatinho"], ["","","Pênaltis: (3)","Wagner","Andrés Ríos","Yago Pikachu"]];
 jogos.push(jogo20180408);
-var jogo20180428 = ["Botafogo", "Grêmio", 2, 1, "Série A", "2018-04-28", "Nilton Santos", "Alberto Valentim", ["Brenner ","Gilson"], ["Igor Rabello (Gol Contra)"]];
+var jogo20180428 = ["Botafogo", "Grêmio", 2, 1, "Série A", "2018-04-28", "Nilton Santos", "Alberto Valentim", ["Brenner ","Gilson"], ["Igor Rabello (GC)"]];
 jogos.push(jogo20180428);
 var jogo20180509 = ["Botafogo", "Audax Italiano-CHI", 1, 1, "Copa Sul-Americana", "2018-05-09", "Nilton Santos", "Alberto Valentim", ["Matheus Fernandes"], ["Luis Cabrera"]];
 jogos.push(jogo20180509);
@@ -334,7 +334,7 @@ var jogo20190223 = ["Botafogo", "Vasco", 1, 1, "Carioca", "2019-02-23", "Nilton 
 jogos.push(jogo20190223);
 var jogo20190227 = ["Botafogo", "Cuiabá", 3, 0, "Copa do Brasil", "2019-02-27", "Nilton Santos", "Zé Ricardo", ["Erik (2x)","Rodrigo Pimpão"], ""];
 jogos.push(jogo20190227);
-var jogo20190311 = ["Botafogo", "Madureira", 2, 1, "Carioca", "2019-03-11", "Nilton Santos", "Zé Ricardo", ["Jonathan","Kieza"], ["Marcinho (Gol contra)"]];
+var jogo20190311 = ["Botafogo", "Madureira", 2, 1, "Carioca", "2019-03-11", "Nilton Santos", "Zé Ricardo", ["Jonathan","Kieza"], ["Marcinho (GC)"]];
 jogos.push(jogo20190311);
 var jogo20190317 = ["Fluminense", "Botafogo",  1, 1, "Carioca", "2019-03-17", "Maracanã", "Zé Ricardo", ["Alex Santana"], ["Paulo Henrique Ganso"]];
 jogos.push(jogo20190317);
@@ -370,17 +370,17 @@ var jogo20190921 = ["Botafogo", "São Paulo", 1, 2, "Série A", "2019-09-21", "N
 jogos.push(jogo20190921);
 var jogo20191006 = ["Botafogo", "Fluminense", 0, 1, "Série A", "2019-10-06", "Nilton Santos", "Eduardo Barroca", "", ["Yony González"]];
 jogos.push(jogo20191006);
-var jogo20191009 = ["Botafogo", "Goiás", 3, 1, "Série A", "2019-10-09", "Nilton Santos", "Bruno Lazaroni", ["Gabriel","João Paulo","Leo Valencia"], ["Marcelo Benevenuto (Gol contra)"]];
+var jogo20191009 = ["Botafogo", "Goiás", 3, 1, "Série A", "2019-10-09", "Nilton Santos", "Bruno Lazaroni", ["Gabriel","João Paulo","Leo Valencia"], ["Marcelo Benevenuto (GC)"]];
 jogos.push(jogo20191009);
 var jogo20191016 = ["Vasco", "Botafogo",  2, 1, "Série A", "2019-10-16", "São Januário", "Alberto Valentim", ["Marcelo Benevenuto"], ["Bruno Gomes","Ribamar"]];
 jogos.push(jogo20191016);
-var jogo20191021 = ["Botafogo", "CSA", 2, 1, "Série A", "2019-10-21", "Nilton Santos", "Alberto Valentim", ["Luciano Castán (Gol Contra)","Igor Cássio"], ["Ricardo Bueno"]];
+var jogo20191021 = ["Botafogo", "CSA", 2, 1, "Série A", "2019-10-21", "Nilton Santos", "Alberto Valentim", ["Luciano Castán (GC)","Igor Cássio"], ["Ricardo Bueno"]];
 jogos.push(jogo20191021);
 var jogo20191031 = ["Botafogo", "Cruzeiro", 0, 2, "Série A", "2019-10-31", "Nilton Santos", "Alberto Valentim", "", ["Cacá","Éderson"]];
 jogos.push(jogo20191031);
 var jogo20191103 = ["Santos", "Botafogo",  4, 1, "Série A", "2019-11-03", "Vila Belmiro (Santos-SP)", "Alberto Valentim", ["Igor Cássio"], ["Eduardo Sasha","Marinho","Soteldo (2x)"]];
 jogos.push(jogo20191103);
-var jogo20191111 = ["Botafogo", "Avaí", 2, 0, "Série A", "2019-11-11", "Nilton Santos", "Alberto Valentim", ["Ricardo Thalheimer (Gol Contra)","Diego Souza"], ""];
+var jogo20191111 = ["Botafogo", "Avaí", 2, 0, "Série A", "2019-11-11", "Nilton Santos", "Alberto Valentim", ["Ricardo Thalheimer (GC)","Diego Souza"], ""];
 jogos.push(jogo20191111);
 var jogo20191124 = ["Botafogo", "Corinthians", 1, 0, "Série A", "2019-11-24", "Nilton Santos", "Alberto Valentim", ["Diego Souza"], ""];
 jogos.push(jogo20191124);
