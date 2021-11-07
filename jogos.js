@@ -414,6 +414,8 @@ var jogo20211020 = ["Botafogo", "Brusque", 3, 0, "Série B", "2021-10-20", "Nilt
 jogos.push(jogo20211020);
 var jogo20211103 = ["Botafogo", "Confiança", 1, 0, "Série B", "2021-11-03", "Nilton Santos", "Enderson Moreira", ["Diego Gonçalves"], ""];
 jogos.push(jogo20211103);
+var jogo20211107 = ["Vasco", "Botafogo", 0, 0, "Série B", "2021-11-07", "São Januário", "Enderson Moreira", "", ""];
+jogos.push(jogo20211107);
 
 var outros = [];
 
