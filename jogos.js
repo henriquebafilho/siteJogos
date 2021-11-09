@@ -48,7 +48,7 @@ var jogo20060122 = ["Botafogo", "Vasco", 5, 3, "Carioca", "2006-01-22", "Maracan
 jogos.push(jogo20060122);
 var jogo20060219 = ["Botafogo", "Nova Iguaçu", 1, 1, "Carioca", "2006-02-19", "Maracanã", "Carlos Roberto", ["Dodô"], ["Marcos Denner"]];
 jogos.push(jogo20060219);
-var jogo20060409 = ["Botafogo", "Madureira", 3, 1, "Carioca", "2006-04-09", "Maracanã", "Carlos Roberto", ["Dodô (2x)","Reinaldo"], ["Fábio Júnior"]];
+var jogo20060409 = ["Madureira", "Botafogo", 1, 3, "Carioca", "2006-04-09", "Maracanã", "Carlos Roberto", ["Dodô (2x)","Reinaldo"], ["Fábio Júnior"]];
 jogos.push(jogo20060409);
 var jogo20061014 = ["Botafogo", "Santos", 4, 3, "Série A", "2006-10-14", "Maracanã", "Cuca", ["Asprilla","Reinaldo","Zé Roberto","Juca"], ["Kléber","Welligton Paulista","Reinaldo"]];
 jogos.push(jogo20061014);

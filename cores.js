@@ -94,7 +94,7 @@ function coresTimes(time, jogo){
 		return ["#003a94", "white"];
 		break;
 		case "CSA":
-		return ["#075798", "white"];
+		return ["#003a94", "white"];
 		break;
 		case "Cuiabá":
 		return ["#fde900", "#018036"];
