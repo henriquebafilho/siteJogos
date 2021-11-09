@@ -28,7 +28,7 @@ function coresTimes(time, jogo){
 		return ["green", "white"];
 		break;
 		case "Avaí":
-		return ["#00679a", "white"];
+		return ["#00468e", "white"];
 		break;
 		case "Bahia":
 		return ["#0188d6", "white"];
