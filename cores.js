@@ -167,11 +167,14 @@ function coresTimes(time, jogo){
 		case "Olimpia-PAR":
 		return ["white", "black"];
 		break;
+		case "Operário":
+		return ["black", "white"];
+		break;
 		case "Palmeiras":
 		return ["#048439", "white"];
 		break;
 		case "Paraná":
-		return ["#2939b4", "white"];
+		return ["#003a94", "white"];
 		break;
 		case "Paysandu":
 		return ["#0091cf", "white"];
