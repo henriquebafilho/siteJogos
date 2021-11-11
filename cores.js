@@ -10,19 +10,19 @@ function coresTimes(time, jogo){
 		return ["white", "black"];
 		break;
 		case "Athletico-PR":
-		return ["#c8060f", "black"];
+		return ["#c8060f", "white"];
 		break;
 		case "Atlético Nacional-COL":
 		return ["#048439", "white"];
 		break;
 		case "Atlético-GO":
-		return ["#ff0e00", "black"];
+		return ["#ff0e00", "white"];
 		break
 		case "Atlético-MG":
 		return ["black", "white"];
 		break;
 		case "Atlético-PR":
-		return ["#ff0e00", "black"];
+		return ["#ff0e00", "white"];
 		break;
 		case "Audax Italiano-CHI":
 		return ["green", "white"];
@@ -109,7 +109,7 @@ function coresTimes(time, jogo){
 		return ["black", "white"];
 		break;
 		case "Flamengo":
-		return ["#ff0e00", "black"];
+		return ["#ff0e00", "white"];
 		break;
 		case "Fluminense":
 		return ["#9f022f", "white"];
@@ -210,7 +210,7 @@ function coresTimes(time, jogo){
 		return ["#075798", "white"];
 		break;
 		case "Sport":
-		return ["#d30a11", "black"];
+		return ["#d30a11", "#ffda00"];
 		break;
 		case "Uruguai":
 		return ["#0d80bf", "white"];;
