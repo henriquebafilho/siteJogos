@@ -1,6 +1,8 @@
-function coresTimes(time, jogo){
-	var dataCortada = jogo[5].split("-");
-	var ano = parseInt(dataCortada[0]);
+function coresTimes(time, jogo = null){
+	if(jogo != null){
+		var dataCortada = jogo[5].split("-");
+		var ano = parseInt(dataCortada[0]);
+	}
 
 	switch (time) {
 		case "América-MG":

@@ -98,6 +98,8 @@ function escreveLinha(jogo, numero){
 	//pTecnico.style.fontSize = '1em';
 	pTecnico.style.textAlign = "center";
 	pTecnico.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+	//pTecnico.style.webkitTextStrokeWidth = '1px';
+	//pTecnico.style.webkitTextStrokeColor = 'black';
 	pTecnico.appendChild(textTecnico);
 
 	var divGols = document.createElement("div"); 

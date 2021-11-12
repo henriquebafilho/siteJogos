@@ -3,12 +3,10 @@ html{
 }
 body{
 	font-family: Arial;
-	background-color: black;
 	color: white;
 	margin: 0;
 }
 table {
-	border: 2px solid black;
 	font-family: Arial;
 	text-align: center;
 	background-color: black;

@@ -33,6 +33,11 @@ window.onload = function(){
 	h1Cabecalho.appendChild(escudoTime2);
 	document.getElementById("idTitulo").appendChild(h1Cabecalho);
 
+	// Trocando cores do fundo e das letras
+	document.body.style.backgroundColor = coresTimes(time)[0];
+	// document.body.style.color = coresTimes(time)[1];
+	document.getElementById("jogos").style.backgroundColor = coresTimes(time)[0];
+
 	decrescente();
 };
 
