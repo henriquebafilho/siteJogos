@@ -1,6 +1,7 @@
 window.onload = function(){
 	var time = "Botafogo";
-	var nomeUsuario = "HENRIQUE FILHO"
+	var nomeUsuario = "Henrique Filho";
+	nomeUsuario = nomeUsuario.toUpperCase();
 
 	// Title da página
 	document.title = "Jogos do " + time + " que fui";
@@ -13,7 +14,7 @@ window.onload = function(){
 	document.head.appendChild(linkIcon);
 
 	// Cabeçalho com nome
-	/*var h1Cabecalho = document.createElement("h1"); 
+	var h1Cabecalho = document.createElement("h1"); 
 	h1Cabecalho.style.whiteSpace = "nowrap";
 	h1Cabecalho.style.width = "100%";
 	var escudoTime1 = document.createElement("img");
@@ -30,7 +31,7 @@ window.onload = function(){
 	h1Cabecalho.appendChild(escudoTime1);
 	h1Cabecalho.appendChild(nomeUsuarioP);
 	h1Cabecalho.appendChild(escudoTime2);
-	document.body.appendChild(h1Cabecalho);*/
+	document.getElementById("idTitulo").appendChild(h1Cabecalho);
 
 	decrescente();
 };
