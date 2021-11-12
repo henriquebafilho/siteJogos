@@ -37,7 +37,7 @@ function cabecalho(){
 	//tabela.appendChild(tbody);
 }
 
-function escreveLinha(jogo, numero){
+function escreveLinha(meuTime, jogo, numero){
 	// setando o mandante e o visitante
 	var mandante = jogo[0];
 	var visitante = jogo[1];
@@ -54,6 +54,8 @@ function escreveLinha(jogo, numero){
 	var details = document.createElement("details");
 	details.style.background = "linear-gradient(90deg, " + coresTimes(mandante, jogo)[0] + " 49%, " + coresTimes(visitante, jogo)[0] + " 52%)";
 	details.style.cursor = "pointer";
+	details.style.color = "white";
+	details.style.border = "1px solid " + coresTimes(meuTime, jogo)[1];
 
 	var summary = document.createElement("summary");
 	summary.style.textAlign = "center";

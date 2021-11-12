@@ -5,6 +5,9 @@ function coresTimes(time, jogo = null){
 	}
 
 	switch (time) {
+		case "América":
+		return ["red", "white"];
+		break;
 		case "América-MG":
 		return ["#048439", "white"];
 		break;
@@ -120,12 +123,16 @@ function coresTimes(time, jogo = null){
 		return ["#11519b", "white"];
 		break;
 		case "Goiás":
-		if(ano < 2019){
+		if(jogo != null){
+			if(ano < 2019){
+				return ["#048439", "white"];
+				break;
+			} else if (ano >= 2019){
+				return ["#006959", "white"];
+				break;
+			}
+		}else{
 			return ["#048439", "white"];
-			break;
-		} else if (ano >= 2019){
-			return ["#006959", "white"];
-			break;
 		}
 		case "Grêmio":
 		return ["#0d80bf", "white"];;

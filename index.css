@@ -28,7 +28,6 @@ h1, h4{
 	display: none;
 }
 p{
-	color: white;
 	text-align: center;
 	font-family: Arial;
 }
@@ -84,7 +83,6 @@ summary:focus{
 	box-shadow: none;
 }
 details{
-	border: 1px solid white;
 	border-radius: 7px;
 	margin-bottom: 1em;
 }

@@ -1,5 +1,5 @@
 window.onload = function(){
-	var time = "Botafogo";
+	time = "Botafogo";
 	var nomeUsuario = "Henrique Filho";
 	nomeUsuario = nomeUsuario.toUpperCase();
 
@@ -17,6 +17,7 @@ window.onload = function(){
 	var h1Cabecalho = document.createElement("h1"); 
 	h1Cabecalho.style.whiteSpace = "nowrap";
 	h1Cabecalho.style.width = "100%";
+	h1Cabecalho.style.color = coresTimes(time)[1];
 	var escudoTime1 = document.createElement("img");
 	escudoTime1.src = "index_files/" + time.replace(/ /g,'') + ".png";
 	escudoTime1.width = 60;
@@ -35,10 +36,10 @@ window.onload = function(){
 
 	// Trocando cores do fundo e das letras
 	document.body.style.backgroundColor = coresTimes(time)[0];
-	// document.body.style.color = coresTimes(time)[1];
+	document.body.style.color = coresTimes(time)[1];
 	document.getElementById("jogos").style.backgroundColor = coresTimes(time)[0];
 
-	decrescente();
+	decrescente(time);
 };
 
 function decrescente(){
@@ -51,7 +52,7 @@ function decrescente(){
 	var derrotas = 0;
 
 	for(var i = jogos.length - 1; i >= 0; i--){
-		escreveLinha(jogos[i], i + 1);
+		escreveLinha(time, jogos[i], i + 1);
 		// Contabiliza vitória, empate ou derrota
 		if(jogos[i][2] == jogos[i][3]){
 			empates += 1;
@@ -82,7 +83,7 @@ function crescente(){
 	var derrotas = 0;
 
 	for(var i = 0; i < jogos.length; i++){
-		escreveLinha(jogos[i], i + 1);
+		escreveLinha(time, jogos[i], i + 1);
 		// Contabiliza vitória, empate ou derrota
 		if(jogos[i][2] == jogos[i][3]){
 			empates += 1;
@@ -122,7 +123,7 @@ function mandante(){
 	}
 
 	for(var i = quantidade - 1; i >= 0; i--){
-		escreveLinha(selecionados[i], i + 1);
+		escreveLinha(time, selecionados[i], i + 1);
 		// Contabiliza vitória, empate ou derrota
 		if(selecionados[i][2] == selecionados[i][3]){
 			empates += 1;
@@ -162,7 +163,7 @@ function visitante(){
 	}
 
 	for(var i = quantidade - 1; i >= 0; i--){
-		escreveLinha(selecionados[i], i + 1);
+		escreveLinha(time, selecionados[i], i + 1);
 		// Contabiliza vitória, empate ou derrota
 		if(selecionados[i][2] == selecionados[i][3]){
 			empates += 1;
@@ -215,7 +216,7 @@ function adversario(){
 		}
 
 		for(var i = quantidade - 1; i >= 0; i--){
-			escreveLinha(selecionados[i], i + 1);
+			escreveLinha(time, selecionados[i], i + 1);
 			// Contabiliza vitória, empate ou derrota
 			if(selecionados[i][2] == selecionados[i][3]){
 				empates += 1;
@@ -259,7 +260,7 @@ function campeonato(){
 			}
 		}
 		for(var i = quantidade - 1; i >= 0; i--){
-			escreveLinha(selecionados[i], i + 1);
+			escreveLinha(time, selecionados[i], i + 1);
 			// Contabiliza vitória, empate ou derrota
 			if(selecionados[i][2] == selecionados[i][3]){
 				empates += 1;
@@ -304,7 +305,7 @@ function estadio(){
 		}
 
 		for(var i = quantidade - 1; i >= 0; i--){
-			escreveLinha(selecionados[i], i + 1);
+			escreveLinha(time, selecionados[i], i + 1);
 			// Contabiliza vitória, empate ou derrota
 			if(selecionados[i][2] == selecionados[i][3]){
 				empates += 1;
@@ -347,7 +348,7 @@ function tecnico(){
 			}
 		}
 		for(var i = quantidade - 1; i >= 0; i--){
-			escreveLinha(selecionados[i], i + 1);
+			escreveLinha(time, selecionados[i], i + 1);
 			// Contabiliza vitória, empate ou derrota
 			if(selecionados[i][2] == selecionados[i][3]){
 				empates += 1;
@@ -384,7 +385,7 @@ function escolheData(){
 		if(data == jogos[i][5]){
 			achou = true;
 			contador += 1;
-			escreveLinha(jogos[i], contador);
+			escreveLinha(time, jogos[i], contador);
 			// Contabiliza vitória, empate ou derrota
 			if(jogos[i][2] == jogos[i][3]){
 				empates += 1;
@@ -438,7 +439,7 @@ function ano(){
 		}
 	}
 	for(var i = quantidade - 1; i >= 0; i--){
-		escreveLinha(selecionados[i], i + 1);
+		escreveLinha(time, selecionados[i], i + 1);
 			// Contabiliza vitória, empate ou derrota
 			if(selecionados[i][2] == selecionados[i][3]){
 				empates += 1;
@@ -476,7 +477,7 @@ function ano(){
 		}
 	}
 	for(var i = quantidade - 1; i >= 0; i--){
-		escreveLinha(selecionados[i], i + 1);
+		escreveLinha(time, selecionados[i], i + 1);
 			// Contabiliza vitória, empate ou derrota
 			if(selecionados[i][2] == selecionados[i][3]){
 				empates += 1;
@@ -514,7 +515,7 @@ function ano(){
 		}
 
 		for(var i = quantidade - 1; i >= 0; i--){
-			escreveLinha(selecionados[i], i + 1);
+			escreveLinha(time, selecionados[i], i + 1);
 			// Contabiliza vitória, empate ou derrota
 			if(selecionados[i][2] == selecionados[i][3]){
 				empates += 1;
@@ -552,7 +553,7 @@ function ano(){
 	}
 
 	for(var i = quantidade - 1; i >= 0; i--){
-		escreveLinha(selecionados[i], i + 1);
+		escreveLinha(time, selecionados[i], i + 1);
 			// Contabiliza vitória, empate ou derrota
 			if(selecionados[i][2] == selecionados[i][3]){
 				empates += 1;
@@ -580,7 +581,7 @@ function ano(){
 		var contador = outros.length;
 
 		for(var i = contador - 1; i >=0; i--){
-			escreveLinha(outros[i], i + 1);
+			escreveLinha(time, outros[i], i + 1);
 		}
 	}
 
