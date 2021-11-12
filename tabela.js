@@ -1,4 +1,37 @@
 window.onload = function(){
+	var time = "Botafogo";
+	var nomeUsuario = "HENRIQUE FILHO"
+
+	// Title da página
+	document.title = "Jogos do " + time + " que fui";
+
+	// Ícone da página
+	var linkIcon = document.createElement("link"); 
+	linkIcon.rel = "shortcut icon";
+	linkIcon.href = "index_files/" + time.replace(/ /g,'') + ".png";
+	linkIcon.type = "image/x-icon";
+	document.head.appendChild(linkIcon);
+
+	// Cabeçalho com nome
+	/*var h1Cabecalho = document.createElement("h1"); 
+	h1Cabecalho.style.whiteSpace = "nowrap";
+	h1Cabecalho.style.width = "100%";
+	var escudoTime1 = document.createElement("img");
+	escudoTime1.src = "index_files/" + time.replace(/ /g,'') + ".png";
+	escudoTime1.width = 60;
+	escudoTime1.height = 60;
+	escudoTime1.alt = "Escudo do Time";
+	var nomeUsuarioP = document.createTextNode(" " + nomeUsuario + " ");
+	var escudoTime2 = document.createElement("img");
+	escudoTime2.src = "index_files/" + time.replace(/ /g,'') + ".png";
+	escudoTime2.width = 60;
+	escudoTime2.height = 60;
+	escudoTime2.alt = "Escudo do Time";
+	h1Cabecalho.appendChild(escudoTime1);
+	h1Cabecalho.appendChild(nomeUsuarioP);
+	h1Cabecalho.appendChild(escudoTime2);
+	document.body.appendChild(h1Cabecalho);*/
+
 	decrescente();
 };
 
