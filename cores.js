@@ -50,6 +50,9 @@ function coresTimes(time, jogo = null){
 		case "Boavista":
 		return ["#00913c", "white"];
 		break;
+		case "Boca Juniors-ARG":
+		return ["#00458a", "#fcb000"];
+		break;
 		case "Bonsucesso":
 		return ["#1c4196", "white"];
 		break;

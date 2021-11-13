@@ -227,10 +227,10 @@ function adversario(){
 					derrotas += 1;
 				}
 			} else if (selecionados[i][0] != "Botafogo"){
-				if(selecionados[i][3] > selecionados[i][2]){
-					vitorias += 1;
-				} else {
+				if(selecionados[i][2] > selecionados[i][3]){
 					derrotas += 1;
+				} else {
+					vitorias += 1;
 				}
 			}
 		}
@@ -272,9 +272,9 @@ function campeonato(){
 				}
 			} else if (selecionados[i][0] != "Botafogo"){
 				if(selecionados[i][2] > selecionados[i][3]){
-					vitorias += 1;
-				} else {
 					derrotas += 1;
+				} else {
+					vitorias += 1;
 				}
 			}
 		}
@@ -503,7 +503,6 @@ function ano(){
 		limpaTabela();
 		cabecalho();
 
-		var contador = jogos.length;
 		var quantidade = 0;
 		var selecionados = [];
 
