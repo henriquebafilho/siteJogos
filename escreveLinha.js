@@ -45,9 +45,6 @@ function escreveLinha(meuTime, jogo, numero){
 	// Pegando a tabela
 	var tabela = document.getElementById("jogos");
 	tabela.width = "100%";
-	var qtdLinhas = tabela.rows.length - 1;
-	var tbody = document.getElementById("corpoDaTabela");
-	//tbody.colSpan = 4;
 	
 	// INTERFACE DO DETAILS
 
@@ -119,7 +116,7 @@ function escreveLinha(meuTime, jogo, numero){
 	divMandante.style.fontWeight = 'bold';
 
 	var listaGolsMandante = document.createElement("ul");
-	var golsMandante = jogo[0] == 'Botafogo' ? jogo[8] : jogo[9];
+	var golsMandante = jogo[0] == meuTime ? jogo[8] : jogo[9];
 	for(var i = 0; i < golsMandante.length; i++){
 		if(golsMandante[i] != "" && golsMandante[i] != " " && golsMandante[i].indexOf("Pênaltis:")){
 			var bolinhaGol = document.createElement("img");
@@ -147,7 +144,7 @@ function escreveLinha(meuTime, jogo, numero){
 
 	var listaGolsVisitante = document.createElement("ul");
 	listaGolsVisitante.style.textAlign = golsMandante == "" ? 'center' : '';
-	var golsVisitante = jogo[1] == 'Botafogo' ? jogo[8] : jogo[9];
+	var golsVisitante = jogo[1] == meuTime ? jogo[8] : jogo[9];
 	for(var i = 0; i < golsVisitante.length; i++){
 		if(golsVisitante[i] != "" && golsVisitante[i] != " " && golsVisitante[i].indexOf("Pênaltis:")){
 			var bolinhaGol = document.createElement("img");
@@ -173,119 +170,4 @@ function escreveLinha(meuTime, jogo, numero){
 	details.appendChild(pTecnico);
 	details.appendChild(divGols);
 	tabela.appendChild(details);
-
-	/*
-	var cellAutorMandante = linha3.insertCell(0);
-	cellAutorMandante.style.fontFamily = "Arial";
-	//cellAutorMandante.style.fontWeight = "bold";
-	cellAutorMandante.style.backgroundColor = coresTimes(mandante, jogo)[0];
-	cellAutorMandante.style.color = coresTimes(mandante, jogo)[1];
-	cellAutorMandante.style.border = "1px solid white";
-	if(jogo[0] == "Botafogo" || (jogo[0] != "Botafogo" && jogo[1] != "Botafogo")){
-		cellAutorMandante.innerHTML = jogo[8];
-	} else {
-		cellAutorMandante.innerHTML = jogo[9];
-	}
-
-	var cellNumero = linha1.insertCell(0);
-	cellNumero.rowSpan = 3;
-	cellNumero.width = "7%";
-	cellNumero.style.fontFamily = "Arial";
-	cellNumero.style.fontWeight = "bold";
-	cellNumero.style.fontSize = "150%";
-	cellNumero.style.backgroundColor = coresTimes(mandante, jogo)[0];
-	cellNumero.style.color = coresTimes(mandante, jogo)[1];
-	cellNumero.innerHTML = numero; // Número do jogo
-
-	var cellAutorVisitante = linha3.insertCell(2);
-	cellAutorVisitante.style.fontFamily = "Arial";
-	//cellAutorVisitante.style.fontWeight = "bold";
-	cellAutorVisitante.style.backgroundColor = coresTimes(visitante, jogo)[0];
-	cellAutorVisitante.style.color = coresTimes(visitante, jogo)[1];
-	cellAutorVisitante.style.border = "1px solid white";
-	if(jogo[1] == "Botafogo"){
-		cellAutorVisitante.innerHTML = jogo[8];
-	} else {
-		cellAutorVisitante.innerHTML = jogo[9];
-	}
-
-	// Célula com times, escudos e placar
-	var linha2 = tabela.insertRow(qtdLinhas);
-	linha2.id = "linha2";
-	linha2.width = "100%";
-	linhaGeral.appendChild(linha2);
-
-	var cellMandante = linha2.insertCell(0);
-	cellMandante.id = "mandante" + numero;
-	//cellMandante.width = "40%";
-	cellMandante.style.fontFamily = "Arial";
-	cellMandante.style.fontWeight = "bold";
-	cellMandante.style.backgroundColor = coresTimes(mandante, jogo)[0];
-	cellMandante.style.color = coresTimes(mandante, jogo)[1];
-	cellMandante.innerHTML = "<img src=index_files/" + getEscudoName(mandante, jogo) + ".png width=70 height=70 alt=Imagem><br>" + mandante;
-
-	var cellPlacar = linha2.insertCell(1);
-	cellPlacar.id = "placar";
-	//cellPlacar.width = "20%";
-	cellPlacar.style.fontFamily = "Arial";
-	cellPlacar.style.fontWeight = "bold";
-	cellPlacar.style.fontSize = "250%";
-	cellPlacar.style.whiteSpace = "nowrap";
-	cellPlacar.style.background = "linear-gradient(90deg, " + coresTimes(mandante, jogo)[0] + " 49%, " + coresTimes(visitante, jogo)[0] + " 52%)";
-	cellPlacar.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
-	cellPlacar.innerHTML = jogo[2] + " x " + jogo[3];
-
-	var cellVisitante = linha2.insertCell(2);
-	cellVisitante.id = "visitante" + numero;
-	//cellVisitante.width = "40%";
-	cellVisitante.style.fontFamily = "Arial";
-	cellVisitante.style.fontWeight = "bold";
-	cellVisitante.style.backgroundColor = coresTimes(visitante, jogo)[0];
-	cellVisitante.style.color = coresTimes(visitante, jogo)[1];
-	cellVisitante.innerHTML = "<img src=index_files/" + getEscudoName(visitante, jogo) + ".png width=70 height=70 alt=Imagem><br>" + visitante;
-
-	// Célula com autores dos gols e técnico no meio 
-	var linha3 = tabela.insertRow(qtdLinhas);
-	linha3.id = "linha3";
-	linha3.width = "100%";
-	linhaGeral.appendChild(linha3);
-
-	var cellAutorMandante = linha3.insertCell(0);
-	cellAutorMandante.style.fontFamily = "Arial";
-	cellAutorMandante.style.fontWeight = "bold";
-	cellAutorMandante.style.backgroundColor = coresTimes(mandante, jogo)[0];
-	cellAutorMandante.style.color = coresTimes(mandante, jogo)[1];
-	if(jogo[0] == "Botafogo" || (jogo[0] != "Botafogo" && jogo[1] != "Botafogo")){
-		cellAutorMandante.innerHTML = jogo[8];
-	} else {
-		cellAutorMandante.innerHTML = jogo[9];
-	}
-
-	var cellTecnico = linha3.insertCell(1);
-	cellTecnico.style.fontFamily = "Arial";
-	cellTecnico.style.fontWeight = "bold";
-	cellTecnico.style.background = "linear-gradient(90deg, " + coresTimes(mandante, jogo)[0] + " 49%, " + coresTimes(visitante, jogo)[0] + " 52%)";
-	cellTecnico.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
-	cellTecnico.innerHTML = "Técnico: " + jogo[7];
-
-	var cellAutorVisitante = linha3.insertCell(2);
-	cellAutorVisitante.style.fontFamily = "Arial";
-	cellAutorVisitante.style.fontWeight = "bold";
-	cellAutorVisitante.style.backgroundColor = coresTimes(visitante, jogo)[0];
-	cellAutorVisitante.style.color = coresTimes(visitante, jogo)[1];
-	if(jogo[1] == "Botafogo"){
-		cellAutorVisitante.innerHTML = jogo[8];
-	} else {
-		cellAutorVisitante.innerHTML = jogo[9];
-	}	
-	
-	var cellCabecalho = linha1.insertCell(1);
-	cellCabecalho.colSpan = 3;
-	cellCabecalho.style.fontFamily = "Arial";
-	cellCabecalho.style.fontWeight = "bold";
-	cellCabecalho.style.background = "linear-gradient(90deg, " + coresTimes(mandante, jogo)[0] + " 49%, " + coresTimes(visitante, jogo)[0] + " 50%)";
-	cellCabecalho.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
-	cellCabecalho.style.border = "1px solid white";
-	cellCabecalho.innerHTML = converteData(jogo[5]) + " | " + "Estádio " + jogo[6] + " | " + jogo[4]; // Cabeçalho
-	*/
 }

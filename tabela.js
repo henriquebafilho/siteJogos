@@ -39,7 +39,7 @@ window.onload = function(){
 	document.body.style.color = coresTimes(time)[1];
 	document.getElementById("jogos").style.backgroundColor = coresTimes(time)[0];
 
-	decrescente(time);
+	decrescente();
 };
 
 function decrescente(){
@@ -56,13 +56,13 @@ function decrescente(){
 		// Contabiliza vitória, empate ou derrota
 		if(jogos[i][2] == jogos[i][3]){
 			empates += 1;
-		} else if (jogos[i][0] == "Botafogo"){
+		} else if (jogos[i][0] == time){
 			if(jogos[i][2] > jogos[i][3]){
 				vitorias += 1;
 			} else {
 				derrotas += 1;
 			}
-		} else if (jogos[i][0] != "Botafogo"){
+		} else if (jogos[i][0] != time){
 			if(jogos[i][2] > jogos[i][3]){
 				derrotas += 1;
 			} else {
@@ -87,13 +87,13 @@ function crescente(){
 		// Contabiliza vitória, empate ou derrota
 		if(jogos[i][2] == jogos[i][3]){
 			empates += 1;
-		} else if (jogos[i][0] == "Botafogo"){
+		} else if (jogos[i][0] == time){
 			if(jogos[i][2] > jogos[i][3]){
 				vitorias += 1;
 			} else {
 				derrotas += 1;
 			}
-		} else if (jogos[i][0] != "Botafogo"){
+		} else if (jogos[i][0] != time){
 			if(jogos[i][2] > jogos[i][3]){
 				derrotas += 1;
 			} else {
@@ -116,7 +116,7 @@ function mandante(){
 	var selecionados = [];
 
 	for(var i = 0; i < contador; i++){
-		if(jogos[i][0] == "Botafogo"){
+		if(jogos[i][0] == time){
 			quantidade += 1;
 			selecionados.push(jogos[i]);
 		}
@@ -127,13 +127,13 @@ function mandante(){
 		// Contabiliza vitória, empate ou derrota
 		if(selecionados[i][2] == selecionados[i][3]){
 			empates += 1;
-		} else if (selecionados[i][0] == "Botafogo"){
+		} else if (selecionados[i][0] == time){
 			if(selecionados[i][2] > selecionados[i][3]){
 				vitorias += 1;
 			} else {
 				derrotas += 1;
 			}
-		} else if (selecionados[i][0] != "Botafogo"){
+		} else if (selecionados[i][0] != time){
 			if(selecionados[i][2] > selecionados[i][3]){
 				derrotas += 1;
 			} else {
@@ -156,7 +156,7 @@ function visitante(){
 	var selecionados = [];
 
 	for(var i = 0; i < contador; i++){
-		if(jogos[i][0] != "Botafogo"){
+		if(jogos[i][0] != time){
 			quantidade += 1;
 			selecionados.push(jogos[i]);
 		}
@@ -167,13 +167,13 @@ function visitante(){
 		// Contabiliza vitória, empate ou derrota
 		if(selecionados[i][2] == selecionados[i][3]){
 			empates += 1;
-		} else if (selecionados[i][0] == "Botafogo"){
+		} else if (selecionados[i][0] == time){
 			if(selecionados[i][2] > selecionados[i][3]){
 				derrotas += 1;
 			} else {
 				vitorias += 1;
 			}
-		} else if (selecionados[i][0] != "Botafogo"){
+		} else if (selecionados[i][0] != time){
 			if(selecionados[i][2] > selecionados[i][3]){
 				derrotas += 1;
 			} else {
@@ -220,13 +220,13 @@ function adversario(){
 			// Contabiliza vitória, empate ou derrota
 			if(selecionados[i][2] == selecionados[i][3]){
 				empates += 1;
-			} else if (selecionados[i][0] == "Botafogo"){
+			} else if (selecionados[i][0] == time){
 				if(selecionados[i][2] > selecionados[i][3]){
 					vitorias += 1;
 				} else {
 					derrotas += 1;
 				}
-			} else if (selecionados[i][0] != "Botafogo"){
+			} else if (selecionados[i][0] != time){
 				if(selecionados[i][2] > selecionados[i][3]){
 					derrotas += 1;
 				} else {
@@ -237,7 +237,6 @@ function adversario(){
 		estatisticas(quantidade, vitorias, empates, derrotas);
 	}
 }
-
 
 function campeonato(){
 	var campeonato = document.getElementById("selectCampeonato").value;
@@ -264,13 +263,13 @@ function campeonato(){
 			// Contabiliza vitória, empate ou derrota
 			if(selecionados[i][2] == selecionados[i][3]){
 				empates += 1;
-			} else if (selecionados[i][0] == "Botafogo"){
+			} else if (selecionados[i][0] == time){
 				if(selecionados[i][2] > selecionados[i][3]){
 					vitorias += 1;
 				} else {
 					derrotas += 1;
 				}
-			} else if (selecionados[i][0] != "Botafogo"){
+			} else if (selecionados[i][0] != time){
 				if(selecionados[i][2] > selecionados[i][3]){
 					derrotas += 1;
 				} else {
@@ -309,13 +308,13 @@ function estadio(){
 			// Contabiliza vitória, empate ou derrota
 			if(selecionados[i][2] == selecionados[i][3]){
 				empates += 1;
-			} else if (selecionados[i][0] == "Botafogo"){
+			} else if (selecionados[i][0] == time){
 				if(selecionados[i][2] > selecionados[i][3]){
 					vitorias += 1;
 				} else {
 					derrotas += 1;
 				}
-			} else if (selecionados[i][0] != "Botafogo"){
+			} else if (selecionados[i][0] != time){
 				if(selecionados[i][2] > selecionados[i][3]){
 					derrotas += 1;
 				} else {
@@ -352,13 +351,13 @@ function tecnico(){
 			// Contabiliza vitória, empate ou derrota
 			if(selecionados[i][2] == selecionados[i][3]){
 				empates += 1;
-			} else if (selecionados[i][0] == "Botafogo"){
+			} else if (selecionados[i][0] == time){
 				if(selecionados[i][2] > selecionados[i][3]){
 					vitorias += 1;
 				} else {
 					derrotas += 1;
 				}
-			} else if (selecionados[i][0] != "Botafogo"){
+			} else if (selecionados[i][0] != time){
 				if(selecionados[i][2] > selecionados[i][3]){
 					derrotas += 1;
 				} else {
@@ -389,13 +388,13 @@ function escolheData(){
 			// Contabiliza vitória, empate ou derrota
 			if(jogos[i][2] == jogos[i][3]){
 				empates += 1;
-			} else if (jogos[i][0] == "Botafogo"){
+			} else if (jogos[i][0] == time){
 				if(jogos[i][2] > jogos[i][3]){
 					vitorias += 1;
 				} else {
 					derrotas += 1;
 				}
-			} else if (jogos[i][0] != "Botafogo"){
+			} else if (jogos[i][0] != time){
 				if(jogos[i][2] > jogos[i][3]){
 					derrotas += 1;
 				} else {
@@ -423,7 +422,6 @@ function ano(){
 	cabecalho();
 
 	var ano = document.getElementById("anoJogo").value;
-	var contador = jogos.length;
 	var quantidade = 0;
 	var vitorias = 0;
 	var empates = 0;
@@ -440,211 +438,206 @@ function ano(){
 	}
 	for(var i = quantidade - 1; i >= 0; i--){
 		escreveLinha(time, selecionados[i], i + 1);
-			// Contabiliza vitória, empate ou derrota
-			if(selecionados[i][2] == selecionados[i][3]){
-				empates += 1;
-			} else if (selecionados[i][0] == "Botafogo"){
-				if(selecionados[i][2] > selecionados[i][3]){
-					vitorias += 1;
-				} else {
-					derrotas += 1;
-				}
-			} else if (selecionados[i][0] != "Botafogo"){
-				if(selecionados[i][2] > selecionados[i][3]){
-					derrotas += 1;
-				} else {
-					vitorias += 1;
-				}
+		// Contabiliza vitória, empate ou derrota
+		if(selecionados[i][2] == selecionados[i][3]){
+			empates += 1;
+		} else if (selecionados[i][0] == time){
+			if(selecionados[i][2] > selecionados[i][3]){
+				vitorias += 1;
+			} else {
+				derrotas += 1;
+			}
+		} else if (selecionados[i][0] != time){
+			if(selecionados[i][2] > selecionados[i][3]){
+				derrotas += 1;
+			} else {
+				vitorias += 1;
 			}
 		}
-		estatisticas(quantidade, vitorias, empates, derrotas);	
 	}
+	estatisticas(quantidade, vitorias, empates, derrotas);	
+}
 
-	function vitorias(){
-		limpaTabela();
-		cabecalho();
+function vitorias(){
+	limpaTabela();
+	cabecalho();
+	var quantidade = 0;
+	var selecionados = [];
 
-		var contador = jogos.length;
-		var quantidade = 0;
-		var selecionados = [];
-
-
-		for(var i = 0; i < jogos.length; i++){
-			if(((jogos[i][0] == "Botafogo") && (jogos[i][2] > jogos[i][3])) || 
-				((jogos[i][1] == "Botafogo") && (jogos[i][2] < jogos[i][3]))){
-				quantidade += 1;
-			selecionados.push(jogos[i]);
+	for(var i = 0; i < jogos.length; i++){
+		if(((jogos[i][0] == time) && (jogos[i][2] > jogos[i][3])) || 
+			((jogos[i][1] == time) && (jogos[i][2] < jogos[i][3]))){
+			quantidade += 1;
+		selecionados.push(jogos[i]);
 		}
 	}
 	for(var i = quantidade - 1; i >= 0; i--){
 		escreveLinha(time, selecionados[i], i + 1);
-			// Contabiliza vitória, empate ou derrota
-			if(selecionados[i][2] == selecionados[i][3]){
-				empates += 1;
-			} else if (selecionados[i][0] == "Botafogo"){
-				if(selecionados[i][2] > selecionados[i][3]){
-					vitorias += 1;
-				} else {
-					derrotas += 1;
-				}
-			} else if (selecionados[i][0] != "Botafogo"){
-				if(selecionados[i][2] > selecionados[i][3]){
-					derrotas += 1;
-				} else {
-					vitorias += 1;
-				}
+		// Contabiliza vitória, empate ou derrota
+		if(selecionados[i][2] == selecionados[i][3]){
+			empates += 1;
+		} else if (selecionados[i][0] == time){
+			if(selecionados[i][2] > selecionados[i][3]){
+				vitorias += 1;
+			} else {
+				derrotas += 1;
+			}
+		} else if (selecionados[i][0] != time){
+			if(selecionados[i][2] > selecionados[i][3]){
+				derrotas += 1;
+			} else {
+				vitorias += 1;
 			}
 		}
-
-		getVitorias(quantidade);
 	}
+	getVitorias(quantidade);
+}
 
-	function empates(){
-		limpaTabela();
-		cabecalho();
+function empates(){
+	limpaTabela();
+	cabecalho();
 
-		var quantidade = 0;
-		var selecionados = [];
+	var quantidade = 0;
+	var selecionados = [];
 
-		for(var i = 0; i < jogos.length; i++){
-			if(jogos[i][2] == jogos[i][3]){
-				quantidade += 1;
-				selecionados.push(jogos[i]);
-			}
-		}
-
-		for(var i = quantidade - 1; i >= 0; i--){
-			escreveLinha(time, selecionados[i], i + 1);
-			// Contabiliza vitória, empate ou derrota
-			if(selecionados[i][2] == selecionados[i][3]){
-				empates += 1;
-			} else if (selecionados[i][0] == "Botafogo"){
-				if(selecionados[i][2] > selecionados[i][3]){
-					vitorias += 1;
-				} else {
-					derrotas += 1;
-				}
-			} else if (selecionados[i][0] != "Botafogo"){
-				if(selecionados[i][2] > selecionados[i][3]){
-					derrotas += 1;
-				} else {
-					vitorias += 1;
-				}
-			}
-		}
-		getEmpates(quantidade);
-	}
-
-	function derrotas(){
-		limpaTabela();
-		cabecalho();
-
-		var contador = jogos.length;
-		var quantidade = 0;
-		var selecionados = [];
-
-		for(var i = 0; i < jogos.length; i++){
-			if(((jogos[i][0] == "Botafogo") && (jogos[i][2] < jogos[i][3])) || 
-				((jogos[i][1] == "Botafogo") && (jogos[i][2] > jogos[i][3]))){
-				quantidade += 1;
+	for(var i = 0; i < jogos.length; i++){
+		if(jogos[i][2] == jogos[i][3]){
+			quantidade += 1;
 			selecionados.push(jogos[i]);
 		}
 	}
 
 	for(var i = quantidade - 1; i >= 0; i--){
 		escreveLinha(time, selecionados[i], i + 1);
-			// Contabiliza vitória, empate ou derrota
-			if(selecionados[i][2] == selecionados[i][3]){
-				empates += 1;
-			} else if (selecionados[i][0] == "Botafogo"){
-				if(selecionados[i][2] > selecionados[i][3]){
-					vitorias += 1;
-				} else {
-					derrotas += 1;
-				}
-			} else if (selecionados[i][0] != "Botafogo"){
-				if(selecionados[i][2] > selecionados[i][3]){
-					derrotas += 1;
-				} else {
-					vitorias += 1;
-				}
+		// Contabiliza vitória, empate ou derrota
+		if(selecionados[i][2] == selecionados[i][3]){
+			empates += 1;
+		} else if (selecionados[i][0] == time){
+			if(selecionados[i][2] > selecionados[i][3]){
+				vitorias += 1;
+			} else {
+				derrotas += 1;
+			}
+		} else if (selecionados[i][0] != time){
+			if(selecionados[i][2] > selecionados[i][3]){
+				derrotas += 1;
+			} else {
+				vitorias += 1;
 			}
 		}
-		getDerrotas(quantidade);
+	}
+	getEmpates(quantidade);
+}
+
+function derrotas(){
+	limpaTabela();
+	cabecalho();
+
+	var quantidade = 0;
+	var selecionados = [];
+
+	for(var i = 0; i < jogos.length; i++){
+		if(((jogos[i][0] == time) && (jogos[i][2] < jogos[i][3])) || 
+			((jogos[i][1] == time) && (jogos[i][2] > jogos[i][3]))){
+			quantidade += 1;
+			selecionados.push(jogos[i]);
+		}
 	}
 
-	function outrosJogos(){
-		limpaTabela();
-		cabecalho();
-
-		var contador = outros.length;
-
-		for(var i = contador - 1; i >=0; i--){
-			escreveLinha(time, outros[i], i + 1);
+	for(var i = quantidade - 1; i >= 0; i--){
+		escreveLinha(time, selecionados[i], i + 1);
+		// Contabiliza vitória, empate ou derrota
+		if(selecionados[i][2] == selecionados[i][3]){
+			empates += 1;
+		} else if (selecionados[i][0] == time){
+			if(selecionados[i][2] > selecionados[i][3]){
+				vitorias += 1;
+			} else {
+				derrotas += 1;
+			}
+		} else if (selecionados[i][0] != time){
+			if(selecionados[i][2] > selecionados[i][3]){
+				derrotas += 1;
+			} else {
+				vitorias += 1;
+			}
 		}
 	}
+	getDerrotas(quantidade);
+}
 
-	function converteData(data){
-		var array = data.split("-");
-		var novaData = array[2] + "/" + array[1] + "/" + array[0];
+function outrosJogos(){
+	limpaTabela();
+	cabecalho();
 
-		return novaData;
+	var contador = outros.length;
+
+	for(var i = contador - 1; i >=0; i--){
+		escreveLinha(time, outros[i], i + 1);
+	}
+}
+
+function converteData(data){
+	var array = data.split("-");
+	var novaData = array[2] + "/" + array[1] + "/" + array[0];
+
+	return novaData;
+}
+
+function getEscudoName(time, jogo){
+	var dataCortada = jogo[5].split("-");
+	var ano = parseInt(dataCortada[0]);
+
+	if(time == "Goiás" && ano >= 2019){
+		return "Goiás2019";
+	} else if (time == "Internacional" && ano < 2009){
+		return "Internacional2009";
+	} else if (time == "Náutico" && ano >= 2008){
+		return "Náutico2008";
+	} else if (time == "Flamengo" && ano >= 2018){
+		return "Flamengo2018";
+	} else if (time == "Resende" && ano >= 2020){
+		return "Resende2020";
+	} else if (time == "Vasco" && ano >= 2021){
+		return "Vasco2021";
 	}
 
-	function getEscudoName(time, jogo){
-		var dataCortada = jogo[5].split("-");
-		var ano = parseInt(dataCortada[0]);
+	var cortaNome = time.split(" ");
+	var juntaNome = "";
 
-		if(time == "Goiás" && ano >= 2019){
-			return "Goiás2019";
-		} else if (time == "Internacional" && ano < 2009){
-			return "Internacional2009";
-		} else if (time == "Náutico" && ano >= 2008){
-			return "Náutico2008";
-		} else if (time == "Flamengo" && ano >= 2018){
-			return "Flamengo2018";
-		} else if (time == "Resende" && ano >= 2020){
-			return "Resende2020";
-		} else if (time == "Vasco" && ano >= 2021){
-			return "Vasco2021";
-		}
-
-		var cortaNome = time.split(" ");
-		var juntaNome = "";
-
-		for(var i = 0; i < cortaNome.length; i++){
-			juntaNome += cortaNome[i];
-		}
-		return juntaNome;
+	for(var i = 0; i < cortaNome.length; i++){
+		juntaNome += cortaNome[i];
 	}
+	return juntaNome;
+}
 
-	function getFuncaoSelect(valor){
+function getFuncaoSelect(valor){
 
-		if(valor == "decrescente"){
-			decrescente();
-		}
-		else if(valor == "crescente"){
-			crescente();
-		}
-		else if(valor == "mandante"){
-			mandante();
-		}
-		else if(valor == "visitante"){
-			visitante();
-		}
-		else if(valor == "vitorias"){
-			vitorias();
-		}
-		else if(valor == "empates"){
-			empates();
-		}
-		else if(valor == "derrotas"){
-			derrotas();
-		}
-		else if(valor == "outros"){
-			outrosJogos();
-		}
+	if(valor == "decrescente"){
+		decrescente();
 	}
+	else if(valor == "crescente"){
+		crescente();
+	}
+	else if(valor == "mandante"){
+		mandante();
+	}
+	else if(valor == "visitante"){
+		visitante();
+	}
+	else if(valor == "vitorias"){
+		vitorias();
+	}
+	else if(valor == "empates"){
+		empates();
+	}
+	else if(valor == "derrotas"){
+		derrotas();
+	}
+	else if(valor == "outros"){
+		outrosJogos();
+	}
+}
 
 // Limpa a tabela e reescreve o cabeçalho
 function limpaTabela(){
