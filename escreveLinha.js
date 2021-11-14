@@ -52,7 +52,7 @@ function escreveLinha(meuTime, jogo, numero){
 	details.style.background = "linear-gradient(90deg, " + coresTimes(mandante, jogo)[0] + " 49%, " + coresTimes(visitante, jogo)[0] + " 52%)";
 	details.style.cursor = "pointer";
 	details.style.color = "white";
-	details.style.border = "1px solid " + coresTimes(meuTime, jogo)[1];
+	details.style.border = "2px solid " + coresTimes(meuTime, jogo)[1];
 
 	var summary = document.createElement("summary");
 	summary.style.textAlign = "center";
@@ -162,6 +162,17 @@ function escreveLinha(meuTime, jogo, numero){
 		listaGolsVisitante.appendChild(autorGol); 
 	}
 
+	/*
+	var divVideo = document.createElement("div"); 
+	divVideo.className = "divVideo";
+	var embedVideo = document.createElement("object"); 
+	embedVideo.data = "https://www.youtube.com/embed/rOTCmzdwSk8";
+	embedVideo.width = '70%';
+	embedVideo.height = '300px';
+
+	divVideo.appendChild(embedVideo);
+	*/
+
 	divMandante.append(listaGolsMandante);
 	divVisitante.append(listaGolsVisitante);
 	divGols.appendChild(divMandante);
@@ -169,5 +180,6 @@ function escreveLinha(meuTime, jogo, numero){
 	details.appendChild(summary);
 	details.appendChild(pTecnico);
 	details.appendChild(divGols);
+	//details.appendChild(divVideo);
 	tabela.appendChild(details);
 }
