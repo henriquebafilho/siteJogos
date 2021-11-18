@@ -162,24 +162,37 @@ function escreveLinha(meuTime, jogo, numero){
 		listaGolsVisitante.appendChild(autorGol); 
 	}
 
-	/*
-	var divVideo = document.createElement("div"); 
-	divVideo.className = "divVideo";
-	var embedVideo = document.createElement("object"); 
-	embedVideo.data = "https://www.youtube.com/embed/rOTCmzdwSk8";
-	embedVideo.width = '70%';
-	embedVideo.height = '300px';
+	try {
+		var divVideo = document.createElement("div"); 
+		divVideo.className = "divVideo";
+		var embedVideo = document.createElement("object"); 
+		embedVideo.data = jogo[10];
+		embedVideo.width = '70%';
+		embedVideo.height = '300px';
 
-	divVideo.appendChild(embedVideo);
-	*/
-
-	divMandante.append(listaGolsMandante);
-	divVisitante.append(listaGolsVisitante);
-	divGols.appendChild(divMandante);
-	divGols.appendChild(divVisitante);
-	details.appendChild(summary);
-	details.appendChild(pTecnico);
-	details.appendChild(divGols);
-	//details.appendChild(divVideo);
-	tabela.appendChild(details);
+		divVideo.appendChild(embedVideo);
+	} catch (error) {
+		console.log(error);
+	}
+	
+	try {
+		divMandante.append(listaGolsMandante);
+		divVisitante.append(listaGolsVisitante);
+		divGols.appendChild(divMandante);
+		divGols.appendChild(divVisitante);
+		details.appendChild(summary);
+		details.appendChild(pTecnico);
+		details.appendChild(divGols);
+		details.appendChild(divVideo);
+		tabela.appendChild(details);
+	} catch (error) {
+		divMandante.append(listaGolsMandante);
+		divVisitante.append(listaGolsVisitante);
+		divGols.appendChild(divMandante);
+		divGols.appendChild(divVisitante);
+		details.appendChild(summary);
+		details.appendChild(pTecnico);
+		details.appendChild(divGols);
+		tabela.appendChild(details);
+	}
 }

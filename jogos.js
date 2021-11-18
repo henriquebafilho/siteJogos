@@ -9,7 +9,6 @@
 7 - técnico
 8 - autorBotafogo
 9 - autorAdversario
-10 - escudo novo (se tiver)
 */
 
 var jogos = [];
@@ -414,9 +413,9 @@ var jogo20211020 = ["Botafogo", "Brusque", 3, 0, "Série B", "2021-10-20", "Nilt
 jogos.push(jogo20211020);
 var jogo20211103 = ["Botafogo", "Confiança", 1, 0, "Série B", "2021-11-03", "Nilton Santos", "Enderson Moreira", ["Diego Gonçalves"], [""]];
 jogos.push(jogo20211103);
-var jogo20211107 = ["Vasco", "Botafogo", 0, 4, "Série B", "2021-11-07", "São Januário", "Enderson Moreira", ["Marco Antônio (2x)", "Rafael Navarro", "Diego Gonçalves"], [""]];
+var jogo20211107 = ["Vasco", "Botafogo", 0, 4, "Série B", "2021-11-07", "São Januário", "Enderson Moreira", ["Marco Antônio (2x)", "Rafael Navarro", "Diego Gonçalves"], [""], "https://www.youtube.com/embed/rOTCmzdwSk8"];
 jogos.push(jogo20211107);
-var jogo20211115 = ["Botafogo", "Operário", 2, 1, "Série B", "2021-11-15", "Nilton Santos", "Enderson Moreira", ["Pedro Castro", "Rafael Navarro"], ["Fabiano"]];
+var jogo20211115 = ["Botafogo", "Operário", 2, 1, "Série B", "2021-11-15", "Nilton Santos", "Enderson Moreira", ["Pedro Castro", "Rafael Navarro"], ["Fabiano"], "https://www.youtube.com/embed/SWidPvsxm9I"];
 jogos.push(jogo20211115);
 /*var jogo20211128 = ["Botafogo", "Guarani", 0, 0, "Série B", "2021-11-28", "Nilton Santos", "Enderson Moreira", [""], [""]];
 jogos.push(jogo20211128);*/
