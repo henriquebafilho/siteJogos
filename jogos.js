@@ -403,11 +403,11 @@ var jogo20200301 = ["Botafogo", "Boavista", 2, 1, "Carioca", "2020-03-01", "Nilt
 jogos.push(jogo20200301);
 var jogo20200307 = ["Flamengo", "Botafogo",  3, 0, "Carioca", "2020-03-07", "Maracanã", "Paulo Autuori", [""], ["Éverton Ribeiro","Gabriel","Michael"]];
 jogos.push(jogo20200307);
-var jogo20210926 = ["Botafogo", "Sampaio Corrêa", 2, 0, "Série B", "2021-09-26", "Nilton Santos", "Enderson Moreira", ["Rafael Navarro","Luís Oyama"], [""]];
+var jogo20210926 = ["Botafogo", "Sampaio Corrêa", 2, 0, "Série B", "2021-09-26", "Nilton Santos", "Enderson Moreira", ["Rafael Navarro","Luís Oyama"], [""], "https://www.youtube.com/embed/JacdF6x-VxY"];
 jogos.push(jogo20210926);
-var jogo20211002 = ["Botafogo", "Avaí", 1, 2, "Série B", "2021-10-02", "Nilton Santos", "Enderson Moreira", ["Diego Gonçalves"], ["Jean Cleber","Bruno Silva"]];
+var jogo20211002 = ["Botafogo", "Avaí", 1, 2, "Série B", "2021-10-02", "Nilton Santos", "Enderson Moreira", ["Diego Gonçalves"], ["Jean Cleber","Bruno Silva"], "https://www.youtube.com/embed/YKydTyB5Jjs"];
 jogos.push(jogo20211002);
-var jogo20211008 = ["Botafogo", "CRB", 2, 0, "Série B", "2021-10-08", "Nilton Santos", "Enderson Moreira", ["Marco Antônio","Carlinhos"], [""]];
+var jogo20211008 = ["Botafogo", "CRB", 2, 0, "Série B", "2021-10-08", "Nilton Santos", "Enderson Moreira", ["Marco Antônio","Carlinhos"], [""], "https://www.youtube.com/embed/FgCwni-h82k"];
 jogos.push(jogo20211008);
 var jogo20211020 = ["Botafogo", "Brusque", 3, 0, "Série B", "2021-10-20", "Nilton Santos", "Enderson Moreira", ["Rafael Navarro (2x)", "Marco Antônio"], [""], "https://www.youtube.com/embed/ZjqyO7fifT8"];
 jogos.push(jogo20211020);
@@ -417,8 +417,8 @@ var jogo20211107 = ["Vasco", "Botafogo", 0, 4, "Série B", "2021-11-07", "São J
 jogos.push(jogo20211107);
 var jogo20211115 = ["Botafogo", "Operário", 2, 1, "Série B", "2021-11-15", "Nilton Santos", "Enderson Moreira", ["Pedro Castro", "Rafael Navarro"], ["Fabiano"], "https://www.youtube.com/embed/SWidPvsxm9I"];
 jogos.push(jogo20211115);
-/*var jogo20211128 = ["Botafogo", "Guarani", 0, 0, "Série B", "2021-11-28", "Nilton Santos", "Enderson Moreira", [""], [""]];
-jogos.push(jogo20211128);*/
+var jogo20211128 = ["Botafogo", "Guarani", 0, 0, "Série B", "2021-11-28", "Nilton Santos", "Enderson Moreira", [""], [""]];
+jogos.push(jogo20211128);
 
 var outros = [];
 
