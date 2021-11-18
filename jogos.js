@@ -409,9 +409,9 @@ var jogo20211002 = ["Botafogo", "Avaí", 1, 2, "Série B", "2021-10-02", "Nilton
 jogos.push(jogo20211002);
 var jogo20211008 = ["Botafogo", "CRB", 2, 0, "Série B", "2021-10-08", "Nilton Santos", "Enderson Moreira", ["Marco Antônio","Carlinhos"], [""]];
 jogos.push(jogo20211008);
-var jogo20211020 = ["Botafogo", "Brusque", 3, 0, "Série B", "2021-10-20", "Nilton Santos", "Enderson Moreira", ["Rafael Navarro (2x)", "Marco Antônio"], [""]];
+var jogo20211020 = ["Botafogo", "Brusque", 3, 0, "Série B", "2021-10-20", "Nilton Santos", "Enderson Moreira", ["Rafael Navarro (2x)", "Marco Antônio"], [""], "https://www.youtube.com/embed/ZjqyO7fifT8"];
 jogos.push(jogo20211020);
-var jogo20211103 = ["Botafogo", "Confiança", 1, 0, "Série B", "2021-11-03", "Nilton Santos", "Enderson Moreira", ["Diego Gonçalves"], [""]];
+var jogo20211103 = ["Botafogo", "Confiança", 1, 0, "Série B", "2021-11-03", "Nilton Santos", "Enderson Moreira", ["Diego Gonçalves"], [""], "https://www.youtube.com/embed/lEwmd7IP1_g"];
 jogos.push(jogo20211103);
 var jogo20211107 = ["Vasco", "Botafogo", 0, 4, "Série B", "2021-11-07", "São Januário", "Enderson Moreira", ["Marco Antônio (2x)", "Rafael Navarro", "Diego Gonçalves"], [""], "https://www.youtube.com/embed/rOTCmzdwSk8"];
 jogos.push(jogo20211107);
