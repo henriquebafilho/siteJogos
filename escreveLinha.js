@@ -161,38 +161,32 @@ function escreveLinha(meuTime, jogo, numero){
 		autorGol.appendChild(document.createElement("br"));
 		listaGolsVisitante.appendChild(autorGol); 
 	}
-
-	try {
-		var divVideo = document.createElement("div"); 
-		divVideo.className = "divVideo";
+	
+	var divVideo = document.createElement("div"); 
+	divVideo.className = "divVideo";
+	if(jogo[10] != null) {
 		var embedVideo = document.createElement("object"); 
 		embedVideo.data = jogo[10];
 		embedVideo.width = '70%';
 		embedVideo.height = '300px';
-
 		divVideo.appendChild(embedVideo);
-	} catch (error) {
-		console.log(error);
+	} else {
+		var p = document.createElement("p");
+		var pText = document.createTextNode("Vídeo não disponível"); 
+		p.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+		p.style.fontFamily = "Arial";
+		p.style.fontSize = "12px";
+		p.appendChild(pText);
+		divVideo.appendChild(p);
 	}
 	
-	try {
-		divMandante.append(listaGolsMandante);
-		divVisitante.append(listaGolsVisitante);
-		divGols.appendChild(divMandante);
-		divGols.appendChild(divVisitante);
-		details.appendChild(summary);
-		details.appendChild(pTecnico);
-		details.appendChild(divGols);
-		details.appendChild(divVideo);
-		tabela.appendChild(details);
-	} catch (error) {
-		divMandante.append(listaGolsMandante);
-		divVisitante.append(listaGolsVisitante);
-		divGols.appendChild(divMandante);
-		divGols.appendChild(divVisitante);
-		details.appendChild(summary);
-		details.appendChild(pTecnico);
-		details.appendChild(divGols);
-		tabela.appendChild(details);
-	}
+	divMandante.append(listaGolsMandante);
+	divVisitante.append(listaGolsVisitante);
+	divGols.appendChild(divMandante);
+	divGols.appendChild(divVisitante);
+	details.appendChild(summary);
+	details.appendChild(pTecnico);
+	details.appendChild(divGols);
+	details.appendChild(divVideo);
+	tabela.appendChild(details);
 }
