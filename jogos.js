@@ -14,11 +14,11 @@
 
 var jogos = [];
 
-var jogo20021026 = ["Botafogo", "Fluminense", 2, 3, "Série A", "2002-10-26", "Maracanã", "Ivo Wortmann", ["Galeano", "Léo Inácio"], ["César","Magno Alves","Romário"]];
+var jogo20021026 = ["Botafogo", "Fluminense", 2, 3, "Série A", "2002-10-26", "Maracanã", "Ivo Wortmann", ["Galeano", "Léo Inácio"], ["César","Magno Alves","Romário"], "https://www.youtube.com/embed/PqiI2VnS3oU"];
 jogos.push(jogo20021026);
 var jogo20040229 =  ["Botafogo", "Fluminense", 0, 0, "Carioca", "2004-02-29", "Maracanã", "Levir Culpi", [[""]], [[""]]];
 jogos.push(jogo20040229);
-var jogo20040314 =  ["Botafogo", "Flamengo", 1, 0, "Carioca", "2004-03-14", "Maracanã", "Levir Culpi", ["Alex Alves"], [""]];
+var jogo20040314 =  ["Botafogo", "Flamengo", 1, 0, "Carioca", "2004-03-14", "Maracanã", "Levir Culpi", ["Alex Alves"], [""], "https://www.youtube.com/embed/6flHjmxTW8w"];
 jogos.push(jogo20040314);
 var jogo20040812 = ["Botafogo", "Atlético-PR", 1, 1, "Série A", "2004-08-12", "Caio Martins", "Mauro Galvão", ["Schwenck"], ["Washington"]];
 jogos.push(jogo20040812);
