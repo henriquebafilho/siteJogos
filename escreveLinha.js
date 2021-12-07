@@ -53,12 +53,16 @@ function escreveLinha(meuTime, jogo, numero){
 	details.style.cursor = "pointer";
 	details.style.color = "white";
 	details.style.border = "2px solid " + coresTimes(meuTime, jogo)[1];
+	if(coresTimes(mandante, jogo)[0] == "white" && coresTimes(visitante, jogo)[0] == "white"){
+		details.style.color = "black";
+		details.style.fontWeight = "bold";
+	}
 
 	var summary = document.createElement("summary");
 	summary.style.textAlign = "center";
 	summary.style.fontWeight = "bold";
 	summary.style.fontSize = '200%';
-	summary.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+	summary.style.textShadow = coresTimes(mandante, jogo)[0] == "white" && coresTimes(visitante, jogo)[0] == "white" ? "" : "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
 
 	var pCabecalho = document.createElement("p");
 	pCabecalho.style.fontWeight = "normal";
@@ -96,7 +100,7 @@ function escreveLinha(meuTime, jogo, numero){
 	var textTecnico = document.createTextNode("Técnico: " + jogo[7]);
 	//pTecnico.style.fontSize = '1em';
 	pTecnico.style.textAlign = "center";
-	pTecnico.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+	pTecnico.style.textShadow = coresTimes(mandante, jogo)[0] == "white" && coresTimes(visitante, jogo)[0] == "white" ? "" : "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
 	//pTecnico.style.webkitTextStrokeWidth = '1px';
 	//pTecnico.style.webkitTextStrokeColor = 'black';
 	pTecnico.appendChild(textTecnico);
@@ -116,7 +120,7 @@ function escreveLinha(meuTime, jogo, numero){
 	divMandante.style.fontWeight = 'bold';
 
 	var listaGolsMandante = document.createElement("ul");
-	var golsMandante = jogo[0] == meuTime ? jogo[8] : jogo[9];
+	var golsMandante = jogo[0] == meuTime || jogo[1] == meuTime ? jogo[0] == meuTime? jogo[8] : jogo[9] : jogo[8];
 	for(var i = 0; i < golsMandante.length; i++){
 		if(golsMandante[i] != "" && golsMandante[i] != " " && golsMandante[i].indexOf("Pênaltis:")){
 			var bolinhaGol = document.createElement("img");
@@ -144,7 +148,8 @@ function escreveLinha(meuTime, jogo, numero){
 
 	var listaGolsVisitante = document.createElement("ul");
 	listaGolsVisitante.style.textAlign = golsMandante == "" ? 'center' : '';
-	var golsVisitante = jogo[1] == meuTime ? jogo[8] : jogo[9];
+	//var golsVisitante = jogo[1] == meuTime ? jogo[8] : jogo[9];
+	var golsVisitante = jogo[0] == meuTime || jogo[1] == meuTime ? jogo[1] == meuTime? jogo[8] : jogo[9] : jogo[9];
 	for(var i = 0; i < golsVisitante.length; i++){
 		if(golsVisitante[i] != "" && golsVisitante[i] != " " && golsVisitante[i].indexOf("Pênaltis:")){
 			var bolinhaGol = document.createElement("img");
@@ -173,7 +178,7 @@ function escreveLinha(meuTime, jogo, numero){
 	} else {
 		var p = document.createElement("p");
 		var pText = document.createTextNode("Vídeo não disponível"); 
-		p.style.textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+		p.style.textShadow = coresTimes(mandante, jogo)[0] == "white" && coresTimes(visitante, jogo)[0] == "white" ? "" : "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
 		p.style.fontFamily = "Arial";
 		p.style.fontSize = "12px";
 		p.appendChild(pText);
