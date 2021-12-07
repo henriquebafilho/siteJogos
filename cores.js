@@ -86,15 +86,7 @@ function coresTimes(time, jogo = null) {
 		case "Fortaleza":
 			return ["#11519b", "white"];
 		case "Goiás":
-			if (jogo != null) {
-				if (ano < 2019) {
-					return ["#048439", "white"];
-				} else if (ano >= 2019) {
-					return ["#006959", "white"];
-				}
-			} else {
-				return ["#048439", "white"];
-			}
+			return ["#006437", "white"];
 		case "Grêmio":
 			return ["#0d80bf", "white"];
 		case "Guarani":
