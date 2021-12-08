@@ -276,7 +276,7 @@ var jogo20180325 = ["Fluminense", "Botafogo", 3, 0, "Carioca", "2018-03-25", "Ma
 jogos.push(jogo20180325);
 var jogo20180328 = ["Flamengo", "Botafogo", 0, 1, "Carioca", "2018-03-28", "Maracanã", "Alberto Valentim", ["Luiz Fernando"], [""], "https://www.youtube.com/embed/sFt3yLgyozU"];
 jogos.push(jogo20180328);
-var jogo20180401 = ["Botafogo", "Vasco", 2, 3, "Carioca", "2018-04-01", "Nilton Santos", "Alberto Valentim", ["Renatinho ","Brenner"], ["Yago Pikachu (2x) ","Andrés Ríos"], "https://www.youtube.com/embed/GGnD40y-6bE"];
+var jogo20180401 = ["Botafogo", "Vasco", 2, 3, "Carioca", "2018-04-01", "Nilton Santos", "Alberto Valentim", ["Renatinho ","Brenner"], ["Yago Pikachu (2x)","Andrés Ríos"], "https://www.youtube.com/embed/GGnD40y-6bE"];
 jogos.push(jogo20180401);
 var jogo20180408 = ["Vasco", "Botafogo", 0, 1, "Carioca", "2018-04-08", "Maracanã", "Alberto Valentim", ["Joel Carli",[""],"Pênaltis: (4)","Brenner","Gilson","Marcinho","Renatinho"], [[""],[""],"Pênaltis: (3)","Wagner","Andrés Ríos","Yago Pikachu"], "https://www.youtube.com/embed/KNG6fDmQqi4"];
 jogos.push(jogo20180408);

@@ -124,13 +124,29 @@ function escreveLinha(meuTime, jogo, numero){
 	var golsMandante = jogo[0] == meuTime || jogo[1] == meuTime ? jogo[0] == meuTime? jogo[8] : jogo[9] : jogo[8];
 	for(var i = 0; i < golsMandante.length; i++){
 		if(golsMandante[i] != "" && golsMandante[i] != " " && golsMandante[i].indexOf("Pênaltis:")){
-			var bolinhaGol = document.createElement("img");
-			bolinhaGol.src = "index_files/bola.png";
-			bolinhaGol.width = 15;
-			bolinhaGol.height = 15;
-			bolinhaGol.style.display = 'inline';
-			bolinhaGol.style.paddingRight = '5px';
-			listaGolsMandante.appendChild(bolinhaGol);
+			if(golsMandante[i][golsMandante[i].length - 1] == ")"
+			&& golsMandante[i][golsMandante[i].length - 2] == "x"){
+				var qtdGols = parseInt(golsMandante[i][golsMandante[i].length - 3]);
+				for(var j = 0; j < qtdGols; j++){
+					let bolinhaGol = document.createElement("img");
+					bolinhaGol.src = "index_files/bola.png";
+					bolinhaGol.width = 15;
+					bolinhaGol.height = 15;
+					bolinhaGol.style.display = 'inline';
+					bolinhaGol.style.paddingRight = '5px';
+					listaGolsMandante.appendChild(bolinhaGol);		
+				}
+				golsMandante[i] = golsMandante[i].replace("("+qtdGols+"x)", "");
+				golsMandante[i] = golsMandante[i].trim();
+			} else {
+				let bolinhaGol = document.createElement("img");
+				bolinhaGol.src = "index_files/bola.png";
+				bolinhaGol.width = 15;
+				bolinhaGol.height = 15;
+				bolinhaGol.style.display = 'inline';
+				bolinhaGol.style.paddingRight = '5px';
+				listaGolsMandante.appendChild(bolinhaGol);
+			}
 		}
 		var autorGol = document.createElement("li");
 		autorGol.style.display = 'inline';
@@ -153,13 +169,29 @@ function escreveLinha(meuTime, jogo, numero){
 	var golsVisitante = jogo[0] == meuTime || jogo[1] == meuTime ? jogo[1] == meuTime? jogo[8] : jogo[9] : jogo[9];
 	for(var i = 0; i < golsVisitante.length; i++){
 		if(golsVisitante[i] != "" && golsVisitante[i] != " " && golsVisitante[i].indexOf("Pênaltis:")){
-			var bolinhaGol = document.createElement("img");
-			bolinhaGol.src = "index_files/bola.png";
-			bolinhaGol.width = 15;
-			bolinhaGol.height = 15;
-			bolinhaGol.style.display = 'inline';
-			bolinhaGol.style.paddingRight = '5px';
-			listaGolsVisitante.appendChild(bolinhaGol);
+			if(golsVisitante[i][golsVisitante[i].length - 1] == ")"
+			&& golsVisitante[i][golsVisitante[i].length - 2] == "x"){
+				var qtdGols = parseInt(golsVisitante[i][golsVisitante[i].length - 3]);
+				for(var j = 0; j < qtdGols; j++){
+					let bolinhaGol = document.createElement("img");
+					bolinhaGol.src = "index_files/bola.png";
+					bolinhaGol.width = 15;
+					bolinhaGol.height = 15;
+					bolinhaGol.style.display = 'inline';
+					bolinhaGol.style.paddingRight = '5px';
+					listaGolsVisitante.appendChild(bolinhaGol);		
+				}
+				golsVisitante[i] = golsVisitante[i].replace("("+qtdGols+"x)", "");
+				golsVisitante[i] = golsVisitante[i].trim();
+			} else {
+				let bolinhaGol = document.createElement("img");
+				bolinhaGol.src = "index_files/bola.png";
+				bolinhaGol.width = 15;
+				bolinhaGol.height = 15;
+				bolinhaGol.style.display = 'inline';
+				bolinhaGol.style.paddingRight = '5px';
+				listaGolsVisitante.appendChild(bolinhaGol);
+			}
 		}
 		var autorGol = document.createElement("li");
 		autorGol.style.display = 'inline';
