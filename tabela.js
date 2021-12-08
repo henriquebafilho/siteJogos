@@ -590,6 +590,18 @@ function converteData(data){
 	return novaData;
 }
 
+function converteDia(data){
+	switch(data){
+		case 0: return "Seg";
+		case 1: return "Ter";
+		case 2: return "Qua";
+		case 3: return "Qui";
+		case 4: return "Sex";
+		case 5: return "Sáb";
+		case 6: return "Dom";
+	}
+}
+
 function getEscudoName(time, jogo){
 	var dataCortada = jogo[5].split("-");
 	var ano = parseInt(dataCortada[0]);

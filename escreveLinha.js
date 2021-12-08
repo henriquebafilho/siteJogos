@@ -68,7 +68,8 @@ function escreveLinha(meuTime, jogo, numero){
 	pCabecalho.style.fontWeight = "normal";
 	pCabecalho.style.fontSize = '1em';
 	pCabecalho.style.display = "nowrap";
-	var textCabecalho = document.createTextNode(converteData(jogo[5]) + " | " + "Estádio " + jogo[6] + " | " + jogo[4]);
+	var data = new Date(jogo[5]);
+	var textCabecalho = document.createTextNode(converteDia(data.getDay()) + ", " + converteData(jogo[5]) + " | " + "Estádio " + jogo[6] + " | " + jogo[4]);
 	pCabecalho.appendChild(textCabecalho);
 
 	var divPlacar = document.createElement("div");
