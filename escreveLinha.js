@@ -169,7 +169,7 @@ function escreveLinha(meuTime, jogo, numero){
 	
 	var divVideo = document.createElement("div"); 
 	divVideo.className = "divVideo";
-	if(jogo[10] != null) {
+	if(jogo[10] != "") {
 		var embedVideo = document.createElement("object"); 
 		embedVideo.data = jogo[10];
 		embedVideo.width = '70%';
