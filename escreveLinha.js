@@ -123,10 +123,11 @@ function escreveLinha(meuTime, jogo, numero){
 	var listaGolsMandante = document.createElement("ul");
 	var golsMandante = jogo[0] == meuTime || jogo[1] == meuTime ? jogo[0] == meuTime? jogo[8] : jogo[9] : jogo[8];
 	for(var i = 0; i < golsMandante.length; i++){
+		var autorGolMandante = golsMandante[i];
 		if(golsMandante[i] != "" && golsMandante[i] != " " && golsMandante[i].indexOf("Pênaltis:")){
-			if(golsMandante[i][golsMandante[i].length - 1] == ")"
-			&& golsMandante[i][golsMandante[i].length - 2] == "x"){
-				var qtdGols = parseInt(golsMandante[i][golsMandante[i].length - 3]);
+			if(autorGolMandante[autorGolMandante.length - 1] == ")"
+			&& autorGolMandante[autorGolMandante.length - 2] == "x"){
+				var qtdGols = parseInt(autorGolMandante[autorGolMandante.length - 3]);
 				for(var j = 0; j < qtdGols; j++){
 					let bolinhaGol = document.createElement("img");
 					bolinhaGol.src = "index_files/bola.png";
@@ -136,8 +137,8 @@ function escreveLinha(meuTime, jogo, numero){
 					bolinhaGol.style.paddingRight = '5px';
 					listaGolsMandante.appendChild(bolinhaGol);		
 				}
-				golsMandante[i] = golsMandante[i].replace("("+qtdGols+"x)", "");
-				golsMandante[i] = golsMandante[i].trim();
+				autorGolMandante = autorGolMandante.replace("("+qtdGols+"x)", "");
+				autorGolMandante = autorGolMandante.trim();
 			} else {
 				let bolinhaGol = document.createElement("img");
 				bolinhaGol.src = "index_files/bola.png";
@@ -150,7 +151,7 @@ function escreveLinha(meuTime, jogo, numero){
 		}
 		var autorGol = document.createElement("li");
 		autorGol.style.display = 'inline';
-		autorGol.appendChild(document.createTextNode(golsMandante[i]));
+		autorGol.appendChild(document.createTextNode(autorGolMandante));
 		autorGol.appendChild(document.createElement("br"));
 		listaGolsMandante.appendChild(autorGol); 
 	}
@@ -168,10 +169,11 @@ function escreveLinha(meuTime, jogo, numero){
 	//var golsVisitante = jogo[1] == meuTime ? jogo[8] : jogo[9];
 	var golsVisitante = jogo[0] == meuTime || jogo[1] == meuTime ? jogo[1] == meuTime? jogo[8] : jogo[9] : jogo[9];
 	for(var i = 0; i < golsVisitante.length; i++){
+		var autorGolVisitante = golsVisitante[i];
 		if(golsVisitante[i] != "" && golsVisitante[i] != " " && golsVisitante[i].indexOf("Pênaltis:")){
-			if(golsVisitante[i][golsVisitante[i].length - 1] == ")"
-			&& golsVisitante[i][golsVisitante[i].length - 2] == "x"){
-				var qtdGols = parseInt(golsVisitante[i][golsVisitante[i].length - 3]);
+			if(autorGolVisitante[autorGolVisitante.length - 1] == ")"
+			&& autorGolVisitante[autorGolVisitante.length - 2] == "x"){
+				var qtdGols = parseInt(autorGolVisitante[autorGolVisitante.length - 3]);
 				for(var j = 0; j < qtdGols; j++){
 					let bolinhaGol = document.createElement("img");
 					bolinhaGol.src = "index_files/bola.png";
@@ -181,8 +183,8 @@ function escreveLinha(meuTime, jogo, numero){
 					bolinhaGol.style.paddingRight = '5px';
 					listaGolsVisitante.appendChild(bolinhaGol);		
 				}
-				golsVisitante[i] = golsVisitante[i].replace("("+qtdGols+"x)", "");
-				golsVisitante[i] = golsVisitante[i].trim();
+				autorGolVisitante = autorGolVisitante.replace("("+qtdGols+"x)", "");
+				autorGolVisitante = autorGolVisitante.trim();
 			} else {
 				let bolinhaGol = document.createElement("img");
 				bolinhaGol.src = "index_files/bola.png";
@@ -195,7 +197,7 @@ function escreveLinha(meuTime, jogo, numero){
 		}
 		var autorGol = document.createElement("li");
 		autorGol.style.display = 'inline';
-		autorGol.appendChild(document.createTextNode(golsVisitante[i]));
+		autorGol.appendChild(document.createTextNode(autorGolVisitante));
 		autorGol.appendChild(document.createElement("br"));
 		listaGolsVisitante.appendChild(autorGol); 
 	}
