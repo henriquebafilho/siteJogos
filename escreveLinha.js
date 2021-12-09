@@ -45,9 +45,17 @@ function escreveLinha(meuTime, jogo, numero){
 	// Pegando a tabela
 	var tabela = document.getElementById("jogos");
 	tabela.width = "100%";
+
+	var pAno = document.createElement("p");
+	pAno.style.fontWeight = "normal";
+	pAno.style.fontSize = '1.7em';
+	pAno.style.display = "nowrap";
+	pAno.className = "pAno";
+	var textoAno = document.createTextNode(jogo[5].split('-')[0]);
+	pAno.appendChild(textoAno);
+	tabela.appendChild(pAno);
 	
 	// INTERFACE DO DETAILS
-
 	var details = document.createElement("details");
 	details.style.background = "linear-gradient(90deg, " + coresTimes(mandante, jogo)[0] + " 49%, " + coresTimes(visitante, jogo)[0] + " 52%)";
 	details.style.cursor = "pointer";

@@ -662,6 +662,7 @@ function limpaTabela(){
 	$("details").remove(); 
 	$("#fail").remove();
 	$("#pEstatisticas").remove();
+	$(".pAno").remove();
 }
 
 function estatisticas(numero, vitorias, empates, derrotas){
