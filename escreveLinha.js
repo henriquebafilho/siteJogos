@@ -37,7 +37,7 @@ function cabecalho(){
 	//tabela.appendChild(tbody);
 }
 
-function escreveLinha(meuTime, jogo, numero){
+function escreveLinha(meuTime, jogo, numero, ano){
 	// setando o mandante e o visitante
 	var mandante = jogo[0];
 	var visitante = jogo[1];
@@ -46,14 +46,18 @@ function escreveLinha(meuTime, jogo, numero){
 	var tabela = document.getElementById("jogos");
 	tabela.width = "100%";
 
-	var pAno = document.createElement("p");
-	pAno.style.fontWeight = "normal";
-	pAno.style.fontSize = '1.7em';
-	pAno.style.display = "nowrap";
-	pAno.className = "pAno";
-	var textoAno = document.createTextNode(jogo[5].split('-')[0]);
-	pAno.appendChild(textoAno);
-	tabela.appendChild(pAno);
+	console.log(jogo[0] + " x " + jogo[1] + "/" + ano + " - " + jogo[5].split('-')[0]);
+	if(ano != jogo[5].split('-')[0]){
+		var pAno = document.createElement("p");
+		pAno.style.fontWeight = "bold";
+		pAno.style.fontSize = '2em';
+		pAno.style.display = "nowrap";
+		pAno.className = "pAno";
+		var textoAno = document.createTextNode(jogo[5].split('-')[0]);
+		pAno.appendChild(textoAno);
+		tabela.appendChild(pAno);
+	}
+
 	
 	// INTERFACE DO DETAILS
 	var details = document.createElement("details");

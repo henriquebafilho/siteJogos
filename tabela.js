@@ -50,9 +50,15 @@ function decrescente(){
 	var vitorias = 0;
 	var empates = 0;
 	var derrotas = 0;
+	var ano;
 
 	for(var i = jogos.length - 1; i >= 0; i--){
-		escreveLinha(time, jogos[i], i + 1);
+		try {
+			ano = jogos[i+1][5].split("-")[0];
+		} catch (error) {
+			ano = 0;
+		}
+		escreveLinha(time, jogos[i], i + 1, ano);
 		// Contabiliza vitória, empate ou derrota
 		if(jogos[i][2] == jogos[i][3]){
 			empates += 1;
@@ -81,9 +87,15 @@ function crescente(){
 	var vitorias = 0;
 	var empates = 0;
 	var derrotas = 0;
+	var ano;
 
 	for(var i = 0; i < jogos.length; i++){
-		escreveLinha(time, jogos[i], i + 1);
+		try {
+			ano = jogos[i-1][5].split("-")[0];
+		} catch (error) {
+			ano = 0;
+		}
+		escreveLinha(time, jogos[i], i + 1, ano);
 		// Contabiliza vitória, empate ou derrota
 		if(jogos[i][2] == jogos[i][3]){
 			empates += 1;
@@ -114,6 +126,7 @@ function mandante(){
 	var empates = 0;
 	var derrotas = 0;
 	var selecionados = [];
+	var ano;
 
 	for(var i = 0; i < contador; i++){
 		if(jogos[i][0] == time){
@@ -123,7 +136,12 @@ function mandante(){
 	}
 
 	for(var i = quantidade - 1; i >= 0; i--){
-		escreveLinha(time, selecionados[i], i + 1);
+		try {
+			ano = selecionados[i+1][5].split("-")[0];
+		} catch (error) {
+			ano = 0;
+		}
+		escreveLinha(time, selecionados[i], i + 1, ano);
 		// Contabiliza vitória, empate ou derrota
 		if(selecionados[i][2] == selecionados[i][3]){
 			empates += 1;
@@ -154,6 +172,7 @@ function visitante(){
 	var empates = 0;
 	var derrotas = 0;
 	var selecionados = [];
+	var ano;
 
 	for(var i = 0; i < contador; i++){
 		if(jogos[i][0] != time){
@@ -163,7 +182,12 @@ function visitante(){
 	}
 
 	for(var i = quantidade - 1; i >= 0; i--){
-		escreveLinha(time, selecionados[i], i + 1);
+		try {
+			ano = selecionados[i+1][5].split("-")[0];
+		} catch (error) {
+			ano = 0;
+		}
+		escreveLinha(time, selecionados[i], i + 1, ano);
 		// Contabiliza vitória, empate ou derrota
 		if(selecionados[i][2] == selecionados[i][3]){
 			empates += 1;
@@ -197,6 +221,7 @@ function adversario(){
 		var empates = 0;
 		var derrotas = 0;
 		var selecionados = [];
+		var ano = 0;
 
 		for(var i = 0; i < contador; i++){
 			if(adversario == "Atlético-PR" || adversario == "Athletico-PR"){
@@ -222,7 +247,12 @@ function adversario(){
 		}
 
 		for(var i = quantidade - 1; i >= 0; i--){
-			escreveLinha(time, selecionados[i], i + 1);
+			try {
+				ano = selecionados[i+1][5].split("-")[0];
+			} catch (error) {
+				ano = 0;
+			}
+			escreveLinha(time, selecionados[i], i + 1, ano);
 			// Contabiliza vitória, empate ou derrota
 			if(selecionados[i][2] == selecionados[i][3]){
 				empates += 1;
@@ -257,6 +287,7 @@ function campeonato(){
 		var empates = 0;
 		var derrotas = 0;
 		var selecionados = [];
+		var ano;
 
 		for(var i = 0; i < contador; i++){
 			if(campeonato == jogos[i][4]){
@@ -265,7 +296,12 @@ function campeonato(){
 			}
 		}
 		for(var i = quantidade - 1; i >= 0; i--){
-			escreveLinha(time, selecionados[i], i + 1);
+			try {
+				ano = selecionados[i+1][5].split("-")[0];
+			} catch (error) {
+				ano = 0;
+			}
+			escreveLinha(time, selecionados[i], i + 1, ano);
 			// Contabiliza vitória, empate ou derrota
 			if(selecionados[i][2] == selecionados[i][3]){
 				empates += 1;
@@ -301,6 +337,7 @@ function estadio(){
 		var empates = 0;
 		var derrotas = 0;
 		var selecionados = [];
+		var ano;
 
 		for(var i = 0; i < jogos.length; i++){
 			if(estadio == jogos[i][6]){
@@ -310,7 +347,12 @@ function estadio(){
 		}
 
 		for(var i = quantidade - 1; i >= 0; i--){
-			escreveLinha(time, selecionados[i], i + 1);
+			try {
+				ano = selecionados[i+1][5].split("-")[0];
+			} catch (error) {
+				ano = 0;
+			}
+			escreveLinha(time, selecionados[i], i + 1, ano);
 			// Contabiliza vitória, empate ou derrota
 			if(selecionados[i][2] == selecionados[i][3]){
 				empates += 1;
@@ -353,7 +395,12 @@ function tecnico(){
 			}
 		}
 		for(var i = quantidade - 1; i >= 0; i--){
-			escreveLinha(time, selecionados[i], i + 1);
+			try {
+				ano = selecionados[i+1][5].split("-")[0];
+			} catch (error) {
+				ano = 0;
+			}
+			escreveLinha(time, selecionados[i], i + 1, ano);
 			// Contabiliza vitória, empate ou derrota
 			if(selecionados[i][2] == selecionados[i][3]){
 				empates += 1;
@@ -385,12 +432,18 @@ function escolheData(){
 	var empates = 0;
 	var derrotas = 0;
 	var achou = false;
+	var ano;
 
 	for(var i = 0; i < jogos.length; i++){
 		if(data == jogos[i][5]){
 			achou = true;
 			contador += 1;
-			escreveLinha(time, jogos[i], contador);
+			try {
+				ano = jogos[i+1][5].split("-")[0];
+			} catch (error) {
+				ano = 0;
+			}
+			escreveLinha(time, jogos[i], contador, ano);
 			// Contabiliza vitória, empate ou derrota
 			if(jogos[i][2] == jogos[i][3]){
 				empates += 1;
@@ -433,6 +486,7 @@ function ano(){
 	var empates = 0;
 	var derrotas = 0;
 	var selecionados = [];
+	var ano;
 
 	for(var i = 0; i < jogos.length; i++){
 		var dataCortada = jogos[i][5].split("-");
@@ -443,7 +497,12 @@ function ano(){
 		}
 	}
 	for(var i = quantidade - 1; i >= 0; i--){
-		escreveLinha(time, selecionados[i], i + 1);
+		try {
+			ano = selecionados[i+1][5].split("-")[0];
+		} catch (error) {
+			ano = 0;
+		}
+		escreveLinha(time, selecionados[i], i + 1, ano);
 		// Contabiliza vitória, empate ou derrota
 		if(selecionados[i][2] == selecionados[i][3]){
 			empates += 1;
@@ -469,6 +528,7 @@ function vitorias(){
 	cabecalho();
 	var quantidade = 0;
 	var selecionados = [];
+	var ano;
 
 	for(var i = 0; i < jogos.length; i++){
 		if(((jogos[i][0] == time) && (jogos[i][2] > jogos[i][3])) || 
@@ -478,7 +538,12 @@ function vitorias(){
 		}
 	}
 	for(var i = quantidade - 1; i >= 0; i--){
-		escreveLinha(time, selecionados[i], i + 1);
+		try {
+			ano = selecionados[i+1][5].split("-")[0];
+		} catch (error) {
+			ano = 0;
+		}
+		escreveLinha(time, selecionados[i], i + 1, ano);
 		// Contabiliza vitória, empate ou derrota
 		if(selecionados[i][2] == selecionados[i][3]){
 			empates += 1;
@@ -505,6 +570,7 @@ function empates(){
 
 	var quantidade = 0;
 	var selecionados = [];
+	var ano;
 
 	for(var i = 0; i < jogos.length; i++){
 		if(jogos[i][2] == jogos[i][3]){
@@ -514,7 +580,12 @@ function empates(){
 	}
 
 	for(var i = quantidade - 1; i >= 0; i--){
-		escreveLinha(time, selecionados[i], i + 1);
+		try {
+			ano = selecionados[i+1][5].split("-")[0];
+		} catch (error) {
+			ano = 0;
+		}
+		escreveLinha(time, selecionados[i], i + 1, ano);
 		// Contabiliza vitória, empate ou derrota
 		if(selecionados[i][2] == selecionados[i][3]){
 			empates += 1;
@@ -541,6 +612,7 @@ function derrotas(){
 
 	var quantidade = 0;
 	var selecionados = [];
+	var ano;
 
 	for(var i = 0; i < jogos.length; i++){
 		if(((jogos[i][0] == time) && (jogos[i][2] < jogos[i][3])) || 
@@ -551,7 +623,12 @@ function derrotas(){
 	}
 
 	for(var i = quantidade - 1; i >= 0; i--){
-		escreveLinha(time, selecionados[i], i + 1);
+		try {
+			ano = selecionados[i+1][5].split("-")[0];
+		} catch (error) {
+			ano = 0;
+		}
+		escreveLinha(time, selecionados[i], i + 1, ano);
 		// Contabiliza vitória, empate ou derrota
 		if(selecionados[i][2] == selecionados[i][3]){
 			empates += 1;
@@ -577,9 +654,15 @@ function outrosJogos(){
 	cabecalho();
 
 	var contador = outros.length;
+	var ano;
 
 	for(var i = contador - 1; i >=0; i--){
-		escreveLinha(time, outros[i], i + 1);
+		try {
+			ano = outros[i+1][5].split("-")[0];
+		} catch (error) {
+			ano = 0;
+		}
+		escreveLinha(time, outros[i], i + 1, ano);
 	}
 }
 
