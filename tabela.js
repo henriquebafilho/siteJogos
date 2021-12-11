@@ -35,6 +35,9 @@ window.onload = function(){
 	h1Cabecalho.appendChild(escudoTime2);
 	document.getElementById("idTitulo").appendChild(h1Cabecalho);
 	document.getElementById("titulo").addEventListener("click", decrescente);
+	document.getElementById("titulo").addEventListener("click", function(){
+		document.getElementById("cabecalho").value = 'decrescente';
+	});
 
 	// Trocando cores do fundo e das letras
 	document.body.style.backgroundColor = coresTimes(time)[0];
