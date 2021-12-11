@@ -7,7 +7,6 @@ function cabecalho(){
 	tabela.width = "100%";
 	linha.width = "100%";
 	//tabela.style.fontWeight = "bold";
-
 	
 	// Célula número
 	var cellNumero = document.createElement("th");
@@ -35,6 +34,16 @@ function cabecalho(){
 	var tbody = document.createElement("tbody");
 	tbody.id = "corpoDaTabela";
 	//tabela.appendChild(tbody);
+}
+
+function desenhaBolinha(tipoBola){
+	let bolinhaGol = document.createElement("img");
+	bolinhaGol.src = tipoBola == "(GC)" ? "index_files/bolaVermelha.png" : "index_files/bola.png";
+	bolinhaGol.width = 15;
+	bolinhaGol.height = 15;
+	bolinhaGol.style.display = 'inline';
+	bolinhaGol.style.paddingRight = '5px';
+	return bolinhaGol;
 }
 
 function escreveLinha(meuTime, jogo, numero, ano){
@@ -141,24 +150,14 @@ function escreveLinha(meuTime, jogo, numero, ano){
 			&& autorGolMandante[autorGolMandante.length - 2] == "x"){
 				var qtdGols = parseInt(autorGolMandante[autorGolMandante.length - 3]);
 				for(var j = 0; j < qtdGols; j++){
-					let bolinhaGol = document.createElement("img");
-					bolinhaGol.src = "index_files/bola.png";
-					bolinhaGol.width = 15;
-					bolinhaGol.height = 15;
-					bolinhaGol.style.display = 'inline';
-					bolinhaGol.style.paddingRight = '5px';
-					listaGolsMandante.appendChild(bolinhaGol);		
+					let tipoBola = autorGolMandante.includes("(GC)") ? "(GC)" : "";
+					listaGolsMandante.appendChild(desenhaBolinha(tipoBola));		
 				}
 				autorGolMandante = autorGolMandante.replace("("+qtdGols+"x)", "");
 				autorGolMandante = autorGolMandante.trim();
 			} else {
-				let bolinhaGol = document.createElement("img");
-				bolinhaGol.src = "index_files/bola.png";
-				bolinhaGol.width = 15;
-				bolinhaGol.height = 15;
-				bolinhaGol.style.display = 'inline';
-				bolinhaGol.style.paddingRight = '5px';
-				listaGolsMandante.appendChild(bolinhaGol);
+				let tipoBola = autorGolMandante.includes("(GC)") ? "(GC)" : "";
+				listaGolsMandante.appendChild(desenhaBolinha(tipoBola));	
 			}
 		}
 		var autorGol = document.createElement("li");
@@ -187,24 +186,14 @@ function escreveLinha(meuTime, jogo, numero, ano){
 			&& autorGolVisitante[autorGolVisitante.length - 2] == "x"){
 				var qtdGols = parseInt(autorGolVisitante[autorGolVisitante.length - 3]);
 				for(var j = 0; j < qtdGols; j++){
-					let bolinhaGol = document.createElement("img");
-					bolinhaGol.src = "index_files/bola.png";
-					bolinhaGol.width = 15;
-					bolinhaGol.height = 15;
-					bolinhaGol.style.display = 'inline';
-					bolinhaGol.style.paddingRight = '5px';
-					listaGolsVisitante.appendChild(bolinhaGol);		
+					let tipoBola = autorGolVisitante.includes("(GC)") ? "(GC)" : "";
+					listaGolsVisitante.appendChild(desenhaBolinha(tipoBola));		
 				}
 				autorGolVisitante = autorGolVisitante.replace("("+qtdGols+"x)", "");
 				autorGolVisitante = autorGolVisitante.trim();
 			} else {
-				let bolinhaGol = document.createElement("img");
-				bolinhaGol.src = "index_files/bola.png";
-				bolinhaGol.width = 15;
-				bolinhaGol.height = 15;
-				bolinhaGol.style.display = 'inline';
-				bolinhaGol.style.paddingRight = '5px';
-				listaGolsVisitante.appendChild(bolinhaGol);
+				let tipoBola = autorGolVisitante.includes("(GC)") ? "(GC)" : "";
+				listaGolsVisitante.appendChild(desenhaBolinha(tipoBola));	
 			}
 		}
 		var autorGol = document.createElement("li");
