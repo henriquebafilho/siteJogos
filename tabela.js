@@ -544,22 +544,6 @@ function vitorias(){
 			ano = 0;
 		}
 		escreveLinha(time, selecionados[i], i + 1, ano);
-		// Contabiliza vitória, empate ou derrota
-		if(selecionados[i][2] == selecionados[i][3]){
-			empates += 1;
-		} else if (selecionados[i][0] == time){
-			if(selecionados[i][2] > selecionados[i][3]){
-				vitorias += 1;
-			} else {
-				derrotas += 1;
-			}
-		} else if (selecionados[i][0] != time){
-			if(selecionados[i][2] > selecionados[i][3]){
-				derrotas += 1;
-			} else {
-				vitorias += 1;
-			}
-		}
 	}
 	getVitorias(quantidade);
 }
@@ -586,22 +570,6 @@ function empates(){
 			ano = 0;
 		}
 		escreveLinha(time, selecionados[i], i + 1, ano);
-		// Contabiliza vitória, empate ou derrota
-		if(selecionados[i][2] == selecionados[i][3]){
-			empates += 1;
-		} else if (selecionados[i][0] == time){
-			if(selecionados[i][2] > selecionados[i][3]){
-				vitorias += 1;
-			} else {
-				derrotas += 1;
-			}
-		} else if (selecionados[i][0] != time){
-			if(selecionados[i][2] > selecionados[i][3]){
-				derrotas += 1;
-			} else {
-				vitorias += 1;
-			}
-		}
 	}
 	getEmpates(quantidade);
 }
@@ -629,22 +597,6 @@ function derrotas(){
 			ano = 0;
 		}
 		escreveLinha(time, selecionados[i], i + 1, ano);
-		// Contabiliza vitória, empate ou derrota
-		if(selecionados[i][2] == selecionados[i][3]){
-			empates += 1;
-		} else if (selecionados[i][0] == time){
-			if(selecionados[i][2] > selecionados[i][3]){
-				vitorias += 1;
-			} else {
-				derrotas += 1;
-			}
-		} else if (selecionados[i][0] != time){
-			if(selecionados[i][2] > selecionados[i][3]){
-				derrotas += 1;
-			} else {
-				vitorias += 1;
-			}
-		}
 	}
 	getDerrotas(quantidade);
 }
@@ -713,7 +665,6 @@ function getEscudoName(time, jogo){
 }
 
 function getFuncaoSelect(valor){
-
 	if(valor == "decrescente"){
 		decrescente();
 	}

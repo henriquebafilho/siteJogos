@@ -55,7 +55,6 @@ function escreveLinha(meuTime, jogo, numero, ano){
 	var tabela = document.getElementById("jogos");
 	tabela.width = "100%";
 
-	console.log(jogo[0] + " x " + jogo[1] + "/" + ano + " - " + jogo[5].split('-')[0]);
 	if(ano != jogo[5].split('-')[0]){
 		var pAno = document.createElement("p");
 		pAno.style.fontWeight = "bold";
