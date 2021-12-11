@@ -18,6 +18,7 @@ window.onload = function(){
 	h1Cabecalho.style.whiteSpace = "nowrap";
 	h1Cabecalho.style.width = "100%";
 	h1Cabecalho.style.color = coresTimes(time)[1];
+	h1Cabecalho.id = "titulo";
 	var escudoTime1 = document.createElement("img");
 	escudoTime1.src = "index_files/" + time.replace(/ /g,'') + ".png";
 	escudoTime1.width = 60;
@@ -33,6 +34,7 @@ window.onload = function(){
 	h1Cabecalho.appendChild(nomeUsuarioP);
 	h1Cabecalho.appendChild(escudoTime2);
 	document.getElementById("idTitulo").appendChild(h1Cabecalho);
+	document.getElementById("titulo").addEventListener("click", decrescente);
 
 	// Trocando cores do fundo e das letras
 	document.body.style.backgroundColor = coresTimes(time)[0];
