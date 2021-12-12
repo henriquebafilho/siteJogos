@@ -49,7 +49,6 @@ window.onload = function(){
 
 function decrescente(){
 	limpaTabela();
-	cabecalho();
 
 	var contador = jogos.length;
 	var vitorias = 0;
@@ -86,7 +85,6 @@ function decrescente(){
 
 function crescente(){
 	limpaTabela();
-	cabecalho();
 
 	var contador = jogos.length;
 	var vitorias = 0;
@@ -123,7 +121,6 @@ function crescente(){
 
 function mandante(){
 	limpaTabela();
-	cabecalho();
 
 	var contador = jogos.length;
 	var quantidade = 0;
@@ -169,7 +166,6 @@ function mandante(){
 
 function visitante(){
 	limpaTabela();
-	cabecalho();
 
 	var contador = jogos.length;
 	var quantidade = 0;
@@ -218,7 +214,6 @@ function adversario(){
 
 	if(adversario != ""){
 		limpaTabela();
-		cabecalho();
 
 		var contador = jogos.length;
 		var quantidade = 0;
@@ -284,7 +279,6 @@ function campeonato(){
 
 	if(campeonato != ""){
 		limpaTabela();
-		cabecalho();
 
 		var contador = jogos.length;
 		var quantidade = 0;
@@ -334,7 +328,6 @@ function estadio(){
 
 	if(estadio != ""){
 		limpaTabela();
-		cabecalho();
 
 		var contador = jogos.length;
 		var quantidade = 0;
@@ -384,7 +377,6 @@ function tecnico(){
 
 	if(tecnico != ""){
 		limpaTabela();
-		cabecalho();
 
 		var contador = jogos.length;
 		var quantidade = 0;
@@ -429,7 +421,6 @@ function tecnico(){
 
 function escolheData(){
 	limpaTabela();
-	cabecalho();
 
 	var data = document.getElementById("dataJogo").value;
 	var contador = 0;
@@ -482,55 +473,56 @@ function escolheData(){
 }
 
 function ano(){
-	limpaTabela();
-	cabecalho();
-
 	var ano = document.getElementById("anoJogo").value;
-	var quantidade = 0;
-	var vitorias = 0;
-	var empates = 0;
-	var derrotas = 0;
-	var selecionados = [];
-	var ano;
 
-	for(var i = 0; i < jogos.length; i++){
-		var dataCortada = jogos[i][5].split("-");
-
-		if(dataCortada[0] == ano.toString()){
-			quantidade += 1;
-			selecionados.push(jogos[i]);
-		}
-	}
-	for(var i = quantidade - 1; i >= 0; i--){
-		try {
-			ano = selecionados[i+1][5].split("-")[0];
-		} catch (error) {
-			ano = 0;
-		}
-		escreveLinha(time, selecionados[i], i + 1, ano);
-		// Contabiliza vitória, empate ou derrota
-		if(selecionados[i][2] == selecionados[i][3]){
-			empates += 1;
-		} else if (selecionados[i][0] == time){
-			if(selecionados[i][2] > selecionados[i][3]){
-				vitorias += 1;
-			} else {
-				derrotas += 1;
-			}
-		} else if (selecionados[i][0] != time){
-			if(selecionados[i][2] > selecionados[i][3]){
-				derrotas += 1;
-			} else {
-				vitorias += 1;
+	limpaTabela();
+	if(ano != ""){
+		var quantidade = 0;
+		var vitorias = 0;
+		var empates = 0;
+		var derrotas = 0;
+		var selecionados = [];
+		var ano;
+	
+		for(var i = 0; i < jogos.length; i++){
+			var dataCortada = jogos[i][5].split("-");
+	
+			if(dataCortada[0] == ano.toString()){
+				quantidade += 1;
+				selecionados.push(jogos[i]);
 			}
 		}
+		for(var i = quantidade - 1; i >= 0; i--){
+			try {
+				ano = selecionados[i+1][5].split("-")[0];
+			} catch (error) {
+				ano = 0;
+			}
+			escreveLinha(time, selecionados[i], i + 1, ano);
+			// Contabiliza vitória, empate ou derrota
+			if(selecionados[i][2] == selecionados[i][3]){
+				empates += 1;
+			} else if (selecionados[i][0] == time){
+				if(selecionados[i][2] > selecionados[i][3]){
+					vitorias += 1;
+				} else {
+					derrotas += 1;
+				}
+			} else if (selecionados[i][0] != time){
+				if(selecionados[i][2] > selecionados[i][3]){
+					derrotas += 1;
+				} else {
+					vitorias += 1;
+				}
+			}
+		}
+		estatisticas(quantidade, vitorias, empates, derrotas);	
 	}
-	estatisticas(quantidade, vitorias, empates, derrotas);	
 }
 
 function vitorias(){
 	limpaTabela();
-	cabecalho();
+
 	var quantidade = 0;
 	var selecionados = [];
 	var ano;
@@ -555,7 +547,6 @@ function vitorias(){
 
 function empates(){
 	limpaTabela();
-	cabecalho();
 
 	var quantidade = 0;
 	var selecionados = [];
@@ -581,7 +572,6 @@ function empates(){
 
 function derrotas(){
 	limpaTabela();
-	cabecalho();
 
 	var quantidade = 0;
 	var selecionados = [];
@@ -608,7 +598,6 @@ function derrotas(){
 
 function outrosJogos(){
 	limpaTabela();
-	cabecalho();
 
 	var contador = outros.length;
 	var ano;
