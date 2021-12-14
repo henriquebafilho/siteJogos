@@ -13,7 +13,7 @@
 11 - campeão
 */
 
-var jogos = [, false];
+var jogos = [];
 
 var jogo20021026 = ["Botafogo", "Fluminense", 2, 3, "Série A", "2002-10-26", "Maracanã", "Ivo Wortmann", ["Galeano", "Léo Inácio"], ["César","Magno Alves","Romário"], "https://www.youtube.com/embed/PqiI2VnS3oU", false];
 jogos.push(jogo20021026);
@@ -422,7 +422,7 @@ jogos.push(jogo20211115);
 var jogo20211128 = ["Botafogo", "Guarani", 2, 2, "Série B", "2021-11-28", "Nilton Santos", "Enderson Moreira", ["Marco Antônio", "Rafael Navarro"], ["Ronaldo Alves", "Lucão do Break"], "https://www.youtube.com/embed/QMByoXbcQUo", false];
 jogos.push(jogo20211128);
 
-var outros = [, false];
+var outros = [];
 
 var jogo20070715 = ["Brasil", "Honduras",  3, 0, "Jogos Pan-Americanos", "2007-07-15", "Estádio João Havelange (Engenhão)", "Brasil - Luiz Nizzo/ Honduras - Miguel Escalante", ["Lulinha (3x)"], [""], "https://www.youtube.com/embed/z1FWdvBrd30", false];
 outros.push(jogo20070715);
