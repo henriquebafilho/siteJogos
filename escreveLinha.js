@@ -75,6 +75,16 @@ function escreveLinha(meuTime, jogo, numero, ano){
 	
 	summary.appendChild(pCabecalho);
 	summary.appendChild(divPlacar);
+	if(jogo[11]){
+		var divTitulo = document.createElement("div");
+		var pTitulo = document.createElement("p");
+		pTitulo.style.color = "yellow";
+		var textTitulo = document.createTextNode("CAMPEÃO");
+
+		pTitulo.appendChild(textTitulo);
+		divTitulo.appendChild(pTitulo);
+		summary.appendChild(divTitulo);
+	}
 
 	// INFORMAÇÕES ADICIONAIS
 
