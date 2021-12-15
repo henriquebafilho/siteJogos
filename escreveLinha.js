@@ -79,7 +79,7 @@ function escreveLinha(meuTime, jogo, numero, ano){
 		var divTitulo = document.createElement("div");
 		var pTitulo = document.createElement("p");
 		pTitulo.style.color = "yellow";
-		var textTitulo = document.createTextNode("CAMPEÃO");
+		var textTitulo = document.createTextNode(meuTime.toUpperCase() + " CAMPEÃO " + jogo[4].toUpperCase() + " " + jogo[5].split("-")[0]);
 
 		pTitulo.appendChild(textTitulo);
 		divTitulo.appendChild(pTitulo);

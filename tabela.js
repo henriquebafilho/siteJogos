@@ -289,7 +289,14 @@ function campeonato(){
 		var ano;
 
 		for(var i = 0; i < contador; i++){
-			if(campeonato == jogos[i][4]){
+			if(campeonato == "Carioca"){
+				if(jogos[i][4].includes("Taça Rio")
+				|| jogos[i][4].includes("Taça Guanabara")
+				|| jogos[i][4].includes("Carioca")){
+					quantidade += 1;
+					selecionados.push(jogos[i]);
+				}
+			} else if(campeonato == jogos[i][4]){
 				quantidade += 1;
 				selecionados.push(jogos[i]);
 			}
