@@ -37,6 +37,7 @@ window.onload = function(){
 	document.getElementById("titulo").addEventListener("click", decrescente);
 	document.getElementById("titulo").addEventListener("click", function(){
 		document.getElementById("cabecalho").value = 'decrescente';
+		$('#pai').children('div').hide();
 	});
 
 	// Trocando cores do fundo e das letras
