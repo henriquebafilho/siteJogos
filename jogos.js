@@ -422,6 +422,10 @@ jogos.push(jogo20211115);
 var jogo20211128 = ["Botafogo", "Guarani", 2, 2, "Série B", "2021-11-28", "Nilton Santos", "Enderson Moreira", ["Marco Antônio", "Rafael Navarro"], ["Ronaldo Alves", "Lucão do Break"], "https://www.youtube.com/embed/QMByoXbcQUo", false];
 jogos.push(jogo20211128);
 
+jogos.sort(function(a, b){
+    return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
+});
+
 var outros = [];
 
 var jogo20070715 = ["Brasil", "Honduras",  3, 0, "Jogos Pan-Americanos", "2007-07-15", "Estádio João Havelange (Engenhão)", "Brasil - Luiz Nizzo/ Honduras - Miguel Escalante", ["Lulinha (3x)"], [""], "https://www.youtube.com/embed/z1FWdvBrd30", false];
@@ -434,3 +438,7 @@ var jogo20190914 = ["Flamengo", "Santos",  1, 0, "Série A", "2019-09-14", "Mara
 outros.push(jogo20190914);
 var jogo20191005 = ["Vasco", "Santos",  0, 1, "Série A", "2019-10-05", "São Januário", "Vasco - Vanderlei Luxemburgo/ Santos - Sampaoli", [""], ["Tailson"], "https://www.youtube.com/embed/cnv4cd9i2BY", false];
 outros.push(jogo20191005);
+
+outros.sort(function(a, b){
+    return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
+});
