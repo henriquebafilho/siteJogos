@@ -63,7 +63,7 @@ function escreveLinha(meuTime, jogo, numero, ano){
 	escudoMandante.style.width = '3em';
 	escudoMandante.style.height = '3em';
 	var summaryText = document.createTextNode(" " + jogo[0].toUpperCase() + " " + jogo[2] + " X " + jogo[3] + " " + jogo[1].toUpperCase() + " ");
-	divPlacar.style.fontSize = summaryText.length < 38 ? '1em' : '0.7em';
+	divPlacar.style.fontSize = summaryText.length < 38 ? '1em' : '0.8em';
 	var escudoVisitante = document.createElement("img");
 	escudoVisitante.src = "index_files/" + getEscudoName(visitante, jogo) + ".png";
 	escudoVisitante.style.width = '3em';
