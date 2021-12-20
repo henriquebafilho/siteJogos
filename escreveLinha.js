@@ -58,12 +58,12 @@ function escreveLinha(meuTime, jogo, numero, ano){
 	divPlacar.className = "placar";
 	divPlacar.style.display = "nowrap";
 	divPlacar.style.whiteSpace = "nowrap";
-	divPlacar.style.fontSize = '1em';
 	var escudoMandante = document.createElement("img");
 	escudoMandante.src = "index_files/" + getEscudoName(mandante, jogo) + ".png";
 	escudoMandante.style.width = '3em';
 	escudoMandante.style.height = '3em';
 	var summaryText = document.createTextNode(" " + jogo[0].toUpperCase() + " " + jogo[2] + " X " + jogo[3] + " " + jogo[1].toUpperCase() + " ");
+	divPlacar.style.fontSize = summaryText.length < 38 ? '1em' : '0.7em';
 	var escudoVisitante = document.createElement("img");
 	escudoVisitante.src = "index_files/" + getEscudoName(visitante, jogo) + ".png";
 	escudoVisitante.style.width = '3em';
