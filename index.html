@@ -28,8 +28,7 @@
 			Filtrar jogos por: 
 			<select id='cabecalho' class="select" onchange="getFuncaoSelect(this.value)">
 				<option value='' disabled selected>Selecione uma opção</option>
-				<option value='decrescente'>Todos (Ordem Decrescente)</option>
-				<option value='crescente'>Todos (Ordem Crescente)</option>
+				<option value='todos'>Todos</option>
 				<option value='adversario'>Adversário</option>
 				<option value='vitorias'>Vitórias</option>
 				<option value='empates'>Empates</option>
@@ -222,6 +221,10 @@
 	<br>
 	<div id="estatisticas">
 		
+	</div>
+	<br>
+	<div id="ordem">
+		<input type='button' id="ordemBotao" style="text-align: center;" onclick="escolheOrdem(document.getElementById('cabecalho').value)">
 	</div>
 	<br>
 	<div id="tabelaJogos">
