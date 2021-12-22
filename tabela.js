@@ -2,10 +2,12 @@ window.onload = function () {
 	time = "Botafogo";
 	var nomeUsuario = "Henrique Filho";
 	nomeUsuario = nomeUsuario.toUpperCase();
-	
+
 	ordemDecrescente = true;
 	document.getElementById("ordemBotao").value = "↓ Ordem Decrescente";
 	selecionados = [];
+
+	console.log(document.documentElement.scrollTop);
 
 	// Title da página
 	document.title = "Jogos do " + time + " que fui";
@@ -62,29 +64,31 @@ function escolheOrdem(valor) {
 		ordemDecrescente = true;
 		document.getElementById("ordemBotao").value = "↓ Ordem Decrescente";
 	}
-	if(valor.includes("mandante")){
+	if (valor.includes("mandante")) {
 		mandante();
-	} else if (valor.includes("visitante")){
+	} else if (valor.includes("visitante")) {
 		visitante();
-	} else if (valor.includes("vitorias")){
+	} else if (valor.includes("vitorias")) {
 		vitorias();
-	} else if (valor.includes("empates")){
+	} else if (valor.includes("empates")) {
 		empates();
-	} else if (valor.includes("derrotas")){
+	} else if (valor.includes("derrotas")) {
 		derrotas();
-	} else if (valor.includes("outros")){
+	} else if (valor.includes("outros")) {
 		outrosJogos();
-	} else if (valor.includes("todos")){
+	} else if (valor.includes("todos")) {
 		todos();
-	} else if (valor.includes("adversario")){
+	} else if (valor.includes("campeao")) {
+		campeao();
+	} else if (valor.includes("adversario")) {
 		adversario();
-	} else if (valor.includes("campeonato")){
+	} else if (valor.includes("campeonato")) {
 		campeonato();
-	} else if (valor.includes("ano")){
+	} else if (valor.includes("ano")) {
 		ano();
-	} else if (valor.includes("estadio")){
+	} else if (valor.includes("estadio")) {
 		estadio();
-	} else if (valor.includes("tecnico")){
+	} else if (valor.includes("tecnico")) {
 		tecnico();
 	} else {
 		todos();
@@ -244,6 +248,78 @@ function visitante() {
 
 	for (var i = 0; i < contador; i++) {
 		if (jogos[i][0] != time) {
+			quantidade += 1;
+			selecionados.push(jogos[i]);
+		}
+	}
+
+	if (ordemDecrescente) {
+		for (var i = quantidade - 1; i >= 0; i--) {
+			try {
+				ano = selecionados[i + 1][5].split("-")[0];
+			} catch (error) {
+				ano = 0;
+			}
+			escreveLinha(time, selecionados[i], i + 1, ano);
+			// Contabiliza vitória, empate ou derrota
+			if (selecionados[i][2] == selecionados[i][3]) {
+				empates += 1;
+			} else if (selecionados[i][0] == time) {
+				if (selecionados[i][2] > selecionados[i][3]) {
+					vitorias += 1;
+				} else {
+					derrotas += 1;
+				}
+			} else if (selecionados[i][0] != time) {
+				if (selecionados[i][2] > selecionados[i][3]) {
+					derrotas += 1;
+				} else {
+					vitorias += 1;
+				}
+			}
+		}
+	} else {
+		for (var i = 0; i < quantidade; i++) {
+			try {
+				ano = selecionados[i - 1][5].split("-")[0];
+			} catch (error) {
+				ano = 0;
+			}
+			escreveLinha(time, selecionados[i], i + 1, ano);
+			// Contabiliza vitória, empate ou derrota
+			if (selecionados[i][2] == selecionados[i][3]) {
+				empates += 1;
+			} else if (selecionados[i][0] == time) {
+				if (selecionados[i][2] > selecionados[i][3]) {
+					vitorias += 1;
+				} else {
+					derrotas += 1;
+				}
+			} else if (selecionados[i][0] != time) {
+				if (selecionados[i][2] > selecionados[i][3]) {
+					derrotas += 1;
+				} else {
+					vitorias += 1;
+				}
+			}
+		}
+	}
+	estatisticas(quantidade, vitorias, empates, derrotas);
+}
+
+function campeao() {
+	limpaTabela();
+
+	var contador = jogos.length;
+	var quantidade = 0;
+	var vitorias = 0;
+	var empates = 0;
+	var derrotas = 0;
+	selecionados = [];
+	var ano;
+
+	for (var i = 0; i < contador; i++) {
+		if (jogos[i][11]) {
 			quantidade += 1;
 			selecionados.push(jogos[i]);
 		}
@@ -574,7 +650,7 @@ function tecnico() {
 				selecionados.push(jogos[i]);
 			}
 		}
-		
+
 		if (ordemDecrescente) {
 			for (var i = quantidade - 1; i >= 0; i--) {
 				try {
@@ -703,7 +779,7 @@ function ano() {
 				selecionados.push(jogos[i]);
 			}
 		}
-		
+
 		if (ordemDecrescente) {
 			for (var i = quantidade - 1; i >= 0; i--) {
 				try {
@@ -773,7 +849,7 @@ function vitorias() {
 			selecionados.push(jogos[i]);
 		}
 	}
-	
+
 	if (ordemDecrescente) {
 		for (var i = quantidade - 1; i >= 0; i--) {
 			try {
@@ -876,7 +952,7 @@ function outrosJogos() {
 	var ano;
 	selecionados = [];
 
-	for(var i = 0; i < contador; i++){
+	for (var i = 0; i < contador; i++) {
 		selecionados.push(outros[i]);
 	}
 
@@ -948,19 +1024,21 @@ function getEscudoName(time, jogo) {
 }
 
 function getFuncaoSelect(valor) {
-	if(valor.includes("mandante")){
+	if (valor.includes("mandante")) {
 		mandante();
-	} else if (valor.includes("visitante")){
+	} else if (valor.includes("visitante")) {
 		visitante();
-	} else if (valor.includes("vitorias")){
+	} else if (valor.includes("vitorias")) {
 		vitorias();
-	} else if (valor.includes("empates")){
+	} else if (valor.includes("empates")) {
 		empates();
-	} else if (valor.includes("derrotas")){
+	} else if (valor.includes("derrotas")) {
 		derrotas();
-	} else if (valor.includes("outros")){
+	} else if (valor.includes("campeao")) {
+		campeao();
+	} else if (valor.includes("outros")) {
 		outrosJogos();
-	} else if (valor.includes("todos")){
+	} else if (valor.includes("todos")) {
 		todos();
 	} else {
 		todos();
@@ -1038,6 +1116,10 @@ function fail() {
 	corpo.append(titulo);
 }
 
+function backToTop(){
+	document.documentElement.scrollTop = 0;
+}
+
 //Botão de voltar ao topo
 /*
 window.onscroll = function(){
@@ -1054,8 +1136,8 @@ function scroll(){
 	}
 }
 
-
 function backToTop(){
 	document.documentElement.scrollTop = 0;
 }
+
 */

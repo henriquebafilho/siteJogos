@@ -76,6 +76,10 @@ input#pesquisar:hover{
 li{
 	list-style: none;
 }
+#voltarInicio{
+	cursor: pointer;
+	text-decoration: underline;
+}
 /*Details*/
 summary {
 	padding: 1em;
