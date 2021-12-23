@@ -92,7 +92,10 @@ function escolheOrdem(valor) {
 	} else if (valor.includes("tecnico")) {
 		$('#pai').children('div').value = 'select';
 		tecnico();
-	} else {
+	} else if (valor.includes("data")) {
+		$('#pai').children('div').value = 'select';
+		escolheData();
+	}else {
 		todos();
 	}
 }
@@ -256,52 +259,20 @@ function escolheData() {
 	limpaTabela();
 
 	var data = document.getElementById("dataJogo").value;
-	var contador = 0;
-	var vitorias = 0;
-	var empates = 0;
-	var derrotas = 0;
 	var achou = false;
-	var ano;
+	selecionados = [];
 
 	for (var i = 0; i < jogos.length; i++) {
 		if (data == jogos[i][5]) {
 			achou = true;
-			contador += 1;
-			try {
-				ano = jogos[i + 1][5].split("-")[0];
-			} catch (error) {
-				ano = 0;
-			}
-			escreveLinha(time, jogos[i], contador, ano);
-			// Contabiliza vitória, empate ou derrota
-			if (jogos[i][2] == jogos[i][3]) {
-				empates += 1;
-			} else if (jogos[i][0] == time) {
-				if (jogos[i][2] > jogos[i][3]) {
-					vitorias += 1;
-				} else {
-					derrotas += 1;
-				}
-			} else if (jogos[i][0] != time) {
-				if (jogos[i][2] > jogos[i][3]) {
-					derrotas += 1;
-				} else {
-					vitorias += 1;
-				}
-			}
+			selecionados.push(jogos[i]);
 		}
 	}
-	//se não achou nenhum jogo
+	
 	if (achou == false) {
 		fail();
 	} else {
-		if (vitorias > 0) {
-			getVitorias(contador);
-		} else if (empates > 0) {
-			getEmpates(contador);
-		} else {
-			getDerrotas(contador);
-		}
+		escreveLinhaOrdem(selecionados, ordemDecrescente, 'data');
 	}
 }
 
