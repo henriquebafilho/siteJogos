@@ -81,19 +81,14 @@ function escolheOrdem(valor) {
 	} else if (valor.includes("adversario")) {
 		adversario();
 	} else if (valor.includes("campeonato")) {
-		$('#pai').children('div').value = 'select';
 		campeonato();
 	} else if (valor.includes("ano")) {
-		$('#pai').children('div').value = 'select';
 		ano();
 	} else if (valor.includes("estadio")) {
-		$('#pai').children('div').value = 'select';
 		estadio();
 	} else if (valor.includes("tecnico")) {
-		$('#pai').children('div').value = 'select';
 		tecnico();
 	} else if (valor.includes("data")) {
-		$('#pai').children('div').value = 'select';
 		escolheData();
 	}else {
 		todos();
