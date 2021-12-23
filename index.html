@@ -27,7 +27,7 @@
 		<form action='pagina.html' method='post'>
 			Filtrar jogos por: 
 			<select id='cabecalho' class="select" onchange="getFuncaoSelect(this.value)">
-				<option value='' disabled selected>Selecione uma opção</option>
+				<option value='select' disabled selected>Selecione uma opção</option>
 				<option value='todos'>Todos</option>
 				<option value='adversario'>Adversário</option>
 				<option value='vitorias'>Vitórias</option>
@@ -47,7 +47,7 @@
 				<div id='adversario'>
 					<p>Escolha o time adversário: </p>
 					<select id='selectAdversario' onchange="adversario()">
-						<option value="" disabled selected>Selecione um time</option>
+						<option value='select' disabled selected>Selecione um time</option>
 						<option value='América-MG'>América-MG</option>
 						<option value='Americano'>Americano</option>
 						<option value='Atlético-GO'>Atlético-GO</option>
@@ -119,7 +119,7 @@
 				<div id='campeonato'>
 					<p>Escolha o nome do campeonato: </p>
 					<select id='selectCampeonato' onchange="campeonato()">
-						<option value='' disabled selected>Selecione um campeonato</option>
+						<option value='select' disabled selected>Selecione um campeonato</option>
 						<option value='Carioca'>Carioca</option>
 						<option value='Série A'>Série A</option>
 						<option value='Série B'>Série B</option>
@@ -139,7 +139,7 @@
 				<div id='ano'>
 					<p>Escolha o ano: </p>
 					<select id='anoJogo' onchange="ano()">
-						<option value='' disabled selected>Selecione o ano</option>
+						<option value='select' disabled selected>Selecione o ano</option>
 						<option value='2021'>2021</option>
 						<option value='2020'>2020</option>
 						<option value='2019'>2019</option>
@@ -166,7 +166,7 @@
 				<div id='estadio'>
 					<p>Escolha o nome do estádio: </p>
 					<select id='selectEstadio' onchange="estadio()">
-						<option value="" disabled selected>Selecione o estádio</option>
+						<option value='select' disabled selected>Selecione o estádio</option>
 						<option value='Aniceto Moscoso (Conselheiro Galvão)'>Aniceto Moscoso (Conselheiro Galvão)</option>
 						<option value='Arena Botafogo'>Arena Botafogo</option>
 						<option value='Arena Corinthians (São Paulo-SP)'>Arena Corinthians (São Paulo-SP)</option>
@@ -187,7 +187,7 @@
 				<div id='tecnico'>
 					<p>Escolha o nome do técnico: </p>
 					<select id='selectTecnico' onchange="tecnico()">
-						<option value="" disabled selected>Selecione o técnico</option>
+						<option value='select' disabled selected>Selecione o técnico</option>
 						<option value='Alberto Valentim'>Alberto Valentim</option>
 						<option value='Bruno Lazaroni'>Bruno Lazaroni</option>
 						<option value='Caio Júnior'>Caio Júnior</option>
