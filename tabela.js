@@ -154,7 +154,7 @@ function campeao() {
 }
 
 function adversario() {
-	var adversario = document.getElementById("selectAdversario").value;
+	var adversario = document.getElementById("selectadversario").value;
 
 	if (adversario != "") {
 		limpaTabela();
@@ -187,7 +187,7 @@ function adversario() {
 }
 
 function campeonato() {
-	var campeonato = document.getElementById("selectCampeonato").value;
+	var campeonato = document.getElementById("selectcampeonato").value;
 
 	if (campeonato != "") {
 		limpaTabela();
@@ -213,7 +213,7 @@ function campeonato() {
 
 
 function estadio() {
-	var estadio = document.getElementById("selectEstadio").value;
+	var estadio = document.getElementById("selectestadio").value;
 
 	if (estadio != "") {
 		limpaTabela();
@@ -232,7 +232,7 @@ function estadio() {
 }
 
 function tecnico() {
-	var tecnico = document.getElementById("selectTecnico").value;
+	var tecnico = document.getElementById("selecttecnico").value;
 
 	if (tecnico != "") {
 		limpaTabela();
@@ -272,7 +272,7 @@ function escolheData() {
 }
 
 function ano() {
-	var ano = document.getElementById("anoJogo").value;
+	var ano = document.getElementById("selectano").value;
 
 	limpaTabela();
 	if (ano != "") {
@@ -296,7 +296,6 @@ function vitorias() {
 
 	var quantidade = 0;
 	var selecionados = [];
-	var ano;
 
 	for (var i = 0; i < jogos.length; i++) {
 		if (((jogos[i][0] == time) && (jogos[i][2] > jogos[i][3])) ||
@@ -314,7 +313,6 @@ function empates() {
 
 	var quantidade = 0;
 	var selecionados = [];
-	var ano;
 
 	for (var i = 0; i < jogos.length; i++) {
 		if (jogos[i][2] == jogos[i][3]) {
@@ -331,7 +329,6 @@ function derrotas() {
 
 	var quantidade = 0;
 	var selecionados = [];
-	var ano;
 
 	for (var i = 0; i < jogos.length; i++) {
 		if (((jogos[i][0] == time) && (jogos[i][2] < jogos[i][3])) ||
