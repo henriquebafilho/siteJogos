@@ -566,18 +566,14 @@ function fail() {
 	corpo.append(titulo);
 }
 
-function backToTop() {
-	document.documentElement.scrollTop = 0;
-}
-
 //Botão de voltar ao topo
-/*
+
 window.onscroll = function(){
 	scroll();
 }
 
 function scroll(){
-	var botao = document.getElementById("btnTop");
+	var botao = document.getElementById("voltarInicio");
 
 	if(document.documentElement.scrollTop > 50){
 		botao.style.display = "block";
@@ -589,5 +585,3 @@ function scroll(){
 function backToTop(){
 	document.documentElement.scrollTop = 0;
 }
-
-*/

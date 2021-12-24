@@ -73,6 +73,9 @@ input#pesquisar:hover{
 
 	display: none;
 }
+#voltarInicio{
+	display: none;
+}
 li{
 	list-style: none;
 }
