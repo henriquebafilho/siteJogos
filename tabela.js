@@ -566,8 +566,7 @@ function fail() {
 	corpo.append(titulo);
 }
 
-//Botão de voltar ao topo
-
+//Botão de voltar ao início
 window.onscroll = function(){
 	scroll();
 }
