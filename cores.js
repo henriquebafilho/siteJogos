@@ -145,6 +145,8 @@ function coresTimes(time, jogo = null) {
 			return ["#075798", "white"];
 		case "Sport":
 			return ["#d30a11", "#ffda00"];
+		case "Taubaté":
+			return ["#003a94", "white"];
 		case "Uruguai":
 			return ["#0d80bf", "white"];
 		case "Vasco":

@@ -421,6 +421,8 @@ var jogo20211115 = ["Botafogo", "Operário", 2, 1, "Série B", "2021-11-15", "Ni
 jogos.push(jogo20211115);
 var jogo20211128 = ["Botafogo", "Guarani", 2, 2, "Série B", "2021-11-28", "Nilton Santos", "Enderson Moreira", ["Marco Antônio", "Rafael Navarro"], ["Ronaldo Alves", "Lucão do Break"], "https://www.youtube.com/embed/QMByoXbcQUo", false];
 jogos.push(jogo20211128);
+var jogo20220109 = ["Taubaté", "Botafogo", 0, 0, "Copinha", "2022-01-09", "Joaquim de Morais Filho (Taubaté-SP)", "Ricardo Resende", [""], [""], "", false];
+jogos.push(jogo20220109);
 
 jogos.sort(function(a, b){
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
