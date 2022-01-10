@@ -421,7 +421,7 @@ var jogo20211115 = ["Botafogo", "Operário", 2, 1, "Série B", "2021-11-15", "Ni
 jogos.push(jogo20211115);
 var jogo20211128 = ["Botafogo", "Guarani", 2, 2, "Série B", "2021-11-28", "Nilton Santos", "Enderson Moreira", ["Marco Antônio", "Rafael Navarro"], ["Ronaldo Alves", "Lucão do Break"], "https://www.youtube.com/embed/QMByoXbcQUo", false];
 jogos.push(jogo20211128);
-var jogo20220109 = ["Taubaté", "Botafogo", 0, 0, "Copinha", "2022-01-09", "Joaquim de Morais Filho (Taubaté-SP)", "Ricardo Resende", [""], [""], "", false];
+var jogo20220109 = ["Taubaté", "Botafogo", 0, 2, "Copinha", "2022-01-09", "Joaquim de Morais Filho (Taubaté-SP)", "Ricardo Resende", ["Raí", "Maranhão"], [""], "https://www.youtube.com/embed/0jDbY4TiRyY", false];
 jogos.push(jogo20220109);
 
 jogos.sort(function(a, b){
@@ -440,6 +440,8 @@ var jogo20190914 = ["Flamengo", "Santos",  1, 0, "Série A", "2019-09-14", "Mara
 outros.push(jogo20190914);
 var jogo20191005 = ["Vasco", "Santos",  0, 1, "Série A", "2019-10-05", "São Januário", "Vasco - Vanderlei Luxemburgo/ Santos - Sampaoli", [""], ["Tailson"], "https://www.youtube.com/embed/cnv4cd9i2BY", false];
 outros.push(jogo20191005);
+var jogo20220109 = ["Aparecidense", "Petrolina",  3, 2, "Copinha", "2022-01-09", "Joaquim de Morais Filho (Taubaté-SP)", "Aparecidense - Rodrigo Limiro/ Petrolina - Assis", ["Diogo (3x)"], ["Paulo Jayke", "Kinho"], "https://www.youtube.com/embed/5K22zTV9W-0", false];
+outros.push(jogo20220109);
 
 outros.sort(function(a, b){
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;

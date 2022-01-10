@@ -21,6 +21,8 @@ function coresTimes(time, jogo = null) {
 			return ["black", "white"];
 		case "Atlético-PR":
 			return ["#d30a11", "white"];
+		case "Aparecidense":
+			return ["#00005e", "#c8ad51"];
 		case "Audax Italiano-CHI":
 			return ["green", "white"];
 		case "Avaí":
@@ -123,6 +125,8 @@ function coresTimes(time, jogo = null) {
 			return ["#003a94", "white"];
 		case "Paysandu":
 			return ["#0091cf", "white"];
+		case "Petrolina":
+			return ["#f5182e", "white"];
 		case "Ponte Preta":
 			return ["white", "black"];
 		case "Portuguesa-RJ":
