@@ -351,7 +351,7 @@ var jogo20190529 = ["Botafogo", "Sol de America-PAR", 4, 0, "Copa Sul-Americana"
 jogos.push(jogo20190529);
 var jogo20190602 = ["Botafogo", "Vasco", 1, 0, "Série A", "2019-06-02", "Nilton Santos", "Eduardo Barroca", ["Diego Souza"], [""], "https://www.youtube.com/embed/qGa8vQqYd_k", false];
 jogos.push(jogo20190602);
-var jogo20190721 = ["Botafogo", "Santos", 0, 1, "Série A", "2019-07-21", "Nilton Santos", "Eduardo Barroca", [""], ["Marinho"], "https://www.youtube.com/embed/9stKnIGwqco", false];
+var jogo20190721 = ["Botafogo", "Santos", 0, 1, "Série A", "2019-07-21", "Nilton Santos", "Eduardo Barroca", [""], ["Marinho"], "https://www.youtube.com/embed/ScfaE0NPL3M", false];
 jogos.push(jogo20190721);
 var jogo20190724 = ["Botafogo", "Atlético-MG", 0, 1, "Copa Sul-Americana", "2019-07-24", "Nilton Santos", "Eduardo Barroca", [""], ["Vinicius"], "https://www.youtube.com/embed/wP-b-w7GpaM", false];
 jogos.push(jogo20190724);
