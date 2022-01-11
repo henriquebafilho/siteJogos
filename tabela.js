@@ -38,11 +38,11 @@ window.onload = function () {
 	h1Cabecalho.appendChild(nomeUsuarioP);
 	h1Cabecalho.appendChild(escudoTime2);
 	document.getElementById("idTitulo").appendChild(h1Cabecalho);
-	document.getElementById("titulo").addEventListener("click", todos);
+	document.getElementById("titulo").addEventListener("click", jogosTime);
 	document.getElementById("titulo").addEventListener("click", function () {
-		document.getElementById("cabecalho").value = 'todos';
+		document.getElementById("cabecalho").value = 'jogosTime';
 		$('#pai').children('div').hide();
-		todos();
+		jogosTime();
 	});
 
 	// Trocando cores do fundo e das letras
@@ -50,11 +50,11 @@ window.onload = function () {
 	document.body.style.color = coresTimes(time)[1];
 	document.getElementById("jogos").style.backgroundColor = coresTimes(time)[0];
 
-	todos();
+	jogosTime();
 };
 
 function escolheOrdem(valor) {
-	valor = valor == "" ? "todos" : valor;
+	valor = valor == "" ? "jogosTime" : valor;
 	if (ordemDecrescente) {
 		ordemDecrescente = false;
 		document.getElementById("ordemBotao").value = "↑ Ordem Crescente";
@@ -74,8 +74,8 @@ function escolheOrdem(valor) {
 		derrotas();
 	} else if (valor.includes("outros")) {
 		outrosJogos();
-	} else if (valor.includes("todos")) {
-		todos();
+	} else if (valor.includes("jogosTime")) {
+		jogosTime();
 	} else if (valor.includes("campeao")) {
 		campeao();
 	} else if (valor.includes("adversario")) {
@@ -90,12 +90,14 @@ function escolheOrdem(valor) {
 		tecnico();
 	} else if (valor.includes("data")) {
 		escolheData();
+	} else if (valor.includes("todos")) {
+		todosJogos();
 	}else {
-		todos();
+		jogosTime();
 	}
 }
 
-function todos() {
+function jogosTime() {
 	limpaTabela();
 
 	var contador = jogos.length;
@@ -105,7 +107,7 @@ function todos() {
 		selecionados.push(jogos[i]);
 	}
 
-	escreveLinhaOrdem(selecionados, ordemDecrescente, 'todos');
+	escreveLinhaOrdem(selecionados, ordemDecrescente, 'jogosTime');
 }
 
 function mandante() {
@@ -354,6 +356,19 @@ function outrosJogos() {
 	escreveLinhaOrdem(selecionados, ordemDecrescente, 'outros');
 }
 
+function todosJogos() {
+	limpaTabela();
+
+	var contador = todos.length;
+	selecionados = [];
+
+	for (var i = 0; i < contador; i++) {
+		selecionados.push(todos[i]);
+	}
+
+	escreveLinhaOrdem(selecionados, ordemDecrescente, 'todos');
+}
+
 function escreveLinhaOrdem(selecionados, ordem, opcao) {
 	var quantidade = selecionados.length;
 	var vitorias = 0;
@@ -369,7 +384,7 @@ function escreveLinhaOrdem(selecionados, ordem, opcao) {
 				ano = 0;
 			}
 			escreveLinha(time, selecionados[i], i + 1, ano);
-			if (!opcao.includes('outros')) {
+			if (!opcao.includes('outros') && !opcao.includes('todos')) {
 				// Contabiliza vitória, empate ou derrota
 				if (selecionados[i][2] == selecionados[i][3]) {
 					empates += 1;
@@ -423,7 +438,7 @@ function escreveLinhaOrdem(selecionados, ordem, opcao) {
 	} else if ((opcao.includes('derrotas'))) {
 		getDerrotas(quantidade);
 	} else {
-		!opcao.includes('outros') && estatisticas(quantidade, vitorias, empates, derrotas);
+		!opcao.includes('outros') && !opcao.includes('todos') && estatisticas(quantidade, vitorias, empates, derrotas);
 	}
 }
 
@@ -488,10 +503,12 @@ function getFuncaoSelect(valor) {
 		campeao();
 	} else if (valor.includes("outros")) {
 		outrosJogos();
+	} else if (valor.includes("jogosTime")) {
+		jogosTime();
 	} else if (valor.includes("todos")) {
-		todos();
+		todosJogos();
 	} else {
-		todos();
+		jogosTime();
 	}
 }
 

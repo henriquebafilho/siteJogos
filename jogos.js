@@ -446,3 +446,10 @@ outros.push(jogo20220109);
 outros.sort(function(a, b){
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
 });
+
+var todos = [];
+Array.prototype.push.apply(todos, outros);
+Array.prototype.push.apply(todos, jogos);
+todos.sort(function(a, b){
+    return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
+});
