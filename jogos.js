@@ -29,7 +29,7 @@ var jogo20041002 = ["Fluminense", "Botafogo", 1, 4, "Série A", "2004-10-02", "M
 jogos.push(jogo20041002);
 var jogo20041113 = ["Botafogo", "Coritiba", 4, 1, "Série A", "2004-11-13", "Caio Martins", "Paulo Bonamigo", ["Caio Ribeiro (2x)","Schwenck","Ricardinho"], ["Jorginho Paulista"], "https://www.youtube.com/embed/kStiFan90c0", false];
 jogos.push(jogo20041113);
-var jogo20041127 = ["Botafogo", "Guarani", 1, 0, "Série A", "2004-11-27", "Caio Martins", "Paulo Bonamigo", ["Alex Alves"], [""], "", false];
+var jogo20041127 = ["Botafogo", "Guarani", 1, 0, "Série A", "2004-11-27", "Caio Martins", "Paulo Bonamigo", ["Alex Alves"], [""], "https://www.youtube.com/embed/wJ9G-3eIDQI", false];
 jogos.push(jogo20041127);
 var jogo20041212 = ["Botafogo", "Corinthians", 1, 2, "Série A", "2004-12-12", "Caio Martins", "Paulo Bonamigo", ["Alex Alves"], ["Fábio Baiano","Wendel"], "https://www.youtube.com/embed/47_CgK8epdo", false];
 jogos.push(jogo20041212);
