@@ -17,7 +17,11 @@
 			var selectValor = $(this).val();
 			$('#pai').children('div').hide();
 			$('#pai').children('#'+selectValor).show();
-			try { document.getElementById("select"+selectValor).value = 'select'; } catch (error) {}
+			try { 
+				document.getElementById("select"+selectValor).value = 'select';
+				document.getElementById("confrontoMeuTime").src = "";
+				document.getElementById("confrontoAdversario").src = "";
+			} catch (error) {}
 		});
 	});
 </script>
@@ -116,7 +120,9 @@
 						<option value='Vitória'>Vitória</option>
 						<option value='Volta Redonda'>Volta Redonda</option>
 					</select>
-					<br>
+					<br><br>
+					<img id="confrontoMeuTime" width="100" style="display: inline;">
+					<img id="confrontoAdversario" width="100" style="display: inline;">
 				</div>
 
 				<div id='campeonato'>
