@@ -213,7 +213,6 @@ function campeonato() {
 				selecionados.push(jogos[i]);
 			}
 		}
-
 		escreveLinhaOrdem(selecionados, ordemDecrescente, 'campeonato');
 	}
 }
@@ -233,7 +232,6 @@ function estadio() {
 				selecionados.push(jogos[i]);
 			}
 		}
-
 		escreveLinhaOrdem(selecionados, ordemDecrescente, 'estadio');
 	}
 }
@@ -252,7 +250,6 @@ function tecnico() {
 				selecionados.push(jogos[i]);
 			}
 		}
-
 		escreveLinhaOrdem(selecionados, ordemDecrescente, 'tecnico');
 	}
 }
