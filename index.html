@@ -19,9 +19,11 @@
 			$('#pai').children('#'+selectValor).show();
 			try { 
 				document.getElementById("select"+selectValor).value = 'select';
-				document.getElementById("confrontoMeuTime").src = "";
+				document.getElementById("confrontoMeuTime").style.border = "";
 				document.getElementById("confrontoAdversario").src = "";
-				document.getElementById("versus") = "";
+				document.getElementById("confrontoAdversario").style.backgroundColor = "";
+				document.getElementById("confrontoAdversario").style.border = "";
+				document.getElementById("confrontoAdversario").style.borderColor = "";
 			} catch (error) {}
 		});
 	});
@@ -123,7 +125,7 @@
 					</select>
 					<br><br>
 					<img id="confrontoMeuTime" width="70" style="display: inline;">
-					<p id="versus" style="display: inline; padding-left: 10px; padding-right: 10px;"></p>
+					<p id="versus" style="display: inline; padding-left: 10px; padding-right: 10px;"> X </p>
 					<img id="confrontoAdversario" width="70" style="display: inline;">
 				</div>
 

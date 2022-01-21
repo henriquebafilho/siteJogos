@@ -239,5 +239,7 @@ function coresTimes(time, jogo = null) {
 			return ["#d30a11", "white"];
 		case "Volta Redonda":
 			return ["#fde900", "black"];
+		case "Votuporanguense":
+			return ["black", "white"];
 	}
 }
