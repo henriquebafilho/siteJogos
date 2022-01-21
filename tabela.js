@@ -160,13 +160,11 @@ function adversario() {
 	var adversarioNome = juntaNome(adversario);
 	document.getElementById("confrontoMeuTime").src = "index_files/" +time+".png";
 	document.getElementById("confrontoMeuTime").style.border = "5px solid " + coresTimes(time)[0];
-	document.getElementById("confrontoMeuTime").style.outline = "2px solid " + coresTimes(time)[1];
 	document.getElementById("confrontoMeuTime").style.borderRadius = "5px";
 	document.getElementById("versus").textContent = "X";
 	document.getElementById("confrontoAdversario").src = "index_files/" +adversarioNome+".png";
 	document.getElementById("confrontoAdversario").style.backgroundColor = coresTimes(adversario)[0];
 	document.getElementById("confrontoAdversario").style.border = "5px solid " + coresTimes(adversario)[0];
-	document.getElementById("confrontoAdversario").style.outline = "2px solid " + coresTimes(adversario)[1];
 	document.getElementById("confrontoAdversario").style.borderRadius = "5px";
 
 	if (adversario != "") {
