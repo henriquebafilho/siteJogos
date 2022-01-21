@@ -21,6 +21,7 @@
 				document.getElementById("select"+selectValor).value = 'select';
 				document.getElementById("confrontoMeuTime").src = "";
 				document.getElementById("confrontoAdversario").src = "";
+				document.getElementById("versus") = "";
 			} catch (error) {}
 		});
 	});
@@ -121,9 +122,9 @@
 						<option value='Volta Redonda'>Volta Redonda</option>
 					</select>
 					<br><br>
-					<img id="confrontoMeuTime" width="80" style="display: inline;">
-					<!--<p id="versus" style="display: inline;"> X </p>-->
-					<img id="confrontoAdversario" width="80" style="display: inline;">
+					<img id="confrontoMeuTime" width="70" style="display: inline;">
+					<p id="versus" style="display: inline; padding-left: 10px; padding-right: 10px;"></p>
+					<img id="confrontoAdversario" width="70" style="display: inline;">
 				</div>
 
 				<div id='campeonato'>
@@ -239,7 +240,6 @@
 	<div id="ordem">
 		<input type='button' id="ordemBotao" style="text-align: center;" onclick="escolheOrdem(document.getElementById('cabecalho').value)">
 	</div>
-	<br>
 	<div id="tabelaJogos">
 		<table id="jogos"></table>
 	</div>
