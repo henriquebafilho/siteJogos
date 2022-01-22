@@ -17,7 +17,7 @@ function coresTimes(time, jogo = null) {
 			return ["white", "black"];
 		case "Athletico-PR":
 			return ["#d30a11", "white"];
-		case "Atlético Nacional-COL":
+		case "Atlético Nacional":
 			return ["#048439", "white"];
 		case "Atlético-GO":
 			return ["#d30a11", "white"];
@@ -29,7 +29,7 @@ function coresTimes(time, jogo = null) {
 			return ["#00005e", "#c8ad51"];
 		case "Audax-SP":
 			return ["#d30a11", "white"];
-		case "Audax Italiano-CHI":
+		case "Audax Italiano":
 			return ["green", "white"];
 		case "Avaí":
 			return ["#00468e", "white"];
@@ -37,24 +37,24 @@ function coresTimes(time, jogo = null) {
 			return ["#0188d6", "white"];
 		case "Bangu":
 			return ["#d30a11", "white"];
-		case "Barcelona de Guayaquil-EQU":
+		case "Barcelona de Guayaquil":
 			return ["#fde900", "#055daa"];
-		case "Benfica-POR":
+		case "Benfica":
 			return ["#d30a11", "white"];
 		case "Boa Esporte":
 			return ["#d30a11", "white"];
 		case "Boavista":
 			return ["#00913c", "white"];
-		case "Boca Juniors-ARG":
+		case "Boca Juniors":
 			return ["#00458a", "#fcb000"];
 		case "Bonsucesso":
 			return ["#1c4196", "white"];
-		case "Boston River-URU":
+		case "Boston River":
 			return ["#d30a11", "white"];
 		case "Botafogo":
 			return ["black", "white"];
 		case "Botafogo-SP":
-			return ["#d30a11", "white"];			
+			return ["#d30a11", "white"];
 		case "Bragantino":
 			return ["white", "black"];
 		case "Brasil":
@@ -65,15 +65,15 @@ function coresTimes(time, jogo = null) {
 			return ["#0b9c54", "white"];
 		case "Ceará":
 			return ["black", "white"];
-		case "Cerro Porteño-PAR":
+		case "Cerro Porteño":
 			return ["#c40215", "white"];
 		case "Chapecoense":
 			return ["#00913c", "white"];
 		case "Chile":
 			return ["#d30a11", "white"];
-		case "Colo-Colo-CHI":
+		case "Colo-Colo":
 			return ["white", "black"];
-		case "Colón-ARG":
+		case "Colón":
 			return ["#d30a11", "black"];
 		case "Confiança":
 			return ["#003a94", "white"];
@@ -91,15 +91,15 @@ function coresTimes(time, jogo = null) {
 			return ["#003a94", "white"];
 		case "Cuiabá":
 			return ["#fde900", "#018036"];
-		case "Defensa y Justicia-ARG":
+		case "Defensa y Justicia":
 			return ["#fde900", "#018036"];
-		case "Defensor-URU":
+		case "Defensor":
 			return ["#784684", "white"];
-		case "Deportivo Quito-EQU":
+		case "Deportivo Quito":
 			return ["#073756", "white"];
-		case "Deportivo Tachira-VEN":
+		case "Deportivo Tachira":
 			return ["#f2d902", "black"];
-		case "Estudiantes-ARG":
+		case "Estudiantes":
 			return ["#d30a11", "white"];
 		case "Ferroviária":
 			return ["#511a1d", "white"];
@@ -123,11 +123,11 @@ function coresTimes(time, jogo = null) {
 			return ["#048439", "white"];
 		case "Honduras":
 			return ["#075798", "white"];
-		case "Independiente-ARG":
+		case "Independiente":
 			return ["#d30a11", "white"];
-		case "Independiente Del Valle-EQU":
+		case "Independiente Del Valle":
 			return ["#fb37b9", "white"];
-		case "Independiente Santa Fé-COL":
+		case "Independiente Santa Fé":
 			return ["#d30a11", "white"];
 		case "Internacional":
 			return ["#d30a11", "white"];
@@ -137,7 +137,7 @@ function coresTimes(time, jogo = null) {
 			return ["#048439", "white"];
 		case "Juventus":
 			return ["#6a023c", "white"];
-		case "Kenitra-MAR":
+		case "Kenitra":
 			return ["#038b5d", "white"];
 		case "Linense":
 			return ["#d30a11", "white"];
@@ -151,7 +151,7 @@ function coresTimes(time, jogo = null) {
 			return ["#ffec00", "#00722c"];
 		case "Mogi Mirim":
 			return ["#d30a11", "white"];
-		case "Montevideo Wanderers-URU":
+		case "Montevideo Wanderers":
 			return ["white", "black"];
 		case "Nacional-PAR":
 			return ["#163fb3", "white"];
@@ -165,9 +165,9 @@ function coresTimes(time, jogo = null) {
 			return ["#fff500", "black"];
 		case "Oeste":
 			return ["#d30a11", "black"];
-		case "Olimpia-PAR":
+		case "Olimpia":
 			return ["white", "black"];
-		case "Once Caldas-COL":
+		case "Once Caldas":
 			return ["black", "white"];
 		case "Operário":
 			return ["black", "white"];
@@ -179,7 +179,7 @@ function coresTimes(time, jogo = null) {
 			return ["#d30a11", "black"];
 		case "Paysandu":
 			return ["#0091cf", "white"];
-		case "Peñarol-URU":
+		case "Peñarol":
 			return ["#fdca01", "black"];
 		case "Petrolina":
 			return ["#f5182e", "white"];
@@ -189,9 +189,9 @@ function coresTimes(time, jogo = null) {
 			return ["#d30a11", "white"];
 		case "Portuguesa-RJ":
 			return ["#048439", "white"];
-		case "Progreso-URU":
+		case "Progreso":
 			return ["#d30a11", "#fdd120"];
-		case "Real Garcilaso-PER":
+		case "Real Garcilaso":
 			return ["#0197ee", "#fdf21c"];
 		case "Red Bull Bragantino":
 			return ["#001c44", "white"];
@@ -219,15 +219,15 @@ function coresTimes(time, jogo = null) {
 			return ["#212568", "white"];
 		case "São Paulo":
 			return ["#d30a11", "white"];
-		case "Sol de America-PAR":
+		case "Sol de America":
 			return ["#075798", "white"];
 		case "Sport":
 			return ["#d30a11", "#ffda00"];
-		case "Sporting Cristal-PER":
+		case "Sporting Cristal":
 			return ["#54c6ed", "white"];
 		case "Taubaté":
 			return ["#003a94", "white"];
-		case "The Strongest-BOL":
+		case "The Strongest":
 			return ["#ffcc00", "black"];
 		case "Uruguai":
 			return ["#0d80bf", "white"];

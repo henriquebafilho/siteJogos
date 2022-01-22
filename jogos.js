@@ -103,9 +103,9 @@ var jogo20131005 = ["Botafogo", "Grêmio", 0, 1, "Série A", "2013-10-05", "Mara
 jogos.push(jogo20131005);
 var jogo20131208 = ["Botafogo", "Criciúma", 3, 0, "Série A", "2013-12-08", "Maracanã", "Oswaldo de Oliveira", ["Lodeiro","Elias","Seedorf"], [""], "https://www.youtube.com/embed/ONAQw9FZgVM", false];
 jogos.push(jogo20131208);
-var jogo20140205 = ["Botafogo", "Deportivo Quito-EQU", 4, 0, "Copa Libertadores", "2014-02-05", "Maracanã", "Eduardo Húngaro", ["Wallyson (3x)","Henrique Almeida"], [""], "https://www.youtube.com/embed/JZV2c1nfbNU", false];
+var jogo20140205 = ["Botafogo", "Deportivo Quito", 4, 0, "Copa Libertadores", "2014-02-05", "Maracanã", "Eduardo Húngaro", ["Wallyson (3x)","Henrique Almeida"], [""], "https://www.youtube.com/embed/JZV2c1nfbNU", false];
 jogos.push(jogo20140205);
-var jogo20140318 = ["Botafogo", "Independiente Del Valle-EQU", 1, 0, "Copa Libertadores", "2014-03-18", "Maracanã", "Eduardo Húngaro", ["\"El Tanque\" Ferreyra"], [""], "https://www.youtube.com/embed/nOJO6tOVdg8", false];
+var jogo20140318 = ["Botafogo", "Independiente Del Valle", 1, 0, "Copa Libertadores", "2014-03-18", "Maracanã", "Eduardo Húngaro", ["\"El Tanque\" Ferreyra"], [""], "https://www.youtube.com/embed/nOJO6tOVdg8", false];
 jogos.push(jogo20140318);
 var jogo20140727 = ["Flamengo", "Botafogo", 1, 0, "Série A", "2014-07-27", "Maracanã", "Vagner Mancini", [""], ["Alecsandro"], "https://www.youtube.com/embed/_Q0pVNcKsJA", false];
 jogos.push(jogo20140727);
@@ -185,11 +185,11 @@ var jogo20161126 = ["Botafogo", "Ponte Preta", 1, 1, "Série A", "2016-11-26", "
 jogos.push(jogo20161126);
 var jogo20170128 = ["Botafogo", "Nova Iguaçu", 1, 1, "Taça Guanabara", "2017-01-28", "Nilton Santos", "Jair Ventura", ["Marcelo Benevenuto"], ["Murilo Henrique"], "https://www.youtube.com/embed/7-S5YwlJe-o", false];
 jogos.push(jogo20170128);
-var jogo20170201 = ["Botafogo", "Colo-Colo-CHI", 2, 1, "Copa Libertadores", "2017-02-01", "Nilton Santos", "Jair Ventura", ["Airton","Esteban Pavez (GC)"], ["Paredes"], "https://www.youtube.com/embed/N1b1yHzTgMg", false];
+var jogo20170201 = ["Botafogo", "Colo-Colo", 2, 1, "Copa Libertadores", "2017-02-01", "Nilton Santos", "Jair Ventura", ["Airton","Esteban Pavez (GC)"], ["Paredes"], "https://www.youtube.com/embed/N1b1yHzTgMg", false];
 jogos.push(jogo20170201);
 var jogo20170204 = ["Botafogo", "Macaé", 2, 1, "Taça Guanabara", "2017-02-04", "Nilton Santos", "Jair Ventura", ["Rodrigo Lindoso","Vinicius Tanque"], ["Guilherme Xavier"], "https://www.youtube.com/embed/idh0SvNog6c", false];
 jogos.push(jogo20170204);
-var jogo20170215 = ["Botafogo", "Olimpia-PAR", 1, 0, "Copa Libertadores", "2017-02-15", "Nilton Santos", "Jair Ventura", ["Rodrigo Pimpão"], [""], "https://www.youtube.com/embed/xeCX0bdll24", false];
+var jogo20170215 = ["Botafogo", "Olimpia", 1, 0, "Copa Libertadores", "2017-02-15", "Nilton Santos", "Jair Ventura", ["Rodrigo Pimpão"], [""], "https://www.youtube.com/embed/xeCX0bdll24", false];
 jogos.push(jogo20170215);
 var jogo20170309 = ["Botafogo", "Volta Redonda", 1, 0, "Taça Rio", "2017-03-09", "Nilton Santos", "Jair Ventura", ["Victor Luís"], [""], "https://www.youtube.com/embed/tsT2iONH9eU", false];
 jogos.push(jogo20170309);
@@ -203,9 +203,9 @@ var jogo20170416 = ["Botafogo", "Vasco", 0, 2, "Taça Rio", "2017-04-16", "Nilto
 jogos.push(jogo20170416);
 var jogo20170426 = ["Botafogo", "Sport", 2, 1, "Copa do Brasil", "2017-04-26", "Nilton Santos", "Jair Ventura", ["Guilherme (2x)"], ["Samuel Xavier"], "https://www.youtube.com/embed/LK__izymY8o", false];
 jogos.push(jogo20170426);
-var jogo20170502 = ["Botafogo", "Barcelona de Guayaquil-EQU", 0, 2, "Copa Libertadores", "2017-05-02", "Nilton Santos", "Jair Ventura", [""], ["Ayoví","Jonatan Álvez"], "https://www.youtube.com/embed/Aj1gyEdonj0", false];
+var jogo20170502 = ["Botafogo", "Barcelona de Guayaquil", 0, 2, "Copa Libertadores", "2017-05-02", "Nilton Santos", "Jair Ventura", [""], ["Ayoví","Jonatan Álvez"], "https://www.youtube.com/embed/Aj1gyEdonj0", false];
 jogos.push(jogo20170502);
-var jogo20170518 = ["Botafogo", "Atlético Nacional-COL", 1, 0, "Copa Libertadores", "2017-05-18", "Nilton Santos", "Jair Ventura", ["Rodrigo Pimpão"], [""], "https://www.youtube.com/embed/N_IbWxKG4Ho", false];
+var jogo20170518 = ["Botafogo", "Atlético Nacional", 1, 0, "Copa Libertadores", "2017-05-18", "Nilton Santos", "Jair Ventura", ["Rodrigo Pimpão"], [""], "https://www.youtube.com/embed/N_IbWxKG4Ho", false];
 jogos.push(jogo20170518);
 var jogo20170521 = ["Botafogo", "Ponte Preta", 2, 0, "Série A", "2017-05-21", "Nilton Santos", "Jair Ventura", ["Bruno Silva","Rodrigo Lindoso"], [""], "https://www.youtube.com/embed/W3Al_yAo03g", false];
 jogos.push(jogo20170521);
@@ -283,7 +283,7 @@ var jogo20180408 = ["Vasco", "Botafogo", 0, 1, "Carioca", "2018-04-08", "Maracan
 jogos.push(jogo20180408);
 var jogo20180428 = ["Botafogo", "Grêmio", 2, 1, "Série A", "2018-04-28", "Nilton Santos", "Alberto Valentim", ["Brenner ","Gilson"], ["Igor Rabello (GC)"], "https://www.youtube.com/embed/S-SRXz7UuYE", false];
 jogos.push(jogo20180428);
-var jogo20180509 = ["Botafogo", "Audax Italiano-CHI", 1, 1, "Copa Sul-Americana", "2018-05-09", "Nilton Santos", "Alberto Valentim", ["Matheus Fernandes"], ["Luis Cabrera"], "https://www.youtube.com/embed/Nfl7EfscZ3A", false];
+var jogo20180509 = ["Botafogo", "Audax Italiano", 1, 1, "Copa Sul-Americana", "2018-05-09", "Nilton Santos", "Alberto Valentim", ["Matheus Fernandes"], ["Luis Cabrera"], "https://www.youtube.com/embed/Nfl7EfscZ3A", false];
 jogos.push(jogo20180509);
 var jogo20180514 = ["Botafogo", "Fluminense", 2, 1, "Série A", "2018-05-14", "Nilton Santos", "Alberto Valentim", ["Rodrigo Lindoso ","Kieza"], ["Pedro"], "https://www.youtube.com/embed/fKSjP81QYKE", false];
 jogos.push(jogo20180514);
@@ -329,7 +329,7 @@ var jogo20190123 = ["Botafogo", "Bangu", 0, 0, "Taça Guanabara", "2019-01-23", 
 jogos.push(jogo20190123);
 var jogo20190131 = ["Botafogo", "Resende", 0, 1, "Taça Guanabara", "2019-01-31", "Nilton Santos", "Zé Ricardo", [""], ["Maxwell"], "https://www.youtube.com/embed/hV8iyoX5hSw", false];
 jogos.push(jogo20190131);
-var jogo20190206 = ["Botafogo", "Defensa y Justicia-ARG", 1, 0, "Copa Sul-Americana", "2019-02-06", "Nilton Santos", "Zé Ricardo", ["Erik"], [""], "https://www.youtube.com/embed/Ggml0ng-Oxk", false];
+var jogo20190206 = ["Botafogo", "Defensa y Justicia", 1, 0, "Copa Sul-Americana", "2019-02-06", "Nilton Santos", "Zé Ricardo", ["Erik"], [""], "https://www.youtube.com/embed/Ggml0ng-Oxk", false];
 jogos.push(jogo20190206);
 var jogo20190223 = ["Botafogo", "Vasco", 1, 1, "Taça Rio", "2019-02-23", "Nilton Santos", "Zé Ricardo", ["Marcelo Benevenuto"], ["Yago Pikachu"], "https://www.youtube.com/embed/rJf-YBhH2C0", false];
 jogos.push(jogo20190223);
@@ -347,7 +347,7 @@ var jogo20190505 = ["Botafogo", "Fortaleza", 1, 0, "Série A", "2019-05-05", "Ni
 jogos.push(jogo20190505);
 var jogo20190511 = ["Fluminense", "Botafogo",  0, 1, "Série A", "2019-05-11", "Maracanã", "Eduardo Barroca", ["Alex Santana"], [""], "https://www.youtube.com/embed/cvfpVe4geTc", false];
 jogos.push(jogo20190511);
-var jogo20190529 = ["Botafogo", "Sol de America-PAR", 4, 0, "Copa Sul-Americana", "2019-05-29", "Nilton Santos", "Eduardo Barroca", ["Cícero","Luiz Fernando","Gustavo Bochecha","Diego Souza"], [""], "https://www.youtube.com/embed/6zWV91YLnFQ", false];
+var jogo20190529 = ["Botafogo", "Sol de America", 4, 0, "Copa Sul-Americana", "2019-05-29", "Nilton Santos", "Eduardo Barroca", ["Cícero","Luiz Fernando","Gustavo Bochecha","Diego Souza"], [""], "https://www.youtube.com/embed/6zWV91YLnFQ", false];
 jogos.push(jogo20190529);
 var jogo20190602 = ["Botafogo", "Vasco", 1, 0, "Série A", "2019-06-02", "Nilton Santos", "Eduardo Barroca", ["Diego Souza"], [""], "https://www.youtube.com/embed/qGa8vQqYd_k", false];
 jogos.push(jogo20190602);
