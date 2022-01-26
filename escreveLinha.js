@@ -65,23 +65,34 @@ function escreveLinha(meuTime, jogo, numero, ano){
 	escudoMandante.src = "index_files/" + getEscudoName(mandante, jogo) + ".png";
 	escudoMandante.style.width = '3em';
 	escudoMandante.style.height = '3em';
+	escudoMandante.style.float = 'right';
+
+	var pNomeMandante = document.createElement("p");
+	pNomeMandante.style.textAlign = "right";
+	pNomeMandante.style.whiteSpace = "pre-wrap";
+	pNomeMandante.appendChild(document.createTextNode(jogo[0].toUpperCase() + " "));
 	
 	var escudoVisitante = document.createElement("img");
 	escudoVisitante.src = "index_files/" + getEscudoName(visitante, jogo) + ".png";
 	escudoVisitante.style.width = '3em';
 	escudoVisitante.style.height = '3em';
+	escudoVisitante.style.float = 'left';
+
+	var pNomeVisitante = document.createElement("p");
+	pNomeVisitante.style.textAlign = "left";
+	pNomeVisitante.style.whiteSpace = "pre-wrap";
+	pNomeVisitante.appendChild(document.createTextNode(" " + jogo[1].toUpperCase()));
 
 	// Mandante
 	divMandante.style.width = "40%";
 	divMandante.style.float = "left";
 	divMandante.style.textAlign = "right";
-	divMandante.style.whiteSpace = "pre-wrap";
-	divMandante.style.lineHeight = "35px";
-	divMandante.style.fontSize = jogo[0].length >= 13 && window.screen.width < 400 ? "0.7em" : "clamp(0.5em, 0.8em + 0.8vw, 1vw);";
+	divMandante.style.verticalAlign = "middle";
+	divMandante.style.fontSize = "clamp(0.5em, 0.8em + 0.8vw, 1vw);";
 	divMandante.style.color = coresTimes(mandante)[1];
 	divMandante.style.textShadow = coresTimes(mandante, jogo)[1] == "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none";
 	divMandante.appendChild(escudoMandante);
-	divMandante.appendChild(document.createTextNode(" " + jogo[0].toUpperCase()));
+	divMandante.appendChild(pNomeMandante);
 	// Placar
 	divResultado.style.width = "15%";
 	divResultado.style.height = "1.5em";
@@ -92,13 +103,12 @@ function escreveLinha(meuTime, jogo, numero, ano){
 	divVisitante.style.width = "40%";
 	divVisitante.style.float = "right";
 	divVisitante.style.textAlign = "left";
-	divVisitante.style.whiteSpace = "pre-wrap";
-	divVisitante.style.lineHeight = "35px";
-	divVisitante.style.fontSize = jogo[1].length >= 13 && window.screen.width < 400 ? "0.7em" : "clamp(0.5em, 0.8em + 0.8vw, 1vw);";
+	divVisitante.style.verticalAlign = "middle";
+	divVisitante.style.fontSize = "clamp(0.5em, 0.8em + 0.8vw, 1vw);";
 	divVisitante.style.color = coresTimes(visitante)[1];
 	divVisitante.style.textShadow = coresTimes(visitante, jogo)[1] == "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none";
-	divVisitante.appendChild(document.createTextNode(" " + jogo[1].toUpperCase() + " "));
 	divVisitante.appendChild(escudoVisitante);
+	divVisitante.appendChild(pNomeVisitante);
 
 	divPlacar.appendChild(divMandante);
 	divPlacar.appendChild(divResultado);
