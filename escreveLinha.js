@@ -60,28 +60,38 @@ function escreveLinha(meuTime, jogo, numero, ano){
 	var divMandante = document.createElement("div");
 	var divResultado = document.createElement("div");
 	var divVisitante = document.createElement("div");
-
+	
 	var escudoMandante = document.createElement("img");
 	escudoMandante.src = "index_files/" + getEscudoName(mandante, jogo) + ".png";
 	escudoMandante.style.width = '3em';
 	escudoMandante.style.height = '3em';
 	escudoMandante.style.float = 'right';
-
+	
 	var pNomeMandante = document.createElement("p");
+	pNomeMandante.className = "nomeTime";
 	pNomeMandante.style.textAlign = "right";
-	pNomeMandante.style.whiteSpace = "pre-wrap";
-	pNomeMandante.appendChild(document.createTextNode(jogo[0].toUpperCase() + " "));
+	pNomeMandante.title = jogo[0];
+	pNomeMandante.style.overflow = jogo[1].split(" ").size > 1 && jogo[1].length() >= 13 ? 'none' : 'hidden';
+	pNomeMandante.style.textOverflow = jogo[1].split(" ").size > 1 && jogo[1].length() >= 13 ? 'none' : 'ellipsis';
+	pNomeMandante.style.whiteSpace = jogo[1].split(" ").size > 1 && jogo[1].length() >= 13 ? "nowrap" : "pre-wrap";
+	pNomeMandante.style.paddingRight = '5px';
+	pNomeMandante.appendChild(document.createTextNode(jogo[0].toUpperCase()));
 	
 	var escudoVisitante = document.createElement("img");
 	escudoVisitante.src = "index_files/" + getEscudoName(visitante, jogo) + ".png";
 	escudoVisitante.style.width = '3em';
 	escudoVisitante.style.height = '3em';
 	escudoVisitante.style.float = 'left';
-
+	
 	var pNomeVisitante = document.createElement("p");
+	pNomeVisitante.className = "nomeTime";
 	pNomeVisitante.style.textAlign = "left";
-	pNomeVisitante.style.whiteSpace = "pre-wrap";
-	pNomeVisitante.appendChild(document.createTextNode(" " + jogo[1].toUpperCase()));
+	pNomeVisitante.title = jogo[1];
+	pNomeVisitante.style.overflow = jogo[1].split(" ").size > 1 && jogo[1].length() >= 13 ? 'none' : 'hidden';
+	pNomeVisitante.style.textOverflow = jogo[1].split(" ").size > 1 && jogo[1].length() >= 13 ? 'none' : 'ellipsis';
+	pNomeVisitante.style.whiteSpace = jogo[1].split(" ").size > 1 && jogo[1].length() >= 13 ? "nowrap" : "pre-wrap";
+	pNomeVisitante.style.paddingLeft = '5px';
+	pNomeVisitante.appendChild(document.createTextNode(jogo[1].toUpperCase()));
 
 	// Mandante
 	divMandante.style.width = "40%";

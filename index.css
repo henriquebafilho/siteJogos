@@ -1,95 +1,98 @@
-html{
-	scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-body{
-	font-family: Arial;
-	color: white;
-	margin: 0;
+body {
+  font-family: Arial;
+  color: white;
+  margin: 0;
 }
 table {
-	font-family: Arial;
-	text-align: center;
-	background-color: black;
-} 
-td, th{
-	color: white;
-	font-family: Arial;
-	text-align: center;
-	border: 1px solid white;
-	column-span: 2;
+  font-family: Arial;
+  text-align: center;
+  background-color: black;
 }
-h1, h4{
-	color: white;
-	text-align: center;
-	width: 100%;
-	font-size: 100%;
+td,
+th {
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  border: 1px solid white;
+  column-span: 2;
 }
-#pai div{
-	display: none;
+h1,
+h4 {
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 100%;
 }
-p{
-	text-align: center;
-	font-family: Arial;
+#pai div {
+  display: none;
 }
-div{
-	text-align: center;
+p {
+  text-align: center;
+  font-family: Arial;
 }
-img{
-	vertical-align: middle;
+div {
+  text-align: center;
 }
-#titulo:hover{
-	cursor: pointer;
+img {
+  vertical-align: middle;
 }
-select{
-	text-align: center;
-	text-align-last: center;
+#titulo:hover {
+  cursor: pointer;
 }
-input, select{
-	background-color: white;
-	color: black;
-	text-align: center;
-	border-color: black;
-	border-radius: 50px;
-	cursor: pointer;
+select {
+  text-align: center;
+  text-align-last: center;
 }
-input#pesquisar:hover{
-	background-color: black;
-	color: white;
-	border-color: white;
-	border-radius: 50px;
-	cursor: pointer;
+input,
+select {
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-color: black;
+  border-radius: 50px;
+  cursor: pointer;
 }
-#voltarInicio{
-	display: none;
+input#pesquisar:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+  border-radius: 50px;
+  cursor: pointer;
 }
-li{
-	list-style: none;
+#voltarInicio {
+  display: none;
 }
-#voltarInicio{
-	cursor: pointer;
-	text-decoration: underline;
+li {
+  list-style: none;
+}
+#voltarInicio {
+  cursor: pointer;
+  text-decoration: underline;
 }
 /*Details*/
 summary {
-	padding: 1em;
-	padding-top: 0.1em;
+  padding: 1em;
+  padding-top: 0.1em;
 }
-summary:focus{
-	outline: none;
-	box-shadow: none;
+summary:focus {
+  outline: none;
+  box-shadow: none;
 }
-details{
-	border-radius: 7px;
-	margin-bottom: 1em;
+details {
+  border-radius: 7px;
+  margin-bottom: 1em;
 }
-details[open]{
-	padding-bottom: 1em;
+details[open] {
+  padding-bottom: 1em;
 }
 details > summary {
-	list-style-type: none;
+  list-style-type: none;
 }
 details > summary::-webkit-details-marker {
-	display: none;
+  display: none;
 }
 /*
 details > summary::before {
@@ -99,46 +102,48 @@ details[open] > summary::before {
 	content: '🔽';
 }
 */
-details[open] summary ~ *{
-	animation: sweep .5s ease-in-out;
+details[open] summary ~ * {
+  animation: sweep 0.5s ease-in-out;
 }
-@keyframes sweep{
-	from{
-		opacity: 0; margin-top: 0;
-	}
-	to{
-		opacity: 1; margin-top: 15px;
-	}
+@keyframes sweep {
+  from {
+    opacity: 0;
+    margin-top: 0;
+  }
+  to {
+    opacity: 1;
+    margin-top: 15px;
+  }
 }
 
 /*Ajustando tamanho da tabela de acordo com a tela*/
-@media(min-width: 600px){
-	#tabelaJogos{
-		padding-left: 10%;
-		padding-right: 10%;
-	}
+@media (min-width: 600px) {
+  #tabelaJogos {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 /*tentando acertar o tamanho do texto no details*/
-@media screen and (max-width : 1000px){
-  details{
-    font-size:6px; 
+@media screen and (max-width: 1000px) {
+  details {
+    font-size: 6px;
   }
-  ul{
-	font-size:11px;
-	text-align: left;
+  ul {
+    font-size: 11px;
+    text-align: left;
   }
-  p#pTecnico{
-	font-size:11px; 
+  p#pTecnico {
+    font-size: 11px;
   }
 }
-@media screen and (min-width : 1000px) and (max-width: 2000px){
-  details{
-    font-size:11px; 
+@media screen and (min-width: 1000px) and (max-width: 2000px) {
+  details {
+    font-size: 11px;
   }
-  ul{
-	font-size:20px; 
+  ul {
+    font-size: 20px;
   }
-  p#pTecnico{
-	font-size:20px; 
-  } 
+  p#pTecnico {
+    font-size: 20px;
+  }
 }

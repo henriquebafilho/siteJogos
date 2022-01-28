@@ -27,6 +27,8 @@ function coresTimes(time, jogo = null) {
 			return ["#d30a11", "white"];
 		case "Aparecidense":
 			return ["#00005e", "#c8ad51"];
+		case "Audax Rio":
+			return ["#003a94", "#f48221"];
 		case "Audax-SP":
 			return ["#d30a11", "white"];
 		case "Audax Italiano":
