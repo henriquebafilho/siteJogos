@@ -425,8 +425,8 @@ var jogo20220109 = ["Taubaté", "Botafogo", 0, 2, "Copinha", "2022-01-09", "Joaq
 jogos.push(jogo20220109);
 var jogo20220125 = ["Boavista", "Botafogo", 1, 1, "Taça Guanabara", "2022-01-25", "Nilton Santos", "Enderson Moreira", ["Carlinhos"], ["Kadu"], "https://www.youtube.com/embed/AGxSZZwsm_8", false];
 jogos.push(jogo20220125);
-// var jogo20220130 = ["Botafogo", "Bangu", 0, 0, "Taça Guanabara", "2022-01-30", "Nilton Santos", "Enderson Moreira", [""], [""], "", false];
-// jogos.push(jogo20220130);
+var jogo20220130 = ["Botafogo", "Bangu", 0, 0, "Taça Guanabara", "2022-01-30", "Nilton Santos", "Enderson Moreira", [""], [""], "", false];
+jogos.push(jogo20220130);
 // var jogo20220203 = ["Botafogo", "Madureira", 0, 0, "Taça Guanabara", "2022-02-03", "Nilton Santos", "Enderson Moreira", [""], [""], "", false];
 // jogos.push(jogo20220203);
 // var jogo20220207 = ["Botafogo", "Nova Iguaçu", 0, 0, "Taça Guanabara", "2022-02-07", "Nilton Santos", "Enderson Moreira", [""], [""], "", false];
