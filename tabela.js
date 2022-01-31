@@ -478,6 +478,10 @@ function getEscudoName(time, jogo) {
 		return "Vasco2021";
 	} else if (time == "Atlético-GO" && ano < 2020) {
 		return "Atlético-GO2020";
+	} else if (time == "São Bernardo" && ano < 2020) {
+		return "SãoBernardo2020";
+	} else if (time == "Botafogo-SP" && ano < 2021) {
+		return "Botafogo-SP2021";
 	}
 	return juntaNome(time);
 }
