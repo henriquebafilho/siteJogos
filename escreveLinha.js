@@ -108,7 +108,19 @@ function escreveLinha(meuTime, jogo, numero, ano){
 	divResultado.style.height = "1.5em";
 	divResultado.style.display = "inline-block";
 	divResultado.style.fontSize = "2.4em";
-	divResultado.appendChild(document.createTextNode(jogo[2] + " - " + jogo[3]));
+	var placarMandante = document.createElement("p");
+	placarMandante.style.color = coresTimes(jogo[0])[1];
+	placarMandante.style.display = "inline";
+	placarMandante.style.textShadow = coresTimes(jogo[0])[1] == "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none";
+	placarMandante.appendChild(document.createTextNode(jogo[2].toString()));
+	var placarVisitante = document.createElement("p");
+	placarVisitante.style.color = coresTimes(jogo[1])[1];
+	placarVisitante.style.display = "inline";
+	placarVisitante.style.textShadow = coresTimes(jogo[1])[1] == "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none";
+	placarVisitante.appendChild(document.createTextNode(jogo[3].toString()));
+	divResultado.appendChild(placarMandante);
+	divResultado.appendChild(document.createTextNode(" - "));
+	divResultado.appendChild(placarVisitante);
 	// Visitante
 	divVisitante.style.width = "40%";
 	divVisitante.style.float = "right";
@@ -143,11 +155,8 @@ function escreveLinha(meuTime, jogo, numero, ano){
 	var pTecnico = document.createElement("p");
 	pTecnico.id = 'pTecnico';
 	var textTecnico = document.createTextNode("Técnico: " + jogo[7]);
-	//pTecnico.style.fontSize = '1em';
 	pTecnico.style.textAlign = "center";
 	pTecnico.style.textShadow = coresTimes(mandante, jogo)[0] == "white" && coresTimes(visitante, jogo)[0] == "white" ? "" : "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
-	//pTecnico.style.webkitTextStrokeWidth = '1px';
-	//pTecnico.style.webkitTextStrokeColor = 'black';
 	pTecnico.appendChild(textTecnico);
 
 	var divGols = document.createElement("div"); 
@@ -165,7 +174,7 @@ function escreveLinha(meuTime, jogo, numero, ano){
 	divMandante.style.fontWeight = 'bold';
 
 	var listaGolsMandante = document.createElement("ul");
-	var golsMandante = jogo[0] == meuTime || jogo[1] == meuTime ? jogo[0] == meuTime? jogo[8] : jogo[9] : jogo[8];
+	var golsMandante = jogo[8];
 	for(var i = 0; i < golsMandante.length; i++){
 		var autorGolMandante = golsMandante[i];
 		if(golsMandante[i] != "" && golsMandante[i] != " " && golsMandante[i].indexOf("Pênaltis:")){
@@ -200,8 +209,7 @@ function escreveLinha(meuTime, jogo, numero, ano){
 
 	var listaGolsVisitante = document.createElement("ul");
 	listaGolsVisitante.style.textAlign = golsMandante == "" ? 'center' : '';
-	//var golsVisitante = jogo[1] == meuTime ? jogo[8] : jogo[9];
-	var golsVisitante = jogo[0] == meuTime || jogo[1] == meuTime ? jogo[1] == meuTime? jogo[8] : jogo[9] : jogo[9];
+	var golsVisitante = jogo[9];
 	for(var i = 0; i < golsVisitante.length; i++){
 		var autorGolVisitante = golsVisitante[i];
 		if(golsVisitante[i] != "" && golsVisitante[i] != " " && golsVisitante[i].indexOf("Pênaltis:")){

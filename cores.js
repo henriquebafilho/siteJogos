@@ -16,15 +16,15 @@ function coresTimes(time, jogo = null) {
 		case "Americano":
 			return ["white", "black"];
 		case "Athletico-PR":
-			return ["#d30a11", "white"];
+			return ["#d30a11", "black"];
 		case "Atlético Nacional":
 			return ["#048439", "white"];
 		case "Atlético-GO":
-			return ["#d30a11", "white"];
+			return ["#d30a11", "black"];
 		case "Atlético-MG":
 			return ["black", "white"];
 		case "Atlético-PR":
-			return ["#d30a11", "white"];
+			return ["#d30a11", "black"];
 		case "Aparecidense":
 			return ["#00005e", "#c8ad51"];
 		case "Audax Rio":
@@ -110,7 +110,7 @@ function coresTimes(time, jogo = null) {
 		case "Figueirense":
 			return ["black", "white"];
 		case "Flamengo":
-			return ["#d30a11", "white"];
+			return ["#d30a11", "black"];
 		case "Floresta-CE":
 			return ["#87c53f", "#036c3c"];
 		case "Fluminense":
@@ -228,7 +228,7 @@ function coresTimes(time, jogo = null) {
 		case "Sol de America":
 			return ["#075798", "white"];
 		case "Sport":
-			return ["#d30a11", "#ffda00"];
+			return ["#d30a11", "black"];
 		case "Sporting Cristal":
 			return ["#54c6ed", "white"];
 		case "Taubaté":
@@ -242,10 +242,12 @@ function coresTimes(time, jogo = null) {
 		case "Vila Nova":
 			return ["#d30a11", "white"];
 		case "Vitória":
-			return ["#d30a11", "white"];
+			return ["#d30a11", "black"];
 		case "Volta Redonda":
 			return ["#fde900", "black"];
 		case "Votuporanguense":
 			return ["black", "white"];
+		default:
+			return ["grey", "white"];
 	}
 }
