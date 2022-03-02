@@ -109,14 +109,14 @@ function escreveLinha(meuTime, jogo, numero, ano){
 	divResultado.style.display = "inline-block";
 	divResultado.style.fontSize = "2.4em";
 	var placarMandante = document.createElement("p");
-	placarMandante.style.color = coresTimes(jogo[0])[1];
+	placarMandante.style.color = coresTimes(jogo[0])[0] == "white" ? coresTimes(jogo[0])[1] : "white";
 	placarMandante.style.display = "inline";
-	placarMandante.style.textShadow = coresTimes(jogo[0])[1] == "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none";
+	placarMandante.style.textShadow = coresTimes(jogo[0])[0] != "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none";
 	placarMandante.appendChild(document.createTextNode(jogo[2].toString()));
 	var placarVisitante = document.createElement("p");
-	placarVisitante.style.color = coresTimes(jogo[1])[1];
+	placarVisitante.style.color = coresTimes(jogo[1])[0] == "white" ? coresTimes(jogo[1])[1] : "white";
 	placarVisitante.style.display = "inline";
-	placarVisitante.style.textShadow = coresTimes(jogo[1])[1] == "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none";
+	placarVisitante.style.textShadow = coresTimes(jogo[1])[0] != "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none";
 	placarVisitante.appendChild(document.createTextNode(jogo[3].toString()));
 	divResultado.appendChild(placarMandante);
 	divResultado.appendChild(document.createTextNode(" - "));
