@@ -1,0 +1,2620 @@
+D
+2021-02-25	Ceará	2-1	Botafogo	R38	Brasil	Brasileirão 2020	FG
+V
+2021-02-22	Botafogo	1-0	São Paulo	R37	Brasil	Brasileirão 2020	FG
+D
+2021-02-13	Goiás	2-0	Botafogo	R36	Brasil	Brasileirão 2020	FG
+D
+2021-02-08	Botafogo	2-5	Grêmio	R35	Brasil	Brasileirão 2020	FG
+D
+2021-02-05	Botafogo	0-1	Sport	R34	Brasil	Brasileirão 2020	FG
+E
+2021-02-02	Palmeiras	1-1	Botafogo	R33	Brasil	Brasileirão 2020	FG
+D
+2021-01-24	Fluminense	2-0	Botafogo	R32	Brasil	Brasileirão 2020	FG
+D
+2021-01-20	Botafogo	1-3	Atlético Goianiense	R31	Brasil	Brasileirão 2020	FG
+D
+2021-01-17	Santos	2-1	Botafogo	R30	Brasil	Brasileirão 2020	FG
+D
+2021-01-10	Vasco	3-0	Botafogo	R29	Brasil	Brasileirão 2020	FG
+D
+2021-01-06	Botafogo	0-2	Athletico Paranaense	R28	Brasil	Brasileirão 2020	FG
+D
+2020-12-27	Botafogo	0-2	Corinthians	R27	Brasil	Brasileirão 2020	FG
+V
+2020-12-19	Coritiba	1-2	Botafogo	R26	Brasil	Brasileirão 2020	FG
+D
+2020-12-12	Internacional	2-1	Botafogo	R25	Brasil	Brasileirão 2020	FG
+D
+2020-12-09	São Paulo	4-0	Botafogo	R18	Brasil	Brasileirão 2020	FG
+D
+2020-12-05	Botafogo	0-1	Flamengo	R24	Brasil	Brasileirão 2020	FG
+D
+2020-11-25	Atlético Mineiro	2-1	Botafogo	R23	Brasil	Brasileirão 2020	FG
+D
+2020-11-22	Botafogo	1-2	Fortaleza	R22	Brasil	Brasileirão 2020	FG
+D
+2020-11-16	Botafogo	1-2	Red Bull Bragantino	R21	Brasil	Brasileirão 2020	FG
+D
+2020-11-08	Bahia	1-0	Botafogo	R20	Brasil	Brasileirão 2020	FG
+E
+2020-10-31	Botafogo	2-2	Ceará	R19	Brasil	Brasileirão 2020	FG
+E
+2020-10-19	Botafogo	0-0	Goiás	R17	Brasil	Brasileirão 2020	FG
+D
+2020-10-14	Grêmio	3-1	Botafogo	R16	Brasil	Brasileirão 2020	FG
+V
+2020-10-11	Sport	1-2	Botafogo	R15	Brasil	Brasileirão 2020	FG
+V
+2020-10-07	Botafogo	2-1	Palmeiras	R14	Brasil	Brasileirão 2020	FG
+E
+2020-10-04	Botafogo	1-1	Fluminense	R13	Brasil	Brasileirão 2020	FG
+D
+2020-09-30	Botafogo	1-2	Bahia	R1	Brasil	Brasileirão 2020	FG
+E
+2020-09-27	Atlético Goianiense	1-1	Botafogo	R12	Brasil	Brasileirão 2020	FG
+E
+2020-09-20	Botafogo	0-0	Santos	R11	Brasil	Brasileirão 2020	FG
+D
+2020-09-13	Botafogo	2-3	Vasco	R10	Brasil	Brasileirão 2020
+E
+2020-09-09	Athletico Paranaense	1-1	Botafogo	R9	Brasil	Brasileirão 2020	FG
+E
+2020-09-05	Corinthians	2-2	Botafogo	R8	Brasil	Brasileirão 2020	FG
+E
+2020-09-02	Botafogo	0-0	Coritiba	R7	Brasil	Brasileirão 2020	FG
+D
+2020-08-29	Botafogo	0-2	Internacional	R6	Brasil	Brasileirão 2020	FG
+E
+2020-08-23	Flamengo	1-1	Botafogo	R5	Brasil	Brasileirão 2020	FG
+V
+2020-08-19	Botafogo	2-1	Atlético Mineiro	R4	Brasil	Brasileirão 2020	FG
+E
+2020-08-16	Fortaleza	0-0	Botafogo	R3	Brasil	Brasileirão 2020	FG
+E
+2020-08-12	Red Bull Bragantino	1-1	Botafogo	R2	Brasil	Brasileirão 2020	FG
+E
+2019-12-08	Botafogo	1-1	Ceará	R38	Brasil	Brasileirão 2019	FG
+D
+2019-12-04	Atlético Mineiro	2-0	Botafogo	R37	Brasil	Brasileirão 2019	FG
+D
+2019-11-30	Botafogo	0-1	Internacional	R36	Brasil	Brasileirão 2019	FG
+V
+2019-11-27	Chapecoense	0-1	Botafogo	R35	Brasil	Brasileirão 2019	FG
+V
+2019-11-24	Botafogo	1-0	Corinthians	R34	Brasil	Brasileirão 2019	FG
+D
+2019-11-17	Athletico Paranaense	1-0	Botafogo	R33	Brasil	Brasileirão 2019	FG
+V
+2019-11-11	Botafogo	2-0	Avaí	R32	Brasil	Brasileirão 2019	FG
+D
+2019-11-07	Botafogo	0-1	Flamengo	R31	Brasil	Brasileirão 2019	FG
+D
+2019-11-03	Santos	4-1	Botafogo	R30	Brasil	Brasileirão 2019	FG
+D
+2019-10-31	Botafogo	0-2	Cruzeiro	R29	Brasil	Brasileirão 2019	FG
+D
+2019-10-27	Grêmio	3-0	Botafogo	R28	Brasil	Brasileirão 2019	FG
+V
+2019-10-21	Botafogo	2-1	CSA	R27	Brasil	Brasileirão 2019	FG
+D
+2019-10-16	Vasco	2-1	Botafogo	R26	Brasil	Brasileirão 2019	FG
+D
+2019-10-12	Palmeiras	1-0	Botafogo	R25	Brasil	Brasileirão 2019	FG
+V
+2019-10-09	Botafogo	3-1	Goiás	R24	Brasil	Brasileirão 2019	FG
+D
+2019-10-06	Botafogo	0-1	Fluminense	R23	Brasil	Brasileirão 2019	FG
+D
+2019-09-30	Fortaleza	1-0	Botafogo	R22	Brasil	Brasileirão 2019	FG
+D
+2019-09-25	Bahia	2-0	Botafogo	R21	Brasil	Brasileirão 2019	FG
+D
+2019-09-21	Botafogo	1-2	São Paulo	R20	Brasil	Brasileirão 2019	FG
+E
+2019-09-14	Ceará	0-0	Botafogo	R19	Brasil	Brasileirão 2019	FG
+V
+2019-09-08	Botafogo	2-1	Atlético Mineiro	R18	Brasil	Brasileirão 2019	FG
+D
+2019-08-31	Internacional	3-2	Botafogo	R17	Brasil	Brasileirão 2019
+E
+2019-08-26	Botafogo	0-0	Chapecoense	R16	Brasil	Brasileirão 2019	FG
+D
+2019-08-17	Corinthians	2-0	Botafogo	R15	Brasil	Brasileirão 2019	FG
+V
+2019-08-11	Botafogo	2-1	Athletico Paranaense	R14	Brasil	Brasileirão 2019	FG
+V
+2019-08-04	Avaí	0-2	Botafogo	R13	Brasil	Brasileirão 2019	FG
+D
+2019-07-28	Flamengo	3-2	Botafogo	R12	Brasil	Brasileirão 2019	FG
+D
+2019-07-21	Botafogo	0-1	Santos	R11	Brasil	Brasileirão 2019	FG
+E
+2019-07-14	Cruzeiro	0-0	Botafogo	R10	Brasil	Brasileirão 2019	FG
+D
+2019-06-12	Botafogo	0-1	Grêmio	R9	Brasil	Brasileirão 2019	FG
+V
+2019-06-09	CSA	1-2	Botafogo	R8	Brasil	Brasileirão 2019	FG
+V
+2019-06-02	Botafogo	1-0	Vasco	R7	Brasil	Brasileirão 2019	FG
+D
+2019-05-25	Botafogo	0-1	Palmeiras	R6	Brasil	Brasileirão 2019	FG
+D
+2019-05-19	Goiás	1-0	Botafogo	R5	Brasil	Brasileirão 2019	FG
+V
+2019-05-11	Fluminense	0-1	Botafogo	R4	Brasil	Brasileirão 2019	FG
+V
+2019-05-05	Botafogo	1-0	Fortaleza	R3	Brasil	Brasileirão 2019	FG
+V
+2019-05-02	Botafogo	3-2	Bahia	R2	Brasil	Brasileirão 2019	FG
+D
+2019-04-27	São Paulo	2-0	Botafogo	R1	Brasil	Brasileirão 2019	FG
+D
+2018-12-01	Atlético Mineiro	1-0	Botafogo	R38	Brasil	Brasileirão 2018	FG
+V
+2018-11-26	Botafogo	2-1	Paraná	R37	Brasil	Brasileirão 2018	FG
+E
+2018-11-21	Santos	1-1	Botafogo	R36	Brasil	Brasileirão 2018	FG
+V
+2018-11-18	Botafogo	1-0	Internacional	R35	Brasil	Brasileirão 2018	FG
+V
+2018-11-15	Chapecoense	0-1	Botafogo	R34	Brasil	Brasileirão 2018	FG
+V
+2018-11-10	Botafogo	2-1	Flamengo	R33	Brasil	Brasileirão 2018	FG
+V
+2018-11-04	Botafogo	1-0	Corinthians	R32	Brasil	Brasileirão 2018	FG
+D
+2018-10-27	Atlético Paranaense	2-1	Botafogo	R31	Brasil	Brasileirão 2018	FG
+D
+2018-10-20	Botafogo	0-1	Bahia	R30	Brasil	Brasileirão 2018	FG
+E
+2018-10-15	Ceará	0-0	Botafogo	R29	Brasil	Brasileirão 2018	FG
+E
+2018-10-09	Botafogo	1-1	Vasco	R28	Brasil	Brasileirão 2018	FG
+E
+2018-09-30	Botafogo	2-2	São Paulo	R27	Brasil	Brasileirão 2018	FG
+V
+2018-09-23	Vitória	3-4	Botafogo	R26	Brasil	Brasileirão 2018	FG
+V
+2018-09-16	Botafogo	1-0	América Mineiro	R25	Brasil	Brasileirão 2018
+D
+2018-09-09	Fluminense	1-0	Botafogo	R24	Brasil	Brasileirão 2018	FG
+E
+2018-09-05	Botafogo	1-1	Cruzeiro	R23	Brasil	Brasileirão 2018	FG
+D
+2018-09-01	Grêmio	4-0	Botafogo	R22	Brasil	Brasileirão 2018	FG
+V
+2018-08-25	Botafogo	2-0	Sport	R21	Brasil	Brasileirão 2018	FG
+D
+2018-08-22	Palmeiras	2-0	Botafogo	R20	Brasil	Brasileirão 2018	FG
+D
+2018-08-19	Botafogo	0-3	Atlético Mineiro	R19	Brasil	Brasileirão 2018	FG
+E
+2018-08-12	Paraná	1-1	Botafogo	R18	Brasil	Brasileirão 2018	FG
+E
+2018-08-04	Botafogo	0-0	Santos	R17	Brasil	Brasileirão 2018	FG
+D
+2018-07-29	Internacional	3-0	Botafogo	R16	Brasil	Brasileirão 2018	FG
+V
+2018-07-26	Botafogo	1-0	Chapecoense	R15	Brasil	Brasileirão 2018	FG
+D
+2018-07-21	Flamengo	2-0	Botafogo	R14	Brasil	Brasileirão 2018	FG
+D
+2018-07-18	Corinthians	2-0	Botafogo	R13	Brasil	Brasileirão 2018	FG
+V
+2018-06-13	Botafogo	2-0	Atlético Paranaense	R12	Brasil	Brasileirão 2018	FG
+E
+2018-06-10	Bahia	3-3	Botafogo	R11	Brasil	Brasileirão 2018	FG
+E
+2018-06-06	Botafogo	0-0	Ceará	R10	Brasil	Brasileirão 2018	FG
+V
+2018-06-02	Vasco	1-2	Botafogo	R9	Brasil	Brasileirão 2018	FG
+D
+2018-05-30	São Paulo	3-2	Botafogo	R8	Brasil	Brasileirão 2018	FG
+E
+2018-05-27	Botafogo	1-1	Vitória	R7	Brasil	Brasileirão 2018	FG
+D
+2018-05-20	América Mineiro	1-0	Botafogo	R6	Brasil	Brasileirão 2018	FG
+V
+2018-05-14	Botafogo	2-1	Fluminense	R5	Brasil	Brasileirão 2018	FG
+D
+2018-05-06	Cruzeiro	1-0	Botafogo	R4	Brasil	Brasileirão 2018	FG
+V
+2018-04-28	Botafogo	2-1	Grêmio	R3	Brasil	Brasileirão 2018	FG
+E
+2018-04-23	Sport	1-1	Botafogo	R2	Brasil	Brasileirão 2018	FG
+E
+2018-04-16	Botafogo	1-1	Palmeiras	R1	Brasil	Brasileirão 2018	FG
+E
+2017-12-03	Botafogo	2-2	Cruzeiro	R38	Brasil	Brasileirão 2017	FG
+D
+2017-11-27	Palmeiras	2-0	Botafogo	R37	Brasil	Brasileirão 2017	FG
+E
+2017-11-19	São Paulo	0-0	Botafogo	R36	Brasil	Brasileirão 2017	FG
+D
+2017-11-16	Botafogo	1-2	Atlético Goianiense	R35	Brasil	Brasileirão 2017	FG
+D
+2017-11-11	Botafogo	0-1	Atlético Paranaense	R34	Brasil	Brasileirão 2017	FG
+V
+2017-11-08	Sport	1-2	Botafogo	R33	Brasil	Brasileirão 2017
+D
+2017-11-04	Botafogo	1-2	Fluminense	R32	Brasil	Brasileirão 2017	FG
+E
+2017-10-29	Atlético Mineiro	0-0	Botafogo	R31	Brasil	Brasileirão 2017	FG
+V
+2017-10-23	Botafogo	2-1	Corinthians	R30	Brasil	Brasileirão 2017	FG
+E
+2017-10-18	Avaí	1-1	Botafogo	R29	Brasil	Brasileirão 2017	FG
+D
+2017-10-14	Vasco	1-0	Botafogo	R28	Brasil	Brasileirão 2017	FG
+V
+2017-10-11	Botafogo	2-1	Chapecoense	R27	Brasil	Brasileirão 2017	FG
+D
+2017-10-01	Botafogo	2-3	Vitória	R26	Brasil	Brasileirão 2017	FG
+V
+2017-09-24	Coritiba	2-3	Botafogo	R25	Brasil	Brasileirão 2017	FG
+V
+2017-09-16	Botafogo	2-0	Santos	R24	Brasil	Brasileirão 2017	FG
+V
+2017-09-10	Botafogo	2-0	Flamengo	R23	Brasil	Brasileirão 2017	FG
+V
+2017-08-27	Bahia	1-2	Botafogo	R22	Brasil	Brasileirão 2017	FG
+D
+2017-08-20	Ponte Preta	2-1	Botafogo	R21	Brasil	Brasileirão 2017	FG
+V
+2017-08-13	Botafogo	1-0	Grêmio	R20	Brasil	Brasileirão 2017	FG
+E
+2017-08-06	Cruzeiro	0-0	Botafogo	R19	Brasil	Brasileirão 2017	FG
+D
+2017-08-02	Botafogo	1-2	Palmeiras	R18	Brasil	Brasileirão 2017	FG
+D
+2017-07-29	Botafogo	3-4	São Paulo	R17	Brasil	Brasileirão 2017	FG
+E
+2017-07-23	Atlético Goianiense	1-1	Botafogo	R16	Brasil	Brasileirão 2017	FG
+E
+2017-07-20	Atlético Paranaense	0-0	Botafogo	R15	Brasil	Brasileirão 2017	FG
+V
+2017-07-17	Botafogo	2-1	Sport	R14	Brasil	Brasileirão 2017	FG
+V
+2017-07-12	Fluminense	0-1	Botafogo	R13	Brasil	Brasileirão 2017	FG
+E
+2017-07-09	Botafogo	1-1	Atlético Mineiro	R12	Brasil	Brasileirão 2017	FG
+D
+2017-07-02	Corinthians	1-0	Botafogo	R11	Brasil	Brasileirão 2017	FG
+D
+2017-06-26	Botafogo	0-2	Avaí	R10	Brasil	Brasileirão 2017	FG
+V
+2017-06-21	Botafogo	3-1	Vasco	R9	Brasil	Brasileirão 2017	FG
+V
+2017-06-18	Chapecoense	0-2	Botafogo	R8	Brasil	Brasileirão 2017	FG
+E
+2017-06-14	Vitória	2-2	Botafogo	R7	Brasil	Brasileirão 2017	FG
+E
+2017-06-11	Botafogo	2-2	Coritiba	R6	Brasil	Brasileirão 2017	FG
+D
+2017-06-07	Santos	1-0	Botafogo	R5	Brasil	Brasileirão 2017	FG
+E
+2017-06-04	Flamengo	0-0	Botafogo	R4	Brasil	Brasileirão 2017	FG
+V
+2017-05-28	Botafogo	1-0	Bahia	R3	Brasil	Brasileirão 2017
+V
+2017-05-21	Botafogo	2-0	Ponte Preta	R2	Brasil	Brasileirão 2017	FG
+D
+2017-05-14	Grêmio	2-0	Botafogo	R1	Brasil	Brasileirão 2017	FG
+V
+2016-12-11	Grêmio	0-1	Botafogo	R38	Brasil	Brasileirão 2016	FG
+E
+2016-11-26	Botafogo	1-1	Ponte Preta	R37	Brasil	Brasileirão 2016	FG
+D
+2016-11-20	Palmeiras	1-0	Botafogo	R36	Brasil	Brasileirão 2016	FG
+D
+2016-11-16	Botafogo	0-2	Chapecoense	R35	Brasil	Brasileirão 2016	FG
+E
+2016-11-05	Flamengo	0-0	Botafogo	R34	Brasil	Brasileirão 2016	FG
+E
+2016-10-29	Botafogo	0-0	Coritiba	R33	Brasil	Brasileirão 2016	FG
+V
+2016-10-19	Santa Cruz	0-1	Botafogo	R32	Brasil	Brasileirão 2016	FG
+V
+2016-10-16	Botafogo	3-2	Atlético Mineiro	R31	Brasil	Brasileirão 2016	FG
+V
+2016-10-12	Botafogo	1-0	Internacional	R30	Brasil	Brasileirão 2016	FG
+V
+2016-10-09	Figueirense	0-1	Botafogo	R29	Brasil	Brasileirão 2016	FG
+V
+2016-10-01	Botafogo	2-0	Corinthians	R28	Brasil	Brasileirão 2016	FG
+D
+2016-09-24	América Mineiro	1-0	Botafogo	R27	Brasil	Brasileirão 2016	FG
+V
+2016-09-18	Vitória	0-1	Botafogo	R26	Brasil	Brasileirão 2016	FG
+D
+2016-09-14	Botafogo	0-1	Santos	R25	Brasil	Brasileirão 2016	FG
+V
+2016-09-11	Cruzeiro	0-2	Botafogo	R24	Brasil	Brasileirão 2016	FG
+V
+2016-09-07	Botafogo	1-0	Fluminense	R23	Brasil	Brasileirão 2016	FG
+V
+2016-09-04	Botafogo	2-1	Grêmio	R19	Brasil	Brasileirão 2016	FG
+D
+2016-08-29	Atlético Paranaense	1-0	Botafogo	R22	Brasil	Brasileirão 2016	FG
+V
+2016-08-20	Botafogo	3-0	Sport	R21	Brasil	Brasileirão 2016	FG
+V
+2016-08-14	São Paulo	0-1	Botafogo	R20	Brasil	Brasileirão 2016	FG
+D
+2016-08-04	Ponte Preta	2-0	Botafogo	R18	Brasil	Brasileirão 2016	FG
+V
+2016-07-31	Botafogo	3-1	Palmeiras	R17	Brasil	Brasileirão 2016	FG
+D
+2016-07-24	Chapecoense	2-1	Botafogo	R16	Brasil	Brasileirão 2016	FG
+E
+2016-07-16	Botafogo	3-3	Flamengo	R15	Brasil	Brasileirão 2016	FG
+E
+2016-07-09	Coritiba	0-0	Botafogo	R14	Brasil	Brasileirão 2016	FG
+V
+2016-07-03	Botafogo	2-1	Santa Cruz	R13	Brasil	Brasileirão 2016	FG
+D
+2016-06-30	Atlético Mineiro	5-3	Botafogo	R12	Brasil	Brasileirão 2016	FG
+V
+2016-06-26	Internacional	2-3	Botafogo	R11	Brasil	Brasileirão 2016
+E
+2016-06-22	Botafogo	0-0	Figueirense	R10	Brasil	Brasileirão 2016	FG
+D
+2016-06-19	Corinthians	3-1	Botafogo	R9	Brasil	Brasileirão 2016	FG
+V
+2016-06-15	Botafogo	3-1	América Mineiro	R8	Brasil	Brasileirão 2016	FG
+E
+2016-06-12	Botafogo	1-1	Vitória	R7	Brasil	Brasileirão 2016	FG
+D
+2016-06-05	Santos	3-0	Botafogo	R6	Brasil	Brasileirão 2016	FG
+D
+2016-06-01	Botafogo	0-1	Cruzeiro	R5	Brasil	Brasileirão 2016	FG
+D
+2016-05-29	Fluminense	1-0	Botafogo	R4	Brasil	Brasileirão 2016	FG
+V
+2016-05-25	Botafogo	2-1	Atlético Paranaense	R3	Brasil	Brasileirão 2016	FG
+E
+2016-05-22	Sport	1-1	Botafogo	R2	Brasil	Brasileirão 2016	FG
+D
+2016-05-15	Botafogo	0-1	São Paulo	R1	Brasil	Brasileirão 2016	FG
+E
+2014-12-07	Botafogo	0-0	Atlético Mineiro	R38	Brasil	Brasileirão 2014	FG
+D
+2014-11-30	Santos	2-0	Botafogo	R37	Brasil	Brasileirão 2014	FG
+D
+2014-11-23	Chapecoense	2-0	Botafogo	R36	Brasil	Brasileirão 2014	FG
+D
+2014-11-19	Botafogo	0-1	Figueirense	R35	Brasil	Brasileirão 2014	FG
+D
+2014-11-15	Fluminense	1-0	Botafogo	R34	Brasil	Brasileirão 2014	FG
+D
+2014-11-08	Botafogo	0-2	Atlético Paranaense	R33	Brasil	Brasileirão 2014	FG
+D
+2014-11-02	Cruzeiro	2-1	Botafogo	R32	Brasil	Brasileirão 2014	FG
+V
+2014-10-25	Botafogo	2-1	Flamengo	R31	Brasil	Brasileirão 2014	FG
+D
+2014-10-22	Coritiba	2-0	Botafogo	R30	Brasil	Brasileirão 2014	FG
+E
+2014-10-19	Botafogo	1-1	Sport	R29	Brasil	Brasileirão 2014	FG
+V
+2014-10-11	Botafogo	1-0	Corinthians	R28	Brasil	Brasileirão 2014	FG
+D
+2014-10-08	Botafogo	0-1	Palmeiras	R27	Brasil	Brasileirão 2014	FG
+D
+2014-10-04	Vitória	2-1	Botafogo	R26	Brasil	Brasileirão 2014	FG
+D
+2014-09-28	Botafogo	0-2	Grêmio	R25	Brasil	Brasileirão 2014	FG
+V
+2014-09-25	Botafogo	1-0	Goiás	R24	Brasil	Brasileirão 2014	FG
+E
+2014-09-20	Criciúma	1-1	Botafogo	R23	Brasil	Brasileirão 2014	FG
+D
+2014-09-17	Botafogo	2-3	Bahia	R22	Brasil	Brasileirão 2014	FG
+D
+2014-09-14	Internacional	2-0	Botafogo	R21	Brasil	Brasileirão 2014	FG
+D
+2014-09-10	Botafogo	2-4	São Paulo	R20	Brasil	Brasileirão 2014	FG
+D
+2014-09-07	Atlético Mineiro	1-0	Botafogo	R19	Brasil	Brasileirão 2014
+V
+2014-08-31	Botafogo	1-0	Santos	R18	Brasil	Brasileirão 2014	FG
+V
+2014-08-23	Botafogo	1-0	Chapecoense	R17	Brasil	Brasileirão 2014	FG
+D
+2014-08-20	Figueirense	1-0	Botafogo	R16	Brasil	Brasileirão 2014	FG
+V
+2014-08-17	Botafogo	2-0	Fluminense	R15	Brasil	Brasileirão 2014	FG
+D
+2014-08-10	Atlético Paranaense	2-0	Botafogo	R14	Brasil	Brasileirão 2014	FG
+E
+2014-08-02	Botafogo	1-1	Cruzeiro	R13	Brasil	Brasileirão 2014	FG
+D
+2014-07-27	Flamengo	1-0	Botafogo	R12	Brasil	Brasileirão 2014	FG
+V
+2014-07-19	Botafogo	1-0	Coritiba	R11	Brasil	Brasileirão 2014	FG
+D
+2014-07-16	Sport	1-0	Botafogo	R10	Brasil	Brasileirão 2014	FG
+E
+2014-06-01	Corinthians	1-1	Botafogo	R9	Brasil	Brasileirão 2014	FG
+V
+2014-05-28	Palmeiras	0-2	Botafogo	R8	Brasil	Brasileirão 2014	FG
+E
+2014-05-25	Botafogo	1-1	Vitória	R7	Brasil	Brasileirão 2014	FG
+D
+2014-05-21	Grêmio	2-1	Botafogo	R6	Brasil	Brasileirão 2014	FG
+D
+2014-05-14	Goiás	2-0	Botafogo	R5	Brasil	Brasileirão 2014	FG
+V
+2014-05-10	Botafogo	6-0	Criciúma	R4	Brasil	Brasileirão 2014	FG
+D
+2014-05-04	Bahia	1-0	Botafogo	R3	Brasil	Brasileirão 2014	FG
+E
+2014-04-27	Botafogo	2-2	Internacional	R2	Brasil	Brasileirão 2014	FG
+D
+2014-04-20	São Paulo	3-0	Botafogo	R1	Brasil	Brasileirão 2014	FG
+V
+2013-12-08	Botafogo	3-0	Criciúma	R38	Brasil	Brasileirão 2013	FG
+D
+2013-12-01	Coritiba	2-1	Botafogo	R37	Brasil	Brasileirão 2013	FG
+E
+2013-11-24	São Paulo	1-1	Botafogo	R36	Brasil	Brasileirão 2013	FG
+V
+2013-11-16	Botafogo	4-0	Atlético Paranaense	R35	Brasil	Brasileirão 2013	FG
+E
+2013-11-13	Botafogo	0-0	Portuguesa	R34	Brasil	Brasileirão 2013	FG
+D
+2013-11-10	Internacional	2-1	Botafogo	R33	Brasil	Brasileirão 2013	FG
+D
+2013-11-03	Goiás	1-0	Botafogo	R32	Brasil	Brasileirão 2013	FG
+V
+2013-10-26	Botafogo	1-0	Atlético Mineiro	R31	Brasil	Brasileirão 2013	FG
+E
+2013-10-20	Botafogo	2-2	Vasco	R30	Brasil	Brasileirão 2013	FG
+D
+2013-10-17	Vitória	1-0	Botafogo	R29	Brasil	Brasileirão 2013	FG
+V
+2013-10-13	Botafogo	2-1	Flamengo	R28	Brasil	Brasileirão 2013	FG
+V
+2013-10-09	Náutico	1-3	Botafogo	R27	Brasil	Brasileirão 2013
+D
+2013-10-05	Botafogo	0-1	Grêmio	R26	Brasil	Brasileirão 2013	FG
+E
+2013-10-02	Fluminense	1-1	Botafogo	R25	Brasil	Brasileirão 2013	FG
+D
+2013-09-28	Botafogo	0-1	Ponte Preta	R24	Brasil	Brasileirão 2013	FG
+D
+2013-09-22	Botafogo	1-2	Bahia	R23	Brasil	Brasileirão 2013	FG
+D
+2013-09-18	Cruzeiro	3-0	Botafogo	R22	Brasil	Brasileirão 2013	FG
+V
+2013-09-15	Santos	1-2	Botafogo	R21	Brasil	Brasileirão 2013	FG
+V
+2013-09-11	Botafogo	1-0	Corinthians	R20	Brasil	Brasileirão 2013	FG
+V
+2013-09-08	Criciúma	1-2	Botafogo	R19	Brasil	Brasileirão 2013	FG
+V
+2013-09-05	Botafogo	3-1	Coritiba	R18	Brasil	Brasileirão 2013	FG
+E
+2013-09-01	Botafogo	0-0	São Paulo	R17	Brasil	Brasileirão 2013	FG
+D
+2013-08-25	Atlético Paranaense	2-0	Botafogo	R16	Brasil	Brasileirão 2013	FG
+V
+2013-08-18	Portuguesa	1-3	Botafogo	R15	Brasil	Brasileirão 2013	FG
+E
+2013-08-15	Botafogo	3-3	Internacional	R14	Brasil	Brasileirão 2013	FG
+E
+2013-08-10	Botafogo	1-1	Goiás	R13	Brasil	Brasileirão 2013	FG
+E
+2013-08-07	Atlético Mineiro	2-2	Botafogo	R12	Brasil	Brasileirão 2013	FG
+V
+2013-08-04	Vasco	2-3	Botafogo	R11	Brasil	Brasileirão 2013	FG
+V
+2013-08-01	Botafogo	2-0	Vitória	R10	Brasil	Brasileirão 2013	FG
+E
+2013-07-28	Flamengo	1-1	Botafogo	R9	Brasil	Brasileirão 2013	FG
+V
+2013-07-20	Botafogo	2-0	Náutico	R8	Brasil	Brasileirão 2013	FG
+D
+2013-07-14	Grêmio	2-1	Botafogo	R7	Brasil	Brasileirão 2013	FG
+V
+2013-07-07	Botafogo	1-0	Fluminense	R6	Brasil	Brasileirão 2013	FG
+V
+2013-06-08	Ponte Preta	0-2	Botafogo	R5	Brasil	Brasileirão 2013	FG
+D
+2013-06-05	Bahia	2-1	Botafogo	R4	Brasil	Brasileirão 2013	FG
+V
+2013-06-01	Botafogo	2-1	Cruzeiro	R3	Brasil	Brasileirão 2013	FG
+V
+2013-05-29	Botafogo	2-1	Santos	R2	Brasil	Brasileirão 2013	FG
+E
+2013-05-25	Corinthians	1-1	Botafogo	R1	Brasil	Brasileirão 2013	FG
+E
+2012-12-01	Flamengo	2-2	Botafogo	R38	Brasil	Brasileirão 2012	FG
+D
+2012-11-25	Botafogo	2-3	Atlético Mineiro	R37	Brasil	Brasileirão 2012	FG
+D
+2012-11-18	Sport	2-0	Botafogo	R36	Brasil	Brasileirão 2012	FG
+V
+2012-11-10	Botafogo	3-0	Portuguesa	R35	Brasil	Brasileirão 2012	FG
+E
+2012-11-04	Palmeiras	2-2	Botafogo	R34	Brasil	Brasileirão 2012	FG
+V
+2012-10-27	Botafogo	4-0	Atlético Goianiense	R33	Brasil	Brasileirão 2012	FG
+V
+2012-10-24	Figueirense	0-2	Botafogo	R32	Brasil	Brasileirão 2012	FG
+V
+2012-10-18	Botafogo	3-2	Vasco	R31	Brasil	Brasileirão 2012	FG
+E
+2012-10-14	Grêmio	1-1	Botafogo	R30	Brasil	Brasileirão 2012	FG
+D
+2012-10-10	Botafogo	0-2	Santos	R29	Brasil	Brasileirão 2012	FG
+D
+2012-10-06	Fluminense	1-0	Botafogo	R28	Brasil	Brasileirão 2012	FG
+D
+2012-09-30	Bahia	2-0	Botafogo	R27	Brasil	Brasileirão 2012	FG
+E
+2012-09-23	Botafogo	2-2	Corinthians	R26	Brasil	Brasileirão 2012	FG
+E
+2012-09-16	Ponte Preta	0-0	Botafogo	R25	Brasil	Brasileirão 2012	FG
+E
+2012-09-13	Botafogo	1-1	Internacional	R24	Brasil	Brasileirão 2012	FG
+V
+2012-09-09	Botafogo	3-1	Náutico	R23	Brasil	Brasileirão 2012	FG
+V
+2012-09-05	Cruzeiro	1-3	Botafogo	R22	Brasil	Brasileirão 2012	FG
+V
+2012-09-02	Botafogo	2-0	Coritiba	R21	Brasil	Brasileirão 2012	FG
+D
+2012-08-30	São Paulo	4-0	Botafogo	R20	Brasil	Brasileirão 2012	FG
+E
+2012-08-26	Botafogo	0-0	Flamengo	R19	Brasil	Brasileirão 2012	FG
+D
+2012-08-19	Atlético Mineiro	3-2	Botafogo	R18	Brasil	Brasileirão 2012	FG
+V
+2012-08-15	Botafogo	2-0	Sport	R17	Brasil	Brasileirão 2012	FG
+E
+2012-08-12	Portuguesa	1-1	Botafogo	R16	Brasil	Brasileirão 2012	FG
+D
+2012-08-08	Botafogo	1-2	Palmeiras	R15	Brasil	Brasileirão 2012	FG
+V
+2012-08-04	Atlético Goianiense	1-2	Botafogo	R14	Brasil	Brasileirão 2012	FG
+V
+2012-07-28	Botafogo	1-0	Figueirense	R13	Brasil	Brasileirão 2012	FG
+D
+2012-07-25	Vasco	1-0	Botafogo	R12	Brasil	Brasileirão 2012	FG
+D
+2012-07-22	Botafogo	0-1	Grêmio	R11	Brasil	Brasileirão 2012	FG
+E
+2012-07-18	Santos	0-0	Botafogo	R10	Brasil	Brasileirão 2012	FG
+E
+2012-07-15	Botafogo	1-1	Fluminense	R9	Brasil	Brasileirão 2012	FG
+V
+2012-07-11	Corinthians	1-3	Botafogo	R7	Brasil	Brasileirão 2012	FG
+V
+2012-07-07	Botafogo	3-0	Bahia	R8	Brasil	Brasileirão 2012	FG
+D
+2012-06-24	Botafogo	1-2	Ponte Preta	R6	Brasil	Brasileirão 2012	FG
+V
+2012-06-16	Internacional	1-2	Botafogo	R5	Brasil	Brasileirão 2012
+D
+2012-06-10	Náutico	3-2	Botafogo	R4	Brasil	Brasileirão 2012	FG
+D
+2012-06-07	Botafogo	2-3	Cruzeiro	R3	Brasil	Brasileirão 2012	FG
+V
+2012-05-27	Coritiba	2-3	Botafogo	R2	Brasil	Brasileirão 2012	FG
+V
+2012-05-20	Botafogo	4-2	São Paulo	R1	Brasil	Brasileirão 2012	FG
+E
+2011-12-04	Botafogo	1-1	Fluminense	R38	Brasil	Brasileirão 2011	FG
+D
+2011-11-27	Atlético Mineiro	4-0	Botafogo	R37	Brasil	Brasileirão 2011	FG
+D
+2011-11-20	Botafogo	1-2	Internacional	R36	Brasil	Brasileirão 2011	FG
+D
+2011-11-16	América Mineiro	2-1	Botafogo	R35	Brasil	Brasileirão 2011	FG
+D
+2011-11-13	Vasco	2-0	Botafogo	R34	Brasil	Brasileirão 2011	FG
+D
+2011-11-05	Botafogo	0-1	Figueirense	R33	Brasil	Brasileirão 2011	FG
+V
+2011-10-29	Botafogo	1-0	Cruzeiro	R32	Brasil	Brasileirão 2011	FG
+D
+2011-10-22	Avaí	3-2	Botafogo	R31	Brasil	Brasileirão 2011	FG
+D
+2011-10-19	Santos	2-0	Botafogo	R21	Brasil	Brasileirão 2011	FG
+V
+2011-10-16	Botafogo	2-0	Atlético Paranaense	R30	Brasil	Brasileirão 2011	FG
+V
+2011-10-12	Corinthians	0-2	Botafogo	R29	Brasil	Brasileirão 2011	FG
+E
+2011-10-08	Botafogo	2-2	Bahia	R28	Brasil	Brasileirão 2011	FG
+D
+2011-10-02	Atlético Goianiense	2-0	Botafogo	R27	Brasil	Brasileirão 2011	FG
+E
+2011-09-25	Botafogo	2-2	São Paulo	R26	Brasil	Brasileirão 2011	FG
+V
+2011-09-22	Grêmio	0-1	Botafogo	R25	Brasil	Brasileirão 2011	FG
+E
+2011-09-18	Botafogo	1-1	Flamengo	R24	Brasil	Brasileirão 2011	FG
+D
+2011-09-11	Coritiba	5-0	Botafogo	R23	Brasil	Brasileirão 2011	FG
+V
+2011-09-07	Botafogo	4-0	Ceará	R22	Brasil	Brasileirão 2011	FG
+V
+2011-08-31	Botafogo	3-1	Palmeiras	R20	Brasil	Brasileirão 2011	FG
+V
+2011-08-27	Fluminense	1-2	Botafogo	R19	Brasil	Brasileirão 2011	FG
+V
+2011-08-20	Botafogo	3-1	Atlético Mineiro	R18	Brasil	Brasileirão 2011	FG
+D
+2011-08-17	Internacional	1-0	Botafogo	R17	Brasil	Brasileirão 2011	FG
+V
+2011-08-13	Botafogo	4-2	América Mineiro	R16	Brasil	Brasileirão 2011	FG
+V
+2011-08-07	Botafogo	4-0	Vasco	R15	Brasil	Brasileirão 2011	FG
+D
+2011-08-03	Figueirense	2-0	Botafogo	R14	Brasil	Brasileirão 2011	FG
+V
+2011-07-30	Cruzeiro	0-1	Botafogo	R13	Brasil	Brasileirão 2011
+V
+2011-07-27	Botafogo	2-1	Avaí	R12	Brasil	Brasileirão 2011	FG
+D
+2011-07-23	Atlético Paranaense	2-1	Botafogo	R11	Brasil	Brasileirão 2011	FG
+D
+2011-07-20	Botafogo	0-2	Corinthians	R10	Brasil	Brasileirão 2011	FG
+E
+2011-07-10	Bahia	1-1	Botafogo	R9	Brasil	Brasileirão 2011	FG
+E
+2011-07-07	Botafogo	1-1	Atlético Goianiense	R8	Brasil	Brasileirão 2011	FG
+V
+2011-06-29	São Paulo	0-2	Botafogo	R7	Brasil	Brasileirão 2011	FG
+V
+2011-06-26	Botafogo	2-1	Grêmio	R6	Brasil	Brasileirão 2011	FG
+E
+2011-06-19	Flamengo	0-0	Botafogo	R5	Brasil	Brasileirão 2011	FG
+V
+2011-06-12	Botafogo	3-1	Coritiba	R4	Brasil	Brasileirão 2011	FG
+E
+2011-06-04	Ceará	2-2	Botafogo	R3	Brasil	Brasileirão 2011	FG
+V
+2011-05-28	Botafogo	1-0	Santos	R2	Brasil	Brasileirão 2011	FG
+D
+2011-05-22	Palmeiras	1-0	Botafogo	R1	Brasil	Brasileirão 2011	FG
+D
+2010-12-05	Grêmio	3-0	Botafogo	R38	Brasil	Brasileirão 2010	FG
+V
+2010-11-28	Botafogo	3-1	Grêmio Barueri	R37	Brasil	Brasileirão 2010	FG
+D
+2010-11-21	Botafogo	1-2	Internacional	R36	Brasil	Brasileirão 2010	FG
+E
+2010-11-10	Ceará	2-2	Botafogo	R35	Brasil	Brasileirão 2010	FG
+E
+2010-11-07	Avaí	0-0	Botafogo	R34	Brasil	Brasileirão 2010	FG
+V
+2010-11-03	Botafogo	3-2	Atlético Goianiense	R33	Brasil	Brasileirão 2010	FG
+V
+2010-10-30	Atlético Mineiro	0-2	Botafogo	R32	Brasil	Brasileirão 2010	FG
+V
+2010-10-23	Botafogo	1-0	Vitória	R31	Brasil	Brasileirão 2010	FG
+E
+2010-10-17	Fluminense	0-0	Botafogo	R30	Brasil	Brasileirão 2010	FG
+E
+2010-10-10	Botafogo	0-0	Palmeiras	R29	Brasil	Brasileirão 2010	FG
+E
+2010-10-06	Guarani	1-1	Botafogo	R28	Brasil	Brasileirão 2010	FG
+E
+2010-10-02	Botafogo	1-1	Flamengo	R27	Brasil	Brasileirão 2010	FG
+E
+2010-09-29	Corinthians	1-1	Botafogo	R26	Brasil	Brasileirão 2010	FG
+E
+2010-09-26	Botafogo	1-1	Atlético Paranaense	R25	Brasil	Brasileirão 2010	FG
+E
+2010-09-22	Vasco	2-2	Botafogo	R24	Brasil	Brasileirão 2010	FG
+E
+2010-09-18	Botafogo	2-2	Cruzeiro	R23	Brasil	Brasileirão 2010	FG
+D
+2010-09-15	Goiás	4-1	Botafogo	R22	Brasil	Brasileirão 2010	FG
+V
+2010-09-12	Botafogo	2-0	São Paulo	R21	Brasil	Brasileirão 2010
+V
+2010-09-09	Santos	0-1	Botafogo	R20	Brasil	Brasileirão 2010	FG
+E
+2010-09-04	Botafogo	2-2	Grêmio	R19	Brasil	Brasileirão 2010	FG
+V
+2010-09-01	Grêmio Barueri	0-1	Botafogo	R18	Brasil	Brasileirão 2010	FG
+D
+2010-08-28	Internacional	1-0	Botafogo	R17	Brasil	Brasileirão 2010	FG
+V
+2010-08-25	Botafogo	1-0	Ceará	R16	Brasil	Brasileirão 2010	FG
+V
+2010-08-21	Botafogo	1-0	Avaí	R15	Brasil	Brasileirão 2010	FG
+V
+2010-08-14	Atlético Goianiense	0-2	Botafogo	R14	Brasil	Brasileirão 2010	FG
+V
+2010-08-07	Botafogo	3-0	Atlético Mineiro	R13	Brasil	Brasileirão 2010	FG
+V
+2010-08-01	Vitória	1-3	Botafogo	R12	Brasil	Brasileirão 2010	FG
+E
+2010-07-25	Botafogo	1-1	Fluminense	R11	Brasil	Brasileirão 2010	FG
+E
+2010-07-22	Palmeiras	2-2	Botafogo	R10	Brasil	Brasileirão 2010	FG
+E
+2010-07-18	Botafogo	1-1	Guarani	R9	Brasil	Brasileirão 2010	FG
+D
+2010-07-14	Flamengo	1-0	Botafogo	R8	Brasil	Brasileirão 2010	FG
+E
+2010-06-06	Botafogo	2-2	Corinthians	R7	Brasil	Brasileirão 2010	FG
+D
+2010-06-02	Atlético Paranaense	3-2	Botafogo	R6	Brasil	Brasileirão 2010	FG
+E
+2010-05-30	Botafogo	1-1	Vasco	R5	Brasil	Brasileirão 2010	FG
+D
+2010-05-26	Cruzeiro	1-0	Botafogo	R4	Brasil	Brasileirão 2010	FG
+V
+2010-05-22	Botafogo	3-0	Goiás	R3	Brasil	Brasileirão 2010	FG
+V
+2010-05-16	São Paulo	1-2	Botafogo	R2	Brasil	Brasileirão 2010	FG
+E
+2010-05-08	Botafogo	3-3	Santos	R1	Brasil	Brasileirão 2010	FG
+V
+2009-12-06	Botafogo	2-1	Palmeiras	R38	Brasil	Brasileirão 2009	FG
+D
+2009-11-29	Atlético Paranaense	2-0	Botafogo	R37	Brasil	Brasileirão 2009	FG
+V
+2009-11-22	Botafogo	3-2	São Paulo	R36	Brasil	Brasileirão 2009	FG
+D
+2009-11-15	Grêmio Barueri	3-0	Botafogo	R35	Brasil	Brasileirão 2009	FG
+V
+2009-11-08	Botafogo	2-0	Coritiba	R34	Brasil	Brasileirão 2009	FG
+V
+2009-11-01	Internacional	0-1	Botafogo	R33	Brasil	Brasileirão 2009	FG
+V
+2009-10-28	Botafogo	1-0	Náutico	R32	Brasil	Brasileirão 2009	FG
+D
+2009-10-25	Botafogo	0-1	Flamengo	R12	Brasil	Brasileirão 2009	FG
+D
+2009-10-18	Cruzeiro	1-0	Botafogo	R30	Brasil	Brasileirão 2009	FG
+E
+2009-10-12	Botafogo	2-2	Avaí	R29	Brasil	Brasileirão 2009
+V
+2009-10-08	Botafogo	3-1	Atlético Mineiro	R28	Brasil	Brasileirão 2009	FG
+V
+2009-10-04	Goiás	1-3	Botafogo	R27	Brasil	Brasileirão 2009	FG
+D
+2009-09-27	Botafogo	1-3	Vitória	R26	Brasil	Brasileirão 2009	FG
+E
+2009-09-20	Santos	0-0	Botafogo	R25	Brasil	Brasileirão 2009	FG
+E
+2009-09-13	Botafogo	0-0	Fluminense	R24	Brasil	Brasileirão 2009	FG
+D
+2009-09-05	Sport	2-1	Botafogo	R23	Brasil	Brasileirão 2009	FG
+E
+2009-08-30	Botafogo	3-3	Grêmio	R22	Brasil	Brasileirão 2009	FG
+E
+2009-08-27	Botafogo	1-1	Cruzeiro	R11	Brasil	Brasileirão 2009	FG
+E
+2009-08-23	Corinthians	3-3	Botafogo	R21	Brasil	Brasileirão 2009	FG
+D
+2009-08-19	Botafogo	1-2	Santo André	R20	Brasil	Brasileirão 2009	FG
+E
+2009-08-15	Palmeiras	1-1	Botafogo	R19	Brasil	Brasileirão 2009	FG
+D
+2009-08-08	Botafogo	0-1	Atlético Paranaense	R18	Brasil	Brasileirão 2009	FG
+D
+2009-08-05	São Paulo	3-1	Botafogo	R17	Brasil	Brasileirão 2009	FG
+V
+2009-08-01	Botafogo	2-1	Grêmio Barueri	R16	Brasil	Brasileirão 2009	FG
+E
+2009-07-29	Coritiba	2-2	Botafogo	R15	Brasil	Brasileirão 2009	FG
+V
+2009-07-25	Botafogo	3-2	Internacional	R14	Brasil	Brasileirão 2009	FG
+E
+2009-07-22	Náutico	2-2	Botafogo	R13	Brasil	Brasileirão 2009	FG
+E
+2009-07-19	Flamengo	2-2	Botafogo	R31	Brasil	Brasileirão 2009	FG
+V
+2009-07-11	Avaí	1-2	Botafogo	R10	Brasil	Brasileirão 2009	FG
+E
+2009-07-05	Atlético Mineiro	1-1	Botafogo	R9	Brasil	Brasileirão 2009	FG
+D
+2009-06-27	Botafogo	1-4	Goiás	R8	Brasil	Brasileirão 2009	FG
+D
+2009-06-20	Vitória	4-3	Botafogo	R7	Brasil	Brasileirão 2009	FG
+V
+2009-06-13	Botafogo	2-0	Santos	R6	Brasil	Brasileirão 2009	FG
+D
+2009-06-07	Fluminense	1-0	Botafogo	R5	Brasil	Brasileirão 2009	FG
+E
+2009-05-30	Botafogo	2-2	Sport	R4	Brasil	Brasileirão 2009	FG
+D
+2009-05-24	Grêmio	2-0	Botafogo	R3	Brasil	Brasileirão 2009	FG
+E
+2009-05-17	Botafogo	0-0	Corinthians	R2	Brasil	Brasileirão 2009	FG
+E
+2009-05-10	Santo André	1-1	Botafogo	R1	Brasil	Brasileirão 2009	FG
+V
+2008-12-07	Palmeiras	0-1	Botafogo	R38	Brasil	Brasileirão 2008	FG
+D
+2008-11-30	Botafogo	1-3	Figueirense	R37	Brasil	Brasileirão 2008
+E
+2008-11-22	Botafogo	2-2	Atlético Paranaense	R36	Brasil	Brasileirão 2008	FG
+D
+2008-11-16	Goiás	3-1	Botafogo	R35	Brasil	Brasileirão 2008	FG
+D
+2008-11-09	Botafogo	0-1	Flamengo	R34	Brasil	Brasileirão 2008	FG
+D
+2008-11-02	Atlético Mineiro	2-1	Botafogo	R33	Brasil	Brasileirão 2008	FG
+D
+2008-10-29	Botafogo	1-2	São Paulo	R32	Brasil	Brasileirão 2008	FG
+V
+2008-10-25	Ipatinga	0-3	Botafogo	R31	Brasil	Brasileirão 2008	FG
+D
+2008-10-18	Botafogo	0-1	Santos	R30	Brasil	Brasileirão 2008	FG
+V
+2008-10-09	Botafogo	3-1	Vitória	R29	Brasil	Brasileirão 2008	FG
+D
+2008-10-04	Grêmio	2-1	Botafogo	R28	Brasil	Brasileirão 2008	FG
+E
+2008-09-28	Botafogo	1-1	Fluminense	R27	Brasil	Brasileirão 2008	FG
+D
+2008-09-21	Portuguesa	3-1	Botafogo	R26	Brasil	Brasileirão 2008	FG
+D
+2008-09-14	Botafogo	1-2	Internacional	R25	Brasil	Brasileirão 2008	FG
+V
+2008-09-06	Coritiba	0-1	Botafogo	R24	Brasil	Brasileirão 2008	FG
+E
+2008-08-30	Botafogo	1-1	Náutico	R23	Brasil	Brasileirão 2008	FG
+E
+2008-08-24	Vasco	1-1	Botafogo	R22	Brasil	Brasileirão 2008	FG
+V
+2008-08-20	Botafogo	1-0	Cruzeiro	R21	Brasil	Brasileirão 2008	FG
+V
+2008-08-17	Sport	0-1	Botafogo	R20	Brasil	Brasileirão 2008	FG
+V
+2008-08-10	Botafogo	1-0	Palmeiras	R19	Brasil	Brasileirão 2008	FG
+V
+2008-08-07	Figueirense	1-2	Botafogo	R18	Brasil	Brasileirão 2008	FG
+V
+2008-08-03	Atlético Paranaense	0-3	Botafogo	R17	Brasil	Brasileirão 2008	FG
+V
+2008-07-30	Botafogo	2-0	Goiás	R16	Brasil	Brasileirão 2008	FG
+E
+2008-07-27	Flamengo	0-0	Botafogo	R15	Brasil	Brasileirão 2008	FG
+V
+2008-07-23	Botafogo	4-0	Atlético Mineiro	R14	Brasil	Brasileirão 2008	FG
+D
+2008-07-20	São Paulo	2-1	Botafogo	R13	Brasil	Brasileirão 2008	FG
+V
+2008-07-16	Botafogo	4-0	Ipatinga	R12	Brasil	Brasileirão 2008	FG
+E
+2008-07-13	Santos	2-2	Botafogo	R11	Brasil	Brasileirão 2008	FG
+D
+2008-07-09	Vitória	5-2	Botafogo	R10	Brasil	Brasileirão 2008	FG
+V
+2008-07-06	Botafogo	2-0	Grêmio	R9	Brasil	Brasileirão 2008	FG
+E
+2008-06-29	Fluminense	0-0	Botafogo	R8	Brasil	Brasileirão 2008	FG
+D
+2008-06-21	Botafogo	0-1	Portuguesa	R7	Brasil	Brasileirão 2008
+D
+2008-06-14	Internacional	2-1	Botafogo	R6	Brasil	Brasileirão 2008	FG
+V
+2008-06-08	Botafogo	2-1	Coritiba	R5	Brasil	Brasileirão 2008	FG
+D
+2008-06-01	Náutico	3-0	Botafogo	R4	Brasil	Brasileirão 2008	FG
+E
+2008-05-25	Botafogo	1-1	Vasco	R3	Brasil	Brasileirão 2008	FG
+D
+2008-05-17	Cruzeiro	1-0	Botafogo	R2	Brasil	Brasileirão 2008	FG
+V
+2008-05-11	Botafogo	2-0	Sport	R1	Brasil	Brasileirão 2008	FG
+E
+2007-12-02	Botafogo	1-1	Figueirense	R38	Brasil	Brasileirão 2007	FG
+E
+2007-11-25	São Paulo	2-2	Botafogo	R37	Brasil	Brasileirão 2007	FG
+V
+2007-11-10	Botafogo	3-2	Paraná	R36	Brasil	Brasileirão 2007	FG
+E
+2007-11-04	América-RN	1-1	Botafogo	R35	Brasil	Brasileirão 2007	FG
+V
+2007-11-01	Botafogo	4-1	Cruzeiro	R34	Brasil	Brasileirão 2007	FG
+E
+2007-10-28	Juventude	1-1	Botafogo	R33	Brasil	Brasileirão 2007	FG
+V
+2007-10-20	Botafogo	3-1	Sport	R32	Brasil	Brasileirão 2007	FG
+D
+2007-10-14	Vasco	2-1	Botafogo	R31	Brasil	Brasileirão 2007	FG
+D
+2007-10-06	Botafogo	1-2	Santos	R30	Brasil	Brasileirão 2007	FG
+D
+2007-10-03	Atlético Paranaense	2-0	Botafogo	R29	Brasil	Brasileirão 2007	FG
+D
+2007-09-30	Botafogo	0-3	Goiás	R28	Brasil	Brasileirão 2007	FG
+D
+2007-09-23	Botafogo	0-2	Fluminense	R27	Brasil	Brasileirão 2007	FG
+V
+2007-09-16	Corinthians	0-1	Botafogo	R26	Brasil	Brasileirão 2007	FG
+D
+2007-09-09	Náutico	4-1	Botafogo	R25	Brasil	Brasileirão 2007	FG
+E
+2007-09-06	Botafogo	1-1	Palmeiras	R24	Brasil	Brasileirão 2007	FG
+D
+2007-09-02	Grêmio	3-0	Botafogo	R23	Brasil	Brasileirão 2007	FG
+E
+2007-08-29	Botafogo	1-1	Flamengo	R22	Brasil	Brasileirão 2007	FG
+V
+2007-08-26	Atlético Mineiro	1-2	Botafogo	R21	Brasil	Brasileirão 2007	FG
+E
+2007-08-19	Botafogo	1-1	Internacional	R20	Brasil	Brasileirão 2007	FG
+D
+2007-08-15	Botafogo	2-3	Corinthians	R7	Brasil	Brasileirão 2007	FG
+E
+2007-08-12	Figueirense	1-1	Botafogo	R19	Brasil	Brasileirão 2007	FG
+D
+2007-08-08	Botafogo	0-2	São Paulo	R18	Brasil	Brasileirão 2007	FG
+E
+2007-08-05	Paraná	0-0	Botafogo	R17	Brasil	Brasileirão 2007	FG
+V
+2007-08-01	Botafogo	4-2	América-RN	R16	Brasil	Brasileirão 2007
+D
+2007-07-29	Cruzeiro	3-2	Botafogo	R15	Brasil	Brasileirão 2007	FG
+V
+2007-07-26	Botafogo	3-1	Juventude	R14	Brasil	Brasileirão 2007	FG
+E
+2007-07-22	Sport	3-3	Botafogo	R13	Brasil	Brasileirão 2007	FG
+D
+2007-07-14	Santos	3-0	Botafogo	R11	Brasil	Brasileirão 2007	FG
+V
+2007-07-07	Botafogo	2-0	Atlético Paranaense	R10	Brasil	Brasileirão 2007	FG
+E
+2007-07-03	Goiás	1-1	Botafogo	R9	Brasil	Brasileirão 2007	FG
+V
+2007-06-30	Fluminense	1-2	Botafogo	R8	Brasil	Brasileirão 2007	FG
+V
+2007-06-17	Botafogo	3-1	Náutico	R6	Brasil	Brasileirão 2007	FG
+V
+2007-06-14	Botafogo	4-0	Vasco	R12	Brasil	Brasileirão 2007	FG
+E
+2007-06-09	Palmeiras	1-1	Botafogo	R5	Brasil	Brasileirão 2007	FG
+V
+2007-06-02	Botafogo	3-0	Grêmio	R4	Brasil	Brasileirão 2007	FG
+E
+2007-05-27	Flamengo	2-2	Botafogo	R3	Brasil	Brasileirão 2007	FG
+V
+2007-05-20	Botafogo	2-1	Atlético Mineiro	R2	Brasil	Brasileirão 2007	FG
+V
+2007-05-13	Internacional	2-3	Botafogo	R1	Brasil	Brasileirão 2007	FG
+D
+2006-12-03	Cruzeiro	3-1	Botafogo	R38	Brasil	Brasileirão 2006	FG
+E
+2006-11-26	Botafogo	0-0	Corinthians	R37	Brasil	Brasileirão 2006	FG
+E
+2006-11-19	Botafogo	2-2	Goiás	R36	Brasil	Brasileirão 2006	FG
+D
+2006-11-12	Palmeiras	2-1	Botafogo	R35	Brasil	Brasileirão 2006	FG
+D
+2006-11-09	São Paulo	3-0	Botafogo	R34	Brasil	Brasileirão 2006	FG
+V
+2006-11-05	Botafogo	2-1	Fluminense	R33	Brasil	Brasileirão 2006	FG
+D
+2006-11-02	Botafogo	0-1	Internacional	R32	Brasil	Brasileirão 2006	FG
+V
+2006-10-28	Ponte Preta	1-2	Botafogo	R31	Brasil	Brasileirão 2006	FG
+V
+2006-10-22	Botafogo	2-1	São Caetano	R30	Brasil	Brasileirão 2006	FG
+V
+2006-10-14	Botafogo	4-3	Santos	R29	Brasil	Brasileirão 2006	FG
+D
+2006-10-08	Figueirense	1-0	Botafogo	R28	Brasil	Brasileirão 2006	FG
+V
+2006-10-05	Botafogo	3-0	Santa Cruz	R27	Brasil	Brasileirão 2006	FG
+E
+2006-09-24	Vasco	0-0	Botafogo	R26	Brasil	Brasileirão 2006	FG
+V
+2006-09-20	Botafogo	2-1	Juventude	R25	Brasil	Brasileirão 2006	FG
+D
+2006-09-17	Grêmio	4-0	Botafogo	R24	Brasil	Brasileirão 2006	FG
+D
+2006-09-10	Botafogo	0-2	Flamengo	R23	Brasil	Brasileirão 2006
+V
+2006-09-03	Atlético Paranaense	0-5	Botafogo	R22	Brasil	Brasileirão 2006	FG
+V
+2006-08-31	Botafogo	4-0	Paraná	R21	Brasil	Brasileirão 2006	FG
+V
+2006-08-27	Fortaleza	2-3	Botafogo	R20	Brasil	Brasileirão 2006	FG
+V
+2006-08-23	Botafogo	1-0	Cruzeiro	R19	Brasil	Brasileirão 2006	FG
+D
+2006-08-20	Corinthians	1-0	Botafogo	R18	Brasil	Brasileirão 2006	FG
+E
+2006-08-16	Goiás	2-2	Botafogo	R17	Brasil	Brasileirão 2006	FG
+D
+2006-08-13	Botafogo	1-3	Palmeiras	R16	Brasil	Brasileirão 2006	FG
+E
+2006-08-06	Botafogo	1-1	São Paulo	R15	Brasil	Brasileirão 2006	FG
+E
+2006-07-30	Fluminense	1-1	Botafogo	R14	Brasil	Brasileirão 2006	FG
+E
+2006-07-23	Internacional	0-0	Botafogo	R13	Brasil	Brasileirão 2006	FG
+V
+2006-07-15	Botafogo	4-1	Ponte Preta	R12	Brasil	Brasileirão 2006	FG
+E
+2006-07-12	São Caetano	1-1	Botafogo	R11	Brasil	Brasileirão 2006	FG
+E
+2006-06-04	Santos	0-0	Botafogo	R10	Brasil	Brasileirão 2006	FG
+D
+2006-06-01	Botafogo	2-3	Figueirense	R9	Brasil	Brasileirão 2006	FG
+E
+2006-05-28	Santa Cruz	1-1	Botafogo	R8	Brasil	Brasileirão 2006	FG
+V
+2006-05-25	Botafogo	4-1	Vasco	R7	Brasil	Brasileirão 2006	FG
+D
+2006-05-21	Juventude	1-0	Botafogo	R6	Brasil	Brasileirão 2006	FG
+E
+2006-05-13	Botafogo	2-2	Grêmio	R5	Brasil	Brasileirão 2006	FG
+D
+2006-05-07	Flamengo	1-0	Botafogo	R4	Brasil	Brasileirão 2006	FG
+D
+2006-04-29	Botafogo	0-4	Atlético Paranaense	R3	Brasil	Brasileirão 2006	FG
+E
+2006-04-23	Paraná	0-0	Botafogo	R2	Brasil	Brasileirão 2006	FG
+V
+2006-04-16	Botafogo	1-0	Fortaleza	R1	Brasil	Brasileirão 2006	FG
+V
+2005-12-04	Botafogo	2-0	Fortaleza	R42	Brasil	Brasileirão 2005	FG
+D
+2005-11-27	Santos	2-1	Botafogo	R41	Brasil	Brasileirão 2005	FG
+V
+2005-11-20	Botafogo	2-1	Cruzeiro	R40	Brasil	Brasileirão 2005	FG
+D
+2005-11-17	Paysandu	2-0	Botafogo	R39	Brasil	Brasileirão 2005	FG
+V
+2005-11-12	Botafogo	2-0	Paraná	R38	Brasil	Brasileirão 2005	FG
+D
+2005-11-06	Flamengo	3-1	Botafogo	R37	Brasil	Brasileirão 2005	FG
+V
+2005-11-03	Botafogo	1-0	São Caetano	R36	Brasil	Brasileirão 2005	FG
+E
+2005-10-30	Brasiliense	0-0	Botafogo	R35	Brasil	Brasileirão 2005
+V
+2005-10-27	Ponte Preta	0-1	Botafogo	R34	Brasil	Brasileirão 2005	FG
+V
+2005-10-22	Botafogo	2-0	Coritiba	R33	Brasil	Brasileirão 2005	FG
+D
+2005-10-19	Vasco	1-0	Botafogo	R3	Brasil	Brasileirão 2005	FG
+D
+2005-10-15	Fluminense	3-2	Botafogo	R32	Brasil	Brasileirão 2005	FG
+E
+2005-10-12	Cruzeiro	2-2	Botafogo	R19	Brasil	Brasileirão 2005	FG
+D
+2005-10-08	Botafogo	1-2	Palmeiras	R31	Brasil	Brasileirão 2005	FG
+D
+2005-10-05	Figueirense	1-0	Botafogo	R30	Brasil	Brasileirão 2005	FG
+E
+2005-10-02	Botafogo	1-1	São Paulo	R29	Brasil	Brasileirão 2005	FG
+E
+2005-09-25	Juventude	0-0	Botafogo	R28	Brasil	Brasileirão 2005	FG
+D
+2005-09-22	Atlético Paranaense	2-0	Botafogo	R27	Brasil	Brasileirão 2005	FG
+V
+2005-09-18	Botafogo	3-1	Goiás	R26	Brasil	Brasileirão 2005	FG
+V
+2005-09-11	Atlético Mineiro	0-2	Botafogo	R25	Brasil	Brasileirão 2005	FG
+E
+2005-09-07	Botafogo	2-2	Vasco	R24	Brasil	Brasileirão 2005	FG
+E
+2005-08-28	Corinthians	3-3	Botafogo	R23	Brasil	Brasileirão 2005	FG
+D
+2005-08-25	Botafogo	0-1	Internacional	R22	Brasil	Brasileirão 2005	FG
+D
+2005-08-21	Fortaleza	3-1	Botafogo	R21	Brasil	Brasileirão 2005	FG
+E
+2005-08-14	Botafogo	3-3	Santos	R20	Brasil	Brasileirão 2005	FG
+V
+2005-08-06	Botafogo	2-0	Paysandu	R18	Brasil	Brasileirão 2005	FG
+D
+2005-08-03	Paraná	2-0	Botafogo	R17	Brasil	Brasileirão 2005	FG
+D
+2005-07-31	Botafogo	0-2	Flamengo	R16	Brasil	Brasileirão 2005	FG
+V
+2005-07-27	São Caetano	0-1	Botafogo	R15	Brasil	Brasileirão 2005	FG
+E
+2005-07-23	Botafogo	1-1	Brasiliense	R14	Brasil	Brasileirão 2005	FG
+V
+2005-07-20	Botafogo	4-2	Ponte Preta	R13	Brasil	Brasileirão 2005	FG
+V
+2005-07-17	Coritiba	0-3	Botafogo	R12	Brasil	Brasileirão 2005	FG
+D
+2005-07-10	Botafogo	1-2	Fluminense	R11	Brasil	Brasileirão 2005	FG
+D
+2005-07-03	Palmeiras	4-1	Botafogo	R10	Brasil	Brasileirão 2005	FG
+D
+2005-06-26	Botafogo	0-1	Figueirense	R9	Brasil	Brasileirão 2005	FG
+D
+2005-06-19	São Paulo	1-0	Botafogo	R8	Brasil	Brasileirão 2005	FG
+V
+2005-06-11	Botafogo	3-2	Juventude	R7	Brasil	Brasileirão 2005	FG
+V
+2005-05-29	Botafogo	2-0	Atlético Paranaense	R6	Brasil	Brasileirão 2005
+D
+2005-05-21	Goiás	4-0	Botafogo	R5	Brasil	Brasileirão 2005	FG
+V
+2005-05-14	Botafogo	2-1	Atlético Mineiro	R4	Brasil	Brasileirão 2005	FG
+V
+2005-05-01	Botafogo	3-1	Corinthians	R2	Brasil	Brasileirão 2005	FG
+V
+2005-04-24	Internacional	0-2	Botafogo	R1	Brasil	Brasileirão 2005	FG
+E
+2004-12-19	Atlético Paranaense	1-1	Botafogo	R46	Brasil	Brasileirão 2004	FG
+D
+2004-12-12	Botafogo	1-2	Corinthians	R45	Brasil	Brasileirão 2004	FG
+D
+2004-12-05	Juventude	1-0	Botafogo	R44	Brasil	Brasileirão 2004	FG
+V
+2004-11-27	Botafogo	1-0	Guarani	R43	Brasil	Brasileirão 2004	FG
+E
+2004-11-21	Flamengo	0-0	Botafogo	R42	Brasil	Brasileirão 2004	FG
+V
+2004-11-13	Botafogo	4-1	Coritiba	R41	Brasil	Brasileirão 2004	FG
+D
+2004-11-07	São Paulo	5-2	Botafogo	R40	Brasil	Brasileirão 2004	FG
+V
+2004-10-30	Botafogo	2-1	Cruzeiro	R39	Brasil	Brasileirão 2004	FG
+D
+2004-10-26	Palmeiras	2-1	Botafogo	R38	Brasil	Brasileirão 2004	FG
+E
+2004-10-23	Botafogo	1-1	Vitória	R37	Brasil	Brasileirão 2004	FG
+D
+2004-10-17	Internacional	3-1	Botafogo	R36	Brasil	Brasileirão 2004	FG
+E
+2004-10-07	Botafogo	1-1	São Caetano	R35	Brasil	Brasileirão 2004	FG
+V
+2004-10-02	Fluminense	1-4	Botafogo	R34	Brasil	Brasileirão 2004	FG
+E
+2004-09-29	Ponte Preta	1-1	Botafogo	R33	Brasil	Brasileirão 2004	FG
+V
+2004-09-26	Botafogo	4-3	Paraná	R32	Brasil	Brasileirão 2004	FG
+E
+2004-09-19	Botafogo	2-2	Vasco	R31	Brasil	Brasileirão 2004	FG
+D
+2004-09-12	Figueirense	3-1	Botafogo	R30	Brasil	Brasileirão 2004	FG
+V
+2004-09-09	Botafogo	2-1	Grêmio	R29	Brasil	Brasileirão 2004	FG
+D
+2004-09-02	Paysandu	2-0	Botafogo	R28	Brasil	Brasileirão 2004	FG
+E
+2004-08-28	Botafogo	1-1	Criciúma	R27	Brasil	Brasileirão 2004	FG
+E
+2004-08-22	Atlético Mineiro	1-1	Botafogo	R26	Brasil	Brasileirão 2004	FG
+V
+2004-08-18	Botafogo	2-0	Santos	R25	Brasil	Brasileirão 2004	FG
+D
+2004-08-15	Goiás	3-1	Botafogo	R24	Brasil	Brasileirão 2004	FG
+E
+2004-08-12	Botafogo	1-1	Atlético Paranaense	R23	Brasil	Brasileirão 2004	FG
+E
+2004-08-08	Corinthians	2-2	Botafogo	R22	Brasil	Brasileirão 2004	FG
+D
+2004-08-05	Botafogo	0-1	Juventude	R21	Brasil	Brasileirão 2004
+V
+2004-08-01	Guarani	0-2	Botafogo	R20	Brasil	Brasileirão 2004	FG
+E
+2004-07-28	Botafogo	0-0	Flamengo	R19	Brasil	Brasileirão 2004	FG
+D
+2004-07-24	Coritiba	1-0	Botafogo	R18	Brasil	Brasileirão 2004	FG
+V
+2004-07-20	Botafogo	1-0	São Paulo	R17	Brasil	Brasileirão 2004	FG
+D
+2004-07-17	Cruzeiro	3-2	Botafogo	R16	Brasil	Brasileirão 2004	FG
+E
+2004-07-13	Botafogo	1-1	Palmeiras	R15	Brasil	Brasileirão 2004	FG
+D
+2004-07-10	Vitória	1-0	Botafogo	R14	Brasil	Brasileirão 2004	FG
+V
+2004-07-07	Botafogo	5-1	Internacional	R13	Brasil	Brasileirão 2004	FG
+V
+2004-07-04	São Caetano	1-2	Botafogo	R12	Brasil	Brasileirão 2004	FG
+E
+2004-06-27	Botafogo	3-3	Fluminense	R11	Brasil	Brasileirão 2004	FG
+D
+2004-06-20	Botafogo	0-1	Ponte Preta	R10	Brasil	Brasileirão 2004	FG
+E
+2004-06-12	Paraná	1-1	Botafogo	R9	Brasil	Brasileirão 2004	FG
+D
+2004-05-30	Vasco	4-0	Botafogo	R8	Brasil	Brasileirão 2004	FG
+E
+2004-05-22	Botafogo	1-1	Figueirense	R7	Brasil	Brasileirão 2004	FG
+E
+2004-05-16	Grêmio	2-2	Botafogo	R6	Brasil	Brasileirão 2004	FG
+E
+2004-05-09	Botafogo	2-2	Paysandu	R5	Brasil	Brasileirão 2004	FG
+D
+2004-05-01	Criciúma	1-0	Botafogo	R4	Brasil	Brasileirão 2004	FG
+E
+2004-04-28	Botafogo	2-2	Atlético Mineiro	R3	Brasil	Brasileirão 2004	FG
+D
+2004-04-25	Santos	2-0	Botafogo	R2	Brasil	Brasileirão 2004	FG
+D
+2004-04-21	Botafogo	1-4	Goiás	R1	Brasil	Brasileirão 2004	FG
+D
+2002-11-17	Botafogo	0-1	São Paulo	R29	Brasil	Brasileirão 2002	FG
+D
+2002-11-14	Guarani	2-0	Botafogo	R28	Brasil	Brasileirão 2002	FG
+V
+2002-11-10	Botafogo	2-1	Corinthians	R27	Brasil	Brasileirão 2002	FG
+D
+2002-11-07	Paraná	2-0	Botafogo	R26	Brasil	Brasileirão 2002	FG
+D
+2002-11-02	Flamengo	2-0	Botafogo	R25	Brasil	Brasileirão 2002	FG
+D
+2002-10-30	Palmeiras	2-1	Botafogo	R24	Brasil	Brasileirão 2002	FG
+D
+2002-10-26	Botafogo	2-3	Fluminense	R23	Brasil	Brasileirão 2002	FG
+D
+2002-10-17	Botafogo	1-4	Vitória	R20	Brasil	Brasileirão 2002	FG
+V
+2002-10-13	Botafogo	1-0	Paysandu	R19	Brasil	Brasileirão 2002	FG
+E
+2002-10-09	Grêmio	1-1	Botafogo	R18	Brasil	Brasileirão 2002
+E
+2002-10-05	Botafogo	1-1	São Caetano	R17	Brasil	Brasileirão 2002	FG
+V
+2002-10-02	Botafogo	2-1	Ponte Preta	R16	Brasil	Brasileirão 2002	FG
+V
+2002-09-28	Bahia	1-2	Botafogo	R15	Brasil	Brasileirão 2002	FG
+D
+2002-09-21	Botafogo	0-2	Coritiba	R13	Brasil	Brasileirão 2002	FG
+D
+2002-09-18	Portuguesa	2-0	Botafogo	R12	Brasil	Brasileirão 2002	FG
+E
+2002-09-15	Botafogo	1-1	Vasco	R11	Brasil	Brasileirão 2002	FG
+D
+2002-09-12	Botafogo	0-4	Juventude	R10	Brasil	Brasileirão 2002	FG
+E
+2002-09-07	Goiás	2-2	Botafogo	R9	Brasil	Brasileirão 2002	FG
+D
+2002-09-04	Atlético Paranaense	2-0	Botafogo	R8	Brasil	Brasileirão 2002	FG
+V
+2002-08-31	Botafogo	1-0	Gama	R7	Brasil	Brasileirão 2002	FG
+V
+2002-08-24	Figueirense	0-3	Botafogo	R5	Brasil	Brasileirão 2002	FG
+E
+2002-08-21	Botafogo	2-2	Internacional	R4	Brasil	Brasileirão 2002	FG
+E
+2002-08-18	Cruzeiro	0-0	Botafogo	R3	Brasil	Brasileirão 2002	FG
+E
+2002-08-14	Botafogo	1-1	Atlético Mineiro	R2	Brasil	Brasileirão 2002	FG
+D
+2002-08-10	Santos	2-1	Botafogo	R1	Brasil	Brasileirão 2002	FG
+D
+2001-12-01	Botafogo	2-4	São Caetano	R27	Brasil	Brasileirão 2001	FG
+D
+2001-11-24	Portuguesa	2-1	Botafogo	R26	Brasil	Brasileirão 2001	FG
+V
+2001-11-18	Juventude	1-3	Botafogo	R25	Brasil	Brasileirão 2001	FG
+D
+2001-11-15	Botafogo	2-4	Corinthians	R24	Brasil	Brasileirão 2001	FG
+D
+2001-11-10	São Paulo	3-1	Botafogo	R23	Brasil	Brasileirão 2001	FG
+D
+2001-11-07	Botafogo	1-3	Grêmio	R22	Brasil	Brasileirão 2001	FG
+V
+2001-11-04	Botafogo	3-1	Palmeiras	R21	Brasil	Brasileirão 2001	FG
+V
+2001-10-28	Botafogo	3-0	Cruzeiro	R20	Brasil	Brasileirão 2001	FG
+E
+2001-10-21	Internacional	2-2	Botafogo	R19	Brasil	Brasileirão 2001	FG
+D
+2001-10-13	Vasco	3-1	Botafogo	R18	Brasil	Brasileirão 2001	FG
+E
+2001-10-10	Botafogo	2-2	Flamengo	R17	Brasil	Brasileirão 2001	FG
+D
+2001-10-06	Botafogo	1-2	Fluminense	R16	Brasil	Brasileirão 2001	FG
+D
+2001-10-03	Atlético Mineiro	4-0	Botafogo	R15	Brasil	Brasileirão 2001	FG
+D
+2001-09-29	Botafogo	1-3	Atlético Paranaense	R14	Brasil	Brasileirão 2001	FG
+D
+2001-09-23	Vitória	3-1	Botafogo	R13	Brasil	Brasileirão 2001
+D
+2001-09-19	Botafogo	0-2	Guarani	R12	Brasil	Brasileirão 2001	FG
+V
+2001-09-16	Botafogo-SP	0-2	Botafogo	R11	Brasil	Brasileirão 2001	FG
+D
+2001-09-08	Botafogo	0-2	Paraná	R10	Brasil	Brasileirão 2001	FG
+V
+2001-09-02	Coritiba	2-3	Botafogo	R9	Brasil	Brasileirão 2001	FG
+V
+2001-08-29	Botafogo	3-1	Sport	R8	Brasil	Brasileirão 2001	FG
+E
+2001-08-26	Gama	0-0	Botafogo	R7	Brasil	Brasileirão 2001	FG
+E
+2001-08-19	Santos	0-0	Botafogo	R6	Brasil	Brasileirão 2001	FG
+D
+2001-08-16	Botafogo	0-1	Goiás	R5	Brasil	Brasileirão 2001	FG
+D
+2001-08-12	Ponte Preta	3-1	Botafogo	R4	Brasil	Brasileirão 2001	FG
+V
+2001-08-09	Botafogo	3-2	Bahia	R3	Brasil	Brasileirão 2001	FG
+V
+2001-08-05	Santa Cruz	0-4	Botafogo	R2	Brasil	Brasileirão 2001	FG
+E
+2001-08-01	Botafogo	1-1	América Mineiro	R1	Brasil	Brasileirão 2001	FG
+D
+2000-11-19	Santos	4-1	Botafogo	1F	Brasil	Copa João Havelange	FG
+D
+2000-11-16	Botafogo	1-2	Santa Cruz	1F	Brasil	Copa João Havelange	FG
+V
+2000-11-12	Vasco	1-2	Botafogo	1F	Brasil	Copa João Havelange	FG
+D
+2000-11-04	Bahia	2-0	Botafogo	1F	Brasil	Copa João Havelange	FG
+D
+2000-10-25	Grêmio	2-1	Botafogo	1F	Brasil	Copa João Havelange	FG
+E
+2000-10-21	Sport	2-2	Botafogo	1F	Brasil	Copa João Havelange	FG
+V
+2000-10-18	Botafogo	2-0	Gama	1F	Brasil	Copa João Havelange	FG
+V
+2000-10-15	Botafogo	1-0	São Paulo	1F	Brasil	Copa João Havelange	FG
+V
+2000-10-07	Botafogo	3-1	Flamengo	1F	Brasil	Copa João Havelange	FG
+V
+2000-10-04	Botafogo	2-1	Juventude	1F	Brasil	Copa João Havelange	FG
+E
+2000-09-27	Botafogo	0-0	Vitória	1F	Brasil	Copa João Havelange	FG
+V
+2000-09-16	Botafogo	3-1	Ponte Preta	1F	Brasil	Copa João Havelange	FG
+D
+2000-09-13	Cruzeiro	4-0	Botafogo	1F	Brasil	Copa João Havelange	FG
+D
+2000-09-06	América Mineiro	5-2	Botafogo	1F	Brasil	Copa João Havelange	FG
+D
+2000-09-02	Fluminense	1-0	Botafogo	1F	Brasil	Copa João Havelange	FG
+D
+2000-08-30	Botafogo	0-2	Atlético Paranaense	1F	Brasil	Copa João Havelange	FG
+V
+2000-08-26	Guarani	1-2	Botafogo	1F	Brasil	Copa João Havelange	FG
+E
+2000-08-20	Botafogo	1-1	Corinthians	1F	Brasil	Copa João Havelange
+D
+2000-08-16	Goiás	3-2	Botafogo	1F	Brasil	Copa João Havelange	FG
+D
+2000-08-13	Botafogo	0-1	Internacional	1F	Brasil	Copa João Havelange	FG
+V
+2000-08-09	Botafogo	4-1	Portuguesa	1F	Brasil	Copa João Havelange	FG
+V
+2000-08-06	Coritiba	0-2	Botafogo	1F	Brasil	Copa João Havelange	FG
+E
+2000-08-03	Palmeiras	0-0	Botafogo	1F	Brasil	Copa João Havelange	FG
+E
+2000-07-30	Botafogo	0-0	Atlético Mineiro	1F	Brasil	Copa João Havelange	FG
+V
+1999-11-10	Botafogo	1-0	Guarani	1F	Brasil	Brasileirão 1999	FG
+D
+1999-11-06	Palmeiras	6-0	Botafogo	1F	Brasil	Brasileirão 1999	FG
+V
+1999-10-30	Botafogo	3-1	Gama	1F	Brasil	Brasileirão 1999	FG
+D
+1999-10-20	Grêmio	1-0	Botafogo	1F	Brasil	Brasileirão 1999	FG
+V
+1999-10-16	Botafogo	1-0	Portuguesa	1F	Brasil	Brasileirão 1999	FG
+V
+1999-10-10	Botafogo	2-1	Flamengo	1F	Brasil	Brasileirão 1999	FG
+V
+1999-10-06	Paraná	2-3	Botafogo	1F	Brasil	Brasileirão 1999	FG
+V
+1999-09-30	Botafogo	1-0	Botafogo-SP	1F	Brasil	Brasileirão 1999	FG
+D
+1999-09-25	Coritiba	3-2	Botafogo	1F	Brasil	Brasileirão 1999	FG
+D
+1999-09-22	Botafogo	0-1	Juventude	1F	Brasil	Brasileirão 1999	FG
+D
+1999-09-12	Botafogo	0-1	Atlético Paranaense	1F	Brasil	Brasileirão 1999	FG
+D
+1999-09-04	Botafogo	2-3	Internacional	1F	Brasil	Brasileirão 1999	FG
+D
+1999-08-25	Vitória	2-0	Botafogo	1F	Brasil	Brasileirão 1999	FG
+D
+1999-08-21	Botafogo	2-4	Corinthians	1F	Brasil	Brasileirão 1999	FG
+D
+1999-08-18	Botafogo	1-5	Atlético Mineiro	1F	Brasil	Brasileirão 1999	FG
+V
+1999-08-18	Santos	0-1	Botafogo	1F	Brasil	Brasileirão 1999	FG
+D
+1999-08-15	Vasco	2-1	Botafogo	1F	Brasil	Brasileirão 1999	FG
+E
+1999-08-07	Ponte Preta	1-1	Botafogo	1F	Brasil	Brasileirão 1999	FG
+V
+1999-08-04	São Paulo	0-1	Botafogo	1F	Brasil	Brasileirão 1999	FG
+E
+1999-08-01	Botafogo	0-0	Sport	1F	Brasil	Brasileirão 1999	FG
+D
+1999-07-28	Cruzeiro	4-1	Botafogo	1F	Brasil	Brasileirão 1999	FG
+V
+1998-11-11	Botafogo	2-1	Santos	1F	Brasil	Brasileirão 1998	FG
+E
+1998-10-31	Internacional	0-0	Botafogo	1F	Brasil	Brasileirão 1998	FG
+D
+1998-10-24	Sport	2-1	Botafogo	1F	Brasil	Brasileirão 1998
+V
+1998-10-21	Botafogo	1-0	Ponte Preta	1F	Brasil	Brasileirão 1998	FG
+V
+1998-10-17	Botafogo	3-1	Palmeiras	1F	Brasil	Brasileirão 1998	FG
+E
+1998-10-10	Atlético Mineiro	5-5	Botafogo	1F	Brasil	Brasileirão 1998	FG
+D
+1998-10-07	Botafogo	2-3	Coritiba	1F	Brasil	Brasileirão 1998	FG
+V
+1998-10-03	Botafogo	2-1	Grêmio	1F	Brasil	Brasileirão 1998	FG
+D
+1998-09-30	Atlético Paranaense	3-1	Botafogo	1F	Brasil	Brasileirão 1998	FG
+D
+1998-09-27	Botafogo	0-2	Vasco	1F	Brasil	Brasileirão 1998	FG
+D
+1998-09-24	Goiás	2-0	Botafogo	1F	Brasil	Brasileirão 1998	FG
+V
+1998-09-19	Botafogo	2-0	América-RN	1F	Brasil	Brasileirão 1998	FG
+E
+1998-09-11	Botafogo	3-3	Paraná	1F	Brasil	Brasileirão 1998	FG
+D
+1998-09-06	Portuguesa	5-2	Botafogo	1F	Brasil	Brasileirão 1998	FG
+E
+1998-08-29	América Mineiro	0-0	Botafogo	1F	Brasil	Brasileirão 1998	FG
+E
+1998-08-26	Bragantino	2-2	Botafogo	1F	Brasil	Brasileirão 1998	FG
+E
+1998-08-23	Botafogo	1-1	Cruzeiro	1F	Brasil	Brasileirão 1998	FG
+D
+1998-08-15	Corinthians	1-0	Botafogo	1F	Brasil	Brasileirão 1998	FG
+V
+1998-08-12	Botafogo	3-0	São Paulo	1F	Brasil	Brasileirão 1998	FG
+E
+1998-08-08	Juventude	0-0	Botafogo	1F	Brasil	Brasileirão 1998	FG
+V
+1998-08-05	Guarani	2-3	Botafogo	1F	Brasil	Brasileirão 1998	FG
+D
+1998-08-02	Botafogo	1-2	Vitória	1F	Brasil	Brasileirão 1998	FG
+E
+1998-07-26	Flamengo	1-1	Botafogo	1F	Brasil	Brasileirão 1998	FG
+E
+1997-11-08	Botafogo	3-3	Portuguesa	1F	Brasil	Brasileirão 1997	FG
+V
+1997-11-01	Cruzeiro	2-3	Botafogo	1F	Brasil	Brasileirão 1997	FG
+E
+1997-10-26	Botafogo	0-0	Paraná	1F	Brasil	Brasileirão 1997	FG
+D
+1997-10-19	Vasco	1-0	Botafogo	1F	Brasil	Brasileirão 1997	FG
+V
+1997-10-14	Bragantino	1-3	Botafogo	1F	Brasil	Brasileirão 1997	FG
+V
+1997-10-08	Botafogo	2-1	Fluminense	1F	Brasil	Brasileirão 1997	FG
+D
+1997-10-08	Vitória	3-2	Botafogo	1F	Brasil	Brasileirão 1997	FG
+E
+1997-10-04	Grêmio	1-1	Botafogo	1F	Brasil	Brasileirão 1997	FG
+V
+1997-10-01	Botafogo	1-0	Sport	1F	Brasil	Brasileirão 1997	FG
+V
+1997-09-27	Santos	1-2	Botafogo	1F	Brasil	Brasileirão 1997
+V
+1997-09-24	Botafogo	1-0	Corinthians	1F	Brasil	Brasileirão 1997	FG
+D
+1997-09-21	Botafogo	1-3	Bahia	1F	Brasil	Brasileirão 1997	FG
+E
+1997-09-13	São Paulo	2-2	Botafogo	1F	Brasil	Brasileirão 1997	FG
+D
+1997-09-06	Botafogo	0-2	Internacional	1F	Brasil	Brasileirão 1997	FG
+E
+1997-08-31	Flamengo	0-0	Botafogo	1F	Brasil	Brasileirão 1997	FG
+E
+1997-08-27	Botafogo	1-1	Guarani	1F	Brasil	Brasileirão 1997	FG
+E
+1997-08-20	Botafogo	1-1	União São João	1F	Brasil	Brasileirão 1997	FG
+D
+1997-08-13	Criciúma	1-0	Botafogo	1F	Brasil	Brasileirão 1997	FG
+V
+1997-08-09	Botafogo	3-1	Atlético Paranaense	1F	Brasil	Brasileirão 1997	FG
+D
+1997-08-02	Palmeiras	3-1	Botafogo	1F	Brasil	Brasileirão 1997	FG
+E
+1997-07-26	América-RN	0-0	Botafogo	1F	Brasil	Brasileirão 1997	FG
+D
+1997-07-23	Botafogo	0-2	Juventude	1F	Brasil	Brasileirão 1997	FG
+E
+1997-07-20	Coritiba	3-3	Botafogo	1F	Brasil	Brasileirão 1997	FG
+V
+1997-07-17	Botafogo	2-0	Atlético Mineiro	1F	Brasil	Brasileirão 1997	FG
+E
+1997-07-12	Goiás	0-0	Botafogo	1F	Brasil	Brasileirão 1997	FG
+D
+1996-11-24	Portuguesa	4-1	Botafogo	1F	Brasil	Brasileirão 1996	FG
+E
+1996-11-20	Botafogo	3-3	Vitória	1F	Brasil	Brasileirão 1996	FG
+V
+1996-11-16	Juventude	3-5	Botafogo	1F	Brasil	Brasileirão 1996	FG
+E
+1996-11-09	Botafogo	0-0	Cruzeiro	1F	Brasil	Brasileirão 1996	FG
+E
+1996-11-06	Paraná	1-1	Botafogo	1F	Brasil	Brasileirão 1996	FG
+D
+1996-11-02	Botafogo	1-2	Vasco	1F	Brasil	Brasileirão 1996	FG
+D
+1996-10-26	Atlético Mineiro	4-3	Botafogo	1F	Brasil	Brasileirão 1996	FG
+D
+1996-10-19	Botafogo	2-3	Goiás	1F	Brasil	Brasileirão 1996	FG
+D
+1996-10-12	Guarani	2-0	Botafogo	1F	Brasil	Brasileirão 1996	FG
+V
+1996-10-09	Botafogo	1-0	Criciúma	1F	Brasil	Brasileirão 1996	FG
+E
+1996-10-05	Internacional	1-1	Botafogo	1F	Brasil	Brasileirão 1996	FG
+V
+1996-09-28	Botafogo	5-0	Bragantino	1F	Brasil	Brasileirão 1996	FG
+V
+1996-09-21	Corinthians	0-1	Botafogo	1F	Brasil	Brasileirão 1996	FG
+D
+1996-09-14	Botafogo	0-2	Flamengo	1F	Brasil	Brasileirão 1996	FG
+D
+1996-09-07	Sport	3-0	Botafogo	1F	Brasil	Brasileirão 1996
+V
+1996-09-04	Botafogo	4-1	Coritiba	1F	Brasil	Brasileirão 1996	FG
+E
+1996-08-30	Botafogo	0-0	Palmeiras	1F	Brasil	Brasileirão 1996	FG
+D
+1996-08-28	Botafogo	0-2	Santos	1F	Brasil	Brasileirão 1996	FG
+V
+1996-08-24	Bahia	1-2	Botafogo	1F	Brasil	Brasileirão 1996	FG
+E
+1996-08-20	Botafogo	1-1	São Paulo	1F	Brasil	Brasileirão 1996	FG
+E
+1996-08-17	Fluminense	1-1	Botafogo	1F	Brasil	Brasileirão 1996	FG
+D
+1996-08-14	Atlético Paranaense	1-0	Botafogo	1F	Brasil	Brasileirão 1996	FG
+V
+1996-08-08	Botafogo	1-0	Grêmio	1F	Brasil	Brasileirão 1996	FG
+E
+1995-12-17	Santos	1-1	Botafogo	F	Brasil	Brasileirão 1995	FG
+V
+1995-12-13	Botafogo	2-1	Santos	F	Brasil	Brasileirão 1995	FG
+E
+1995-12-10	Botafogo	0-0	Cruzeiro	SF	Brasil	Brasileirão 1995	FG
+E
+1995-12-06	Cruzeiro	1-1	Botafogo	SF	Brasil	Brasileirão 1995	FG
+D
+1995-11-29	Santos	3-1	Botafogo	2F	Brasil	Brasileirão 1995	FG
+V
+1995-11-26	Vasco	0-2	Botafogo	2F	Brasil	Brasileirão 1995	FG
+V
+1995-11-22	Botafogo	2-0	Bahia	2F	Brasil	Brasileirão 1995	FG
+V
+1995-11-18	Goiás	0-1	Botafogo	2F	Brasil	Brasileirão 1995	FG
+V
+1995-11-12	Botafogo	5-0	Atlético Mineiro	2F	Brasil	Brasileirão 1995	FG
+V
+1995-11-09	Botafogo	3-0	União São João	2F	Brasil	Brasileirão 1995	FG
+E
+1995-11-04	Criciúma	1-1	Botafogo	2F	Brasil	Brasileirão 1995	FG
+E
+1995-11-03	Botafogo	1-1	Fluminense	2F	Brasil	Brasileirão 1995	FG
+V
+1995-10-28	Botafogo	2-0	Portuguesa	2F	Brasil	Brasileirão 1995	FG
+V
+1995-10-22	Sport	1-2	Botafogo	2F	Brasil	Brasileirão 1995	FG
+E
+1995-10-15	Botafogo	0-0	Internacional	2F	Brasil	Brasileirão 1995	FG
+V
+1995-10-12	São Paulo	0-2	Botafogo	2F	Brasil	Brasileirão 1995	FG
+E
+1995-10-08	Botafogo	0-0	Paraná	Grp.A	Brasil	Brasileirão 1995	FG
+D
+1995-10-01	Cruzeiro	5-3	Botafogo	Grp.A	Brasil	Brasileirão 1995	FG
+V
+1995-09-24	Flamengo	1-3	Botafogo	Grp.A	Brasil	Brasileirão 1995	FG
+E
+1995-09-20	Botafogo	0-0	Juventude	Grp.A	Brasil	Brasileirão 1995	FG
+V
+1995-09-16	Grêmio	2-3	Botafogo	Grp.A	Brasil	Brasileirão 1995	FG
+D
+1995-09-07	Palmeiras	2-1	Botafogo	Grp.A	Brasil	Brasileirão 1995
+V
+1995-09-02	Botafogo	2-1	Corinthians	Grp.A	Brasil	Brasileirão 1995	FG
+D
+1995-08-30	Bragantino	1-0	Botafogo	Grp.A	Brasil	Brasileirão 1995	FG
+V
+1995-08-27	Botafogo	3-1	Guarani	Grp.A	Brasil	Brasileirão 1995	FG
+V
+1995-08-23	Botafogo	3-1	Paysandu	Grp.A	Brasil	Brasileirão 1995	FG
+E
+1995-08-19	Vitória	2-2	Botafogo	Grp.A	Brasil	Brasileirão 1995	FG
+V
+1994-12-04	Botafogo	2-1	Atlético Mineiro	QF	Brasil	Brasileirão 1994	FG
+D
+1994-12-01	Atlético Mineiro	2-0	Botafogo	QF	Brasil	Brasileirão 1994	FG
+V
+1994-11-28	Botafogo	1-0	Grêmio	3F	Brasil	Brasileirão 1994	FG
+V
+1994-11-26	Internacional	0-1	Botafogo	3F	Brasil	Brasileirão 1994	FG
+E
+1994-11-23	Botafogo	0-0	Vasco	3F	Brasil	Brasileirão 1994	FG
+V
+1994-11-20	Botafogo	5-2	Portuguesa	3F	Brasil	Brasileirão 1994	FG
+V
+1994-11-16	Paysandu	0-1	Botafogo	3F	Brasil	Brasileirão 1994	FG
+E
+1994-11-13	Botafogo	1-1	Guarani	3F	Brasil	Brasileirão 1994	FG
+E
+1994-11-09	Fluminense	2-2	Botafogo	3F	Brasil	Brasileirão 1994	FG
+V
+1994-11-06	Corinthians	0-2	Botafogo	3F	Brasil	Brasileirão 1994	FG
+D
+1994-10-29	Botafogo	2-5	Sport	Grp.B	Brasil	Brasileirão 1994	FG
+D
+1994-10-26	Palmeiras	1-0	Botafogo	Grp.B	Brasil	Brasileirão 1994	FG
+D
+1994-10-22	Santos	2-0	Botafogo	Grp.B	Brasil	Brasileirão 1994	FG
+V
+1994-10-22	Botafogo	3-2	Paraná	Grp.B	Brasil	Brasileirão 1994	FG
+V
+1994-10-16	Botafogo	1-0	Flamengo	Grp.B	Brasil	Brasileirão 1994	FG
+D
+1994-10-14	São Paulo	1-0	Botafogo	Grp.B	Brasil	Brasileirão 1994	FG
+E
+1994-09-27	Botafogo	1-1	Bahia	Grp.B	Brasil	Brasileirão 1994	FG
+D
+1994-09-25	Vitória	2-0	Botafogo	Grp.B	Brasil	Brasileirão 1994	FG
+V
+1994-09-18	Botafogo	1-0	Portuguesa	Grp.B	Brasil	Brasileirão 1994	FG
+D
+1994-09-10	São Paulo	4-1	Botafogo	Grp.B	Brasil	Brasileirão 1994	FG
+V
+1994-09-04	Botafogo	5-2	Paysandu	Grp.B	Brasil	Brasileirão 1994	FG
+V
+1994-08-31	Atlético Mineiro	0-2	Botafogo	Grp.B	Brasil	Brasileirão 1994	FG
+D
+1994-08-28	Paysandu	2-0	Botafogo	Grp.B	Brasil	Brasileirão 1994	FG
+V
+1994-08-24	Botafogo	2-1	Atlético Mineiro	Grp.B	Brasil	Brasileirão 1994	FG
+V
+1994-08-20	Botafogo	4-0	São Paulo	Grp.B	Brasil	Brasileirão 1994
+E
+1994-08-17	Portuguesa	0-0	Botafogo	Grp.B	Brasil	Brasileirão 1994	FG
+E
+1994-08-14	Botafogo	1-1	Vitória	Grp.B	Brasil	Brasileirão 1994	FG
+D
+1993-11-14	São Paulo	1-0	Botafogo	Grp.A	Brasil	Brasileirão 1993	FG
+D
+1993-11-12	Flamengo	2-0	Botafogo	Grp.A	Brasil	Brasileirão 1993	FG
+V
+1993-11-05	Botafogo	3-0	Bahia	Grp.A	Brasil	Brasileirão 1993	FG
+V
+1993-11-03	Botafogo	2-0	Internacional	Grp.A	Brasil	Brasileirão 1993	FG
+D
+1993-10-31	Corinthians	5-1	Botafogo	Grp.A	Brasil	Brasileirão 1993	FG
+E
+1993-10-28	Botafogo	1-1	Bragantino	Grp.A	Brasil	Brasileirão 1993	FG
+D
+1993-10-17	Botafogo	0-1	Cruzeiro	Grp.A	Brasil	Brasileirão 1993	FG
+D
+1993-10-09	Cruzeiro	3-0	Botafogo	Grp.A	Brasil	Brasileirão 1993	FG
+D
+1993-10-03	Botafogo	0-4	São Paulo	Grp.A	Brasil	Brasileirão 1993	FG
+D
+1993-09-26	Botafogo	0-1	Flamengo	Grp.A	Brasil	Brasileirão 1993	FG
+D
+1993-09-20	Botafogo	0-1	Corinthians	Grp.A	Brasil	Brasileirão 1993	FG
+D
+1993-09-15	Bahia	1-0	Botafogo	Grp.A	Brasil	Brasileirão 1993	FG
+D
+1993-09-11	Internacional	1-0	Botafogo	Grp.A	Brasil	Brasileirão 1993	FG
+E
+1993-09-06	Bragantino	0-0	Botafogo	Grp.A	Brasil	Brasileirão 1993	FG
+E
+1992-07-19	Botafogo	2-2	Flamengo	F	Brasil	Brasileirão 1992	FG
+D
+1992-07-12	Flamengo	3-0	Botafogo	F	Brasil	Brasileirão 1992	FG
+V
+1992-07-09	Botafogo	1-0	Corinthians	Grp.B	Brasil	Brasileirão 1992	FG
+V
+1992-07-04	Cruzeiro	1-2	Botafogo	Grp.B	Brasil	Brasileirão 1992	FG
+D
+1992-06-27	Botafogo	0-1	Bragantino	Grp.B	Brasil	Brasileirão 1992	FG
+E
+1992-06-21	Bragantino	1-1	Botafogo	Grp.B	Brasil	Brasileirão 1992	FG
+V
+1992-06-13	Corinthians	0-1	Botafogo	Grp.B	Brasil	Brasileirão 1992	FG
+V
+1992-06-06	Botafogo	2-1	Cruzeiro	Grp.B	Brasil	Brasileirão 1992	FG
+D
+1992-05-31	Guarani	2-1	Botafogo	1F	Brasil	Brasileirão 1992	FG
+D
+1992-05-24	Botafogo	0-2	Bragantino	1F	Brasil	Brasileirão 1992	FG
+D
+1992-05-10	São Paulo	3-0	Botafogo	1F	Brasil	Brasileirão 1992	FG
+V
+1992-05-02	Internacional	0-2	Botafogo	1F	Brasil	Brasileirão 1992	FG
+V
+1992-04-26	Botafogo	2-0	Santos	1F	Brasil	Brasileirão 1992	FG
+V
+1992-04-19	Botafogo	6-0	Goiás	1F	Brasil	Brasileirão 1992
+D
+1992-04-12	Botafogo	1-2	Vasco	1F	Brasil	Brasileirão 1992	FG
+V
+1992-04-04	Paysandu	0-2	Botafogo	1F	Brasil	Brasileirão 1992	FG
+V
+1992-03-28	Portuguesa	1-3	Botafogo	1F	Brasil	Brasileirão 1992	FG
+V
+1992-03-23	Botafogo	2-0	Palmeiras	1F	Brasil	Brasileirão 1992	FG
+V
+1992-03-15	Fluminense	1-2	Botafogo	1F	Brasil	Brasileirão 1992	FG
+V
+1992-03-12	Botafogo	3-2	Náutico	1F	Brasil	Brasileirão 1992	FG
+E
+1992-03-09	Cruzeiro	1-1	Botafogo	1F	Brasil	Brasileirão 1992	FG
+D
+1992-02-22	Botafogo	2-4	Corinthians	1F	Brasil	Brasileirão 1992	FG
+V
+1992-02-19	Botafogo	3-1	Bahia	1F	Brasil	Brasileirão 1992	FG
+D
+1992-02-16	Sport	1-0	Botafogo	1F	Brasil	Brasileirão 1992	FG
+E
+1992-02-09	Flamengo	2-2	Botafogo	1F	Brasil	Brasileirão 1992	FG
+V
+1992-02-01	Atlético Mineiro	0-2	Botafogo	1F	Brasil	Brasileirão 1992	FG
+V
+1992-01-26	Botafogo	3-1	Atlético Paranaense	1F	Brasil	Brasileirão 1992	FG
+V
+1991-05-19	Botafogo	3-1	Grêmio	1F	Brasil	Brasileirão 1991	FG
+V
+1991-05-12	Atlético Mineiro	0-3	Botafogo	1F	Brasil	Brasileirão 1991	FG
+D
+1991-05-01	Fluminense	vs	Botafogo	1F	Brasil	Brasileirão 1991	FG
+E
+1991-04-28	Botafogo	0-0	Flamengo	1F	Brasil	Brasileirão 1991	FG
+E
+1991-04-22	Botafogo	0-0	Palmeiras	1F	Brasil	Brasileirão 1991	FG
+D
+1991-04-14	Vasco	3-0	Botafogo	1F	Brasil	Brasileirão 1991	FG
+E
+1991-04-07	Sport	1-1	Botafogo	1F	Brasil	Brasileirão 1991	FG
+D
+1991-04-05	São Paulo	1-0	Botafogo	1F	Brasil	Brasileirão 1991	FG
+D
+1991-04-03	Internacional	2-0	Botafogo	1F	Brasil	Brasileirão 1991	FG
+V
+1991-04-01	Botafogo	3-2	Cruzeiro	1F	Brasil	Brasileirão 1991	FG
+E
+1991-03-23	Bahia	0-0	Botafogo	1F	Brasil	Brasileirão 1991	FG
+D
+1991-03-23	Botafogo	0-3	Santos	1F	Brasil	Brasileirão 1991	FG
+E
+1991-03-20	Atlético Paranaense	2-2	Botafogo	1F	Brasil	Brasileirão 1991	FG
+D
+1991-03-11	Bragantino	3-0	Botafogo	1F	Brasil	Brasileirão 1991	FG
+E
+1991-03-06	Botafogo	0-0	Goiás	1F	Brasil	Brasileirão 1991	FG
+V
+1991-02-24	Botafogo	2-0	Vitória	1F	Brasil	Brasileirão 1991	FG
+D
+1991-02-16	Corinthians	2-1	Botafogo	1F	Brasil	Brasileirão 1991
+V
+1991-02-06	Botafogo	2-0	Portuguesa	1F	Brasil	Brasileirão 1991	FG
+V
+1991-02-03	Botafogo	2-0	Náutico	1F	Brasil	Brasileirão 1991	FG
+D
+1990-11-18	Botafogo	1-2	Bragantino	Grp.A	Brasil	Brasileirão 1990	FG
+D
+1990-11-15	Santos	2-1	Botafogo	Grp.A	Brasil	Brasileirão 1990	FG
+E
+1990-11-11	Botafogo	1-1	Atlético Mineiro	Grp.A	Brasil	Brasileirão 1990	FG
+E
+1990-11-06	Botafogo	2-2	Vasco	Grp.A	Brasil	Brasileirão 1990	FG
+V
+1990-11-03	Internacional	1-2	Botafogo	Grp.A	Brasil	Brasileirão 1990	FG
+D
+1990-10-28	Portuguesa	3-1	Botafogo	Grp.A	Brasil	Brasileirão 1990	FG
+V
+1990-10-24	Botafogo	1-0	Corinthians	Grp.A	Brasil	Brasileirão 1990	FG
+V
+1990-10-14	Botafogo	2-0	Goiás	Grp.A	Brasil	Brasileirão 1990	FG
+D
+1990-10-11	Botafogo	0-1	Bahia	Grp.A	Brasil	Brasileirão 1990	FG
+V
+1990-10-07	Botafogo	1-0	São Paulo	1F	Brasil	Brasileirão 1990	FG
+V
+1990-10-04	Palmeiras	0-1	Botafogo	1F	Brasil	Brasileirão 1990	FG
+V
+1990-09-30	Botafogo	1-0	Flamengo	1F	Brasil	Brasileirão 1990	FG
+V
+1990-09-23	Fluminense	0-1	Botafogo	1F	Brasil	Brasileirão 1990	FG
+E
+1990-09-19	Botafogo	0-0	Vitória	1F	Brasil	Brasileirão 1990	FG
+D
+1990-09-16	Náutico	2-1	Botafogo	1F	Brasil	Brasileirão 1990	FG
+E
+1990-09-08	Botafogo	1-1	Grêmio	1F	Brasil	Brasileirão 1990	FG
+D
+1990-09-02	Inter de Limeira	1-0	Botafogo	1F	Brasil	Brasileirão 1990	FG
+D
+1990-08-26	Botafogo	0-1	São José	1F	Brasil	Brasileirão 1990	FG
+D
+1990-08-19	Cruzeiro	1-0	Botafogo	1F	Brasil	Brasileirão 1990	FG
+V
+1989-12-10	Santos	0-1	Botafogo	2F	Brasil	Brasileirão 1989	FG
+V
+1989-12-03	Botafogo	1-0	Palmeiras	2F	Brasil	Brasileirão 1989	FG
+E
+1989-11-29	Vasco	2-2	Botafogo	2F	Brasil	Brasileirão 1989	FG
+V
+1989-11-25	Botafogo	2-1	Portuguesa	2F	Brasil	Brasileirão 1989	FG
+V
+1989-11-19	Grêmio	0-1	Botafogo	2F	Brasil	Brasileirão 1989	FG
+D
+1989-11-12	Botafogo	0-2	Fluminense	2F	Brasil	Brasileirão 1989	FG
+V
+1989-11-04	Goiás	1-2	Botafogo	2F	Brasil	Brasileirão 1989	FG
+D
+1989-10-28	Botafogo	1-2	Cruzeiro	2F	Brasil	Brasileirão 1989	FG
+E
+1989-10-22	Corinthians	0-0	Botafogo	Grp.A	Brasil	Brasileirão 1989
+V
+1989-10-18	Botafogo	1-0	Inter de Limeira	Grp.A	Brasil	Brasileirão 1989	FG
+V
+1989-10-15	Botafogo	2-0	Vitória	Grp.A	Brasil	Brasileirão 1989	FG
+E
+1989-10-07	São Paulo	1-1	Botafogo	Grp.A	Brasil	Brasileirão 1989	FG
+E
+1989-10-04	Botafogo	1-1	Náutico	Grp.A	Brasil	Brasileirão 1989	FG
+D
+1989-10-01	Guarani	2-0	Botafogo	Grp.A	Brasil	Brasileirão 1989	FG
+D
+1989-09-23	Atlético Mineiro	2-0	Botafogo	Grp.A	Brasil	Brasileirão 1989	FG
+D
+1989-09-20	Flamengo	1-0	Botafogo	Grp.A	Brasil	Brasileirão 1989	FG
+V
+1989-09-16	Botafogo	3-0	Atlético Paranaense	Grp.A	Brasil	Brasileirão 1989	FG
+V
+1989-09-06	Botafogo	2-1	Internacional	Grp.A	Brasil	Brasileirão 1989	FG
+E
+1988-12-18	Santos	0-0(9-10 Pen.)	Botafogo	Grp.B	Brasil	Brasileirão 1988	FG
+V
+1988-12-14	Botafogo	3-0	Guarani	Grp.B	Brasil	Brasileirão 1988	FG
+V
+1988-12-10	Criciúma	0-2	Botafogo	Grp.B	Brasil	Brasileirão 1988	FG
+E
+1988-12-07	Botafogo	0-0(5-6 Pen.)	America-RJ	Grp.B	Brasil	Brasileirão 1988	FG
+E
+1988-12-04	Botafogo	1-1(1-3 Pen.)	Cruzeiro	Grp.B	Brasil	Brasileirão 1988	FG
+D
+1988-12-01	Vasco	3-0	Botafogo	Grp.B	Brasil	Brasileirão 1988	FG
+V
+1988-11-27	Botafogo	1-0	Grêmio	Grp.B	Brasil	Brasileirão 1988	FG
+V
+1988-11-24	Bahia	0-1	Botafogo	Grp.B	Brasil	Brasileirão 1988	FG
+D
+1988-11-19	Coritiba	3-0	Botafogo	Grp.B	Brasil	Brasileirão 1988	FG
+V
+1988-11-16	Botafogo	1-0	Santa Cruz	Grp.B	Brasil	Brasileirão 1988	FG
+D
+1988-11-13	Botafogo	0-2	Corinthians	Grp.B	Brasil	Brasileirão 1988	FG
+D
+1988-11-09	Botafogo	0-2	Atlético Paranaense	1F	Brasil	Brasileirão 1988	FG
+V
+1988-11-05	Vitória	1-2	Botafogo	1F	Brasil	Brasileirão 1988	FG
+V
+1988-10-29	Botafogo	1-0	Bangu	1F	Brasil	Brasileirão 1988	FG
+D
+1988-10-22	Sport	1-0	Botafogo	1F	Brasil	Brasileirão 1988	FG
+D
+1988-10-15	Goiás	2-1	Botafogo	1F	Brasil	Brasileirão 1988	FG
+D
+1988-10-09	Botafogo	0-1	Portuguesa	1F	Brasil	Brasileirão 1988	FG
+E
+1988-10-02	Flamengo	2-2(5-4 Pen.)	Botafogo	1F	Brasil	Brasileirão 1988	FG
+E
+1988-09-24	Botafogo	0-0(4-3 Pen.)	Internacional	1F	Brasil	Brasileirão 1988	FG
+E
+1988-09-18	Botafogo	1-1(4-2 Pen.)	Palmeiras	1F	Brasil	Brasileirão 1988	FG
+D
+1988-09-11	São Paulo	1-0	Botafogo	1F	Brasil	Brasileirão 1988
+D
+1988-09-07	Atlético Mineiro	1-0	Botafogo	1F	Brasil	Brasileirão 1988	FG
+E
+1988-09-04	Botafogo	1-1(4-5 Pen.)	Fluminense	1F	Brasil	Brasileirão 1988	FG
+E
+1987-11-21	Botafogo	2-2	Bahia	Grp.A	Brasil	Brasileirão 1987	FG
+D
+1987-11-14	Palmeiras	1-0	Botafogo	Grp.A	Brasil	Brasileirão 1987	FG
+D
+1987-11-11	Santa Cruz	1-0	Botafogo	Grp.A	Brasil	Brasileirão 1987	FG
+V
+1987-11-07	Botafogo	1-0	Corinthians	Grp.A	Brasil	Brasileirão 1987	FG
+V
+1987-11-02	Grêmio	0-2	Botafogo	Grp.A	Brasil	Brasileirão 1987	FG
+E
+1987-10-28	Botafogo	0-0	Atlético Mineiro	Grp.A	Brasil	Brasileirão 1987	FG
+D
+1987-10-24	Flamengo	1-0	Botafogo	Grp.A	Brasil	Brasileirão 1987	FG
+E
+1987-10-18	Coritiba	1-1	Botafogo	Grp.A	Brasil	Brasileirão 1987	FG
+V
+1987-10-12	São Paulo	0-2	Botafogo	Grp.A	Brasil	Brasileirão 1987	FG
+E
+1987-10-07	Botafogo	0-0	Santos	Grp.A	Brasil	Brasileirão 1987	FG
+D
+1987-10-01	Vasco	1-0	Botafogo	Grp.A	Brasil	Brasileirão 1987	FG
+E
+1987-09-27	Cruzeiro	1-1	Botafogo	Grp.A	Brasil	Brasileirão 1987	FG
+E
+1987-09-24	Botafogo	0-0	Internacional	Grp.A	Brasil	Brasileirão 1987	FG
+E
+1987-09-20	Fluminense	1-1	Botafogo	Grp.A	Brasil	Brasileirão 1987	FG
+V
+1987-09-12	Botafogo	1-0	Goiás	Grp.A	Brasil	Brasileirão 1987	FG
+V
+1987-01-29	Botafogo	1-0	Palmeiras	Grp.I	Brasil	Brasileirão 1986	FG
+E
+1986-12-13	Botafogo	0-0	Bangu	Grp.I	Brasil	Brasileirão 1986	FG
+D
+1986-12-10	Joinville	1-0	Botafogo	Grp.I	Brasil	Brasileirão 1986	FG
+E
+1986-12-07	Botafogo	0-0	São Paulo	Grp.I	Brasil	Brasileirão 1986	FG
+E
+1986-12-04	America-RJ	0-0	Botafogo	Grp.I	Brasil	Brasileirão 1986	FG
+E
+1986-11-30	Santos	0-0	Botafogo	Grp.I	Brasil	Brasileirão 1986	FG
+E
+1986-11-26	Botafogo	0-0	Ponte Preta	Grp.I	Brasil	Brasileirão 1986	FG
+V
+1986-11-23	Treze	0-1	Botafogo	Grp.I	Brasil	Brasileirão 1986	FG
+D
+1986-11-20	São Paulo	5-0	Botafogo	Grp.I	Brasil	Brasileirão 1986	FG
+D
+1986-11-16	Botafogo	2-3	Santos	Grp.I	Brasil	Brasileirão 1986	FG
+D
+1986-11-12	America-RJ	2-1	Botafogo	Grp.I	Brasil	Brasileirão 1986	FG
+D
+1986-11-09	Palmeiras	3-2	Botafogo	Grp.I	Brasil	Brasileirão 1986	FG
+D
+1986-11-06	Ponte Preta	1-0	Botafogo	Grp.I	Brasil	Brasileirão 1986
+D
+1986-10-29	Bangu	1-0	Botafogo	Grp.I	Brasil	Brasileirão 1986	FG
+V
+1986-10-25	Botafogo	2-0	Treze	Grp.I	Brasil	Brasileirão 1986	FG
+E
+1986-10-22	Botafogo	1-1	Joinville	Grp.I	Brasil	Brasileirão 1986	FG
+V
+1986-10-07	Botafogo	2-0	Santa Cruz	Grp.D	Brasil	Brasileirão 1986	FG
+D
+1986-10-05	Botafogo	2-4	Atlético Mineiro	Grp.D	Brasil	Brasileirão 1986	FG
+D
+1986-10-02	Portuguesa	2-1	Botafogo	Grp.D	Brasil	Brasileirão 1986	FG
+D
+1986-09-30	Palmeiras	2-0	Botafogo	Grp.D	Brasil	Brasileirão 1986	FG
+E
+1986-09-24	CSA	1-1	Botafogo	Grp.D	Brasil	Brasileirão 1986	FG
+V
+1986-09-18	Botafogo	2-1	Alecrim	Grp.D	Brasil	Brasileirão 1986	FG
+E
+1986-09-13	Vitória	0-0	Botafogo	Grp.D	Brasil	Brasileirão 1986	FG
+E
+1986-09-10	Botafogo	0-0	Nacional-AM	Grp.D	Brasil	Brasileirão 1986	FG
+V
+1986-09-06	Botafogo	2-0	Fortaleza	Grp.D	Brasil	Brasileirão 1986	FG
+E
+1986-08-31	Comercial-MS	1-1	Botafogo	Grp.D	Brasil	Brasileirão 1986	FG
+V
+1985-04-13	Botafogo	2-1	Portuguesa	Grp.A e B	Brasil	Brasileirão 1985	FG
+D
+1985-04-10	Botafogo	1-2	Vasco	Grp.A e B	Brasil	Brasileirão 1985	FG
+D
+1985-04-07	Cruzeiro	3-0	Botafogo	Grp.A e B	Brasil	Brasileirão 1985	FG
+V
+1985-03-30	Náutico	1-2	Botafogo	Grp.A e B	Brasil	Brasileirão 1985	FG
+V
+1985-03-27	Botafogo	1-0	Santos	Grp.A e B	Brasil	Brasileirão 1985	FG
+D
+1985-03-24	Flamengo	6-1	Botafogo	Grp.A e B	Brasil	Brasileirão 1985	FG
+V
+1985-03-20	Botafogo	3-1	São Paulo	Grp.A e B	Brasil	Brasileirão 1985	FG
+V
+1985-03-16	Botafogo	1-0	Internacional	Grp.A e B	Brasil	Brasileirão 1985	FG
+D
+1985-03-13	Bahia	2-0	Botafogo	Grp.A e B	Brasil	Brasileirão 1985	FG
+D
+1985-03-09	Goiás	4-1	Botafogo	Grp.A e B	Brasil	Brasileirão 1985	FG
+V
+1985-03-06	Portuguesa	0-1	Botafogo	Grp.A e B	Brasil	Brasileirão 1985	FG
+V
+1985-03-03	Vasco	1-3	Botafogo	Grp.A e B	Brasil	Brasileirão 1985	FG
+D
+1985-02-27	Botafogo	1-3	Cruzeiro	Grp.A e B	Brasil	Brasileirão 1985	FG
+D
+1985-02-23	Botafogo	0-2	Náutico	Grp.A e B	Brasil	Brasileirão 1985	FG
+E
+1985-02-13	Santos	2-2	Botafogo	Grp.A e B	Brasil	Brasileirão 1985	FG
+V
+1985-02-10	Botafogo	2-1	Flamengo	Grp.A e B	Brasil	Brasileirão 1985	FG
+D
+1985-02-06	São Paulo	3-1	Botafogo	Grp.A e B	Brasil	Brasileirão 1985
+D
+1985-02-03	Internacional	2-0	Botafogo	Grp.A e B	Brasil	Brasileirão 1985	FG
+E
+1985-01-31	Botafogo	1-1	Bahia	Grp.A e B	Brasil	Brasileirão 1985	FG
+V
+1985-01-27	Botafogo	3-1	Goiás	Grp.A e B	Brasil	Brasileirão 1985	FG
+D
+1984-04-01	Botafogo	0-1	Operário-MT	Grp.N	Brasil	Brasileirão 1984	FG
+D
+1984-03-24	America-RJ	2-1	Botafogo	Grp.N	Brasil	Brasileirão 1984	FG
+E
+1984-03-21	Coritiba	1-1	Botafogo	Grp.N	Brasil	Brasileirão 1984	FG
+E
+1984-03-18	Botafogo	0-0	America-RJ	Grp.N	Brasil	Brasileirão 1984	FG
+V
+1984-03-15	Botafogo	3-1	Coritiba	Grp.N	Brasil	Brasileirão 1984	FG
+E
+1984-03-11	Operário-MT	1-1	Botafogo	Grp.N	Brasil	Brasileirão 1984	FG
+V
+1984-02-29	Santa Cruz	1-2	Botafogo	Grp.H	Brasil	Brasileirão 1984	FG
+E
+1984-02-25	Botafogo	0-0	Portuguesa	Grp.H	Brasil	Brasileirão 1984	FG
+D
+1984-02-22	Botafogo	0-1	Moto Club	Grp.H	Brasil	Brasileirão 1984	FG
+V
+1984-02-15	Auto Esporte-PI	1-2	Botafogo	Grp.H	Brasil	Brasileirão 1984	FG
+E
+1984-02-12	Moto Club	1-1	Botafogo	Grp.H	Brasil	Brasileirão 1984	FG
+V
+1984-02-09	Botafogo	2-0	Auto Esporte-PI	Grp.H	Brasil	Brasileirão 1984	FG
+D
+1984-02-05	Botafogo	0-1	Santa Cruz	Grp.H	Brasil	Brasileirão 1984	FG
+V
+1984-02-01	Portuguesa	0-1	Botafogo	Grp.H	Brasil	Brasileirão 1984	FG
+V
+1983-04-03	Sergipe	2-6	Botafogo	Grp.N	Brasil	Brasileirão 1983	FG
+E
+1983-03-30	Botafogo	1-1	Grêmio	Grp.N	Brasil	Brasileirão 1983	FG
+D
+1983-03-26	Botafogo	1-2	America-RJ	Grp.N	Brasil	Brasileirão 1983	FG
+E
+1983-03-22	America-RJ	0-0	Botafogo	Grp.N	Brasil	Brasileirão 1983	FG
+E
+1983-03-16	Grêmio	1-1	Botafogo	Grp.N	Brasil	Brasileirão 1983	FG
+V
+1983-03-13	Botafogo	3-1	Sergipe	Grp.N	Brasil	Brasileirão 1983	FG
+V
+1983-03-09	Botafogo	3-1	Ferroviário	1F	Brasil	Brasileirão 1983	FG
+E
+1983-03-06	Internacional	0-0	Botafogo	Grp.G	Brasil	Brasileirão 1983	FG
+V
+1983-02-26	Botafogo	3-0	Brasília	Grp.G	Brasil	Brasileirão 1983	FG
+D
+1983-02-23	Ferroviária	2-1	Botafogo	Grp.G	Brasil	Brasileirão 1983	FG
+D
+1983-02-19	Colorado	3-0	Botafogo	Grp.G	Brasil	Brasileirão 1983	FG
+V
+1983-02-05	Botafogo	1-0	Internacional	Grp.G	Brasil	Brasileirão 1983	FG
+E
+1983-02-02	Botafogo	0-0	Colorado	Grp.G	Brasil	Brasileirão 1983
+D
+1983-01-27	Botafogo	0-1	Ferroviária	Grp.G	Brasil	Brasileirão 1983	FG
+D
+1983-01-23	Brasília	3-2	Botafogo	Grp.G	Brasil	Brasileirão 1983	FG
+D
+1982-03-24	Botafogo	1-3	Treze	Grp.N	Brasil	Brasileirão 1982	FG
+E
+1982-03-17	Londrina	1-1	Botafogo	Grp.N	Brasil	Brasileirão 1982	FG
+D
+1982-03-14	Botafogo	0-1	São José	Grp.N	Brasil	Brasileirão 1982	FG
+D
+1982-03-11	Botafogo	1-3	Londrina	Grp.N	Brasil	Brasileirão 1982	FG
+E
+1982-03-07	São José	0-0	Botafogo	Grp.N	Brasil	Brasileirão 1982	FG
+V
+1982-02-28	Treze	0-2	Botafogo	Grp.N	Brasil	Brasileirão 1982	FG
+D
+1982-02-14	Guarani	4-1	Botafogo	Grp.B	Brasil	Brasileirão 1982	FG
+V
+1982-02-10	Botafogo	1-0	Ceará	Grp.B	Brasil	Brasileirão 1982	FG
+V
+1982-02-07	Botafogo	5-2	River-PI	Grp.B	Brasil	Brasileirão 1982	FG
+V
+1982-02-03	América-RN	0-3	Botafogo	Grp.B	Brasil	Brasileirão 1982	FG
+E
+1982-01-31	Ceará	0-0	Botafogo	Grp.B	Brasil	Brasileirão 1982	FG
+V
+1982-01-28	River-PI	1-3	Botafogo	Grp.B	Brasil	Brasileirão 1982	FG
+V
+1982-01-24	Botafogo	2-0	América-RN	Grp.B	Brasil	Brasileirão 1982	FG
+D
+1982-01-17	Botafogo	1-2	Guarani	Grp.B	Brasil	Brasileirão 1982	FG
+D
+1981-04-26	São Paulo	3-2	Botafogo	SF	Brasil	Brasileirão 1981	FG
+V
+1981-04-22	Botafogo	1-0	São Paulo	SF	Brasil	Brasileirão 1981	FG
+V
+1981-04-19	Botafogo	3-1	Flamengo	QF	Brasil	Brasileirão 1981	FG
+E
+1981-04-16	Flamengo	0-0	Botafogo	QF	Brasil	Brasileirão 1981	FG
+V
+1981-04-11	Botafogo	2-0	CSA	1/8	Brasil	Brasileirão 1981	FG
+E
+1981-04-09	CSA	0-0	Botafogo	1/8	Brasil	Brasileirão 1981	FG
+E
+1981-04-03	Santos	0-0	Botafogo	Grp.K	Brasil	Brasileirão 1981	FG
+E
+1981-03-28	Mixto	2-2	Botafogo	Grp.K	Brasil	Brasileirão 1981	FG
+V
+1981-03-18	Botafogo	5-1	Bangu	Grp.K	Brasil	Brasileirão 1981	FG
+V
+1981-03-15	Botafogo	2-1	Santos	Grp.K	Brasil	Brasileirão 1981	FG
+E
+1981-03-12	Botafogo	0-0	Mixto	Grp.K	Brasil	Brasileirão 1981	FG
+V
+1981-03-07	Bangu	0-1	Botafogo	Grp.K	Brasil	Brasileirão 1981	FG
+D
+1981-02-21	Galícia	3-1	Botafogo	Grp.B	Brasil	Brasileirão 1981	FG
+D
+1981-02-14	Botafogo	0-2	Goiás	Grp.B	Brasil	Brasileirão 1981
+D
+1981-02-07	Botafogo	2-3	Grêmio	Grp.B	Brasil	Brasileirão 1981	FG
+E
+1981-02-04	Pinheiros-PR	2-2	Botafogo	Grp.B	Brasil	Brasileirão 1981	FG
+D
+1981-01-31	Botafogo	0-1	Portuguesa	Grp.B	Brasil	Brasileirão 1981	FG
+V
+1981-01-28	Brasília	0-2	Botafogo	Grp.B	Brasil	Brasileirão 1981	FG
+V
+1981-01-25	Corinthians	1-3	Botafogo	Grp.B	Brasil	Brasileirão 1981	FG
+V
+1981-01-21	Botafogo	1-0	Operário-MS	Grp.B	Brasil	Brasileirão 1981	FG
+V
+1981-01-18	Desportiva Ferroviária	0-4	Botafogo	Grp.B	Brasil	Brasileirão 1981	FG
+E
+1980-05-17	Botafogo	1-1	Corinthians	Grp.P	Brasil	Brasileirão 1980	FG
+D
+1980-05-14	Coritiba	1-0	Botafogo	Grp.P	Brasil	Brasileirão 1980	FG
+D
+1980-05-11	Grêmio	1-0	Botafogo	Grp.P	Brasil	Brasileirão 1980	FG
+V
+1980-05-04	Botafogo	3-1	Ceará	Grp.F	Brasil	Brasileirão 1980	FG
+D
+1980-04-27	Americano	1-0	Botafogo	Grp.F	Brasil	Brasileirão 1980	FG
+D
+1980-04-20	São Paulo	3-0	Botafogo	Grp.F	Brasil	Brasileirão 1980	FG
+V
+1980-04-17	Botafogo	2-0	Americano	Grp.F	Brasil	Brasileirão 1980	FG
+V
+1980-04-13	Ceará	1-3	Botafogo	Grp.F	Brasil	Brasileirão 1980	FG
+E
+1980-04-06	Botafogo	3-3	São Paulo	Grp.F	Brasil	Brasileirão 1980	FG
+E
+1980-03-30	Botafogo	0-0	Joinville	Grp.A	Brasil	Brasileirão 1980	FG
+D
+1980-03-23	Cruzeiro	2-1	Botafogo	Grp.A	Brasil	Brasileirão 1980	FG
+E
+1980-03-19	Botafogo	1-1	Operário-MS	Grp.A	Brasil	Brasileirão 1980	FG
+V
+1980-03-15	Botafogo	2-0	Colorado	Grp.A	Brasil	Brasileirão 1980	FG
+D
+1980-03-09	Bahia	3-2	Botafogo	Grp.A	Brasil	Brasileirão 1980	FG
+V
+1980-03-05	Botafogo	3-1	CRB	Grp.A	Brasil	Brasileirão 1980	FG
+D
+1980-03-02	Corinthians	2-0	Botafogo	Grp.A	Brasil	Brasileirão 1980	FG
+V
+1980-02-27	Botafogo	4-0	Portuguesa	Grp.A	Brasil	Brasileirão 1980	FG
+V
+1980-02-24	Remo	1-3	Botafogo	Grp.A	Brasil	Brasileirão 1980	FG
+D
+1979-11-28	Operário-MS	2-0	Botafogo	Grp.J	Brasil	Brasileirão 1979	FG
+V
+1979-11-24	Botafogo	1-0	Grêmio Maringá	Grp.J	Brasil	Brasileirão 1979	FG
+E
+1979-11-21	Joinville	0-0	Botafogo	Grp.J	Brasil	Brasileirão 1979	FG
+V
+1979-11-18	Botafogo	1-0	ABC	Grp.J	Brasil	Brasileirão 1979	FG
+E
+1979-11-15	Botafogo	0-0	Figueirense	Grp.J	Brasil	Brasileirão 1979
+E
+1979-11-11	Comercial-MS	1-1	Botafogo	Grp.J	Brasil	Brasileirão 1979	FG
+V
+1979-11-07	Botafogo	6-1	São Bento	Grp.J	Brasil	Brasileirão 1979	FG
+V
+1978-07-23	Botafogo	2-1	São Paulo	Grp.S	Brasil	Brasileirão 1978	FG
+D
+1978-07-20	Botafogo	0-3	Grêmio	Grp.S	Brasil	Brasileirão 1978	FG
+V
+1978-07-16	Palmeiras	1-2	Botafogo	Grp.S	Brasil	Brasileirão 1978	FG
+E
+1978-07-13	Noroeste	1-1	Botafogo	Grp.S	Brasil	Brasileirão 1978	FG
+E
+1978-07-09	Coritiba	0-0	Botafogo	Grp.S	Brasil	Brasileirão 1978	FG
+V
+1978-07-06	Botafogo	3-1	America-RJ	Grp.S	Brasil	Brasileirão 1978	FG
+E
+1978-07-03	Flamengo	1-1	Botafogo	Grp.S	Brasil	Brasileirão 1978	FG
+V
+1978-06-24	Juventude	0-3	Botafogo	Grp.I	Brasil	Brasileirão 1978	FG
+V
+1978-06-22	Botafogo	3-0	Comercial	Grp.I	Brasil	Brasileirão 1978	FG
+V
+1978-06-17	Sport	1-2	Botafogo	Grp.I	Brasil	Brasileirão 1978	FG
+E
+1978-06-13	Botafogo	0-0	Operário-MS	Grp.I	Brasil	Brasileirão 1978	FG
+V
+1978-06-10	Botafogo	2-1	Corinthians	Grp.I	Brasil	Brasileirão 1978	FG
+E
+1978-06-04	Botafogo-SP	2-2	Botafogo	Grp.I	Brasil	Brasileirão 1978	FG
+E
+1978-05-28	Flamengo	1-1	Botafogo	Grp.I	Brasil	Brasileirão 1978	FG
+V
+1978-05-21	Botafogo	2-0	America-RJ	Grp.I	Brasil	Brasileirão 1978	FG
+E
+1978-05-14	Botafogo	1-1	Guarani	Grp.D	Brasil	Brasileirão 1978	FG
+V
+1978-05-10	Botafogo	1-0	CRB	Grp.D	Brasil	Brasileirão 1978	FG
+E
+1978-05-07	CSA	0-0	Botafogo	Grp.D	Brasil	Brasileirão 1978	FG
+V
+1978-05-03	Confiança	0-1	Botafogo	Grp.D	Brasil	Brasileirão 1978	FG
+V
+1978-04-30	Vitória	0-3	Botafogo	Grp.D	Brasil	Brasileirão 1978	FG
+E
+1978-04-23	Vasco	0-0	Botafogo	Grp.D	Brasil	Brasileirão 1978	FG
+V
+1978-04-16	Ponte Preta	0-1	Botafogo	Grp.D	Brasil	Brasileirão 1978	FG
+V
+1978-04-09	Volta Redonda	0-1	Botafogo	Grp.D	Brasil	Brasileirão 1978	FG
+V
+1978-04-06	Botafogo	5-1	Sergipe	Grp.D	Brasil	Brasileirão 1978	FG
+E
+1978-04-02	Botafogo	1-1	Bahia	Grp.D	Brasil	Brasileirão 1978	FG
+V
+1978-03-26	Itabuna	0-2	Botafogo	Grp.D	Brasil	Brasileirão 1978	FG
+V
+1978-02-22	Botafogo	3-1	Fast Clube	Grp.T	Brasil	Brasileirão 1977	FG
+V
+1978-02-19	Cruzeiro	0-3	Botafogo	Grp.T	Brasil	Brasileirão 1977
+E
+1978-02-12	Botafogo	0-0	Atlético Mineiro	Grp.T	Brasil	Brasileirão 1977	FG
+V
+1978-02-01	Botafogo	2-0	América-RN	Grp.T	Brasil	Brasileirão 1977	FG
+E
+1978-01-29	Bahia	0-0	Botafogo	Grp.T	Brasil	Brasileirão 1977	FG
+V
+1977-12-14	Botafogo	3-1	CSA	Grp.J	Brasil	Brasileirão 1977	FG
+V
+1977-12-11	Fluminense	0-1	Botafogo	Grp.J	Brasil	Brasileirão 1977	FG
+E
+1977-12-07	Botafogo	1-1	Operário-MS	Grp.J	Brasil	Brasileirão 1977	FG
+E
+1977-12-04	Botafogo-SP	2-2	Botafogo	Grp.J	Brasil	Brasileirão 1977	FG
+V
+1977-11-23	Botafogo	1-0	Goiânia	Grp.D	Brasil	Brasileirão 1977	FG
+V
+1977-11-16	Botafogo	3-0	Londrina	Grp.D	Brasil	Brasileirão 1977	FG
+E
+1977-11-13	Vasco	0-0	Botafogo	Grp.D	Brasil	Brasileirão 1977	FG
+V
+1977-11-09	Botafogo	3-0	Americano	Grp.D	Brasil	Brasileirão 1977	FG
+V
+1977-11-02	Atlético Paranaense	1-3	Botafogo	Grp.D	Brasil	Brasileirão 1977	FG
+E
+1977-10-27	Goytacaz	1-1	Botafogo	Grp.D	Brasil	Brasileirão 1977	FG
+V
+1977-10-23	Botafogo	3-1	Goiás	Grp.D	Brasil	Brasileirão 1977	FG
+V
+1977-10-20	Brasília	0-1	Botafogo	Grp.D	Brasil	Brasileirão 1977	FG
+E
+1977-10-16	Vila Nova	0-0	Botafogo	Grp.D	Brasil	Brasileirão 1977	FG
+D
+1976-10-24	Botafogo	0-1	Grêmio	Grp.H	Brasil	Brasileirão 1976	FG
+D
+1976-10-21	Botafogo	0-2	Coritiba	Grp.H	Brasil	Brasileirão 1976	FG
+V
+1976-10-16	Corinthians	1-2	Botafogo	Grp.H	Brasil	Brasileirão 1976	FG
+V
+1976-10-13	Botafogo	1-0	Sport	Grp.H	Brasil	Brasileirão 1976	FG
+D
+1976-10-10	Operário-MS	2-0	Botafogo	Grp.H	Brasil	Brasileirão 1976	FG
+E
+1976-09-29	Vitória	1-1	Botafogo	Grp.E	Brasil	Brasileirão 1976	FG
+V
+1976-09-25	Botafogo	4-1	Fluminense de Feira	Grp.E	Brasil	Brasileirão 1976	FG
+D
+1976-09-22	CSA	2-1	Botafogo	Grp.E	Brasil	Brasileirão 1976	FG
+V
+1976-09-18	Botafogo	2-1	CRB	Grp.E	Brasil	Brasileirão 1976	FG
+E
+1976-09-15	Botafogo	0-0	Bahia	Grp.E	Brasil	Brasileirão 1976	FG
+V
+1976-09-07	Botafogo	2-0	Fluminense	Grp.E	Brasil	Brasileirão 1976	FG
+V
+1976-09-04	Treze	2-4	Botafogo	Grp.E	Brasil	Brasileirão 1976	FG
+E
+1976-09-01	Botafogo-PB	0-0	Botafogo	Grp.E	Brasil	Brasileirão 1976	FG
+V
+1975-12-04	Nacional-AM	0-2	Botafogo	Grp.A	Brasil	Brasileirão 1975
+V
+1975-11-29	Botafogo	2-1	Guarani	Grp.A	Brasil	Brasileirão 1975	FG
+D
+1975-11-26	Cruzeiro	2-0	Botafogo	Grp.A	Brasil	Brasileirão 1975	FG
+D
+1975-11-23	Fluminense	2-0	Botafogo	Grp.A	Brasil	Brasileirão 1975	FG
+E
+1975-11-20	Botafogo	0-0	America-RJ	Grp.A	Brasil	Brasileirão 1975	FG
+D
+1975-11-16	Palmeiras	2-0	Botafogo	Grp.A	Brasil	Brasileirão 1975	FG
+D
+1975-11-13	Botafogo	2-3	Corinthians	Grp.A	Brasil	Brasileirão 1975	FG
+E
+1975-11-05	Botafogo	1-1	Fortaleza	Grp.3	Brasil	Brasileirão 1975	FG
+E
+1975-10-29	Botafogo	0-0	Comercial-MS	Grp.3	Brasil	Brasileirão 1975	FG
+V
+1975-10-26	Moto Club	1-2	Botafogo	Grp.3	Brasil	Brasileirão 1975	FG
+V
+1975-10-22	Rio Negro-AM	1-3	Botafogo	Grp.3	Brasil	Brasileirão 1975	FG
+D
+1975-10-05	Fluminense	3-1	Botafogo	Grp.A/B	Brasil	Brasileirão 1975	FG
+E
+1975-09-28	América Mineiro	1-1	Botafogo	Grp.A/B	Brasil	Brasileirão 1975	FG
+V
+1975-09-24	Tiradentes-PI	0-1	Botafogo	Grp.A/B	Brasil	Brasileirão 1975	FG
+D
+1975-09-21	Ceará	1-0	Botafogo	Grp.A/B	Brasil	Brasileirão 1975	FG
+V
+1975-09-17	Botafogo	4-0	Nacional-AM	Grp.A/B	Brasil	Brasileirão 1975	FG
+E
+1975-09-14	Guarani	1-1	Botafogo	Grp.A/B	Brasil	Brasileirão 1975	FG
+E
+1975-09-07	Corinthians	1-1	Botafogo	Grp.A/B	Brasil	Brasileirão 1975	FG
+D
+1975-08-31	Botafogo	0-2	Cruzeiro	Grp.A/B	Brasil	Brasileirão 1975	FG
+V
+1975-08-23	Botafogo	2-1	Paysandu	Grp.A/B	Brasil	Brasileirão 1975	FG
+D
+1975-08-20	Atlético Paranaense	2-1	Botafogo	Grp.A/B	Brasil	Brasileirão 1975	FG
+E
+1974-06-13	Grêmio	2-2	Botafogo	Grp.A	Brasil	Brasileirão 1974	FG
+D
+1974-06-09	Botafogo	0-2	Flamengo	Grp.A	Brasil	Brasileirão 1974	FG
+E
+1974-06-05	Botafogo	0-0	Bahia	Grp.A	Brasil	Brasileirão 1974	FG
+V
+1974-06-02	Botafogo	1-0	Fluminense	Grp.A	Brasil	Brasileirão 1974	FG
+D
+1974-05-25	América-RN	1-0	Botafogo	Grp.A	Brasil	Brasileirão 1974	FG
+D
+1974-05-18	Vitória	3-1	Botafogo	Grp.A	Brasil	Brasileirão 1974	FG
+D
+1974-05-15	Botafogo	2-3	Internacional	Grp.A	Brasil	Brasileirão 1974	FG
+E
+1974-05-11	Sampaio Corrêa	1-1	Botafogo	Grp.A	Brasil	Brasileirão 1974	FG
+D
+1974-05-04	Tiradentes-PI	2-1	Botafogo	Grp.A	Brasil	Brasileirão 1974	FG
+E
+1974-04-27	Botafogo	1-1	America-RJ	Grp.A	Brasil	Brasileirão 1974
+V
+1974-04-16	Botafogo	5-1	Avaí	Grp.A	Brasil	Brasileirão 1974	FG
+D
+1974-04-13	Itabaiana	2-1	Botafogo	Grp.A	Brasil	Brasileirão 1974	FG
+V
+1974-04-06	Desportiva Ferroviária	2-3	Botafogo	Grp.A	Brasil	Brasileirão 1974	FG
+E
+1974-03-30	Vasco	0-0	Botafogo	Grp.A	Brasil	Brasileirão 1974	FG
+D
+1974-03-23	Coritiba	3-2	Botafogo	Grp.A	Brasil	Brasileirão 1974	FG
+V
+1974-03-20	Botafogo	3-1	Atlético Paranaense	Grp.A	Brasil	Brasileirão 1974	FG
+E
+1974-03-16	Botafogo	0-0	Olaria	Grp.A	Brasil	Brasileirão 1974	FG
+D
+1974-03-13	Paysandu	3-1	Botafogo	Grp.A	Brasil	Brasileirão 1974	FG
+E
+1974-03-10	Remo	2-2	Botafogo	Grp.A	Brasil	Brasileirão 1974	FG
+E
+1974-02-09	São Paulo	0-0	Botafogo	Grp.2	Brasil	Brasileirão 1973	FG
+V
+1974-02-06	Botafogo	6-1	Fortaleza	Grp.2	Brasil	Brasileirão 1973	FG
+V
+1974-02-03	Botafogo	3-0	Grêmio	Grp.2	Brasil	Brasileirão 1973	FG
+V
+1974-01-31	Botafogo	2-1	Guarani	Grp.2	Brasil	Brasileirão 1973	FG
+D
+1974-01-26	Goiás	2-0	Botafogo	Grp.2	Brasil	Brasileirão 1973	FG
+E
+1974-01-23	Cruzeiro	1-1	Botafogo	Grp.2	Brasil	Brasileirão 1973	FG
+D
+1974-01-20	Botafogo	0-3	Santos	Grp.2	Brasil	Brasileirão 1973	FG
+V
+1974-01-16	Botafogo	4-1	Santa Cruz	Grp.2	Brasil	Brasileirão 1973	FG
+V
+1974-01-13	Vitória	1-2	Botafogo	Grp.2	Brasil	Brasileirão 1973	FG
+D
+1973-12-16	Vasco	1-0	Botafogo	1F	Brasil	Brasileirão 1973	FG
+D
+1973-12-13	Cruzeiro	2-1	Botafogo	1F	Brasil	Brasileirão 1973	FG
+D
+1973-12-08	Flamengo	1-0	Botafogo	1F	Brasil	Brasileirão 1973	FG
+V
+1973-12-01	Botafogo	2-1	America-RJ	1F	Brasil	Brasileirão 1973	FG
+E
+1973-11-28	Figueirense	0-0	Botafogo	1F	Brasil	Brasileirão 1973	FG
+V
+1973-11-24	Botafogo	2-1	Atlético Mineiro	1F	Brasil	Brasileirão 1973	FG
+E
+1973-11-18	Botafogo	1-1	Fluminense	1F	Brasil	Brasileirão 1973	FG
+D
+1973-11-14	América Mineiro	1-0	Botafogo	1F	Brasil	Brasileirão 1973	FG
+E
+1973-11-10	Botafogo	2-2	Olaria	1F	Brasil	Brasileirão 1973	FG
+D
+1973-11-04	Sport	1-0	Botafogo	1F	Brasil	Brasileirão 1973	FG
+V
+1973-10-31	CRB	0-2	Botafogo	1F	Brasil	Brasileirão 1973	FG
+E
+1973-10-27	Bahia	0-0	Botafogo	1F	Brasil	Brasileirão 1973
+V
+1973-10-24	Botafogo	2-1	Cruzeiro	1F	Brasil	Brasileirão 1973	FG
+E
+1973-10-20	América Mineiro	1-1	Botafogo	1F	Brasil	Brasileirão 1973	FG
+D
+1973-10-17	Coritiba	1-0	Botafogo	1F	Brasil	Brasileirão 1973	FG
+D
+1973-10-13	Botafogo	0-1	America-RJ	1F	Brasil	Brasileirão 1973	FG
+E
+1973-10-07	Corinthians	1-1	Botafogo	1F	Brasil	Brasileirão 1973	FG
+E
+1973-10-03	Guarani	1-1	Botafogo	1F	Brasil	Brasileirão 1973	FG
+V
+1973-09-30	Botafogo	1-0	São Paulo	1F	Brasil	Brasileirão 1973	FG
+V
+1973-09-26	Paysandu	0-1	Botafogo	1F	Brasil	Brasileirão 1973	FG
+E
+1973-09-23	Nacional-AM	1-1	Botafogo	1F	Brasil	Brasileirão 1973	FG
+V
+1973-09-16	Internacional	0-1	Botafogo	1F	Brasil	Brasileirão 1973	FG
+V
+1973-09-12	Fortaleza	0-2	Botafogo	1F	Brasil	Brasileirão 1973	FG
+E
+1973-09-09	Tiradentes-PI	0-0	Botafogo	1F	Brasil	Brasileirão 1973	FG
+V
+1973-09-05	Moto Club	0-2	Botafogo	1F	Brasil	Brasileirão 1973	FG
+V
+1973-09-02	Botafogo	4-0	Fluminense	1F	Brasil	Brasileirão 1973	FG
+E
+1973-08-29	Figueirense	2-2	Botafogo	1F	Brasil	Brasileirão 1973	FG
+E
+1973-08-25	CEUB	0-0	Botafogo	1F	Brasil	Brasileirão 1973	FG
+E
+1972-12-23	Palmeiras	0-0	Botafogo	F	Brasil	Brasileirão 1972	FG
+V
+1972-12-20	Botafogo	2-1	Corinthians	SF	Brasil	Brasileirão 1972	FG
+V
+1972-12-16	Botafogo	2-1	Santos	Grp.4	Brasil	Brasileirão 1972	FG
+V
+1972-12-13	Botafogo	4-1	Santa Cruz	Grp.4	Brasil	Brasileirão 1972	FG
+E
+1972-12-09	Grêmio	0-0	Botafogo	Grp.4	Brasil	Brasileirão 1972	FG
+D
+1972-12-03	América Mineiro	3-1	Botafogo	1F	Brasil	Brasileirão 1972	FG
+E
+1972-11-29	Portuguesa	1-1	Botafogo	1F	Brasil	Brasileirão 1972	FG
+V
+1972-11-25	ABC	0-1	Botafogo	1F	Brasil	Brasileirão 1972	FG
+E
+1972-11-22	Ceará	0-0	Botafogo	1F	Brasil	Brasileirão 1972	FG
+V
+1972-11-19	Botafogo	2-1	Fluminense	1F	Brasil	Brasileirão 1972	FG
+V
+1972-11-15	Botafogo	6-0	Flamengo	1F	Brasil	Brasileirão 1972	FG
+V
+1972-11-11	Botafogo	3-2	São Paulo	1F	Brasil	Brasileirão 1972	FG
+D
+1972-11-08	Santa Cruz	3-2	Botafogo	1F	Brasil	Brasileirão 1972	FG
+D
+1972-11-05	Atlético Mineiro	2-0	Botafogo	1F	Brasil	Brasileirão 1972
+E
+1972-11-01	Botafogo	1-1	Cruzeiro	1F	Brasil	Brasileirão 1972	FG
+V
+1972-10-29	Sergipe	0-1	Botafogo	1F	Brasil	Brasileirão 1972	FG
+D
+1972-10-25	Vitória	1-0	Botafogo	1F	Brasil	Brasileirão 1972	FG
+E
+1972-10-22	Corinthians	0-0	Botafogo	1F	Brasil	Brasileirão 1972	FG
+E
+1972-10-19	Internacional	0-0	Botafogo	1F	Brasil	Brasileirão 1972	FG
+E
+1972-10-15	Vasco	0-0	Botafogo	1F	Brasil	Brasileirão 1972	FG
+V
+1972-10-11	Náutico	1-2	Botafogo	1F	Brasil	Brasileirão 1972	FG
+D
+1972-10-08	CRB	3-2	Botafogo	1F	Brasil	Brasileirão 1972	FG
+E
+1972-10-04	Bahia	1-1	Botafogo	1F	Brasil	Brasileirão 1972	FG
+D
+1972-10-01	Botafogo	0-2	America-RJ	1F	Brasil	Brasileirão 1972	FG
+V
+1972-09-27	Nacional-AM	1-2	Botafogo	1F	Brasil	Brasileirão 1972	FG
+E
+1972-09-24	Remo	1-1	Botafogo	1F	Brasil	Brasileirão 1972	FG
+E
+1972-09-20	Palmeiras	2-2	Botafogo	1F	Brasil	Brasileirão 1972	FG
+D
+1972-09-17	Botafogo	1-2	Grêmio	1F	Brasil	Brasileirão 1972	FG
+E
+1972-09-13	Coritiba	0-0	Botafogo	1F	Brasil	Brasileirão 1972	FG
+E
+1972-09-09	Botafogo	1-1	Santos	1F	Brasil	Brasileirão 1972	FG
+D
+1971-12-19	Botafogo	0-1	Atlético Mineiro	Grp.A	Brasil	Brasileirão 1971	FG
+D
+1971-12-15	São Paulo	4-1	Botafogo	Grp.A	Brasil	Brasileirão 1971	FG
+V
+1971-12-09	Botafogo	3-0	Coritiba	Grp.C	Brasil	Brasileirão 1971	FG
+V
+1971-12-05	Botafogo	3-1	Grêmio	Grp.C	Brasil	Brasileirão 1971	FG
+V
+1971-12-02	Palmeiras	0-1	Botafogo	Grp.C	Brasil	Brasileirão 1971	FG
+D
+1971-11-28	Coritiba	1-0	Botafogo	Grp.C	Brasil	Brasileirão 1971	FG
+E
+1971-11-24	Botafogo	3-3	Palmeiras	Grp.C	Brasil	Brasileirão 1971	FG
+E
+1971-11-21	Grêmio	1-1	Botafogo	Grp.C	Brasil	Brasileirão 1971	FG
+E
+1971-11-14	Botafogo	2-2	Cruzeiro	1R	Brasil	Brasileirão 1971	FG
+E
+1971-11-07	Coritiba	0-0	Botafogo	1R	Brasil	Brasileirão 1971	FG
+D
+1971-10-31	Vasco	1-0	Botafogo	1R	Brasil	Brasileirão 1971	FG
+D
+1971-10-27	Portuguesa	3-1	Botafogo	1R	Brasil	Brasileirão 1971	FG
+E
+1971-10-23	Botafogo	0-0	Internacional	1R	Brasil	Brasileirão 1971	FG
+D
+1971-10-17	Ceará	1-0	Botafogo	1R	Brasil	Brasileirão 1971
+V
+1971-10-09	Botafogo	1-0	Corinthians	1R	Brasil	Brasileirão 1971	FG
+D
+1971-10-03	Palmeiras	3-1	Botafogo	1R	Brasil	Brasileirão 1971	FG
+E
+1971-09-26	Fluminense	0-0	Botafogo	1R	Brasil	Brasileirão 1971	FG
+E
+1971-09-19	Santa Cruz	0-0	Botafogo	1R	Brasil	Brasileirão 1971	FG
+E
+1971-09-12	Atlético Mineiro	2-2	Botafogo	1R	Brasil	Brasileirão 1971	FG
+V
+1971-09-09	Botafogo	2-1	São Paulo	1R	Brasil	Brasileirão 1971	FG
+V
+1971-09-05	Bahia	0-1	Botafogo	1R	Brasil	Brasileirão 1971	FG
+V
+1971-09-02	Sport	0-1	Botafogo	1R	Brasil	Brasileirão 1971	FG
+V
+1971-08-25	Botafogo	2-1	América Mineiro	1R	Brasil	Brasileirão 1971	FG
+E
+1971-08-22	Grêmio	1-1	Botafogo	1R	Brasil	Brasileirão 1971	FG
+E
+1971-08-18	Santos	0-0	Botafogo	1R	Brasil	Brasileirão 1971	FG
+E
+1971-08-14	Flamengo	1-1	Botafogo	1R	Brasil	Brasileirão 1971	FG
+E
+1971-08-07	Botafogo	0-0	America-RJ	1R	Brasil	Brasileirão 1971
+E
+1996-03-03	Botafogo	2-2	Flamengo	R7	Brasil	Taça Cidade Maravilhosa 1996	FG
+V
+1996-02-29	Botafogo	3-0	Madureira	R4	Brasil	Taça Cidade Maravilhosa 1996	FG
+V
+1996-02-25	Botafogo	4-0	Bangu	R6	Brasil	Taça Cidade Maravilhosa 1996	FG
+V
+1996-02-17	Botafogo	5-3	Vasco	R5	Brasil	Taça Cidade Maravilhosa 1996	FG
+V
+1996-02-06	Botafogo	2-0	Olaria	R3	Brasil	Taça Cidade Maravilhosa 1996	FG
+V
+1996-02-04	Botafogo	2-0	Fluminense	R2	Brasil	Taça Cidade Maravilhosa 1996	FG
+V
+1996-01-27	Botafogo	3-1	America-RJ	R1	Brasil	Taça Cidade Maravilhosa 1996
