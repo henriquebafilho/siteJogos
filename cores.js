@@ -248,6 +248,7 @@ function coresTimes(time, jogo = null) {
 		case "Votuporanguense":
 			return ["black", "white"];
 		default:
+			console.log(time);
 			return ["grey", "white"];
 	}
 }
