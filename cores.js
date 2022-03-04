@@ -117,6 +117,8 @@ function coresTimes(time, jogo = null) {
 			return ["#9f022f", "white"];
 		case "Fortaleza":
 			return ["#11519b", "white"];
+		case "Friburguense":
+			return ["#003a94", "white"];
 		case "Goiás":
 			return ["#006437", "white"];
 		case "Grêmio":
