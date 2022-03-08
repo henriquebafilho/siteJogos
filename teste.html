@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://unpkg.com/read-excel-file@4.x/bundle/read-excel-file.min.js"></script>
+        <!-- <script type="file" id="todosOsJogos" src="TodosOsJogosDoBotafogo.xlsx"></script> -->
+    </head>
+    <input type="file" id="todosOsJogos">
+    <table id="tbl-data"></table>
+
+    <script>
+        var input = document.getElementById("todosOsJogos");
+        input.addEventListener('change', function(){
+            readXlsxFile(input.files[0]).then(function(data) {
+                /* var i = 0;
+                data.map((row, index) => {
+                    // aqui vai chamar o escreveLinha
+                    let table = document.getElementById("tbl-data");
+                    generateTableRows(table, row);
+                }); */
+                console.log(data)
+            });
+        });
+    </script>
+</html>
