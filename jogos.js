@@ -466,7 +466,7 @@ var jogo20191005 = ["Vasco", "Santos",  0, 1, "Série A", "2019-10-05", "São Ja
 outros.push(jogo20191005);
 var jogo20220109 = ["Aparecidense", "Petrolina",  3, 2, "Copinha", "2022-01-09", "Joaquim de Morais Filho (Taubaté-SP)", "Aparecidense - Rodrigo Limiro/ Petrolina - Assis", ["Diogo (3x)"], ["Paulo Jayke", "Kinho"], "https://www.youtube.com/embed/5K22zTV9W-0", false];
 outros.push(jogo20220109);
-var jogo20220324 = ["Brasil", "Chile",  0, 0, "Eliminatórias da Copa do Mundo", "2022-03-24", "Maracanã", "Brasil - Tite/ Chile - Martín Lasarte", [""], [""], "", false];
+var jogo20220324 = ["Brasil", "Chile",  4, 0, "Eliminatórias da Copa do Mundo", "2022-03-24", "Maracanã", "Brasil - Tite/ Chile - Martín Lasarte", ["Neymar","Vinicius Júnior","Philippe Coutinho","Richarlison"], [""], "https://www.youtube.com/embed/izvPALvw46Q", false];
 outros.push(jogo20220324);
 
 outros.sort(function(a, b){

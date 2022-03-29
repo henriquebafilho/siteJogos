@@ -482,6 +482,8 @@ function getEscudoName(time, jogo) {
 		return "SãoBernardo2020";
 	} else if (time == "Botafogo-SP" && ano < 2021) {
 		return "Botafogo-SP2021";
+	} else if (time == "Brasil" && ano < 2019) {
+		return "Brasil2019";
 	}
 	return juntaNome(time);
 }
