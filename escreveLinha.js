@@ -35,6 +35,7 @@ function escreveLinha(meuTime, jogo, numero, ano){
 	details.style.cursor = "pointer";
 	details.style.color = "white";
 	details.style.border = "2px solid " + coresTimes(meuTime, jogo)[1];
+	//details.style.fontSize = '40%';
 	if(coresTimes(mandante, jogo)[0] == "white" && coresTimes(visitante, jogo)[0] == "white"){
 		details.style.color = "black";
 		details.style.fontWeight = "bold";

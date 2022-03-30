@@ -126,7 +126,8 @@ details[open] summary ~ * {
 /*tentando acertar o tamanho do texto no details*/
 @media screen and (max-width: 1000px) {
   details {
-    font-size: 6px;
+    /*font-size: 6px;*/
+    font-size: 50%;
   }
   ul {
     font-size: 11px;
@@ -138,7 +139,8 @@ details[open] summary ~ * {
 }
 @media screen and (min-width: 1000px) and (max-width: 2000px) {
   details {
-    font-size: 11px;
+    /* font-size: 11px; */
+    font-size: 50%;
   }
   ul {
     font-size: 20px;
