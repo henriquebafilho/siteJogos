@@ -35,7 +35,7 @@ function escreveLinha(meuTime, jogo, numero, ano){
 	details.style.cursor = "pointer";
 	details.style.color = "white";
 	details.style.border = "2px solid " + coresTimes(meuTime, jogo)[1];
-	//details.style.fontSize = '40%';
+	//details.style.fontSize = '125%';
 	if(coresTimes(mandante, jogo)[0] == "white" && coresTimes(visitante, jogo)[0] == "white"){
 		details.style.color = "black";
 		details.style.fontWeight = "bold";
@@ -44,7 +44,7 @@ function escreveLinha(meuTime, jogo, numero, ano){
 	var summary = document.createElement("summary");
 	summary.style.textAlign = "center";
 	summary.style.fontWeight = "bold";
-	summary.style.fontSize = '200%';
+	//summary.style.fontSize = '175%';
 	summary.style.textShadow = coresTimes(mandante, jogo)[0] == "white" && coresTimes(visitante, jogo)[0] == "white" ? "" : "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
 
 	var pCabecalho = document.createElement("p");
