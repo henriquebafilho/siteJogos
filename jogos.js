@@ -441,12 +441,14 @@ var jogo20220227 = ["Portuguesa-RJ", "Botafogo", 5, 3, "Taça Guanabara", "2022-
 jogos.push(jogo20220227);
 var jogo20220307 = ["Botafogo", "Volta Redonda", 5, 0, "Taça Guanabara", "2022-03-07", "Nilton Santos", "Lúcio Flávio", ["Joel Carli", "Lucas Mezenga", "Rikelmi", "Erison (2x)"], [""], "https://www.youtube.com/embed/TtQR9WrpEjA", false];
 jogos.push(jogo20220307);
-var jogo20220313 = ["Audax Rio", "Botafogo", 2, 2, "Taça Guanabara", "2022-03-13", "Nilton Santos", "Lúcio Flávio", ["Anderson Lessa","Hugo Sanches"], ["Breno","Erison"], "https://www.youtube.com/embed/RIvTz5hyijM", false];
+var jogo20220313 = ["Audax Rio", "Botafogo", 2, 2, "Taça Guanabara", "2022-03-13", "Jair Toscano", "Lúcio Flávio", ["Anderson Lessa","Hugo Sanches"], ["Breno","Erison"], "https://www.youtube.com/embed/RIvTz5hyijM", false];
 jogos.push(jogo20220313);
 var jogo20220321 = ["Botafogo", "Fluminense", 0, 1, "Carioca", "2022-03-21", "Nilton Santos", "Lúcio Flávio", [""], ["Jhon Arias"], "https://www.youtube.com/embed/h3CwC1Jv3gA", false];
 jogos.push(jogo20220321);
 var jogo20220327 = ["Fluminense", "Botafogo", 1, 2, "Carioca", "2022-03-27", "Maracanã", "Lúcio Flávio", ["Germán Cano"], ["Erison (2x)"], "https://www.youtube.com/embed/lBLTJHgJ-7Q", false];
 jogos.push(jogo20220327);
+var jogo20220410 = ["Botafogo", "Corinthians", 0, 0, "Série A", "2022-04-10", "Nilton Santos", "Luis Castro", [""], [""], "", false];
+jogos.push(jogo20220410);
 
 jogos.sort(function(a, b){
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
@@ -468,6 +470,8 @@ var jogo20220109 = ["Aparecidense", "Petrolina",  3, 2, "Copinha", "2022-01-09",
 outros.push(jogo20220109);
 var jogo20220324 = ["Brasil", "Chile",  4, 0, "Eliminatórias da Copa do Mundo", "2022-03-24", "Maracanã", "Brasil - Tite/ Chile - Martín Lasarte", ["Neymar","Vinicius Júnior","Philippe Coutinho","Richarlison"], [""], "https://www.youtube.com/embed/izvPALvw46Q", false];
 outros.push(jogo20220324);
+var jogo20220409 = ["Fluminense", "Santos",  0, 0, "Série A", "2022-04-09", "Maracanã", "Fluminense - Abel Braga/ Santos - Fabián Bustos", [""], [""], "", false];
+outros.push(jogo20220409);
 
 outros.sort(function(a, b){
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
