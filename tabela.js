@@ -484,6 +484,8 @@ function getEscudoName(time, jogo) {
 		return "Botafogo-SP2021";
 	} else if (time == "Brasil" && ano < 2019) {
 		return "Brasil2019";
+	} else if (time == "River Plate" && ano < 2022) {
+		return "RiverPlate2022";
 	}
 	return juntaNome(time);
 }

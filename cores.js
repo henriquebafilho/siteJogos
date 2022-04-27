@@ -67,6 +67,8 @@ function coresTimes(time, jogo = null) {
 			return ["#0b9c54", "white"];
 		case "Ceará":
 			return ["black", "white"];
+		case "Ceilândia":
+			return ["black", "white"];
 		case "Cerro Porteño":
 			return ["#c40215", "white"];
 		case "Chapecoense":
@@ -207,6 +209,8 @@ function coresTimes(time, jogo = null) {
 			return ["white", "black"];
 		case "Rio Preto":
 			return ["#00923f", "white"];
+		case "River Plate":
+			return ["white", "#d30a11"];
 		case "River Plate-URU":
 			return ["#d30a11", "white"];
 		case "Rosario Central":
