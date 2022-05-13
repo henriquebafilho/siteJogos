@@ -451,7 +451,7 @@ var jogo20220410 = ["Botafogo", "Corinthians", 1, 3, "Série A", "2022-04-10", "
 jogos.push(jogo20220410);
 var jogo20220501 = ["Botafogo", "Juventude", 1, 1, "Série A", "2022-05-01", "Nilton Santos", "Luís Castro", ["Diego Gonçalves"], ["Pitta"], "https://www.youtube.com/embed/7rauK6d82gU", false];
 jogos.push(jogo20220501);
-var jogo20220512 = ["Botafogo", "Ceilândia", 0, 0, "Copa do Brasil", "2022-05-12", "Nilton Santos", "Luís Castro", [""], [""], "", false];
+var jogo20220512 = ["Botafogo", "Ceilândia", 3, 0, "Copa do Brasil", "2022-05-12", "Nilton Santos", "Luís Castro", ["Patrick de Paula", "Matheus Nascimento (2x)"], [""], "https://www.youtube.com/embed/GazvRFxGQ3I", false];
 jogos.push(jogo20220512);
 
 jogos.sort(function(a, b){
