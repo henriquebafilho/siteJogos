@@ -464,8 +464,14 @@ function getEscudoName(time, jogo) {
 	var dataCortada = jogo[5].split("-");
 	var ano = parseInt(dataCortada[0]);
 
-	if (time == "Goiás" && ano < 2019) {
-		return "Goiás2019";
+	if (time == "Goiás") {
+		if(ano < 2019){
+			return "Goiás2019";
+		} else if (ano == 2019 && ano <= 2021){
+			return "Goiás2020";
+		} else {
+			return "Goiás";
+		}
 	} else if (time == "Internacional" && ano < 2009) {
 		return "Internacional2009";
 	} else if (time == "Náutico" && ano < 2008) {
