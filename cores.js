@@ -84,7 +84,7 @@ function coresTimes(time, jogo = null) {
 		case "Corinthians":
 			return ["black", "white"];
 		case "Coritiba":
-			return ["#00544d", "white"];
+			return ["#006437", "white"];
 		case "CRB":
 			return ["#d30a11", "white"];
 		case "Criciúma":
