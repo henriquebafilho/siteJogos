@@ -459,7 +459,7 @@ var jogo20220529 = ["Coritiba", "Botafogo", 1, 0, "Série A", "2022-05-29", "Cou
 jogos.push(jogo20220529);
 var jogo20220606 = ["Botafogo", "Goiás", 1, 2, "Série A", "2022-06-06", "Nilton Santos", "Luís Castro", ["Victor Cuesta"], ["Pedro Raúl (2x)"], "https://www.youtube.com/embed/buqAsax5ipg", false];
 jogos.push(jogo20220606);
-var jogo20220613 = ["Botafogo", "Avaí", 0, 0, "Série A", "2022-06-13", "Nilton Santos", "Luís Castro", [""], [""], "", false];
+var jogo20220613 = ["Botafogo", "Avaí", 0, 1, "Série A", "2022-06-13", "Nilton Santos", "Luís Castro", [""], ["Kevin"], "https://www.youtube.com/embed/5z0jj1XL3B0", false];
 jogos.push(jogo20220613);
 var jogo20220616 = ["Botafogo", "São Paulo", 0, 0, "Série A", "2022-06-16", "Nilton Santos", "Luís Castro", [""], [""], "", false];
 jogos.push(jogo20220616);
