@@ -461,7 +461,7 @@ var jogo20220606 = ["Botafogo", "Goiás", 1, 2, "Série A", "2022-06-06", "Nilto
 jogos.push(jogo20220606);
 var jogo20220613 = ["Botafogo", "Avaí", 0, 1, "Série A", "2022-06-13", "Nilton Santos", "Luís Castro", [""], ["Kevin"], "https://www.youtube.com/embed/5z0jj1XL3B0", false];
 jogos.push(jogo20220613);
-var jogo20220616 = ["Botafogo", "São Paulo", 0, 0, "Série A", "2022-06-16", "Nilton Santos", "Luís Castro", [""], [""], "", false];
+var jogo20220616 = ["Botafogo", "São Paulo", 1, 0, "Série A", "2022-06-16", "Nilton Santos", "Luís Castro", ["Kayque"], [""], "https://www.youtube.com/embed/qn9h91rXPpg", false];
 jogos.push(jogo20220616);
 
 jogos.sort(function(a, b){
