@@ -61,6 +61,8 @@ function coresTimes(time, jogo = null) {
 			return ["white", "black"];
 		case "Brasil":
 			return ["#fde900", "#018036"];
+		case "Brasil de Pelotas":
+			return ["#d30a11", "black"];
 		case "Brusque":
 			return ["#fde900", "red"];
 		case "Cabofriense":
