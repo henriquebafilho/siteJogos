@@ -145,7 +145,7 @@ var jogo20150619 = ["Botafogo", "Boa Esporte", 1, 1, "Série B", "2015-06-19", "
 jogos.push(jogo20150619);
 var jogo20150714 = ["Botafogo", "Figueirense", 0, 1, "Copa do Brasil", "2015-07-14", "Nilton Santos", "Renê Simões", [""], ["Marcão"], "https://www.youtube.com/embed/Wv7PAGbJ4gI", false];
 jogos.push(jogo20150714);
-var jogo20150728 = ["Botafogo", "Criciúma", 0, 0, "Série B", "2015-07-28", "Nilton Santos", "Ricardo Gomes", [""], [""], "https://www.youtube.com/embed/LX4tYnO_biE", false];
+var jogo20150728 = ["Botafogo", "Criciúma", 0, 0, "Série B", "2015-07-28", "Nilton Santos", "Jair Ventura", [""], [""], "https://www.youtube.com/embed/LX4tYnO_biE", false];
 jogos.push(jogo20150728);
 var jogo20150823 = ["Botafogo", "Paysandu", 2, 3, "Série B", "2015-08-23", "Nilton Santos", "Ricardo Gomes", ["Daniel Carvalho","Sassá"], ["Yago Pikachu","Thiago Martins","Jhonnatan"], "https://www.youtube.com/embed/kAqQdoJs_hc", false];
 jogos.push(jogo20150823);
