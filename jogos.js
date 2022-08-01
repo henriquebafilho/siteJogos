@@ -361,7 +361,7 @@ var jogo20190731 = ["Atlético-MG", "Botafogo",  2, 0, "Copa Sul-Americana", "20
 jogos.push(jogo20190731);
 var jogo20190811 = ["Botafogo", "Athletico-PR", 2, 1, "Série A", "2019-08-11", "Nilton Santos", "Eduardo Barroca", ["Luiz Fernando","Diego Souza"], ["Thonny Anderson"], "https://www.youtube.com/embed/_0kEsihoFBk", false];
 jogos.push(jogo20190811);
-var jogo20190817 = ["Corinthians", "Botafogo",  2, 0, "Série A", "2019-08-17", "Arena Corinthians (São Paulo-SP)", "Eduardo Barroca", ["Mauro Boselli","Everaldo"], [""], "https://www.youtube.com/embed/ZHKGm2vzBtE", false];
+var jogo20190817 = ["Corinthians", "Botafogo",  2, 0, "Série A", "2019-08-17", "Neo Química Arena", "Eduardo Barroca", ["Mauro Boselli","Everaldo"], [""], "https://www.youtube.com/embed/ZHKGm2vzBtE", false];
 jogos.push(jogo20190817);
 var jogo20190826 = ["Botafogo", "Chapecoense", 0, 0, "Série A", "2019-08-26", "Nilton Santos", "Eduardo Barroca", [""], [""], "https://www.youtube.com/embed/Skh930Kz4XA", false];
 jogos.push(jogo20190826);
@@ -471,6 +471,8 @@ var jogo20220717 = ["Botafogo", "Atlético-MG", 0, 1, "Série A", "2022-07-17", 
 jogos.push(jogo20220717);
 var jogo20220723 = ["Botafogo", "Athletico-PR", 2, 0, "Série A", "2022-07-23", "Nilton Santos", "Luís Castro", ["Erison", "Jeffinho"], [""], "https://www.youtube.com/embed/mLWuKWmT30A", false];
 jogos.push(jogo20220723);
+var jogo20220730 = ["Corinthians", "Botafogo", 1, 0, "Série A", "2022-07-30", "Neo Química Arena", "Luís Castro", ["Gustavo Mosquito"], [""], "https://www.youtube.com/embed/U7RmcgkBxAM", false];
+jogos.push(jogo20220730);
 
 jogos.sort(function(a, b){
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
