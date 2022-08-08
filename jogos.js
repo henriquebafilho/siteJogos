@@ -473,6 +473,8 @@ var jogo20220723 = ["Botafogo", "Athletico-PR", 2, 0, "Série A", "2022-07-23", 
 jogos.push(jogo20220723);
 var jogo20220730 = ["Corinthians", "Botafogo", 1, 0, "Série A", "2022-07-30", "Neo Química Arena", "Luís Castro", ["Gustavo Mosquito"], [""], "https://www.youtube.com/embed/U7RmcgkBxAM", false];
 jogos.push(jogo20220730);
+var jogo20220806 = ["Botafogo", "Ceará", 1, 1, "Série A", "2022-08-06", "Nilton Santos", "Luís Castro", ["Victor Cuesta"], ["Mendoza"], "https://www.youtube.com/embed/fENVMErphCk", false];
+jogos.push(jogo20220806);
 
 jogos.sort(function(a, b){
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
