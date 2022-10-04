@@ -481,8 +481,10 @@ var jogo20220828 = ["Botafogo", "Flamengo", 0, 1, "Série A", "2022-08-28", "Nil
 jogos.push(jogo20220828);
 var jogo20220911 = ["Botafogo", "América-MG", 0, 0, "Série A", "2022-09-11", "Nilton Santos", "Luís Castro", [""], [""], "https://www.youtube.com/embed/YaXSQWnP0yw", false];
 jogos.push(jogo20220911);
-var jogo20220917 = ["Botafogo", "Coritiba", 2, 0, "Série A", "2022-09-17", "Nilton Santos", "Luís Castro", ["Victor Cuesta", "Tiquinho"], [""], "https://www.youtube.com/embed/gM7gQkQrWco", false];
+var jogo20220917 = ["Botafogo", "Coritiba", 2, 0, "Série A", "2022-09-17", "Nilton Santos", "Luís Castro", ["Victor Cuesta", "Tiquinho Soares"], [""], "https://www.youtube.com/embed/gM7gQkQrWco", false];
 jogos.push(jogo20220917);
+var jogo20221003 = ["Botafogo", "Palmeiras", 1, 3, "Série A", "2022-10-03", "Nilton Santos", "Luís Castro", ["Tiquinho Soares"], ["Gustavo Scarpa", "Mayke", "Dudu"], "https://www.youtube.com/embed/R8Nd42RBaoQ", false];
+jogos.push(jogo20221003);
 
 jogos.sort(function(a, b){
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
