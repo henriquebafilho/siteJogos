@@ -96,7 +96,7 @@ function coresTimes(time, jogo = null) {
 		case "CSA":
 			return ["#003a94", "white"];
 		case "Cuiabá":
-			return ["#fde900", "#018036"];
+			return ["#018036", "white"];
 		case "Defensa y Justicia":
 			return ["#fde900", "#018036"];
 		case "Defensor":
