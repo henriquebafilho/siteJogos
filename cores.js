@@ -204,7 +204,7 @@ function coresTimes(time, jogo = null) {
 		case "Real Garcilaso":
 			return ["#0197ee", "#fdf21c"];
 		case "Red Bull Bragantino":
-			return ["#001c44", "white"];
+			return ["white", "#d30a11"];
 		case "Red Bull Brasil":
 			return ["#d30a11", "white"];
 		case "Resende":
