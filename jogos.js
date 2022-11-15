@@ -497,7 +497,7 @@ var jogo20221107 = ["Atlético-MG", "Botafogo", 0, 2, "Série A", "2022-11-07", 
 jogos.push(jogo20221107);
 var jogo20221110 = ["Botafogo", "Santos", 3, 0, "Série A", "2022-11-10", "Nilton Santos", "Luís Castro", ["Lucas Fernandes (2x)","Tiquinho Soares"], [""], "https://www.youtube.com/embed/IvJ0xO2mO7s"];
 jogos.push(jogo20221110);
-var jogo20221113 = ["Athletico-PR", "Botafogo", 0, 0, "Série A", "2022-11-13", "Arena da Baixada", "Luís Castro", [""], [""], ""];
+var jogo20221113 = ["Athletico-PR", "Botafogo", 3, 0, "Série A", "2022-11-13", "Arena da Baixada", "Luís Castro", ["Adryelson (GC)","Vitor Roque","Erick"], [""], "https://www.youtube.com/embed/FRisKPSITJY&ab_channel=ge"];
 jogos.push(jogo20221113);
 
 jogos.sort(function (a, b) {
