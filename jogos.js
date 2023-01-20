@@ -501,6 +501,8 @@ var jogo20221113 = ["Athletico-PR", "Botafogo", 3, 0, "Série A", "2022-11-13", 
 jogos.push(jogo20221113);
 var jogo20230115 = ["Botafogo", "Audax Rio", 0, 1, "Carioca", "2023-01-15", "Nilton Santos", "Lúcio Flávio", [""], ["Higor Leite"], "https://www.youtube.com/embed/ZtHSXvcOBGA"];
 jogos.push(jogo20230115);
+var jogo20230119 = ["Volta Redonda", "Botafogo", 1, 2, "Carioca", "2023-01-19", "Raulino de Oliveira", "Luís Castro", ["Lelê"], ["Marçal", "Victor Cuesta"], "https://www.youtube.com/embed/Fc9nUExh8rM"];
+jogos.push(jogo20230119);
 
 jogos.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
