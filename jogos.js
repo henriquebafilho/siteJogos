@@ -507,6 +507,8 @@ var jogo20230126 = ["Botafogo", "Madureira", 2, 0, "Carioca", "2023-01-26", "Lus
 jogos.push(jogo20230126);
 var jogo20230129 = ["Fluminense", "Botafogo", 0, 1, "Carioca", "2023-01-29", "Maracanã", "Luís Castro", [""], ["Victor Sá"], "https://www.youtube.com/embed/5o99v-ASahA"];
 jogos.push(jogo20230129);
+var jogo20230201 = ["Botafogo", "Nova Iguaçu", 0, 0, "Carioca", "2023-02-01", "Luso Brasileiro", "Luís Castro", [""], [""], "https://www.youtube.com/embed/iD5R6X3GHyw"];
+jogos.push(jogo20230201);
 
 jogos.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
