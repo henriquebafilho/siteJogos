@@ -509,12 +509,12 @@ let jogo20230129 = ["Fluminense", "Botafogo", 0, 1, "Carioca", "2023-01-29", "Ma
 jogos.push(jogo20230129);
 let jogo20230201 = ["Botafogo", "Nova Iguaçu", 0, 0, "Carioca", "2023-02-01", "Luso Brasileiro", "Luís Castro", [""], [""], "https://www.youtube.com/embed/iD5R6X3GHyw"];
 jogos.push(jogo20230201);
-let jogo20230212 = ["Botafogo", "Bangu", 2, 0, "Carioca", "2023-02-12", "Luso Brasileiro", "Luís Castro", ["Tiquinho Soares", "Lucas, Piazón"], [""], "https://www.youtube.com/embed/KEOJIjORj9I"];
-jogos.push(jogo20230212);
+let jogo20230211 = ["Botafogo", "Bangu", 2, 0, "Carioca", "2023-02-11", "Luso Brasileiro", "Luís Castro", ["Tiquinho Soares", "Lucas, Piazón"], [""], "https://www.youtube.com/embed/KEOJIjORj9I"];
+jogos.push(jogo20230211);
 let jogo20230216 = ["Vasco", "Botafogo", 2, 0, "Carioca", "2023-02-16", "Maracanã", "Luís Castro", ["Alex Teixeira","Pedro Raúl"], [""], "https://www.youtube.com/embed/Wf7xdJvMtxk"];
 jogos.push(jogo20230216);
-let jogo20230309 = ["Botafogo", "Portuguesa-RJ", 0, 1, "Carioca", "2023-03-09", "Raulino de Oliveira", "Luís Castro", [""], ["Anderson Rosa"], "https://www.youtube.com/embed/RF-KrwdGb1I"];
-jogos.push(jogo20230309);
+let jogo20230308 = ["Botafogo", "Portuguesa-RJ", 0, 1, "Carioca", "2023-03-08", "Raulino de Oliveira", "Luís Castro", [""], ["Anderson Rosa"], "https://www.youtube.com/embed/RF-KrwdGb1I"];
+jogos.push(jogo20230308);
 
 jogos.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
