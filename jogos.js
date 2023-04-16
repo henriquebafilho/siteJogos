@@ -515,14 +515,16 @@ let jogo20230216 = ["Vasco", "Botafogo", 2, 0, "Carioca", "2023-02-16", "Maracan
 jogos.push(jogo20230216);
 let jogo20230308 = ["Botafogo", "Portuguesa-RJ", 0, 1, "Carioca", "2023-03-08", "Raulino de Oliveira", "Luís Castro", [""], ["Anderson Rosa"], "https://www.youtube.com/embed/RF-KrwdGb1I"];
 jogos.push(jogo20230308);
-let jogo20230318 = ["Portuguesa-RJ", "Botafogo", 0, 0, "Carioca", "2023-03-18", "Luso Brasileiro", "Luís Castro", [""], [""], "https://www.youtube.com/embed/NXSATJiy6-g"];
+let jogo20230318 = ["Portuguesa-RJ", "Botafogo", 0, 0, "Taça Rio", "2023-03-18", "Luso Brasileiro", "Luís Castro", [""], [""], "https://www.youtube.com/embed/NXSATJiy6-g"];
 jogos.push(jogo20230318);
-let jogo20230327 = ["Botafogo", "Portuguesa-RJ", 3, 1, "Carioca", "2023-03-27", "Raulino de Oliveira", "Luís Castro", ["Eduardo","Victor Cuesta","Raí"], ["Elicley"], "https://www.youtube.com/embed/gIEl13L33yc"];
+let jogo20230327 = ["Botafogo", "Portuguesa-RJ", 3, 1, "Taça Rio", "2023-03-27", "Raulino de Oliveira", "Luís Castro", ["Eduardo","Victor Cuesta","Raí"], ["Elicley"], "https://www.youtube.com/embed/gIEl13L33yc"];
 jogos.push(jogo20230327);
-let jogo20230402 = ["Audax Rio", "Botafogo", 1, 2, "Carioca", "2023-04-02", "Raulino de Oliveira", "Luís Castro", ["Emerson Urso"], ["Tiquinho Soares","Gustavo Sauer"], "https://www.youtube.com/embed/ZzNQUvqFWDM"];
+let jogo20230402 = ["Audax Rio", "Botafogo", 1, 2, "Taça Rio", "2023-04-02", "Raulino de Oliveira", "Luís Castro", ["Emerson Urso"], ["Tiquinho Soares","Gustavo Sauer"], "https://www.youtube.com/embed/ZzNQUvqFWDM"];
 jogos.push(jogo20230402);
-let jogo20230409 = ["Botafogo", "Audax Rio", 5, 2, "Carioca", "2023-04-09", "Raulino de Oliveira", "Luís Castro", ["Lucas Fernandes (2x)","Gustavo Sauer (2x)","Philipe Sampaio"], ["Romarinho","Julinho"], "https://www.youtube.com/embed/O5Eys9pWWOU"];
+let jogo20230409 = ["Botafogo", "Audax Rio", 5, 2, "Taça Rio", "2023-04-09", "Raulino de Oliveira", "Luís Castro", ["Lucas Fernandes (2x)","Gustavo Sauer (2x)","Philipe Sampaio"], ["Romarinho","Julinho"], "https://www.youtube.com/embed/O5Eys9pWWOU", true];
 jogos.push(jogo20230409);
+let jogo20230415 = ["Botafogo", "São Paulo", 2, 1, "Carioca", "2023-04-15", "Nilton Santos", "Luís Castro", ["Tiquinho Soares","Eduardo"], ["Calleri"], "https://www.youtube.com/embed/75YuozMPFVk"];
+jogos.push(jogo20230415);
 
 jogos.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
