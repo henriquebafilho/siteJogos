@@ -523,7 +523,7 @@ let jogo20230402 = ["Audax Rio", "Botafogo", 1, 2, "Taça Rio", "2023-04-02", "R
 jogos.push(jogo20230402);
 let jogo20230409 = ["Botafogo", "Audax Rio", 5, 2, "Taça Rio", "2023-04-09", "Raulino de Oliveira", "Luís Castro", ["Lucas Fernandes (2x)","Gustavo Sauer (2x)","Philipe Sampaio"], ["Romarinho","Julinho"], "https://www.youtube.com/embed/O5Eys9pWWOU", true];
 jogos.push(jogo20230409);
-let jogo20230415 = ["Botafogo", "São Paulo", 2, 1, "Carioca", "2023-04-15", "Nilton Santos", "Luís Castro", ["Tiquinho Soares","Eduardo"], ["Calleri"], "https://www.youtube.com/embed/75YuozMPFVk"];
+let jogo20230415 = ["Botafogo", "São Paulo", 2, 1, "Série A", "2023-04-15", "Nilton Santos", "Luís Castro", ["Tiquinho Soares","Eduardo"], ["Calleri"], "https://www.youtube.com/embed/75YuozMPFVk"];
 jogos.push(jogo20230415);
 
 jogos.sort(function (a, b) {
