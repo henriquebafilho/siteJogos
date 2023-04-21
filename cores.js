@@ -79,6 +79,8 @@ function coresTimes(time, jogo = null) {
 			return ["black", "white"];
 		case "Cerro Porteño":
 			return ["#c40215", "white"];
+		case "César Vallejo":
+			return ["#d77000", "#0B254A"];
 		case "Chapecoense":
 			return ["#00913c", "white"];
 		case "Chile":
