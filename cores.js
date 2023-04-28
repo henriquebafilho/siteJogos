@@ -275,6 +275,8 @@ function coresTimes(time, jogo = null) {
 			return ["black", "white"];
 		case "XV de Piracicaba":
 			return ["black", "white"];
+		case "Ypiranga":
+			return ["#fff100", "#00923e"];
 		default:
 			console.log(time);
 			return ["grey", "white"];
