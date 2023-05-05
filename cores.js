@@ -161,6 +161,8 @@ function coresTimes(time, jogo = null) {
 			return ["#6a023c", "white"];
 		case "Kenitra":
 			return ["#038b5d", "white"];
+		case "LDU":
+			return ["white", "#003a94"];
 		case "Linense":
 			return ["#d30a11", "white"];
 		case "Luverdense":
