@@ -533,7 +533,7 @@ let jogo20230430 = ["Flamengo", "Botafogo", 2, 3, "Série A", "2023-04-30", "Mar
 jogos.push(jogo20230430);
 let jogo20230504 = ["Botafogo", "LDU", 0, 0, "Copa Sul-Americana", "2023-05-04", "Nilton Santos", "Luís Castro", [""], [""], "https://www.youtube.com/embed/rDavYrKYOm0"];
 jogos.push(jogo20230504);
-let jogo20230507 = ["Botafogo", "Atlético-MG", 2, 0, "Série A", "2023-05-07", "Nilton Santos", "Luís Castro", ["Victor Sá","Matheus Nascimento"], [""], "https://www.youtube.com/embed/_VoKOsF41Ak"];
+let jogo20230507 = ["Botafogo", "Atlético-MG", 2, 0, "Série A", "2023-05-07", "Nilton Santos", "Vítor Severino", ["Victor Sá","Matheus Nascimento"], [""], "https://www.youtube.com/embed/_VoKOsF41Ak"];
 jogos.push(jogo20230507);
 let jogo20230511 = ["Botafogo", "Corinthians", 3, 0, "Série A", "2023-05-11", "Nilton Santos", "Luís Castro", ["Tiquinho Soares (2x)","Eduardo"], [""], "https://www.youtube.com/embed/PepRWyEoun0"];
 jogos.push(jogo20230511);
@@ -547,6 +547,8 @@ let jogo20230603 = ["Athletico-PR", "Botafogo", 1, 0, "Série A", "2023-06-03", 
 jogos.push(jogo20230603);
 let jogo20230610 = ["Botafogo", "Fortaleza", 2, 0, "Série A", "2023-06-10", "Nilton Santos", "Luís Castro", ["Tiquinho Soares (2x)"], [""], "https://www.youtube.com/embed/lmwEnRh7FEs"];
 jogos.push(jogo20230610);
+let jogo20230625 = ["Palmeiras", "Botafogo", 0, 1, "Série A", "2023-06-25", "Allianz Parque", "Luís Castro", [""], ["Tiquinho Soares"], "https://www.youtube.com/embed/rxnFFj8pxXU"];
+jogos.push(jogo20230625);
 
 jogos.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
