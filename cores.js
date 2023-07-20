@@ -203,6 +203,8 @@ function coresTimes(time, jogo = null) {
 			return ["#048439", "white"];
 		case "Paraná":
 			return ["#003a94", "white"];
+		case "Patronato":
+			return ["#d30a11", "black"];
 		case "Paulista":
 			return ["#d30a11", "black"];
 		case "Paysandu":
