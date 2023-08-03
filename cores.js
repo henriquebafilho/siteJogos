@@ -143,6 +143,8 @@ function coresTimes(time, jogo = null) {
 			return ["#f6e815", "#003c6e"];
 		case "Guarani":
 			return ["#048439", "white"];
+		case "Guaraní-PAR":
+			return ["#fde900", "black"];
 		case "Honduras":
 			return ["#075798", "white"];
 		case "Independiente":
