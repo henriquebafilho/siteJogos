@@ -165,7 +165,7 @@ let jogo20160508 = ["Vasco", "Botafogo", 1, 1, "Carioca", "2016-05-08", "Maracan
 jogos.push(jogo20160508);
 let jogo20160515 = ["Botafogo", "São Paulo", 0, 1, "Série A", "2016-05-15", "Raulino de Oliveira", "Ricardo Gomes", [""], ["Lucas Fernandes"], "https://www.youtube.com/embed/F-hpYO2Y1-8", false];
 jogos.push(jogo20160515);
-let jogo20160703 = ["Botafogo", "Santa Cruz", 2, 1, "Série A", "2016-07-03", "Mário Helênio (Juiz de Fora-MG)", "Ricardo Gomes", ["Sassá", "Neílton"], ["João Paulo"], "https://www.youtube.com/embed/g0SnCLVvbGo", false];
+let jogo20160703 = ["Botafogo", "Santa Cruz", 2, 1, "Série A", "2016-07-03", "Mário Helênio", "Ricardo Gomes", ["Sassá", "Neílton"], ["João Paulo"], "https://www.youtube.com/embed/g0SnCLVvbGo", false];
 jogos.push(jogo20160703);
 let jogo20160731 = ["Botafogo", "Palmeiras", 3, 1, "Série A", "2016-07-31", "Arena Botafogo", "Ricardo Gomes", ["Neílton (2x)", "Camilo"], ["Erik"], "https://www.youtube.com/embed/h9G_r3U8Ae0", false];
 jogos.push(jogo20160731);
@@ -341,7 +341,7 @@ let jogo20190317 = ["Fluminense", "Botafogo", 1, 1, "Taça Rio", "2019-03-17", "
 jogos.push(jogo20190317);
 let jogo20190404 = ["Botafogo", "Juventude", 1, 1, "Copa do Brasil", "2019-04-04", "Nilton Santos", "Zé Ricardo", ["Erik"], ["Paulo Sérgio"], "https://www.youtube.com/embed/MAkVonfMtBM", false];
 jogos.push(jogo20190404);
-let jogo20190427 = ["São Paulo", "Botafogo", 2, 0, "Série A", "2019-04-27", "Morumbi (São Paulo-SP)", "Eduardo Barroca", ["Éverton", "Hudson"], [""], "https://www.youtube.com/embed/2xx8oQmkgwA", false];
+let jogo20190427 = ["São Paulo", "Botafogo", 2, 0, "Série A", "2019-04-27", "Morumbi", "Eduardo Barroca", ["Éverton", "Hudson"], [""], "https://www.youtube.com/embed/2xx8oQmkgwA", false];
 jogos.push(jogo20190427);
 let jogo20190505 = ["Botafogo", "Fortaleza", 1, 0, "Série A", "2019-05-05", "Nilton Santos", "Eduardo Barroca", ["Alex Santana"], [""], "https://www.youtube.com/embed/W20_qYR7ITw", false];
 jogos.push(jogo20190505);
@@ -357,7 +357,7 @@ let jogo20190724 = ["Botafogo", "Atlético-MG", 0, 1, "Copa Sul-Americana", "201
 jogos.push(jogo20190724);
 let jogo20190728 = ["Flamengo", "Botafogo", 3, 2, "Série A", "2019-07-28", "Maracanã", "Eduardo Barroca", ["Gerson", "Gabriel", "Bruno Henrique"], ["Cícero", "Diego Souza"], "https://www.youtube.com/embed/F-pP-zMCdwY", false];
 jogos.push(jogo20190728);
-let jogo20190731 = ["Atlético-MG", "Botafogo", 2, 0, "Copa Sul-Americana", "2019-07-31", "Arena Independência (Belo Horizonte-MG)", "Eduardo Barroca", ["Fábio Santos", "Vinicius"], [""], "https://www.youtube.com/embed/QfX2vKVXkf0", false];
+let jogo20190731 = ["Atlético-MG", "Botafogo", 2, 0, "Copa Sul-Americana", "2019-07-31", "Arena Independência", "Eduardo Barroca", ["Fábio Santos", "Vinicius"], [""], "https://www.youtube.com/embed/QfX2vKVXkf0", false];
 jogos.push(jogo20190731);
 let jogo20190811 = ["Botafogo", "Athletico-PR", 2, 1, "Série A", "2019-08-11", "Nilton Santos", "Eduardo Barroca", ["Luiz Fernando", "Diego Souza"], ["Thonny Anderson"], "https://www.youtube.com/embed/_0kEsihoFBk", false];
 jogos.push(jogo20190811);
@@ -379,7 +379,7 @@ let jogo20191021 = ["Botafogo", "CSA", 2, 1, "Série A", "2019-10-21", "Nilton S
 jogos.push(jogo20191021);
 let jogo20191031 = ["Botafogo", "Cruzeiro", 0, 2, "Série A", "2019-10-31", "Nilton Santos", "Alberto Valentim", [""], ["Cacá", "Éderson"], "https://www.youtube.com/embed/_bLGKgVu58A", false];
 jogos.push(jogo20191031);
-let jogo20191103 = ["Santos", "Botafogo", 4, 1, "Série A", "2019-11-03", "Vila Belmiro (Santos-SP)", "Alberto Valentim", ["Eduardo Sasha", "Marinho", "Soteldo (2x)"], ["Igor Cássio"], "https://www.youtube.com/embed/iCaVvAAb3LE", false];
+let jogo20191103 = ["Santos", "Botafogo", 4, 1, "Série A", "2019-11-03", "Vila Belmiro", "Alberto Valentim", ["Eduardo Sasha", "Marinho", "Soteldo (2x)"], ["Igor Cássio"], "https://www.youtube.com/embed/iCaVvAAb3LE", false];
 jogos.push(jogo20191103);
 let jogo20191111 = ["Botafogo", "Avaí", 2, 0, "Série A", "2019-11-11", "Nilton Santos", "Alberto Valentim", ["Ricardo Thalheimer (GC)", "Diego Souza"], [""], "https://www.youtube.com/embed/ld_KEovTwoU", false];
 jogos.push(jogo20191111);
@@ -391,7 +391,7 @@ let jogo20191208 = ["Botafogo", "Ceará", 1, 1, "Série A", "2019-12-08", "Nilto
 jogos.push(jogo20191208);
 let jogo20200118 = ["Volta Redonda", "Botafogo", 1, 0, "Taça Guanabara", "2020-01-18", "Raulino de Oliveira", "Bruno Lazaroni", ["Saulo"], [""], "https://www.youtube.com/embed/QSy9NJPPV4Q", false];
 jogos.push(jogo20200118);
-let jogo20200121 = ["Madureira", "Botafogo", 2, 0, "Taça Guanabara", "2020-01-21", "Aniceto Moscoso (Conselheiro Galvão)", "Bruno Lazaroni", ["Emerson Carioca", "Ygor Catatau"], [""], "https://www.youtube.com/embed/1uQvilYtyFc", false];
+let jogo20200121 = ["Madureira", "Botafogo", 2, 0, "Taça Guanabara", "2020-01-21", "Conselheiro Galvão", "Bruno Lazaroni", ["Emerson Carioca", "Ygor Catatau"], [""], "https://www.youtube.com/embed/1uQvilYtyFc", false];
 jogos.push(jogo20200121);
 let jogo20200126 = ["Botafogo", "Macaé", 3, 1, "Taça Guanabara", "2020-01-26", "Nilton Santos", "Alberto Valentim", ["Pedro Raúl", "Luis Henrique", "Bruno Nazário"], ["Matheus Babi"], "https://www.youtube.com/embed/A66Dynx7LPM", false];
 jogos.push(jogo20200126);
@@ -421,7 +421,7 @@ let jogo20211115 = ["Botafogo", "Operário", 2, 1, "Série B", "2021-11-15", "Ni
 jogos.push(jogo20211115);
 let jogo20211128 = ["Botafogo", "Guarani", 2, 2, "Série B", "2021-11-28", "Nilton Santos", "Enderson Moreira", ["Marco Antônio", "Rafael Navarro"], ["Ronaldo Alves", "Lucão do Break"], "https://www.youtube.com/embed/QMByoXbcQUo", false];
 jogos.push(jogo20211128);
-let jogo20220109 = ["Taubaté", "Botafogo", 0, 2, "Copinha", "2022-01-09", "Joaquim de Morais Filho (Taubaté-SP)", "Ricardo Resende", [""], ["Raí", "Maranhão"], "https://www.youtube.com/embed/0jDbY4TiRyY", false];
+let jogo20220109 = ["Taubaté", "Botafogo", 0, 2, "Copinha", "2022-01-09", "Joaquim de Morais Filho", "Ricardo Resende", [""], ["Raí", "Maranhão"], "https://www.youtube.com/embed/0jDbY4TiRyY", false];
 jogos.push(jogo20220109);
 let jogo20220125 = ["Boavista", "Botafogo", 1, 1, "Taça Guanabara", "2022-01-25", "Nilton Santos", "Enderson Moreira", ["Kadu"], ["Carlinhos"], "https://www.youtube.com/embed/N-3rdfEcxco", false];
 jogos.push(jogo20220125);
@@ -563,6 +563,8 @@ let jogo20230730 = ["Botafogo", "Coritiba", 4, 1, "Série A", "2023-07-30", "Nil
 jogos.push(jogo20230730);
 let jogo20230802 = ["Botafogo", "Guaraní-PAR", 2, 1, "Copa Sul-Americana", "2023-08-02", "Nilton Santos", "Bruno Lage", ["Hugo","Tiquinho Soares"], ["Romeo Benítez"], "https://www.youtube.com/embed/HiiAay91atg"];
 jogos.push(jogo20230802);
+let jogo20230806 = ["Cruzeiro", "Botafogo", 0, 0, "Série A", "2023-08-06", "Mineirão", "Bruno Lage", [""], [""], "https://www.youtube.com/embed/PpTsEJBuEbc"];
+jogos.push(jogo20230806);
 
 jogos.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
