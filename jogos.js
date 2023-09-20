@@ -576,7 +576,7 @@ jogos.push(jogo20230827);
 let jogo20230902 = ["Botafogo", "Flamengo", 1, 2, "Série A", "2023-09-02", "Nilton Santos", "Bruno Lage", ["Victor Sá"], ["Marlon Freitas (GC)","Bruno Henrique"], "https://www.youtube.com/embed/nna5MPybgD8"];
 jogos.push(jogo20230902);
 let jogo20230916 = ["Atlético-MG", "Botafogo", 1, 0, "Série A", "2023-09-16", "Arena MRV", "Bruno Lage", ["Paulinho"], [""], "https://www.youtube.com/embed/ZjH8fVh-_wk"];
-jogos.push(jogo20230816);
+jogos.push(jogo20230916);
 
 jogos.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
