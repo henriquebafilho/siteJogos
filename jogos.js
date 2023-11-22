@@ -618,6 +618,8 @@ let jogo20220324 = ["Brasil", "Chile", 4, 0, "Eliminatórias da Copa do Mundo", 
 outros.push(jogo20220324);
 let jogo20220409 = ["Fluminense", "Santos", 0, 0, "Série A", "2022-04-09", "Maracanã", "Fluminense - Abel Braga/ Santos - Fabián Bustos", [""], [""], "https://www.youtube.com/embed/Sg-kCX6dSoE", false];
 outros.push(jogo20220409);
+let jogo20231121 = ["Brasil", "Argentina", 0, 1, "Eliminatórias da Copa do Mundo", "2023-11-21", "Maracanã", "Brasil - Fernando Diniz/ Argentina - Scaloni", [""], ["Otamendi"], "https://www.youtube.com/embed/BbnE0c855TI", false];
+outros.push(jogo20231121);
 
 outros.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
