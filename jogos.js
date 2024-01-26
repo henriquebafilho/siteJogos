@@ -357,7 +357,7 @@ let jogo20190724 = ["Botafogo", "Atlético-MG", 0, 1, "Copa Sul-Americana", "201
 jogos.push(jogo20190724);
 let jogo20190728 = ["Flamengo", "Botafogo", 3, 2, "Série A", "2019-07-28", "Maracanã", "Eduardo Barroca", ["Gerson", "Gabriel", "Bruno Henrique"], ["Cícero", "Diego Souza"], "https://www.youtube.com/embed/F-pP-zMCdwY", false];
 jogos.push(jogo20190728);
-let jogo20190731 = ["Atlético-MG", "Botafogo", 2, 0, "Copa Sul-Americana", "2019-07-31", "Arena Independência", "Eduardo Barroca", ["Fábio Santos", "Vinicius"], [""], "https://www.youtube.com/embed/QfX2vKVXkf0", false];
+let jogo20190731 = ["Atlético-MG", "Botafogo", 2, 0, "Copa Sul-Americana", "2019-07-31", "Independência", "Eduardo Barroca", ["Fábio Santos", "Vinicius"], [""], "https://www.youtube.com/embed/QfX2vKVXkf0", false];
 jogos.push(jogo20190731);
 let jogo20190811 = ["Botafogo", "Athletico-PR", 2, 1, "Série A", "2019-08-11", "Nilton Santos", "Eduardo Barroca", ["Luiz Fernando", "Diego Souza"], ["Thonny Anderson"], "https://www.youtube.com/embed/_0kEsihoFBk", false];
 jogos.push(jogo20190811);
