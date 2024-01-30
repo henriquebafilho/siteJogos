@@ -243,6 +243,8 @@ function coresTimes(time, jogo = null) {
 			return ["#003a94", "#ffcc00"];
 		case "Sampaio Corrêa":
 			return ["#fde900", "#048439"];
+		case "Sampaio Corrêa-RJ":
+			return ["#00479c", "#ffc413"];
 		case "Santa Cruz":
 			return ["#d30a11", "white"];
 		case "Santos":
