@@ -26,7 +26,7 @@ function coresTimes(time, jogo = null) {
 		case "Atlético Nacional":
 			return ["#048439", "white"];
 		case "Atlético-GO":
-			return ["#d30a11", "black"];
+			return ["#d30a11", "white"];
 		case "Atlético-MG":
 			return ["black", "white"];
 		case "Atlético-PR":
@@ -72,7 +72,7 @@ function coresTimes(time, jogo = null) {
 		case "Brasil":
 			return ["#fde900", "#018036"];
 		case "Brasil de Pelotas":
-			return ["#d30a11", "black"];
+			return ["#d30a11", "white"];
 		case "Brusque":
 			return ["#fde900", "red"];
 		case "Cabofriense":
@@ -92,7 +92,7 @@ function coresTimes(time, jogo = null) {
 		case "Colo-Colo":
 			return ["white", "black"];
 		case "Colón":
-			return ["#d30a11", "black"];
+			return ["#d30a11", "white"];
 		case "Confiança":
 			return ["#003a94", "white"];
 		case "Corinthians":
@@ -128,9 +128,9 @@ function coresTimes(time, jogo = null) {
 		case "Figueirense":
 			return ["black", "white"];
 		case "Flamengo":
-			return ["#d30a11", "black"];
+			return ["#d30a11", "white"];
 		case "Flamengo de Guarulhos":
-			return ["#d30a11", "black"];
+			return ["#d30a11", "white"];
 		case "Floresta-CE":
 			return ["#87c53f", "#036c3c"];
 		case "Fluminense":
@@ -160,7 +160,9 @@ function coresTimes(time, jogo = null) {
 		case "Internacional":
 			return ["#d30a11", "white"];
 		case "Ituano":
-			return ["#d30a11", "black"];
+			return ["#d30a11", "white"];
+		case "Junior Barranquilla":
+			return ["#d30a11", "white"];	
 		case "Juventude":
 			return ["#048439", "white"];
 		case "Juventus":
@@ -198,7 +200,7 @@ function coresTimes(time, jogo = null) {
 		case "Novorizontino":
 			return ["#fff500", "black"];
 		case "Oeste":
-			return ["#d30a11", "black"];
+			return ["#d30a11", "white"];
 		case "Olimpia":
 			return ["white", "black"];
 		case "Once Caldas":
@@ -210,9 +212,9 @@ function coresTimes(time, jogo = null) {
 		case "Paraná":
 			return ["#003a94", "white"];
 		case "Patronato":
-			return ["#d30a11", "black"];
+			return ["#d30a11", "white"];
 		case "Paulista":
-			return ["#d30a11", "black"];
+			return ["#d30a11", "white"];
 		case "Paysandu":
 			return ["#0091cf", "white"];
 		case "Peñarol":
