@@ -277,6 +277,8 @@ function coresTimes(time, jogo = null) {
 			return ["#003a94", "white"];
 		case "The Strongest":
 			return ["#ffcc00", "black"];
+		case "Universitario":
+			return ["#8c1619", "#fefcf3"];
 		case "Uruguai":
 			return ["#0d80bf", "white"];
 		case "Vasco":
