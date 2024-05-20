@@ -672,6 +672,8 @@ let jogo20220409 = ["Fluminense", "Santos", 0, 0, "Série A", "2022-04-09", "Mar
 outros.push(jogo20220409);
 let jogo20231121 = ["Brasil", "Argentina", 0, 1, "Eliminatórias da Copa do Mundo", "2023-11-21", "Maracanã", "Brasil - Fernando Diniz/ Argentina - Scaloni", [""], ["Otamendi"], "https://www.youtube.com/embed/BbnE0c855TI", false];
 outros.push(jogo20231121);
+let jogo20240518 = ["América-RJ", "Petrópolis", 2, 0, "Carioca Série A2", "2024-05-18", "Giulite Coutinho", "América - Marcus Alexandre/ Petrópolis - Luciano Quadros", ["Digão","André Balada"], [""], "https://www.youtube.com/embed/I1pKZgElL-k", false];
+outros.push(jogo20240518);
 
 outros.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
