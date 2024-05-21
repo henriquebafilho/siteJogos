@@ -664,7 +664,7 @@ let jogo20190914 = ["Flamengo", "Santos", 1, 0, "Série A", "2019-09-14", "Marac
 outros.push(jogo20190914);
 let jogo20191005 = ["Vasco", "Santos", 0, 1, "Série A", "2019-10-05", "São Januário", "Vasco - Vanderlei Luxemburgo/ Santos - Sampaoli", [""], ["Tailson"], "https://www.youtube.com/embed/cnv4cd9i2BY", false];
 outros.push(jogo20191005);
-let jogo202201092 = ["Aparecidense", "Petrolina", 3, 2, "Copinha", "2022-01-09", "Joaquim de Morais Filho (Taubaté-SP)", "Aparecidense - Rodrigo Limiro/ Petrolina - Assis", ["Diogo (3x)"], ["Paulo Jayke", "Kinho"], "https://www.youtube.com/embed/5K22zTV9W-0", false];
+let jogo202201092 = ["Aparecidense", "Petrolina", 3, 2, "Copinha", "2022-01-09", "Joaquim de Morais Filho", "Aparecidense - Rodrigo Limiro/ Petrolina - Assis", ["Diogo (3x)"], ["Paulo Jayke", "Kinho"], "https://www.youtube.com/embed/5K22zTV9W-0", false];
 outros.push(jogo202201092);
 let jogo20220324 = ["Brasil", "Chile", 4, 0, "Eliminatórias da Copa do Mundo", "2022-03-24", "Maracanã", "Brasil - Tite/ Chile - Martín Lasarte", ["Neymar", "Vinicius Júnior", "Philippe Coutinho", "Richarlison"], [""], "https://www.youtube.com/embed/izvPALvw46Q", false];
 outros.push(jogo20220324);

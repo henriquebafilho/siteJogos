@@ -220,7 +220,7 @@ function coresTimes(time, jogo = null) {
 		case "Peñarol":
 			return ["#fdca01", "black"];
 		case "Petrolina":
-			return ["#fde900", "white"];
+			return ["#f5182e", "white"];
 		case "Petrópolis":
 			return ["#fde900", "#003a94"];
 		case "Ponte Preta":
