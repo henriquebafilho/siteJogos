@@ -478,7 +478,7 @@ function getEscudoName(time, jogo) {
 		return "Náutico2008";
 	} else if (time == "Flamengo" && ano < 2018) {
 		return "Flamengo2018";
-	} else if (time == "Resende" && ano < 2020) {
+	} else if (time == "Resende" && (ano >= 2020 || ano < 2024)) {
 		return "Resende2020";
 	} else if (time == "Vasco" && ano < 2021) {
 		return "Vasco2021";
