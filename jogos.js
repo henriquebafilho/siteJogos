@@ -667,6 +667,8 @@ let jogo20240727 = ["Botafogo", "Cruzeiro", 0, 3, "Série A", "2024-07-27", "Nil
 jogos.push(jogo20240727);
 let jogo20240730 = ["Botafogo", "Bahia", 1, 1, "Copa do Brasil", "2024-07-30", "Nilton Santos", "Artur Jorge", ["Carlos Alberto"], ["Cauly"], "https://www.youtube.com/embed/TxupDFHcFCo"];
 jogos.push(jogo20240730);
+let jogo20240814 = ["Botafogo", "Palmeiras", 2, 1, "Libertadores", "2024-08-14", "Nilton Santos", "Artur Jorge", ["Luiz Henrique","Igor Jesus"], ["Maurício"], "https://www.youtube.com/embed/l5x9IzmfWQA"];
+jogos.push(jogo20240814);
 
 jogos.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
