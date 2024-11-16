@@ -720,6 +720,8 @@ let jogo20240518 = ["América-RJ", "Petrópolis", 2, 0, "Carioca Série A2", "20
 outros.push(jogo20240518);
 let jogo20240704 = ["Fluminense", "Internacional", 1, 1, "Série A", "2024-07-04", "Maracanã", "Fluminense - Mano Menezes/ Internacional - Eduardo Coudet", ["Ganso"], ["Igor Gomes"], "https://www.youtube.com/embed/ApBjws_-Nps", false];
 outros.push(jogo20240704);
+let jogo20241029 = ["Nacional-URU", "Plaza Colonia", 4, 0, "Copa Uruguai", "2024-10-29", "Gran Parque Central", "Nacional-URU - Martín Lasarte/ Plaza Colonia - Sebastián Díaz", ["Emiliano Velázquez", "Leandro Lozano", "Federico Santander (2x)"], [""], "https://www.youtube.com/embed/fwBFWYHDddg", false];
+outros.push(jogo20241029);
 
 outros.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
