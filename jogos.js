@@ -699,8 +699,10 @@ let jogo20241130 = ["Atlético-MG", "Botafogo", 1, 3, "Libertadores", "2024-11-3
 jogos.push(jogo20241130);
 let jogo20241208 = ["Botafogo", "São Paulo", 2, 1, "Série A", "2024-12-08", "Nilton Santos", "Artur Jorge", ["Savarino","Gregore"], ["William"], "https://www.youtube.com/embed/_8K3xV2lnkA", true];
 jogos.push(jogo20241208);
-let jogo20250111 = ["Botafogo", "Maricá", 1, 2, "Série A", "2025-01-11", "Nilton Santos", "Carlos Leiria", ["Patrick de Paula"], ["Denilson","Hugo Borges"], "https://www.youtube.com/embed/M671_xKhZqk", false];
+let jogo20250111 = ["Botafogo", "Maricá", 1, 2, "Carioca", "2025-01-11", "Nilton Santos", "Carlos Leiria", ["Patrick de Paula"], ["Denilson","Hugo Borges"], "https://www.youtube.com/embed/M671_xKhZqk", false];
 jogos.push(jogo20250111);
+let jogo20250114 = ["Botafogo", "Portuguesa-RJ", 2, 0, "Carioca", "2025-01-14", "Nilton Santos", "Carlos Leiria", ["Kauê", "Kayke"], [""], "https://www.youtube.com/embed/Ve1Wo8hljKM", false];
+jogos.push(jogo20250114);
 
 jogos.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
