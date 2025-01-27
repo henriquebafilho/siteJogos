@@ -101,7 +101,6 @@ function escreveLinha(meuTime, jogo, numero, ano){
 	divMandante.style.verticalAlign = "middle";
 	divMandante.style.fontSize = "clamp(0.5em, 0.8em + 0.8vw, 1vw);";
 	divMandante.style.color = coresTimes(mandante)[1];
-	divMandante.style.textShadow = coresTimes(mandante, jogo)[1] == "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none";
 	divMandante.appendChild(escudoMandante);
 	divMandante.appendChild(pNomeMandante);
 	// Placar
@@ -129,7 +128,6 @@ function escreveLinha(meuTime, jogo, numero, ano){
 	divVisitante.style.verticalAlign = "middle";
 	divVisitante.style.fontSize = "clamp(0.5em, 0.8em + 0.8vw, 1vw);";
 	divVisitante.style.color = coresTimes(visitante)[1];
-	divVisitante.style.textShadow = coresTimes(visitante, jogo)[1] == "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none";
 	divVisitante.appendChild(escudoVisitante);
 	divVisitante.appendChild(pNomeVisitante);
 
