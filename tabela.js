@@ -492,6 +492,8 @@ function getEscudoName(time, jogo) {
 		return "Brasil2019";
 	} else if (time == "River Plate" && ano < 2022) {
 		return "RiverPlate2022";
+	} else if (time == "Boavista" && ano < 2025){
+		return "Boavista2024";
 	}
 	return juntaNome(time);
 }
