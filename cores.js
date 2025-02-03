@@ -180,7 +180,7 @@ function coresTimes(time, jogo = null) {
 		case "Madureira":
 			return ["#fde900", "#13007c"];
 		case "Magallanes":
-			return ["#84C3E8", "white"];
+			return ["#43a1d5", "white"];
 		case "Maricá":
 			return ["#d30a11", "white"];
 		case "Mirassol":
