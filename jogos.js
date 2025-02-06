@@ -744,6 +744,8 @@ let jogo20241029 = ["Nacional-URU", "Plaza Colonia", 4, 0, "Copa Uruguai", "2024
 outros.push(jogo20241029);
 let jogo20250202 = ["Fluminense", "Boavista", 1, 1, "Carioca", "2025-02-02", "Maracanã", "Fluminense - Mano Menezes/ Boavista - Rodney Gonçalves", ["Samuel Xavier"], ["Marcos Paulo"], "https://www.youtube.com/embed/3qC1L8EgGHo", false];
 outros.push(jogo20250202);
+let jogo20250205 = ["Bangu", "Boavista", 0, 0, "Carioca", "2025-02-05", "Moça Bonita", "Bangu - Júnior Lopes/ Boavista - Rodney Gonçalves", [""], [""], "https://youtube.com/embed/htigr5Uq5kg", false];
+outros.push(jogo20250205);
 
 outros.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
