@@ -707,12 +707,14 @@ let jogo20250118 = ["Sampaio Corrêa-RJ", "Botafogo", 2, 1, "Carioca", "2025-01-
 jogos.push(jogo20250118);
 let jogo20250122 = ["Botafogo", "Volta Redonda", 1, 2, "Carioca", "2025-01-22", "Nilton Santos", "Carlos Leiria", ["Matheus Nascimento"], ["Gabriel Bahia", "Bruno Santos"], "https://www.youtube.com/embed/QexD1mGY7EM", false];
 jogos.push(jogo20250122);
-let jogo20250126 = ["Botafogo", "Bangu", 2, 0, "Carioca", "2025-01-26", "Nilton Santos", "Carlos Leiria", ["Patrick de Paula","Kauê"], [""], "https://www.youtube.com/embed/J39et0keKhk", false];
+let jogo20250126 = ["Botafogo", "Bangu", 2, 0, "Carioca", "2025-01-26", "Nilton Santos", "Carlos Leiria", ["Patrick de Paula", "Kauê"], [""], "https://www.youtube.com/embed/J39et0keKhk", false];
 jogos.push(jogo20250126);
-let jogo20250129 = ["Botafogo", "Fluminense", 2, 1, "Carioca", "2025-01-29", "Nilton Santos", "Carlos Leiria", ["Igor Jesus","Savarino"], ["Germán Cano"], "https://youtube.com/embed/3u_0azwHThY", false];
+let jogo20250129 = ["Botafogo", "Fluminense", 2, 1, "Carioca", "2025-01-29", "Nilton Santos", "Carlos Leiria", ["Igor Jesus", "Savarino"], ["Germán Cano"], "https://youtube.com/embed/3u_0azwHThY", false];
 jogos.push(jogo20250129);
 let jogo20250206 = ["Nova Iguaçu", "Botafogo", 0, 1, "Carioca", "2025-02-06", "Moça Bonita", "Carlos Leiria", [""], ["Kayke"], "https://youtube.com/embed/1_OQ1tJYvkw", false];
 jogos.push(jogo20250206);
+let jogo20250209 = ["Botafogo", "Madureira", 0, 2, "Carioca", "2025-02-09", "Nilton Santos", "Carlos Leiria", [""], ["Wagninho", "Cauã Coutinho"], "https://www.youtube.com/embed/9MULF9hlaa4", false];
+jogos.push(jogo20250209);
 
 jogos.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
@@ -748,6 +750,8 @@ let jogo20250202 = ["Fluminense", "Boavista", 1, 1, "Carioca", "2025-02-02", "Ma
 outros.push(jogo20250202);
 let jogo20250205 = ["Bangu", "Boavista", 0, 0, "Carioca", "2025-02-05", "Moça Bonita", "Bangu - Júnior Lopes/ Boavista - Rodney Gonçalves", [""], [""], "https://youtube.com/embed/htigr5Uq5kg", false];
 outros.push(jogo20250205);
+let jogo20250208 = ["Fluminense", "Flamengo", 0, 0, "Carioca", "2025-02-08", "Maracanã", "Fluminense - Mano Menezes/ Flamengo - Filipe Luís", [""], [""], "https://www.youtube.com/embed/k95EMrvmuEQ", false];
+outros.push(jogo20250208);
 
 outros.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
