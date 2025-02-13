@@ -22,15 +22,15 @@ function coresTimes(time, jogo = null) {
 		case "Argentina":
 			return ["#43a1d5", "white"];
 		case "Athletico-PR":
-			return ["#d30a11", "white"];
+			return ["#d30a11", "black"];
 		case "Atlético Nacional":
 			return ["#048439", "white"];
 		case "Atlético-GO":
-			return ["#d30a11", "white"];
+			return ["#d30a11", "black"];
 		case "Atlético-MG":
 			return ["black", "white"];
 		case "Atlético-PR":
-			return ["#d30a11", "white"];
+			return ["#d30a11", "black"];
 		case "Aparecidense":
 			return ["#00005e", "#c8ad51"];
 		case "Audax Rio":
@@ -72,7 +72,7 @@ function coresTimes(time, jogo = null) {
 		case "Brasil":
 			return ["#fde900", "#018036"];
 		case "Brasil de Pelotas":
-			return ["#d30a11", "white"];
+			return ["#d30a11", "black"];
 		case "Brusque":
 			return ["#fde900", "red"];
 		case "Cabofriense":
@@ -92,7 +92,7 @@ function coresTimes(time, jogo = null) {
 		case "Colo-Colo":
 			return ["white", "black"];
 		case "Colón":
-			return ["#d30a11", "white"];
+			return ["#d30a11", "black"];
 		case "Confiança":
 			return ["#003a94", "white"];
 		case "Corinthians":
@@ -128,9 +128,9 @@ function coresTimes(time, jogo = null) {
 		case "Figueirense":
 			return ["black", "white"];
 		case "Flamengo":
-			return ["#d30a11", "white"];
+			return ["#d30a11", "black"];
 		case "Flamengo de Guarulhos":
-			return ["#d30a11", "white"];
+			return ["#d30a11", "black"];
 		case "Floresta-CE":
 			return ["#87c53f", "#036c3c"];
 		case "Fluminense":
@@ -160,7 +160,7 @@ function coresTimes(time, jogo = null) {
 		case "Internacional":
 			return ["#d30a11", "white"];
 		case "Ituano":
-			return ["#d30a11", "white"];
+			return ["#d30a11", "black"];
 		case "Junior Barranquilla":
 			return ["#d30a11", "white"];	
 		case "Juventude":
@@ -214,7 +214,7 @@ function coresTimes(time, jogo = null) {
 		case "Paraná":
 			return ["#003a94", "white"];
 		case "Patronato":
-			return ["#d30a11", "white"];
+			return ["#d30a11", "black"];
 		case "Paulista":
 			return ["#d30a11", "white"];
 		case "Paysandu":
@@ -292,7 +292,7 @@ function coresTimes(time, jogo = null) {
 		case "Vila Nova":
 			return ["#d30a11", "white"];
 		case "Vitória":
-			return ["#d30a11", "white"];
+			return ["#d30a11", "black"];
 		case "Volta Redonda":
 			return ["#fde900", "black"];
 		case "Votuporanguense":
@@ -302,7 +302,7 @@ function coresTimes(time, jogo = null) {
 		case "Ypiranga":
 			return ["#fff100", "#00923e"];
 		default:
-			console.log(time);
+			console.log(time + " sem cores!");
 			return ["grey", "white"];
 	}
 }
