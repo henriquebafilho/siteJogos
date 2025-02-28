@@ -719,6 +719,8 @@ let jogo20250212 = ["Flamengo", "Botafogo", 1, 0, "Carioca", "2025-02-12", "Mara
 jogos.push(jogo20250212);
 let jogo20250223 = ["Vasco", "Botafogo", 1, 0, "Carioca", "2025-02-23", "São Januário", "Cláudio Caçapa", ["Vegetti"], [""], "https://youtube.com/embed/sK5tZy69yhw" , false];
 jogos.push(jogo20250223);
+let jogo20250227 = ["Botafogo", "Racing", 0, 2, "Recopa", "2025-02-27", "Nilton Santos", "Cláudio Caçapa", [""], ["Zaracho","Zuculini"], "https://youtube.com/embed/9i1867wmvHA", false];
+jogos.push(jogo20250227);
 
 jogos.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
