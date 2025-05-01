@@ -729,10 +729,12 @@ let jogo20250405 = ["Botafogo", "Juventude", 2, 0, "Série A", "2025-04-05", "Ni
 jogos.push(jogo20250405);
 let jogo20250408 = ["Botafogo", "Carabobo", 2, 0, "Liberadores", "2025-04-08", "Nilton Santos", "Renato Paiva", ["Patrick de Paula", "Matheus Martins"], [""], "https://www.youtube.com/embed/2kFyYbRIaE8", false];
 jogos.push(jogo20250408);
-let jogo20250416 = ["Botafogo", "São Paulo", 2, 2, "Série A", "2025-04-16", "Nilton Santos", "Renato Paiva", ["Savarino", "Igor Jesus"], ["Ferreira","André Silva"], "https://www.youtube.com/embed/K0xZ4bu0zO8", false];
+let jogo20250416 = ["Botafogo", "São Paulo", 2, 2, "Série A", "2025-04-16", "Nilton Santos", "Renato Paiva", ["Savarino", "Igor Jesus"], ["Ferreira", "André Silva"], "https://www.youtube.com/embed/K0xZ4bu0zO8", false];
 jogos.push(jogo20250416);
 let jogo20250426 = ["Botafogo", "Fluminense", 2, 0, "Série A", "2025-04-26", "Nilton Santos", "Renato Paiva", ["Vitinho", "Savarino"], [""], "https://www.youtube.com/embed/wZzzzApahig", false];
 jogos.push(jogo20250426);
+let jogo20250430 = ["Botafogo", "Capital", 4, 0, "Copa do Brasil", "2025-04-30", "Nilton Santos", "Renato Paiva", ["Alex Telles", "Igor Jesus", "Artur", "Rwan Cruz"], [""], "https://www.youtube.com/embed/cN-V3oCwTHw", false];
+jogos.push(jogo20250430);
 
 jogos.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;

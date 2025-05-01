@@ -77,6 +77,8 @@ function coresTimes(time, jogo = null) {
 			return ["#fde900", "red"];
 		case "Cabofriense":
 			return ["#0b9c54", "white"];
+		case "Capital":
+			return ["#30a7eb", "black"];
 		case "Carabobo":
 			return ["#52100f", "#fdc300"];
 		case "Ceará":
