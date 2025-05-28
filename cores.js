@@ -291,6 +291,8 @@ function coresTimes(time, jogo = null) {
 			return ["#ffcc00", "black"];
 		case "Universitario":
 			return ["#8c1619", "#fefcf3"];
+		case "Universidad de Chile":
+			return ["#1f3c94", "white"];
 		case "Uruguai":
 			return ["#0d80bf", "white"];
 		case "Vasco":
