@@ -727,7 +727,7 @@ let jogo20250330 = ["Palmeiras", "Botafogo", 0, 0, "Série A", "2025-03-30", "Al
 jogos.push(jogo20250330);
 let jogo20250405 = ["Botafogo", "Juventude", 2, 0, "Série A", "2025-04-05", "Nilton Santos", "Renato Paiva", ["Igor Jesus", "Mateo Ponte"], [""], "https://youtube.com/embed/9yh0NJkzkPo", false];
 jogos.push(jogo20250405);
-let jogo20250408 = ["Botafogo", "Carabobo", 2, 0, "Liberadores", "2025-04-08", "Nilton Santos", "Renato Paiva", ["Patrick de Paula", "Matheus Martins"], [""], "https://www.youtube.com/embed/2kFyYbRIaE8", false];
+let jogo20250408 = ["Botafogo", "Carabobo", 2, 0, "Libertadores", "2025-04-08", "Nilton Santos", "Renato Paiva", ["Patrick de Paula", "Matheus Martins"], [""], "https://www.youtube.com/embed/2kFyYbRIaE8", false];
 jogos.push(jogo20250408);
 let jogo20250416 = ["Botafogo", "São Paulo", 2, 2, "Série A", "2025-04-16", "Nilton Santos", "Renato Paiva", ["Savarino", "Igor Jesus"], ["Ferreira", "André Silva"], "https://www.youtube.com/embed/K0xZ4bu0zO8", false];
 jogos.push(jogo20250416);
@@ -753,7 +753,7 @@ let jogo20250729 = ["Botafogo", "Red Bull Bragantino", 2, 0, "Série A", "2025-0
 jogos.push(jogo20250729);
 let jogo20250803 = ["Botafogo", "Cruzeiro", 0, 2, "Série A", "2025-08-03", "Nilton Santos", "Davide Ancelotti", [""], ["Christian","Matheus Pereira"], "https://www.youtube.com/embed/aBQ2D0LV9wM", false];
 jogos.push(jogo20250803);
-let jogo20250814 = ["Botafogo", "LDU", 1, 0, "Série A", "2025-08-14", "Nilton Santos", "Davide Ancelotti", ["Artur"], [""], "https://www.youtube.com/embed/VOeHt_KRc2c", false];
+let jogo20250814 = ["Botafogo", "LDU", 1, 0, "Libertadores", "2025-08-14", "Nilton Santos", "Davide Ancelotti", ["Artur"], [""], "https://www.youtube.com/embed/VOeHt_KRc2c", false];
 jogos.push(jogo20250814);
 
 jogos.sort(function (a, b) {
