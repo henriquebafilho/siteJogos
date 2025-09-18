@@ -761,6 +761,8 @@ let jogo20250830 = ["Botafogo", "Red Bull Bragantino", 4, 1, "Série A", "2025-0
 jogos.push(jogo20250830);
 let jogo20250911 = ["Botafogo", "Vasco", 1, 1, "Copa do Brasil", "2025-09-11", "Nilton Santos", "Davide Ancelotti", [["Alex Telles"], [""], "Pênaltis: (3)", "Marlon Freitas", "Matheus Martins", "Savarino"], ["Nuno Moreira", [""], "Pênaltis: (5)", "Vegetti", "Rayan", "Puma Rodríguez", "Matheus França", "Robert Renan"], "https://www.youtube.com/embed/8ldfZ_bovO0", false];
 jogos.push(jogo20250911);
+let jogo20250917 = ["Botafogo", "Mirassol", 3, 3, "Série A", "2025-09-17", "Nilton Santos", "Davide Ancelotti", ["Savarino","Chris Ramos", "Álvaro Montoro"], ["Chico da Costa", "Jemmes", "Lucas Ramon"], "https://www.youtube.com/embed/WoV-uRsdjjc", false];
+jogos.push(jogo20250917);
 
 jogos.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
