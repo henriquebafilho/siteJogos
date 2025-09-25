@@ -804,6 +804,8 @@ let jogo20250208 = ["Fluminense", "Flamengo", 0, 0, "Carioca", "2025-02-08", "Ma
 outros.push(jogo20250208);
 let jogo20250413 = ["Fluminense", "Santos", 1, 0, "Série A", "2025-04-13", "Maracanã", "Fluminense - Renato Gaúcho/ Santos - Pedro Caixinha", ["Samuel Xavier"], [""], "https://www.youtube.com/embed/t8AkuRt1Nk4", false];
 outros.push(jogo20250413);
+let jogo20250924 = ["Vasco", "Bahia", 3, 1, "Série A", "2025-09-24", "São Januário", "Vasco - Fernando Diniz/ Bahia - Rogério Ceni", ["Philippe Coutinho","Puma Rodríguez","Luciano Juba (GC)"], ["Sanabria"], "https://www.youtube.com/embed/8Bz2iHGgk28", false];
+outros.push(jogo20250924);
 
 outros.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
