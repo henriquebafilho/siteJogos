@@ -771,6 +771,8 @@ let jogo20251001 = ["Botafogo", "Bahia", 2, 1, "Série A", "2025-10-01", "Nilton
 jogos.push(jogo20251001);
 let jogo20251015 = ["Botafogo", "Flamengo", 0, 3, "Série A", "2025-10-15", "Nilton Santos", "Davide Ancelotti", [""], ["Pedro","Luiz Araújo","Gonzalo Plata"], "https://www.youtube.com/embed/u07DNJSo4eY", false];
 jogos.push(jogo20251015);
+let jogo20251026 = ["Botafogo", "Santos", 2, 2, "Série A", "2025-10-26", "Nilton Santos", "Davide Ancelotti", ["Joaquín Correa (2x)"], ["Souza","Barreal"], "https://www.youtube.com/embed/iIhTVZonP58", false];
+jogos.push(jogo20251026);
 
 jogos.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
@@ -812,6 +814,8 @@ let jogo20250413 = ["Fluminense", "Santos", 1, 0, "Série A", "2025-04-13", "Mar
 outros.push(jogo20250413);
 let jogo20250924 = ["Vasco", "Bahia", 3, 1, "Série A", "2025-09-24", "São Januário", "Vasco - Fernando Diniz/ Bahia - Rogério Ceni", ["Philippe Coutinho","Puma Rodríguez","Luciano Juba (GC)"], ["Sanabria"], "https://www.youtube.com/embed/8Bz2iHGgk28", false];
 outros.push(jogo20250924);
+let jogo20251025 = ["São Cristóvão", "Friburguense", 3, 1, "Carioca Série B1", "2025-09-24", "Ronaldo Nazário", "São Cristóvão - Diego Brandão/ Friburguense - Gedeil", ["Fabinho Polhão","PK (2x)"], ["Israel"], "https://www.youtube.com/embed/hRtk5Vw4ezY", false];
+outros.push(jogo20251025);
 
 outros.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
