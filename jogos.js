@@ -816,8 +816,10 @@ let jogo20250413 = ["Fluminense", "Santos", 1, 0, "Série A", "2025-04-13", "Mar
 outros.push(jogo20250413);
 let jogo20250924 = ["Vasco", "Bahia", 3, 1, "Série A", "2025-09-24", "São Januário", "Vasco - Fernando Diniz/ Bahia - Rogério Ceni", ["Philippe Coutinho","Puma Rodríguez","Luciano Juba (GC)"], ["Sanabria"], "https://www.youtube.com/embed/8Bz2iHGgk28", false];
 outros.push(jogo20250924);
-let jogo20251025 = ["São Cristóvão", "Friburguense", 3, 1, "Carioca Série B1", "2025-09-24", "Ronaldo Nazário", "São Cristóvão - Diego Brandão/ Friburguense - Gedeil", ["Fabinho Polhão","PK (2x)"], ["Israel"], "https://www.youtube.com/embed/hRtk5Vw4ezY", false];
+let jogo20251025 = ["São Cristóvão", "Friburguense", 3, 1, "Carioca Série B1", "2025-10-25", "Ronaldo Nazário", "São Cristóvão - Diego Brandão/ Friburguense - Gedeil", ["Fabinho Polhão","PK (2x)"], ["Israel"], "https://www.youtube.com/embed/hRtk5Vw4ezY", false];
 outros.push(jogo20251025);
+let jogo20251101 = ["São Cristóvão", "Paduano", 2, 0, "Carioca Série B1", "2025-11-01", "Ronaldo Nazário", "São Cristóvão - Diego Brandão/ Paduano - Toninho Andrade", ["Jr. Teixeira","Ricardinho"], [""], "https://www.youtube.com/embed/YW4x89tCNPQ", false];
+outros.push(jogo20251101);
 
 outros.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
