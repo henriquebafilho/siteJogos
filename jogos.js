@@ -820,6 +820,8 @@ let jogo20251025 = ["São Cristóvão", "Friburguense", 3, 1, "Carioca Série B1
 outros.push(jogo20251025);
 let jogo20251101 = ["São Cristóvão", "Paduano", 2, 0, "Carioca Série B1", "2025-11-01", "Ronaldo Nazário", "São Cristóvão - Diego Brandão/ Paduano - Toninho Andrade", ["Jr. Teixeira","Ricardinho"], [""], "https://www.youtube.com/embed/YW4x89tCNPQ", false];
 outros.push(jogo20251101);
+let jogo20251109 = ["Flamengo", "Santos", 3, 2, "Série A", "2025-11-09", "Maracanã", "Flamengo - Filipe Luís/ Santos - Vojdvoda", ["Léo Pereira","Carrascal","Bruno Henrique"], ["Gabriel Bontempo","Lautaro Díaz"], "https://www.youtube.com/embed/mQK60xsdc4g", false];
+outros.push(jogo20251109);
 
 outros.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
