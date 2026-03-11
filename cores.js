@@ -199,6 +199,8 @@ function coresTimes(time, jogo = null) {
 			return ["#003a94", "white"];
 		case "Nacional-URU":
 			return ["#172b8c", "white"];
+		case "Nacional Potosí":
+			return ["white", "#d30a11"];
 		case "Náutico":
 			return ["#d30a11", "white"];
 		case "Nova Iguaçu":
