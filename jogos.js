@@ -783,6 +783,8 @@ let jogo20260115 = ["Portuguesa-RJ", "Botafogo", 0, 2, "Carioca", "2026-01-15", 
 jogos.push(jogo20260115);
 let jogo20260121 = ["Botafogo", "Volta Redonda", 1, 0, "Carioca", "2026-01-21", "Nilton Santos", "Martín Anselmi", ["Montoro"], [""], "https://www.youtube.com/embed/bht9eS22xrY", false];
 jogos.push(jogo20260121);
+let jogo20260124 = ["Botafogo", "Bangu", 2, 0, "Carioca", "2026-01-24", "Nilton Santos", "Martín Anselmi", ["Santi Rodríguez", "Alex Telles"], [""], "https://www.youtube.com/embed/fSlD5YosPSE", false];
+jogos.push(jogo20260124);
 let jogo20260129 = ["Botafogo", "Cruzeiro", 4, 0, "Série A", "2026-01-29", "Nilton Santos", "Martín Anselmi", ["Danilo (2x)", "Matheus Martins", "Artur"], [""], "https://www.youtube.com/embed/fSlD5YosPSE", false];
 jogos.push(jogo20260129);
 let jogo20260201 = ["Botafogo", "Fluminense", 0, 1, "Carioca", "2026-02-01", "Nilton Santos", "Martín Anselmi", [""], ["John Kennedy"], "", false];
@@ -793,6 +795,8 @@ let jogo20260212 = ["Fluminense", "Botafogo", 1, 0, "Série A", "2026-02-12", "M
 jogos.push(jogo20260212);
 let jogo20260215 = ["Botafogo", "Flamengo", 1, 2, "Carioca", "2026-02-15", "Nilton Santos", "Martín Anselmi", ["Alexander Barboza"], ["Lucas Paquetá","Erick Pulgar"], "", false];
 jogos.push(jogo20260215);
+let jogo20260225 = ["Botafogo", "Nacional Potosí", 0, 0, "Libertadores", "2026-02-25", "Nilton Santos", "Martín Anselmi", ["Alex Telles", "Danilo"], [""], "", false];
+jogos.push(jogo20260225);
 let jogo20260228 = ["Botafogo", "Boavista", 0, 0, "Carioca", "2026-02-28", "Nilton Santos", "Martín Anselmi", [""], [""], "", false];
 jogos.push(jogo20260228);
 let jogo20260307 = ["Botafogo", "Bangu", 3, 1, "Taça Rio", "2026-03-07", "Nilton Santos", "Martín Anselmi", ["Edenílson", "Caio Valle", "Joaquín Correa"], ["Luizinho"], "", true];
