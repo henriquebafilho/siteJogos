@@ -65,6 +65,8 @@ function coresTimes(time, jogo = null) {
 			return ["#d30a11", "white"];
 		case "Botafogo":
 			return ["black", "white"];
+		case "São Cristóvão":
+			return ["white", "black"];
 		case "Botafogo-SP":
 			return ["#d30a11", "white"];
 		case "Bragantino":
@@ -107,6 +109,8 @@ function coresTimes(time, jogo = null) {
 			return ["#d30a11", "white"];
 		case "Criciúma":
 			return ["#fdd116", "black"];
+		case "Paduano":
+			return ["#003a94", "white"];
 		case "Cruzeiro":
 			return ["#003a94", "white"];
 		case "CSA":
