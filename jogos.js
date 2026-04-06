@@ -807,6 +807,8 @@ let jogo20260314 = ["Botafogo", "Flamengo", 0, 3, "Série A", "2026-03-14", "Nil
 jogos.push(jogo20260314);
 let jogo20260401 = ["Botafogo", "Mirassol", 3, 2, "Série A", "2026-04-01", "Nilton Santos", "Rodrigo Bellão", ["Arthur Cabral", "Alex Telles", "Júnior Santos"], ["Shaylon", "Igor Formiga"], "", false];
 jogos.push(jogo20260401);
+let jogo20260404 = ["Vasco", "Botafogo", 1, 2, "Série A", "2026-04-04", "São Januário", "Rodrigo Bellão", ["David"], ["Lucas Villalba", "Matheus Martins"], "", false];
+jogos.push(jogo20260404);
 
 jogos.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
@@ -854,6 +856,8 @@ let jogo20251101 = ["São Cristóvão", "Paduano", 2, 0, "Carioca Série B1", "2
 outros.push(jogo20251101);
 let jogo20251109 = ["Flamengo", "Santos", 3, 2, "Série A", "2025-11-09", "Maracanã", "Flamengo - Filipe Luís/ Santos - Vojdvoda", ["Léo Pereira","Carrascal","Bruno Henrique"], ["Gabriel Bontempo","Lautaro Díaz"], "https://www.youtube.com/embed/mQK60xsdc4g", false];
 outros.push(jogo20251109);
+let jogo20260405 = ["Flamengo", "Santos", 3, 1, "Série A", "2026-04-05", "Maracanã", "Flamengo - Leonardo Jardim/ Santos - Cuca", ["Pedro","Jorginho","Lucas Paquetá"], ["Lautaro Díaz"], "", false];
+outros.push(jogo20260405);
 
 outros.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
