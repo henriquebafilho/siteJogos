@@ -139,6 +139,8 @@ function coresTimes(time, jogo = null) {
 			return ["#d30a11", "black"];
 		case "Flamengo de Guarulhos":
 			return ["#d30a11", "black"];
+		case "Caracas":
+			return ["#d30a11", "black"];
 		case "Floresta-CE":
 			return ["#87c53f", "#036c3c"];
 		case "Fluminense":
