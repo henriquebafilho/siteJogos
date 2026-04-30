@@ -815,6 +815,8 @@ let jogo20260412 = ["Botafogo", "Coritiba", 2, 2, "Série A", "2026-04-12", "Nil
 jogos.push(jogo20260412);
 let jogo20260421 = ["Botafogo", "Chapecoense", 1, 0, "Copa do Brasil", "2026-04-21", "Nilton Santos", "Franclim Carvalho", ["Alex Telles"], [""], "", false];
 jogos.push(jogo20260421);
+let jogo20260428 = ["Botafogo", "Independiente Petrolero", 3, 0, "Copa Sul-Americana", "2026-04-28", "Nilton Santos", "Franclim Carvalho", ["Mateo Ponte","Álvaro Montoro","Newton"], [""], "", false];
+jogos.push(jogo20260428);
 
 jogos.sort(function (a, b) {
     return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
