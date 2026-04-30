@@ -15,6 +15,10 @@ function coresTimes(time, jogo = null) {
 			return ["#048439", "white"];
 		case "América-RJ":
 			return ["#d30a11", "white"];
+		case "Independiente Petrolero":
+			return ["#d30a11", "white"];
+		case "Remo":
+			return ["#09153b", "white"];
 		case "América-RN":
 			return ["#d30a11", "white"];
 		case "Americano":
